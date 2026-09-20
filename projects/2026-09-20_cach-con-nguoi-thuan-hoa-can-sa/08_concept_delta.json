@@ -1,0 +1,42 @@
+{
+  "input_concepts": [
+    "thuần hóa",
+    "chọn giống",
+    "genome",
+    "mốc genome",
+    "hemp-type",
+    "drug-type",
+    "Cannabis sativa",
+    "cannabinoid",
+    "THC",
+    "CBN",
+    "phytolith",
+    "hình thái hạt",
+    "mạng lưới trao đổi"
+  ],
+  "output_concepts": [
+    "thuần hóa",
+    "chọn giống",
+    "genome",
+    "mốc genome",
+    "hemp-type",
+    "drug-type",
+    "Cannabis sativa",
+    "cannabinoid",
+    "THC",
+    "CBN",
+    "phytolith",
+    "hình thái hạt",
+    "mạng lưới trao đổi"
+  ],
+  "new_concepts": [],
+  "new_contextual_roles": [],
+  "new_dependencies": [],
+  "actions_taken": [
+    "Replaced presenter-like audience command with natural Vietnamese transition",
+    "Removed generic documentary superlative",
+    "Compressed one translated-sounding explanatory sentence"
+  ],
+  "unresolved": 0,
+  "status": "PASS"
+}
