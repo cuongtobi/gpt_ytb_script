@@ -60,7 +60,7 @@ Và quan trọng nhất, hạt ngày càng gắn chặt trên bắp thay vì t�
 
 Một đặc điểm rất tốt cho nông dân lại có thể rất tệ cho cây nếu không có con người.
 
-## Một cây hoang cần tự phát tán. Ngô thì không.
+## Một cây hoang cần tự đưa hạt đi xa. Ngô thì không.
 
 Đây là một nghịch lý thú vị.
 
@@ -94,7 +94,7 @@ Nhưng con số này không phải một “ngày sinh của ngô”.
 
 Nhóm bằng chứng thứ hai đến từ những tàn tích cổ.
 
-Ở Mexico, các nhà khảo cổ đã tìm được những phần bắp ngô cổ có hình dạng nằm giữa cây hoang và ngô hiện đại. Chúng nhỏ hơn bắp ngày nay nhưng đã có những đặc điểm cho thấy hạt không còn tự tách ra dễ dàng như ở dạng hoang.
+Ở Mexico, các nhà nghiên cứu đã tìm được những phần bắp ngô cổ có hình dạng nằm giữa cây hoang và ngô hiện đại. Chúng nhỏ hơn bắp ngày nay nhưng đã có những đặc điểm cho thấy hạt không còn tự tách ra dễ dàng như ở dạng hoang.
 
 Những mẫu ở hang Guilá Naquitz, tại Oaxaca, Mexico, cho thấy con người đã chọn những đặc điểm thuần hóa từ hàng nghìn năm trước.
 
@@ -156,7 +156,7 @@ Mỗi câu trả lời làm một số cây có nhiều cơ hội được gieo 
 
 Qua rất nhiều mùa, những lựa chọn ấy tích lại thành một thay đổi mà ngày nay ta có thể nhìn thấy ngay bằng mắt thường.
 
-Một bên là teosinte với cụm hạt nhỏ, được bọc cứng và có khả năng tự phát tán.
+Một bên là teosinte với cụm hạt nhỏ, được bọc cứng và có khả năng tự đưa hạt đi xa.
 
 Một bên là ngô với bắp lớn, nhiều hạt lộ ra và phụ thuộc mạnh vào con người để được gieo trồng tiếp.
 
