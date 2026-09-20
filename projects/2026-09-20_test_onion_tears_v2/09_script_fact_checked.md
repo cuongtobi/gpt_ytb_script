@@ -14,7 +14,11 @@ Các dây thần kinh cảm giác ở mắt nhận ra sự kích thích, và cơ
 
 Toàn bộ chuỗi chỉ mất vài giây: dao phá tế bào; những chất vốn bị tách riêng gặp nhau; chất gây kích thích được tạo ra; nó đi qua không khí tới mắt; rồi cơ thể tăng tiết nước mắt.
 
+Đó cũng là lý do mắt thường không cay đúng vào khoảnh khắc lưỡi dao vừa chạm củ hành. Trước hết các tế bào phải bị phá. Sau đó phản ứng bên trong mô mới tạo ra chất gây kích thích, rồi chất đó còn phải đi qua không khí tới mắt. Khoảng trễ rất ngắn ấy chính là thời gian của cả chuỗi đang diễn ra.
+
 Năm 2002, một nghiên cứu trên Nature làm rõ thêm một mắt xích quan trọng. Trước đó, người ta từng cho rằng chất gây cay mắt hình thành gần như tự phát sau phản ứng ban đầu. Nghiên cứu cho thấy hành tây có một protein đặc biệt giúp tạo ra chính chất gây kích thích này.
+
+Phát hiện đó thay đổi cách nhìn về cơ chế. Thay vì một phản ứng tự xảy ra theo một bước đơn giản, quá trình trong củ hành có thêm một mắt xích do chính mô cây cung cấp.
 
 Hệ hóa học đó không tồn tại chỉ để làm phiền người nấu ăn. Những hợp chất tạo mùi và vị đặc trưng của họ hành là một phần của phản ứng hóa học được kích hoạt khi mô cây bị tổn thương.
 

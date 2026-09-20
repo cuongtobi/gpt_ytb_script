@@ -14,6 +14,7 @@ Visual Storytelling Score:
 
 Concept closure: PASS.
 Fact check: PASS.
-Word count: 406.
-Estimated duration: ~3–4 minutes.
+Word count: 512.
+Target range: 450–600.
+Estimated duration: ~3.5–4 minutes.
 Production directions: none.
