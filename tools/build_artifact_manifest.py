@@ -21,7 +21,7 @@ def main():
     if not root.is_dir():
         raise SystemExit(f"not a project directory: {root}")
 
-    excluded = {args.output, "10d_proof_verification.json"}
+    excluded = {args.output, "10d_proof_verification.json", "final.txt", "11_tts_export.json"}
     files = sorted(
         p for p in root.iterdir()
         if p.is_file() and p.name not in excluded

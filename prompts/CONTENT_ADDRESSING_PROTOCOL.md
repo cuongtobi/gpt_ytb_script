@@ -73,3 +73,11 @@ It records SHA-256 for required project artifacts.
 
 Never repair a hash mismatch by editing the recorded hash alone.
 Regenerate the stale artifact from the current inputs.
+
+## Post-10D publication artifacts
+
+Stage 11 creates `final.txt` and `11_tts_export.json` after 10D.
+They are intentionally excluded from `artifact_manifest.json` to avoid a circular dependency.
+
+`11_tts_export.json` must content-address its actual inputs and record the SHA-256 of `final.txt` as its output hash.
+If `10_final_script.md` changes, Stage 11 must not patch hashes in place; rerun the final integrity cycle and then regenerate the export.

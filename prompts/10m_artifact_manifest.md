@@ -32,6 +32,9 @@ Write artifact_manifest.json:
 - Each path appears once.
 - Include every required machine-readable proof artifact and every final script/index/audit input.
 - Do not include artifact_manifest.json's own hash inside itself.
+- Do not include post-10D outputs `10d_proof_verification.json`, `final.txt`, or `11_tts_export.json` in the manifest.
 - If any upstream file changes after manifest generation, regenerate the manifest before 10D.
+
+Stage 11 is downstream of 10D, so including `final.txt` or `11_tts_export.json` here would create a circular invalidation chain.
 
 Prefer tools/build_artifact_manifest.py when Python is available.

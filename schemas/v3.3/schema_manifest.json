@@ -26,5 +26,8 @@
     "10_final_integrity.json": "final-integrity.schema.json",
     "artifact_manifest.json": "artifact-manifest.schema.json",
     "10d_proof_verification.json": "proof-verification.schema.json"
+  },
+  "post_10d_artifacts": {
+    "11_tts_export.json": "tts-export.schema.json"
   }
 }

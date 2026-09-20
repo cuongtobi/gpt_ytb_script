@@ -69,9 +69,14 @@ jobs:
           python -m py_compile tools/verify_integrity_proof.py
           python -m py_compile tools/build_artifact_manifest.py
           python -m py_compile tools/validate_project_artifacts.py
+          python -m py_compile tools/export_tts_text.py
+          python -m py_compile tools/validate_tts_export.py
           python -m py_compile tests/test_v3_3_adversarial.py
+          python -m py_compile tests/test_tts_export.py
       - name: Run v3.3 adversarial mutation tests
         run: python -m unittest -v tests.test_v3_3_adversarial
+      - name: Run seven-language TTS export tests
+        run: python -m unittest -v tests.test_tts_export
 
   v3-3-multilingual:
     runs-on: ubuntu-latest
@@ -114,3 +119,5 @@ jobs:
           assert r['project_status']=='CONTENT_PASS_ISOLATION_NOT_VERIFIED', r
           assert r['isolation_verified'] is False, r
           PY
+          python tools/export_tts_text.py "$p" > tts-export-result.json
+          python tools/validate_tts_export.py "$p"
