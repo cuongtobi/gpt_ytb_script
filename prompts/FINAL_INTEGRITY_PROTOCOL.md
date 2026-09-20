@@ -1,27 +1,18 @@
-# FINAL INTEGRITY PROTOCOL — v3.2
+# FINAL INTEGRITY PROTOCOL — v3.3
 
 ## Purpose
 
-v3.2 keeps the creative lane flexible and makes the integrity lane proof-carrying.
-
-Integrity layers:
-1. discovery completeness
-2. knowledge timing
-3. candidate conservation
-4. terminology necessity
-5. narrative/reveal integrity
-6. claim calibration
-7. naturalness/listening integrity
-8. blind execution isolation
+v3.3 keeps the creative lane flexible and makes the integrity lane content-addressed, provenance-aware and machine-checkable.
 
 Read:
+- CONTENT_ADDRESSING_PROTOCOL.md
 - KNOWLEDGE_GROUNDING_PROTOCOL.md
+- EVIDENCE_PROVENANCE_PROTOCOL.md
 - INTEGRITY_PROOF_PROTOCOL.md
 
 ## Creative-lane rule
 
 Do not write to satisfy counters.
-
 Write the best story first.
 Audit afterward.
 Repair minimally.
@@ -29,12 +20,20 @@ Repair minimally.
 ## Hard proof gates
 
 Hard:
+- artifact/schema validity
+- current-file SHA-256 integrity
+- no stale final audits
 - canonical sentence coverage
-- lexical ledger coverage
-- candidate conservation
+- B1 lexical ledger coverage
+- knowledge candidate conservation
 - temporal ordering
 - strict BASELINE_KNOWN provenance
-- factual support/scope
+- B2 claim sentence coverage
+- claim conservation
+- claim → evidence → source provenance
+- B3 sentence coverage
+- finding conservation
+- factual support/scope closure
 - blind execution isolation for PASS_VERIFIED
 
 Soft/editorial:
@@ -44,7 +43,7 @@ Soft/editorial:
 - listening density
 - duplicate reveal judgment
 
-Soft flags may be kept only with an explicit KEEP_WITH_REASON decision.
+Soft findings may remain only as KEEP_WITH_REASON. They must not be silently dropped.
 
 ## Terminology necessity
 
@@ -79,6 +78,8 @@ Do not exceed:
 - population scope
 - source strength
 
+All retained factual commitments discovered by B2 must be conserved and mapped to evidence.
+
 ## Naturalness/listening
 
 Audit for:
@@ -91,20 +92,25 @@ Audit for:
 - awkward aliases
 - ambiguous pronouns
 
+B3 must prove complete canonical-sentence coverage.
+
 ## Independent final auditors
 
 10B1 = knowledge
-10B2 = claim/certainty
+10B2 = claims/certainty
 10B3 = naturalness/redundancy
 
-They must run in separate fresh execution contexts for verified isolation.
+They must:
+- run in separate fresh execution contexts for verified isolation;
+- read only allowed inputs;
+- hash every actual input;
+- bind to the exact final candidate bytes.
 
-If fresh contexts cannot be guaranteed:
-- audits may still run as advisory;
-- isolation_status = ISOLATION_NOT_VERIFIED;
-- final project cannot be PASS_VERIFIED.
+If final text changes after any B audit, all three audits are stale and must be rerun.
 
-## Final integrity counts
+## Final integrity counters
+
+10D recomputes rather than trusts:
 
 knowledge:
 - core_entities_ungrounded
@@ -117,6 +123,12 @@ knowledge:
 - confusable_pairs_unresolved
 - silently_ignored_candidates
 - invalid_baseline_provenance
+
+claims:
+- missing_claim_sentence_rows
+- unconserved_claims
+- unresolved_claims
+- invalid_evidence_links
 
 terminology:
 - unnecessary_labels
@@ -136,19 +148,27 @@ naturalness:
 - translationese_flags
 - repeated_rhetorical_patterns
 - unresolved_audio_density_flags
+- unresolved_naturalness_findings
 
 proof:
+- schema_failures
+- hash_failures
+- stale_audit_failures
 - sentence_coverage_failures
 - candidate_conservation_failures
+- claim_conservation_failures
+- finding_conservation_failures
 - temporal_proof_failures
 - isolation_failures
 
 ## Final status
 
 10_final_integrity.json must include:
-- content_integrity_status
-- isolation_status
-- proof_verifier_status
-- project_status
+- recomputable proof records;
+- summary counters;
+- content_integrity_status;
+- isolation_status;
+- proof_verifier_status;
+- project_status.
 
-PASS_VERIFIED only when every hard proof gate passes.
+PASS_VERIFIED only when every hard gate passes and isolation is VERIFIED.
