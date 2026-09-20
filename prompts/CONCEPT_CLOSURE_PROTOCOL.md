@@ -40,7 +40,9 @@ This is not closed if enzyme or lactose is not understood.
 
 Closed sequence:
 Lactose is the natural sugar in milk.
-The small intestine uses an enzyme called lactase to break that sugar down.
+The small intestine makes lactase, a substance that helps the body process that sugar.
+
+If the story later needs the category label enzyme, introduce it separately and resolve its own dependencies. Do not teach the label merely because it is scientifically correct.
 
 ## Concept record
 
@@ -95,7 +97,7 @@ If two concepts are easily confused and both appear, explicitly distinguish thei
 
 Example:
 Lactose is the sugar in milk.
-Lactase is different: it is the enzyme that helps break lactose down.
+Lactase is different: it is a substance the small intestine makes to help the body process lactose.
 
 The confusable_with field creates an editorial obligation.
 
