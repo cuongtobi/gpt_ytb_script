@@ -144,8 +144,23 @@ factual:
 - unsupported_claims = 0
 - certainty_overstatements = 0
 - unsupported_temporal_generalizations = 0
+- scope_overstatements = 0
 
 naturalness:
 - translationese_flags = 0
 - repeated_rhetorical_patterns = 0
 - unresolved_audio_density_flags = 0
+
+
+## Test 11 — Geographic/population scope drift
+
+Evidence:
+a finding is limited to one region or population.
+
+Bad narration:
+generalizes it to all humans, all Cannabis, all Europe, or the whole world.
+
+Expected:
+- 09 claim-strength audit flags scope_overstatements;
+- 10B2 extracts the broad scope independently;
+- 10C repairs wording before PASS.
