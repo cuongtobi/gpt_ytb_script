@@ -1,0 +1,71 @@
+{
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "lactase",
+      "audience_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "enzyme trong ruột non giúp phân giải đường lactose",
+      "first_use_strategy": "function before/with label",
+      "best_explanation_type": "mechanism",
+      "mental_model": "kéo cắt đường sữa thành phần nhỏ",
+      "reuse_policy": "use lactase afterward",
+      "confusable_with": "lactose",
+      "avoid_explanation": "molecular genetics"
+    },
+    {
+      "concept_id": "K002",
+      "name": "lactose",
+      "audience_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "đường chính trong sữa",
+      "first_use_strategy": "label with plain meaning",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "đường sữa",
+      "reuse_policy": "use lactose",
+      "confusable_with": "lactase",
+      "avoid_explanation": "chemical structure"
+    },
+    {
+      "concept_id": "K003",
+      "name": "lactase persistence",
+      "audience_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "tiếp tục duy trì enzyme lactase khi trưởng thành",
+      "first_use_strategy": "plain idea then label",
+      "best_explanation_type": "contrast",
+      "mental_model": "công tắc lactase không giảm sau tuổi nhỏ",
+      "reuse_policy": "term can be reused",
+      "confusable_with": "lactose tolerance as absolute",
+      "avoid_explanation": "SNP names"
+    },
+    {
+      "concept_id": "K004",
+      "name": "gene-culture coevolution",
+      "audience_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "plain_language_meaning": "cách sống tạo áp lực chọn lọc mới, rồi sinh học quần thể thay đổi",
+      "first_use_strategy": "explain only, omit English label",
+      "best_explanation_type": "human_action",
+      "mental_model": "văn hóa đổi môi trường, môi trường đổi selection",
+      "reuse_policy": "plain language",
+      "confusable_with": "individual body adapting during life",
+      "avoid_explanation": "population genetics equations"
+    }
+  ],
+  "high_load_clusters": [
+    "Mechanism paragraph can confuse lactase/lactose/lactase persistence; separate terms across sentences."
+  ],
+  "concepts_intentionally_removed": [
+    "MCM6",
+    "LCT locus",
+    "gene-culture coevolution label"
+  ],
+  "must_explain_before_first_label": [
+    "lactase persistence"
+  ]
+}
