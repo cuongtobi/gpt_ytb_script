@@ -1,198 +1,138 @@
-# 10 — FINAL STORY EDITOR
+# 10 — FINAL STORY EDITOR + FINAL CONCEPT CLOSURE GATE
 
 ## Role
 
-Perform the final whole-script editorial pass.
+Perform the final whole-script editorial pass and rebuild concept accessibility from the final candidate itself.
 
-This stage checks whether the script works as a complete documentary, not merely whether individual sentences are good.
+Do not trust an earlier concept PASS blindly.
 
-You may make final edits, but any new factual substance must remain within the existing verified claims. If you introduce a new factual claim, stage 09 must be rerun for that claim before completion.
+Read and obey:
+- prompts/CONCEPT_CLOSURE_PROTOCOL.md
 
----
+Any new factual substance introduced here requires stage 09 recheck.
 
 ## Inputs
 
 Read all current project artifacts, especially:
-- `00_project_brief.yaml`;
-- `01_angle.md`;
-- `03_claim_map.json`;
-- `03_concept_map.json`;
-- `04_story_architecture.md`;
-- `06_audience_report.md`;
-- `07_retention_report.md`;
-- `08_anti_ai_report.md`;
-- `09_fact_check.md`;
-- `09_script_fact_checked.md`.
+- 00_project_brief.yaml
+- 01_angle.md
+- 03_claim_map.json
+- 03_concept_graph.json
+- 04_story_architecture.md
+- 05_concept_delta.json
+- 06_audience_report.md
+- 06_concept_closure.json
+- 07_retention_report.md
+- 07_concept_delta.json
+- 08_anti_ai_report.md
+- 08_concept_delta.json
+- 09_fact_check.md
+- 09_script_fact_checked.md
 
-Stage 09 must already be PASS or have only explicitly non-material limitations.
-
----
+Stage 09 must be PASS before final completion.
 
 # Whole-story audit
 
-## 1. Hook
-
 Check:
-- concrete entry point;
-- immediate relevance/tension;
-- no unnecessary definition dump;
-- no promise unsupported by the story.
-
-## 2. Central question
-
-A viewer should be able to understand what the documentary is trying to resolve.
-
-The script should not mutate into a different central question midway.
-
-## 3. Story progression
-
-Check for meaningful movement:
-
-```text
-question
-→ evidence
-→ changing understanding
-→ mechanism/complication
-→ payoff
-```
-
-## 4. Transformation
-
-The viewer should feel a before/after or equivalent change.
-
-## 5. Visual storytelling in narration
-
-The script should contain enough:
-- concrete scenes;
-- human actions;
-- objects;
-- transformations;
-- contrasts;
-- movement;
-- scale;
-- consequences;
-
-to avoid long stretches of abstract lecture.
+1. hook
+2. central question
+3. story progression
+4. transformation
+5. visual storytelling inside narration
+6. scope
+7. retention
+8. repetition
+9. natural language
+10. ending and payoff
 
 Do not add production directions.
 
-## 6. Concept accessibility
+# Final Concept Rescan — REQUIRED
 
-Check that:
-- no HIGH first-use issue remains;
-- terminology is necessary;
-- explanations are short enough for narration;
-- the script does not assume specialist background.
+After all final editorial changes, scan the final candidate narration from scratch.
 
-## 7. Scope
+Do not merely compare against 03_concept_graph.json.
 
-Remove sections that became a second documentary.
+For every meaningful concept or specialized contextual role:
 
-Every major section must serve the central question.
+1. classify KNOWN | EXPLAINED | UNRESOLVED | REMOVED
+2. inspect first use
+3. recursively inspect definition dependencies
+4. enforce confusable-pair distinctions
+5. apply necessity test
+6. repair the script
+7. rescan
 
-## 8. Retention
+Repeat until a full pass introduces no new unresolved concepts.
 
-Check that valleys identified in stage 07 were actually repaired.
+If a final edit itself introduces a new concept, it must be included in the next scan.
 
-## 9. Repetition
+# Final Concept Closure Gate
 
-Remove repeated:
-- evidence;
-- conclusions;
-- transitions;
-- payoff lines;
-- rhetorical devices.
+PASS requires:
+- UNRESOLVED = 0
+- UNRESOLVED_DEPENDENCIES = 0
+- CONFUSABLE_PAIRS_UNRESOLVED = 0
 
-## 10. Ending
+Every concept carrying factual, causal, technical or narrative meaning in final narration must be:
+- KNOWN
+- EXPLAINED before or at first use
+- REMOVED
 
-The ending should:
-- answer the central question;
-- complete the transformation;
-- ideally callback to the opening;
-- end after the payoff rather than continuing to explain.
-
----
+No Unknowns in Definitions.
 
 # Visual Storytelling Score
 
-Score each category 0–10:
+Score 0 to 10:
+- concrete_scenes
+- human_actions
+- transformations
+- contrast
+- abstract_density
+- concept_accessibility
+- mental_visualization
 
-```yaml
-concrete_scenes:
-human_actions:
-transformations:
-contrast:
-abstract_density:
-concept_accessibility:
-mental_visualization:
-```
+Minimum:
+overall >= 8.0
 
-For `abstract_density`, a higher score means abstraction is well controlled and appropriately grounded.
-
-Calculate/estimate an overall score.
-
-Minimum pipeline pass:
-`overall >= 8.0/10`
-
-Do not game the metric by adding unnecessary cinematic language.
-
----
+Do not game the score with cinematic filler.
 
 # Additional quality checks
 
 Report:
-- final word count;
-- estimated narration duration;
-- requested duration;
-- duration variance;
-- target-language naturalness;
-- factual status from stage 09;
-- presence of production directions (must be none unless requested).
+- final word count
+- estimated narration duration
+- requested duration
+- duration variance
+- target-language naturalness
+- stage 09 factual status
+- production directions present? must be no unless requested
+- final concept closure status
 
-A modest duration variance is acceptable when caused by natural speech and language-specific delivery.
-
-Do not add filler just to hit an exact minute count.
-
----
-
-# Final report
+## Outputs
 
 Write:
+- 10_final_story_report.md
+- 10_concept_closure.json
+- 10_final_script.md
 
-`10_final_story_report.md`
+10_concept_closure.json must report:
+- concepts_detected
+- known
+- explained
+- removed
+- unresolved
+- unresolved_dependencies
+- confusable_pairs_unresolved
+- new_concepts_discovered_at_final
+- closure_iterations
+- status
 
-Include:
-1. overall verdict;
-2. Visual Storytelling Score;
-3. central-question audit;
-4. concept/accessibility audit;
-5. retention audit;
-6. anti-AI/naturalness audit;
-7. fact-check status;
-8. duration/word-count check;
-9. final edits made;
-10. remaining material limitations.
+The final script must contain narration only, plus simple section headings if useful.
 
----
+No storyboard, shot list, image prompts, B-roll directions, camera directions, visual timeline, QC notes, claim IDs or concept IDs.
 
-# Final script
-
-Write the complete production narration to:
-
-`10_final_script.md`
-
-Requirements:
-- narration only, plus simple section headings if useful;
-- no storyboard;
-- no shot list;
-- no image prompts;
-- no B-roll directions;
-- no camera directions;
-- no visual timeline;
-- no internal QC notes;
-- no claim IDs;
-- no concept IDs.
-
-The script must stand on its own as a coherent documentary narration.
-
-If all gates pass, signal the Orchestrator that the project may be marked complete.
+The pipeline may be marked complete only if:
+- stage 09 = PASS
+- final concept closure = PASS
+- Visual Storytelling Score >= 8.0
