@@ -1,0 +1,71 @@
+{
+  "audience_baseline": [
+    "dao",
+    "mắt",
+    "nước mắt",
+    "không khí",
+    "tế bào",
+    "protein"
+  ],
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "chất dễ bay hơi",
+      "status": "EXPLAINED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "chất có thể thoát khỏi mặt cắt và đi vào không khí",
+        "dependencies": [
+          {
+            "name": "không khí",
+            "relationship": "moves_into",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "plain action only",
+      "reuse_policy": "use 'chất này' afterward"
+    },
+    {
+      "concept_id": "K002",
+      "name": "lachrymatory-factor synthase",
+      "status": "REMOVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "removable",
+      "definition": {
+        "text": "protein đặc biệt giúp tạo chất gây kích thích",
+        "dependencies": [
+          {
+            "name": "protein",
+            "relationship": "is_a",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "omit label",
+      "reuse_policy": "none"
+    }
+  ],
+  "dependency_edges": [
+    [
+      "K001",
+      "không khí"
+    ],
+    [
+      "K002",
+      "protein"
+    ]
+  ],
+  "high_load_clusters": [],
+  "confusable_pairs": [],
+  "initial_closure_status": "planned"
+}
