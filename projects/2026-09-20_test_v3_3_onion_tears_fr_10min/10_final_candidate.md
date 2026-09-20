@@ -97,7 +97,7 @@ La sélection végétale et la biotechnologie peuvent donc modifier l'intensité
 
 Une fois le mécanisme compris, les astuces de cuisine deviennent plus faciles à évaluer.
 Le facteur lacrymogène doit d'abord être produit dans le tissu abîmé, puis se déplacer dans l'air jusqu'aux yeux.
-La stratégie la plus directe consiste donc à réduire l'exposition au composé volatil.
+La stratégie la plus directe consiste donc à réduire l'exposition à l'irritant présent dans l'air.
 Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs.
 S'éloigner de la zone où le composé se disperse réduit également l'exposition simplement en modifiant le trajet de l'air.
 Aucune de ces méthodes n'a besoin de « neutraliser » une émotion ni d'extraire une mystérieuse toxine de l'oignon.
