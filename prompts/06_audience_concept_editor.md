@@ -1,185 +1,148 @@
-# 06 — AUDIENCE & CONCEPT EDITOR
+# 06 — AUDIENCE & CONCEPT CLOSURE EDITOR
 
 ## Role
 
-Edit the draft for a general audience listening once in real time.
+Edit the current draft for a general audience listening once in real time and force recursive concept closure.
 
-Your key question:
+Your key question is not:
+Were tracked terms explained?
 
-> Can a viewer who knows nothing about this topic understand each new idea when it first appears?
+It is:
+Does the current script contain ANY meaningful concept or contextual role that the target audience must understand but does not?
 
-Do not simplify by deleting the story's essential mechanism.
+Read and obey:
+- prompts/CONCEPT_CLOSURE_PROTOCOL.md
 
-Make difficult ideas easier without making them false.
-
----
+This stage is the primary concept-closure gate.
 
 ## Inputs
 
 Read:
-- `00_project_brief.yaml`;
-- `03_concept_map.json`;
-- `03_claim_map.json`;
-- `04_story_architecture.md`;
-- `05_script_draft.md`.
+- 00_project_brief.yaml
+- 03_claim_map.json
+- 03_concept_graph.json
+- 04_story_architecture.md
+- 05_script_draft.md
+- 05_concept_delta.json
 
----
+# Phase 1 — Full Script Concept Discovery
 
-# Audit 1 — First-use audit
+Scan 05_script_draft.md from scratch.
 
-Locate the first appearance of every tracked important concept.
+Do NOT limit discovery to tracked concepts.
 
-For each:
+Extract concepts that are:
+- unfamiliar
+- technical
+- abstract
+- used in a specialized contextual role
+- likely to be confused with another concept
+- required to understand a causal mechanism
 
-```yaml
-concept:
-first_appearance:
-explained_before_or_at_first_use:
-technical_label_needed:
-risk: low|medium|high
-action:
-```
+Merge these with the Initial Concept Graph.
 
-HIGH risk examples:
-- acronym appears before explanation;
-- technical label is used as if common knowledge;
-- definition uses another undefined technical term;
-- explanation only makes sense to domain experts.
+# Phase 2 — Recursive Dependency Resolution
 
----
+For every concept in the actual script:
 
-# Audit 2 — Concept-load audit
+1. classify state: KNOWN | EXPLAINED | UNRESOLVED | REMOVED
+2. locate first use
+3. if explained, extract the concepts required to understand that explanation
+4. resolve every dependency recursively
+5. apply the necessity test:
+   - EXPLAIN
+   - REPLACE
+   - REMOVE
+6. repeat the scan until no new unresolved dependency appears
 
-Review the script in approximate 30–60 second listening blocks.
+Hard rule:
+No Unknowns in Definitions.
 
-Count **important unfamiliar concepts**, not every noun.
+A parent concept cannot be EXPLAINED while any required dependency remains UNRESOLVED.
 
-Heuristic:
-- 0–2 new important concepts/minute: usually comfortable;
-- 3+: inspect;
-- 5+: normally requires simplification, splitting or removal.
+# Phase 3 — Confusable-pair audit
 
-This is not a rigid scoring rule.
+Use both:
+- confusable_with metadata
+- pairs discovered in the actual script
 
-If multiple concepts are inseparable from one mechanism, they may stay together if a single mental model makes them easy to hold.
+If both concepts appear and could be confused:
+- explicitly distinguish their roles at first introduction
+- do not rely on spelling differences alone
 
----
+# Phase 4 — Contextual familiarity audit
 
-# Audit 3 — Explanation quality
+Ask not only:
+Does the audience know this word?
 
-Prefer the least complex method that preserves meaning.
+Also ask:
+Does the audience understand the role this concept plays in THIS explanation?
 
-Available methods:
+If label familiarity is high but role familiarity is low:
+- explain the role
+- replace with concrete wording
+- or remove
 
-### Direct definition
-Use for a simple term.
+# Phase 5 — Weighted concept-load audit
 
-### Analogy
-Use when it reduces abstraction without introducing factual distortion.
+Review approximate 30 to 60 second listening blocks.
 
-### Human action
-Best for processes driven by repeated choices or behavior.
+Use the shared weighted heuristic:
+- simple new concept: +1
+- technical or abstract: +2
+- confusable: +1
+- dependency depth greater than 1: +1
+- specialized role: +1
 
-### Contrast
-Use when two states make each other easier to understand.
+Use judgment, not a mechanical score target.
 
-### Mechanism
-Use when the audience needs causal understanding.
+Reduce load by:
+- sequencing dependencies earlier
+- replacing labels with plain language
+- removing unnecessary names
+- splitting mechanisms across story beats
 
-### Example
-Use when one concrete case teaches the general idea.
+# Phase 6 — Listening test
 
----
+Check:
+- sentences too dense for audio
+- acronym or name stacks
+- nested definitions
+- definitions that require another definition
+- unclear antecedents
+- abstract nouns replacing actions
 
-## Concept-before-label enforcement
+Preserve visual storytelling while simplifying.
 
-Bad sequence:
+## Closure requirement
 
-```text
-technical label
-→ dense definition
-→ example
-```
+Stage 06 may only PASS when the revised script reaches a fixed point:
 
-Preferred:
+- unresolved = 0
+- unresolved_dependencies = 0
+- confusable_pairs_unresolved = 0
 
-```text
-familiar action / observable result
-→ plain-language idea
-→ label if necessary
-```
+If a technical label is unnecessary, REMOVE or REPLACE it rather than teaching it.
 
----
+## Outputs
 
-## Remove unnecessary terminology
+Write:
+- 06_audience_report.md
+- 06_concept_closure.json
+- 06_script_accessible.md
 
-If a term:
-- appears once;
-- is not necessary for later reasoning;
-- does not improve credibility or clarity;
-- adds memory burden;
+06_concept_closure.json must include:
+- concepts_detected
+- known
+- explained
+- removed
+- unresolved
+- unresolved_dependencies
+- confusable_pairs_unresolved
+- new_concepts_discovered_after_stage_03
+- closure_iterations
+- status
 
-remove the label and keep the plain-language meaning.
-
----
-
-## Micro-reminders
-
-If an important term disappears for a long span and returns, use a minimal reminder.
-
-Do not repeat the full definition.
-
----
-
-## Listening test
-
-Check for:
-- sentences too dense to process aloud;
-- stacked dates/names;
-- acronym clusters;
-- nested explanations;
-- parenthetical logic better split into two sentences;
-- references whose antecedent is unclear in audio;
-- abstract nouns replacing clear actions.
-
----
-
-## Preserve visual storytelling
-
-Do not “simplify” concrete narration back into textbook abstraction.
-
-Prefer:
-
-> People kept the seeds from the plants they wanted.
-
-over:
-
-> Selection pressures affected phenotypic distribution.
-
-when both express the needed idea accurately.
-
----
-
-## Report output
-
-Write `06_audience_report.md` with:
-
-1. first-use audit;
-2. concept-load hotspots;
-3. difficult passages;
-4. terminology removed;
-5. explanations added or replaced;
-6. unresolved audience risks;
-7. pass/fail.
-
----
-
-## Script output
-
-Write the fully revised script to:
-
-`06_script_accessible.md`
-
-The revised script must be complete, not a patch/diff.
+The revised script must be complete, not a diff.
 
 Do not add production directions.
