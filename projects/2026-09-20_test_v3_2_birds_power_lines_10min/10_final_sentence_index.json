@@ -1,0 +1,371 @@
+{
+  "source_file": "10_final_candidate.md",
+  "units": [
+    {
+      "sentence_id": "S0001",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Hãy nhìn một con chim sẻ đậu trên dây điện."
+    },
+    {
+      "sentence_id": "S0002",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Dây đang mang điện."
+    },
+    {
+      "sentence_id": "S0003",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Chỉ cần nghĩ đến việc con người chạm vào một dây điện trần là đã thấy nguy hiểm."
+    },
+    {
+      "sentence_id": "S0004",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Vậy tại sao con chim lại có thể đứng đó, rỉa lông, nhìn quanh, rồi bay đi như không có chuyện gì?"
+    },
+    {
+      "sentence_id": "S0005",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Câu trả lời nghe hơi ngược đời: thứ nguy hiểm không chỉ là “một vật đang có điện”."
+    },
+    {
+      "sentence_id": "S0006",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Điều quyết định là liệu có dòng điện đáng kể — tức điện đang chạy qua một đường dẫn — xuyên qua cơ thể hay không."
+    },
+    {
+      "sentence_id": "S0007",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Muốn một dòng đáng kể đi xuyên qua một vật, thường phải có một đường nối giữa hai điểm có mức điện khác nhau — có thể hình dung như hai “độ cao điện” khác nhau."
+    },
+    {
+      "sentence_id": "S0008",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Chênh lệch càng lớn, khả năng đẩy dòng qua đường đó càng mạnh."
+    },
+    {
+      "sentence_id": "S0009",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Và đây là điều con chim trên một sợi dây đã tránh được."
+    },
+    {
+      "sentence_id": "S0010",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Hai chân của nó đặt rất gần nhau trên cùng một dây dẫn."
+    },
+    {
+      "sentence_id": "S0011",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Vì khoảng cách giữa hai chân nhỏ, mức điện tại hai điểm đó gần như giống nhau."
+    },
+    {
+      "sentence_id": "S0012",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Cơ thể con chim không nối hai nơi có chênh lệch đủ lớn để tạo ra một dòng điện mạnh đi xuyên qua nó."
+    },
+    {
+      "sentence_id": "S0013",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Nói ngắn gọn: điện vẫn chạy trên dây, nhưng gần như không có lý do để đổi đường và chạy qua cơ thể con chim."
+    },
+    {
+      "sentence_id": "S0014",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Điều đó không có nghĩa dây điện “an toàn”."
+    },
+    {
+      "sentence_id": "S0015",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Chỉ cần con chim đồng thời chạm vào một điểm khác có mức điện khác đáng kể, tình hình lập tức thay đổi."
+    },
+    {
+      "sentence_id": "S0016",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Ví dụ, nếu một con chim lớn dang cánh và cùng lúc chạm hai dây khác nhau, cơ thể nó có thể trở thành chiếc cầu nối giữa hai điểm."
+    },
+    {
+      "sentence_id": "S0017",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Hoặc nếu nó chạm một dây đang mang điện và đồng thời chạm vào một phần kim loại được nối với đất — tức có đường dẫn về mặt đất — dòng điện có thể chạy qua cơ thể để đi từ điểm này sang điểm kia."
+    },
+    {
+      "sentence_id": "S0018",
+      "section_heading": "Vì sao chim đậu trên dây điện mà không bị giật?",
+      "exact_text": "Khi đó, chính điều đã bảo vệ con chim lúc đứng trên một dây duy nhất biến mất."
+    },
+    {
+      "sentence_id": "S0019",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Chúng ta thường nghe câu: “Điện luôn tìm đường xuống đất.”"
+    },
+    {
+      "sentence_id": "S0020",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Cách nói đó tiện, nhưng dễ làm người nghe hiểu sai."
+    },
+    {
+      "sentence_id": "S0021",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Đất không phải một chiếc nam châm hút điện."
+    },
+    {
+      "sentence_id": "S0022",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Điều quan trọng vẫn là có một đường dẫn giữa những nơi có mức điện khác nhau hay không."
+    },
+    {
+      "sentence_id": "S0023",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Hãy tưởng tượng một cầu trượt."
+    },
+    {
+      "sentence_id": "S0024",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Nếu hai đầu ở cùng độ cao, sẽ không có lý do gì để trượt từ đầu này sang đầu kia."
+    },
+    {
+      "sentence_id": "S0025",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Nếu một đầu cao hơn hẳn, mọi thứ mới có xu hướng chuyển động xuống."
+    },
+    {
+      "sentence_id": "S0026",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "So sánh này không hoàn hảo, nhưng nó giúp hình dung tại sao chỉ “chạm vào dây có điện” chưa mô tả đầy đủ chuyện gì sẽ xảy ra."
+    },
+    {
+      "sentence_id": "S0027",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Cần biết cơ thể đang nối những điểm nào."
+    },
+    {
+      "sentence_id": "S0028",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Với con chim đứng bằng hai chân trên cùng một đoạn dây, hai chân gần như ở cùng “độ cao điện”."
+    },
+    {
+      "sentence_id": "S0029",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Vì thế dòng đi qua cơ thể rất nhỏ."
+    },
+    {
+      "sentence_id": "S0030",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Với một người đứng trên mặt đất rồi chạm vào dây đang mang điện, cơ thể có thể tạo thành đường nối giữa dây và đất."
+    },
+    {
+      "sentence_id": "S0031",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Lúc này tình huống hoàn toàn khác và cực kỳ nguy hiểm."
+    },
+    {
+      "sentence_id": "S0032",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Đó cũng là lý do không được bắt chước con chim."
+    },
+    {
+      "sentence_id": "S0033",
+      "section_heading": "Không phải “điện thích đi xuống đất”",
+      "exact_text": "Cơ thể người, khoảng cách tiếp xúc, mặt đất, độ ẩm và rất nhiều yếu tố khác khiến việc chạm dây điện có thể gây tử vong."
+    },
+    {
+      "sentence_id": "S0034",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Bởi vì đường đi chính của dòng điện là chính sợi dây."
+    },
+    {
+      "sentence_id": "S0035",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Kim loại trong dây cho dòng điện đi qua rất dễ."
+    },
+    {
+      "sentence_id": "S0036",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Cơ thể chim dẫn điện kém hơn nhiều so với kim loại, và quan trọng hơn, hai chân của nó không tạo ra một lối tắt giữa hai điểm có chênh lệch lớn."
+    },
+    {
+      "sentence_id": "S0037",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Một phần cực nhỏ của dòng điện vẫn có thể đi qua những đường khác trong thực tế, nhưng với con chim nhỏ đứng trên một đoạn dây ngắn, phần đi qua cơ thể thường quá nhỏ để gây hại."
+    },
+    {
+      "sentence_id": "S0038",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Vì vậy câu đúng không phải là “không có điện trong con chim”."
+    },
+    {
+      "sentence_id": "S0039",
+      "section_heading": "Vậy tại sao dây vẫn mang dòng điện nếu con chim không bị gì?",
+      "exact_text": "Câu đúng hơn là: không có đủ chênh lệch giữa hai điểm nó chạm vào để đẩy một dòng điện nguy hiểm xuyên qua cơ thể."
+    },
+    {
+      "sentence_id": "S0040",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Nếu chỉ cần đứng trên một dây là an toàn, tại sao vẫn có chim bị điện giật trên cột điện?"
+    },
+    {
+      "sentence_id": "S0041",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Vì không phải lúc nào chim cũng chỉ chạm một điểm điện."
+    },
+    {
+      "sentence_id": "S0042",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Những loài lớn như đại bàng, diều hâu hay kền kền có sải cánh rộng."
+    },
+    {
+      "sentence_id": "S0043",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Trên một số cột điện, khoảng cách giữa các dây hoặc giữa dây và phần kim loại nối với đất có thể đủ nhỏ để cánh, chân hoặc cơ thể chim chạm hai phần cùng lúc."
+    },
+    {
+      "sentence_id": "S0044",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Khi đó, con chim hoàn thành một đường dẫn mà trước đó chưa tồn tại."
+    },
+    {
+      "sentence_id": "S0045",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Các tài liệu về bảo vệ chim trên hệ thống điện mô tả đúng kiểu tai nạn này: chim bị điện giật khi đồng thời chạm hai phần đang mang điện, hoặc một phần mang điện và một phần nối đất."
+    },
+    {
+      "sentence_id": "S0046",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Điều thú vị là ở một số hệ thống điện, các dây và bộ phận được đặt cách xa nhau hơn, nên một con chim khó chạm hai điểm cùng lúc."
+    },
+    {
+      "sentence_id": "S0047",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Điều đó có thể làm giảm kiểu tai nạn điện giật này; không có nghĩa điện ở đó an toàn hơn."
+    },
+    {
+      "sentence_id": "S0048",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "Tất nhiên, những đường dây lớn vẫn có những rủi ro khác, như va chạm khi bay."
+    },
+    {
+      "sentence_id": "S0049",
+      "section_heading": "Vì sao chim lớn lại có nguy cơ cao hơn?",
+      "exact_text": "“Ít bị điện giật hơn” không có nghĩa “không nguy hiểm với chim”."
+    },
+    {
+      "sentence_id": "S0050",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Có một chi tiết nhỏ nhưng thú vị: ngay trên cùng một sợi dây, mức điện không hoàn toàn giống nhau ở mọi điểm."
+    },
+    {
+      "sentence_id": "S0051",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Ngay cả dây kim loại cũng không hoàn hảo."
+    },
+    {
+      "sentence_id": "S0052",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Khi dòng điện chạy dọc theo dây, mức điện giảm đi một chút theo chiều dài."
+    },
+    {
+      "sentence_id": "S0053",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Vì thế hai chân con chim cách nhau một khoảng vẫn có một chênh lệch rất nhỏ."
+    },
+    {
+      "sentence_id": "S0054",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Nhưng với khoảng cách chỉ vài centimet, chênh lệch đó thường rất nhỏ."
+    },
+    {
+      "sentence_id": "S0055",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Đó là lý do ta nói hai chân “gần như” ở cùng mức điện, chứ không phải giống nhau tuyệt đối."
+    },
+    {
+      "sentence_id": "S0056",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Nếu khoảng cách giữa hai điểm tăng lên rất nhiều, chênh lệch có thể tăng theo."
+    },
+    {
+      "sentence_id": "S0057",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Đây cũng là lý do trong các sự cố điện lớn trên mặt đất, việc hai chân đặt ở hai vị trí có mức điện khác nhau có thể nguy hiểm."
+    },
+    {
+      "sentence_id": "S0058",
+      "section_heading": "Chuyện gì xảy ra nếu con chim bước dọc theo dây?",
+      "exact_text": "Nhưng đó là một tình huống khác với con chim nhỏ đậu trên dây."
+    },
+    {
+      "sentence_id": "S0059",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Một dây có thể ở mức điện rất cao so với đất, nhưng nếu toàn bộ cơ thể con chim gần như ở cùng mức đó, dòng qua cơ thể vẫn rất nhỏ."
+    },
+    {
+      "sentence_id": "S0060",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Ngược lại, một mức điện thấp hơn vẫn có thể nguy hiểm nếu cơ thể nối hai điểm khác nhau và cho phép dòng đủ lớn chạy qua."
+    },
+    {
+      "sentence_id": "S0061",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Điều này giải thích vì sao chỉ biết dây ở mức điện cao hay thấp chưa đủ để dự đoán một cú điện giật."
+    },
+    {
+      "sentence_id": "S0062",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Ta còn phải hỏi: cơ thể chạm vào đâu?"
+    },
+    {
+      "sentence_id": "S0063",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Dòng điện có đường đi qua cơ thể hay không?"
+    },
+    {
+      "sentence_id": "S0064",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Và chênh lệch giữa hai điểm tiếp xúc lớn đến mức nào?"
+    },
+    {
+      "sentence_id": "S0065",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Đó là phần mà hình ảnh con chim trên dây điện che giấu."
+    },
+    {
+      "sentence_id": "S0066",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Ta nhìn thấy một con vật nhỏ đứng trên một hệ thống điện khổng lồ, rồi nghĩ rằng nó “miễn nhiễm với điện”."
+    },
+    {
+      "sentence_id": "S0067",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Thực ra con chim không có siêu năng lực nào cả."
+    },
+    {
+      "sentence_id": "S0068",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Nó chỉ đang đứng trong một tình huống mà hai chân gần như cùng mức điện, nên cơ thể không trở thành con đường hấp dẫn cho một dòng điện lớn."
+    },
+    {
+      "sentence_id": "S0069",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Chỉ cần thay đổi một điểm tiếp xúc — chạm thêm một dây khác, một phần kim loại nối đất, hoặc một cấu trúc có mức điện khác — câu chuyện có thể đảo ngược ngay lập tức."
+    },
+    {
+      "sentence_id": "S0070",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Vì vậy, bí mật của con chim không nằm ở lông vũ, kích thước hay khả năng chịu điện đặc biệt."
+    },
+    {
+      "sentence_id": "S0071",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "Nó nằm ở một điều đơn giản hơn nhiều:"
+    },
+    {
+      "sentence_id": "S0072",
+      "section_heading": "Câu hỏi thật sự không phải “dây đang ở mức điện cao đến đâu?”",
+      "exact_text": "dòng điện chỉ gây nguy hiểm khi có một con đường thích hợp để chạy qua cơ thể."
+    }
+  ],
+  "source_sentence_count": 72,
+  "indexed_sentence_count": 72,
+  "duplicate_sentence_ids": [],
+  "missing_sentence_ids": [],
+  "reconstruction_ok": true,
+  "status": "PASS"
+}

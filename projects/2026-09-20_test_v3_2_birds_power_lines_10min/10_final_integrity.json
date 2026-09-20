@@ -1,0 +1,139 @@
+{
+  "knowledge": {
+    "core_entities_ungrounded": 0,
+    "unmapped_aliases": 0,
+    "missing_discovered_nodes": 0,
+    "unresolved_concepts": 0,
+    "unresolved_dependencies": 0,
+    "unresolved_relations": 0,
+    "temporal_first_use_failures": 0,
+    "confusable_pairs_unresolved": 0,
+    "silently_ignored_candidates": 0,
+    "invalid_baseline_provenance": 0
+  },
+  "terminology": {
+    "unnecessary_labels": 0,
+    "alias_overload": 0
+  },
+  "narrative": {
+    "redundant_reveals": 0,
+    "high_load_listening_blocks": 0
+  },
+  "factual": {
+    "unsupported_claims": 0,
+    "certainty_overstatements": 0,
+    "unsupported_temporal_generalizations": 0,
+    "scope_overstatements": 0
+  },
+  "naturalness": {
+    "translationese_flags": 0,
+    "repeated_rhetorical_patterns": 0,
+    "unresolved_audio_density_flags": 0
+  },
+  "proof": {
+    "sentence_coverage_failures": 0,
+    "candidate_conservation_failures": 0,
+    "temporal_proof_failures": 0,
+    "isolation_failures": 1
+  },
+  "sentence_coverage_proof": {
+    "missing_sentence_ids": [],
+    "extra_sentence_ids": [],
+    "duplicate_sentence_ids": [],
+    "coverage_ok": true
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005"
+    ],
+    "dispositions": {
+      "F001": {
+        "status": "GROUNDED"
+      },
+      "F002": {
+        "status": "GROUNDED"
+      },
+      "F003": {
+        "status": "GROUNDED"
+      },
+      "F004": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "hệ thống điện",
+          "canonical_mapping_if_any": null
+        }
+      },
+      "F005": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "centimet",
+          "canonical_mapping_if_any": null
+        }
+      }
+    },
+    "equation_valid": true,
+    "missing_candidate_ids": [],
+    "duplicate_disposition_ids": []
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "F001",
+      "first_use_sentence_id": "S0006",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0006",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F002",
+      "first_use_sentence_id": "S0007",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0007",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F003",
+      "first_use_sentence_id": "S0017",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0017",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F004",
+      "first_use_sentence_id": "S0045",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "hệ thống điện",
+        "canonical_mapping_if_any": null
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0054",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "centimet",
+        "canonical_mapping_if_any": null
+      },
+      "ordering_valid": true
+    }
+  ],
+  "baseline_provenance_summary": {
+    "assumed_known": [
+      "hệ thống điện",
+      "centimet"
+    ]
+  },
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "content_integrity_status": "PASS",
+  "proof_verifier_status": "PENDING",
+  "project_status": "PENDING_10D"
+}

@@ -1,0 +1,10 @@
+{
+  "audience_baseline": {
+    "assumed_known": [
+      "hệ thống điện",
+      "centimet"
+    ]
+  },
+  "policy": "v3.2 proof-carrying audit",
+  "status": "PASS"
+}
