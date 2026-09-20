@@ -1,0 +1,70 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim": "Onion lachrymatory factor formation depends on a dedicated lachrymatory-factor synthase.",
+      "category": "mechanism",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "safe_wording": "Hành tây có một enzyme riêng tham gia trực tiếp vào bước tạo tác nhân gây cay mắt.",
+      "unsafe_wording": "Mọi hợp chất cay của hành đều do một enzyme này tạo ra.",
+      "caveats": "Do not oversimplify the whole sulfur chemistry.",
+      "visual_potential": "high",
+      "story_function": "reveal"
+    },
+    {
+      "claim_id": "C002",
+      "claim": "Tissue damage brings enzyme chemistry into action and leads to formation of volatile propanethial S-oxide.",
+      "category": "mechanism",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "safe_wording": "Khi mô bị phá, chuỗi phản ứng enzyme tạo ra một phân tử dễ bay hơi gây cay mắt.",
+      "unsafe_wording": "Củ hành chứa sẵn khí gây khóc.",
+      "caveats": "Keep technical intermediates out unless needed.",
+      "visual_potential": "very_high",
+      "story_function": "transformation"
+    },
+    {
+      "claim_id": "C003",
+      "claim": "The onion lachrymatory factor is associated with the plant's damage-triggered chemical defense chemistry.",
+      "category": "biology",
+      "importance": "supporting",
+      "confidence": "medium",
+      "support_type": "direct",
+      "source_ids": [
+        "S002"
+      ],
+      "safe_wording": "Hệ hóa học này là một phần của phản ứng phòng vệ liên quan đến tổn thương mô.",
+      "unsafe_wording": "Hành tiến hóa chất này để làm con người khóc.",
+      "caveats": "Avoid teleology.",
+      "visual_potential": "medium",
+      "story_function": "context"
+    },
+    {
+      "claim_id": "C004",
+      "claim": "Exposure to onion lachrymatory factor can provoke ocular irritation and reflex tear secretion.",
+      "category": "physiology",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S003"
+      ],
+      "safe_wording": "Khi chất này kích thích bề mặt mắt, cơ thể tăng tiết nước mắt.",
+      "unsafe_wording": "Chất này ăn mòn mắt.",
+      "caveats": "Do not exaggerate harm.",
+      "visual_potential": "high",
+      "story_function": "payoff"
+    }
+  ]
+}
