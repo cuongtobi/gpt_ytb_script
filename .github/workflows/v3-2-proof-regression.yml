@@ -34,12 +34,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Assert fixture-specific regression targets
-        run: python tools/assert_v3_2_fixture_targets.py "\${{ matrix.project }}"
+        run: python tools/assert_v3_2_fixture_targets.py "${{ matrix.project }}"
       - name: Run v3.2 compatibility verifier
         shell: bash
         run: |
           set -euo pipefail
-          p="\${{ matrix.project }}"
+          p="${{ matrix.project }}"
           python tools/verify_integrity_proof.py \
             --script "$p/10_final_script.md" \
             --index "$p/10_final_sentence_index.json" \
