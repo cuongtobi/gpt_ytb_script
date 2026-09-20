@@ -27,6 +27,7 @@ Read all current project artifacts, especially:
 - 08_anti_ai_report.md
 - 08_concept_delta.json
 - 09_fact_check.md
+- 09_concept_delta.json
 - 09_script_fact_checked.md
 
 Stage 09 must be PASS before final completion.
