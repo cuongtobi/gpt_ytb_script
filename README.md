@@ -255,8 +255,9 @@ projects/<project_slug>/
 
 ## Cách sử dụng trên ChatGPT Web
 
-Prompt mẫu:
+### Prompt mẫu — copy toàn bộ block bên dưới
 
+```text
 @GitHub làm việc với repo cuongtobi/gpt_ytb_script
 @Tìm kiếm trên mạng
 
@@ -271,6 +272,7 @@ hook_mode: contradiction
 Đọc AGENTS.md và prompts/00_orchestrator.md.
 Chạy toàn bộ pipeline.
 Tạo một project mới trong projects/ và lưu mọi artifact vào đó.
+```
 
 ## Input
 
