@@ -97,7 +97,7 @@ La selección vegetal y la biotecnología pueden, por tanto, modificar la intens
 
 Cuando entendemos el mecanismo, resulta más fácil evaluar los trucos para cortar cebolla.
 El factor lacrimógeno tiene que formarse primero en el tejido dañado y después desplazarse por el aire hasta nuestros ojos.
-La estrategia más directa consiste en reducir la exposición al compuesto volátil.
+La estrategia más directa consiste en reducir la exposición al irritante que circula por el aire.
 Una buena ventilación o una corriente de aire que se aleje de la cara puede transportar parte del compuesto en otra dirección.
 Aumentar la distancia entre la cara y la zona por la que asciende el vapor también puede disminuir la exposición.
 Ninguno de estos métodos necesita neutralizar emociones ni extraer una misteriosa toxina de la cebolla.
