@@ -131,12 +131,14 @@ Write:
 - 06_concept_closure.json
 - 06_script_accessible.md
 
-06_concept_closure.json must include:
+06_concept_closure.json is the resolved graph snapshot for downstream editors. It must include:
 - concepts_detected
 - known
 - explained
 - removed
 - unresolved
+- concepts: every current concept node with state, first_use, label_familiarity, role_familiarity, definition, dependencies, necessity and confusable_with
+- dependency_edges
 - unresolved_dependencies
 - confusable_pairs_unresolved
 - new_concepts_discovered_after_stage_03
