@@ -1,0 +1,78 @@
+{
+  "manifest_origin": "orchestrator_unverified",
+  "attestation_source": null,
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "audits": {
+    "10B1": {
+      "audit_id": "10B1",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80",
+        "10_final_sentence_index.json": "585a60ffcb5e0afef54ef60263e71c4dd82007229b486a1c6a758382fb490fd2"
+      },
+      "forbidden_input_files": [
+        "03_knowledge_graph.json",
+        "06_knowledge_closure.json"
+      ],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    },
+    "10B2": {
+      "audit_id": "10B2",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80",
+        "10_final_sentence_index.json": "585a60ffcb5e0afef54ef60263e71c4dd82007229b486a1c6a758382fb490fd2"
+      },
+      "forbidden_input_files": [
+        "03_claim_map.json",
+        "02_sources.json",
+        "02_evidence_ledger.json",
+        "09_fact_check.md"
+      ],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    },
+    "10B3": {
+      "audit_id": "10B3",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80",
+        "10_final_sentence_index.json": "585a60ffcb5e0afef54ef60263e71c4dd82007229b486a1c6a758382fb490fd2"
+      },
+      "forbidden_input_files": [
+        "07_reveal_audit.json",
+        "08_naturalness_audit.json"
+      ],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    }
+  }
+}

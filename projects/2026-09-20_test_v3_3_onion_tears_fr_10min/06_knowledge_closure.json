@@ -1,0 +1,85 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "05_script_draft.md",
+        "sha256": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80"
+      },
+      {
+        "path": "05_blind_knowledge_inventory.json",
+        "sha256": "fecf8a94c8bb644321cd5a7807d2371ae1ec9ead21dc09bc5eb0f9024c1242c8"
+      }
+    ]
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004"
+    ],
+    "dispositions": {
+      "F001": {
+        "status": "GROUNDED",
+        "exact_phrase": "alliinase",
+        "grounding_sentence_id": "S0013"
+      },
+      "F002": {
+        "status": "GROUNDED",
+        "exact_phrase": "synthase du facteur lacrymogène",
+        "grounding_sentence_id": "S0028"
+      },
+      "F003": {
+        "status": "GROUNDED",
+        "exact_phrase": "syn-propanéthial-S-oxyde",
+        "grounding_sentence_id": "S0036"
+      },
+      "F004": {
+        "status": "GROUNDED",
+        "exact_phrase": "larmes réflexes",
+        "grounding_sentence_id": "S0012"
+      }
+    },
+    "discovered_count": 4,
+    "baseline_known_count": 0,
+    "grounded_count": 4,
+    "replaced_count": 0,
+    "removed_count": 0,
+    "unresolved_count": 0,
+    "equation_valid": true,
+    "missing_candidate_ids": [],
+    "duplicate_disposition_ids": []
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "F001",
+      "first_use_sentence_id": "S0013",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0013",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F002",
+      "first_use_sentence_id": "S0028",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0028",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F003",
+      "first_use_sentence_id": "S0036",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0036",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F004",
+      "first_use_sentence_id": "S0012",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    }
+  ],
+  "status": "PASS"
+}

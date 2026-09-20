@@ -1,0 +1,246 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_script.md",
+        "sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520"
+      },
+      {
+        "path": "10b1_blind_knowledge_inventory.json",
+        "sha256": "f530a9bda07466bb2bb17e27a48965a54dbcf2b17fef3fa7b2231c8aef374900"
+      },
+      {
+        "path": "10b2_blind_claim_inventory.json",
+        "sha256": "0b387ce152df51a78e8824ae031aaad33d7d00857c8eeba1f18039e9ee8ad1d0"
+      },
+      {
+        "path": "10b3_blind_naturalness_audit.json",
+        "sha256": "a50ffb6876ae42644663b3dca9465e8699768245feb2861ccfda07348a0129dc"
+      }
+    ]
+  },
+  "knowledge": {
+    "core_entities_ungrounded": 0,
+    "unmapped_aliases": 0,
+    "missing_discovered_nodes": 0,
+    "unresolved_concepts": 0,
+    "unresolved_dependencies": 0,
+    "unresolved_relations": 0,
+    "temporal_first_use_failures": 0,
+    "confusable_pairs_unresolved": 0,
+    "silently_ignored_candidates": 0,
+    "invalid_baseline_provenance": 0
+  },
+  "claims": {
+    "missing_claim_sentence_rows": 0,
+    "unconserved_claims": 0,
+    "unresolved_claims": 0,
+    "invalid_evidence_links": 0
+  },
+  "terminology": {
+    "unnecessary_labels": 0,
+    "alias_overload": 0
+  },
+  "narrative": {
+    "redundant_reveals": 0,
+    "high_load_listening_blocks": 0
+  },
+  "factual": {
+    "unsupported_claims": 0,
+    "certainty_overstatements": 0,
+    "unsupported_temporal_generalizations": 0,
+    "scope_overstatements": 0
+  },
+  "naturalness": {
+    "translationese_flags": 0,
+    "repeated_rhetorical_patterns": 0,
+    "unresolved_audio_density_flags": 0,
+    "unresolved_naturalness_findings": 0
+  },
+  "proof": {
+    "schema_failures": 0,
+    "hash_failures": 0,
+    "stale_audit_failures": 0,
+    "sentence_coverage_failures": 0,
+    "candidate_conservation_failures": 0,
+    "claim_conservation_failures": 0,
+    "finding_conservation_failures": 0,
+    "temporal_proof_failures": 0,
+    "isolation_failures": 1
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004"
+    ],
+    "dispositions": {
+      "F001": {
+        "status": "GROUNDED",
+        "exact_phrase": "aliinasa",
+        "grounding_sentence_id": "S0013"
+      },
+      "F002": {
+        "status": "GROUNDED",
+        "exact_phrase": "sintasa del factor lacrimógeno",
+        "grounding_sentence_id": "S0028"
+      },
+      "F003": {
+        "status": "GROUNDED",
+        "exact_phrase": "syn-propanetial-S-óxido",
+        "grounding_sentence_id": "S0036"
+      },
+      "F004": {
+        "status": "GROUNDED",
+        "exact_phrase": "lágrimas reflejas",
+        "grounding_sentence_id": "S0012"
+      }
+    },
+    "discovered_count": 4,
+    "baseline_known_count": 0,
+    "grounded_count": 4,
+    "replaced_count": 0,
+    "removed_count": 0,
+    "unresolved_count": 0,
+    "equation_valid": true,
+    "missing_candidate_ids": [],
+    "duplicate_disposition_ids": []
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "F001",
+      "first_use_sentence_id": "S0013",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0013",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F002",
+      "first_use_sentence_id": "S0028",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0028",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F003",
+      "first_use_sentence_id": "S0036",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0036",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F004",
+      "first_use_sentence_id": "S0012",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    }
+  ],
+  "claim_conservation_proof": {
+    "discovered_claim_ids": [
+      "BC001",
+      "BC002",
+      "BC003",
+      "BC004",
+      "BC005",
+      "BC006",
+      "BC007",
+      "BC008"
+    ],
+    "dispositions": {
+      "BC001": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C001"
+        ],
+        "evidence_ids": [
+          "E001"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC002": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E001"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC003": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC004": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C004"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E003"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC005": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C005"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC006": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E005"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC007": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C007"
+        ],
+        "evidence_ids": [
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC008": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C008"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      }
+    }
+  },
+  "naturalness_finding_conservation_proof": {
+    "discovered_finding_ids": [],
+    "dispositions": {}
+  },
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "content_integrity_status": "PASS",
+  "proof_verifier_status": "PENDING",
+  "project_status": "PENDING_10D"
+}

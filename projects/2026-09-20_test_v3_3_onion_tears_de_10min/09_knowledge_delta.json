@@ -1,0 +1,23 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "08_script_natural.md",
+        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+      },
+      {
+        "path": "09_script_fact_checked.md",
+        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+      }
+    ]
+  },
+  "new_entities": [],
+  "new_aliases": [],
+  "new_components": [],
+  "new_concepts": [],
+  "new_contextual_roles": [],
+  "new_relations": [],
+  "new_dependencies": [],
+  "status": "PASS"
+}

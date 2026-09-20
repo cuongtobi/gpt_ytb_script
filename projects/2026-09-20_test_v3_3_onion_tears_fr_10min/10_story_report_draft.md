@@ -1,0 +1,6 @@
+# 10A — Final Story Editor Draft Report
+
+Language: French.
+Canonical sentence count: 94.
+The final candidate preserves a single causal spine and introduces technical terms with inline explanations.
+No production notes are present.

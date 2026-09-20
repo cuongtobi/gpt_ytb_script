@@ -1,0 +1,80 @@
+{
+  "audience_baseline": {
+    "language": "German",
+    "audience": "general",
+    "technical_level": "accessible",
+    "assumed_known": [
+      "onion",
+      "eye",
+      "cell"
+    ],
+    "normal_language_primitives": [
+      "plant",
+      "knife",
+      "air",
+      "tear",
+      "protein"
+    ],
+    "never_auto_known_categories": [
+      "enzyme names",
+      "chemical names",
+      "specialist biochemical mechanisms"
+    ]
+  },
+  "entity_label_policy": {
+    "primary_spoken_label": "localized onion term",
+    "scientific_alias_policy": "remove scientific species name unless needed"
+  },
+  "nodes": [
+    {
+      "knowledge_id": "K001",
+      "label": "Alliinase",
+      "type": "CONCEPT",
+      "canonical_entity": "Alliinase",
+      "state": "GROUNDED",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K002",
+      "label": "Tränenfaktor-Synthase",
+      "type": "CONCEPT",
+      "canonical_entity": "Tränenfaktor-Synthase",
+      "state": "GROUNDED",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K003",
+      "label": "syn-Propanthial-S-oxid",
+      "type": "CONCEPT",
+      "canonical_entity": "syn-Propanthial-S-oxid",
+      "state": "GROUNDED",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K004",
+      "label": "Reflextränen",
+      "type": "CONCEPT",
+      "canonical_entity": "Reflextränen",
+      "state": "GROUNDED",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    }
+  ],
+  "relations": [],
+  "dependency_edges": [],
+  "alias_map": {},
+  "confusable_pairs": [],
+  "initial_unresolved": [],
+  "status": "PASS"
+}

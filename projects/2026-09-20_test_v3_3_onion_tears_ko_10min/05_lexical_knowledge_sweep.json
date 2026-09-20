@@ -1,0 +1,16 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "05_script_draft.md",
+        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+      },
+      {
+        "path": "05_draft_sentence_index.json",
+        "sha256": "0208d98331b4bb92207e565dfb9a62098e3d247348a6b6c6ebe5731030e1a802"
+      }
+    ]
+  },
+  "status": "PASS"
+}

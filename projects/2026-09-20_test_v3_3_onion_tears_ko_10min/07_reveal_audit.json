@@ -1,0 +1,17 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "06_script_pruned.md",
+        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+      }
+    ]
+  },
+  "input_script_sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e",
+  "output_script_sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e",
+  "claim_occurrences": [],
+  "redundant_reveals": 0,
+  "finding_dispositions": {},
+  "status": "PASS"
+}

@@ -1,0 +1,84 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "08_script_natural.md",
+        "sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520"
+      },
+      {
+        "path": "02_evidence_ledger.json",
+        "sha256": "d8055095d62e6106e3c6dc0a1457ecb68f26807741802d90249120da8505fa77"
+      }
+    ]
+  },
+  "input_script_sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520",
+  "output_script_sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520",
+  "claims_checked": [
+    {
+      "claim_id": "C001",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    {
+      "claim_id": "C003",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E004"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E005"
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E006"
+      ]
+    },
+    {
+      "claim_id": "C008",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001",
+        "E006"
+      ]
+    }
+  ],
+  "unsupported_claims": 0,
+  "certainty_overstatements": 0,
+  "unsupported_temporal_generalizations": 0,
+  "scope_overstatements": 0,
+  "invalid_evidence_links": 0,
+  "status": "PASS"
+}
