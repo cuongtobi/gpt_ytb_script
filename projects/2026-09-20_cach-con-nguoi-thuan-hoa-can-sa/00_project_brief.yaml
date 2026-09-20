@@ -1,0 +1,27 @@
+project:
+  topic: "Cách con người thuần hóa cần sa"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 25
+  target_word_range: "3500-3900"
+  assumed_delivery_rate: "145-155 từ/phút"
+  delivery_rate_note: "Ước lượng cho lời dẫn documentary tiếng Việt rõ ràng, có nhịp nghỉ; word count tính theo token cách bằng khoảng trắng nên chỉ là xấp xỉ."
+  audience: "general"
+  technical_level: "accessible"
+  tone: "conversational_documentary"
+  hook_mode: "contradiction"
+  angle_mode: "auto"
+  visual_storytelling: true
+  research:
+    depth: "deep"
+    freshness_needs: "Kiểm tra nguồn học thuật và khảo cổ đến 2026; ưu tiên nghiên cứu gốc, nguồn học thuật, dữ liệu di truyền và khảo cổ."
+  pipeline_version: "2.0"
+  pipeline_status: "running"
+  exclusions:
+    - "storyboard"
+    - "shot list"
+    - "image prompts"
+    - "B-roll list"
+    - "camera directions"
+    - "visual timeline"
+    - "editing timeline"
