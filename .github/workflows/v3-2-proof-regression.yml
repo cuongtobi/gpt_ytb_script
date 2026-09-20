@@ -1,16 +1,28 @@
-name: v3.2 proof regression
+name: integrity proof regression
 
 on:
   push:
     paths:
-      - "tools/verify_integrity_proof.py"
-      - "tools/assert_v3_2_fixture_targets.py"
+      - "AGENTS.md"
+      - "prompts/**"
+      - "schemas/**"
+      - "tools/**"
+      - "tests/**"
+      - "projects/2026-09-20_test_v3_2_*/**"
+      - ".github/workflows/v3-2-proof-regression.yml"
+  pull_request:
+    paths:
+      - "AGENTS.md"
+      - "prompts/**"
+      - "schemas/**"
+      - "tools/**"
+      - "tests/**"
       - "projects/2026-09-20_test_v3_2_*/**"
       - ".github/workflows/v3-2-proof-regression.yml"
   workflow_dispatch:
 
 jobs:
-  verify:
+  legacy-v3-2:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -22,12 +34,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Assert fixture-specific regression targets
-        run: python tools/assert_v3_2_fixture_targets.py "${{ matrix.project }}"
-      - name: Run deterministic v3.2 verifier
+        run: python tools/assert_v3_2_fixture_targets.py "\${{ matrix.project }}"
+      - name: Run v3.2 compatibility verifier
         shell: bash
         run: |
           set -euo pipefail
-          p="${{ matrix.project }}"
+          p="\${{ matrix.project }}"
           python tools/verify_integrity_proof.py \
             --script "$p/10_final_script.md" \
             --index "$p/10_final_sentence_index.json" \
@@ -43,4 +55,18 @@ jobs:
           assert r["proof_verifier_status"]=="PASS", r
           assert r["project_status"]=="CONTENT_PASS_ISOLATION_NOT_VERIFIED", r
           assert r["isolation_verified"] is False, r
-          print(json.dumps(r,ensure_ascii=False,indent=2))
+
+  v3-3-adversarial:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install verifier dependencies
+        run: python -m pip install --disable-pip-version-check jsonschema PyYAML
+      - name: Compile verifier and test suite
+        run: |
+          python -m py_compile tools/verify_integrity_proof.py
+          python -m py_compile tools/build_artifact_manifest.py
+          python -m py_compile tools/validate_project_artifacts.py
+          python -m py_compile tests/test_v3_3_adversarial.py
+      - name: Run v3.3 adversarial mutation tests
+        run: python -m unittest -v tests.test_v3_3_adversarial
