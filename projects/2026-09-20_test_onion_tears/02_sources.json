@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "id": "S001",
+      "title": "An onion enzyme that makes the eyes water",
+      "authors_or_org": "Imai et al.; Nature",
+      "year": "2002",
+      "url_or_locator": "https://www.nature.com/articles/419685a",
+      "source_type": "primary",
+      "reliability_note": "Primary Nature communication identifying lachrymatory-factor synthase.",
+      "used_for": [
+        "C001",
+        "C002"
+      ]
+    },
+    {
+      "id": "S002",
+      "title": "Enzyme That Makes You Cry–Crystal Structure of Lachrymatory Factor Synthase from Allium cepa",
+      "authors_or_org": "ACS Chemical Biology",
+      "year": "2017",
+      "url_or_locator": "https://pubs.acs.org/doi/10.1021/acschembio.7b00336",
+      "source_type": "primary",
+      "reliability_note": "Primary biochemical study and mechanism context.",
+      "used_for": [
+        "C002",
+        "C003"
+      ]
+    },
+    {
+      "id": "S003",
+      "title": "Using synthesized onion lachrymatory factor to measure age-related decreases in reflex-tear secretion and ocular-surface sensation",
+      "authors_or_org": "Higashihara et al.",
+      "year": "2010",
+      "url_or_locator": "https://pubmed.ncbi.nlm.nih.gov/20577855/",
+      "source_type": "primary",
+      "reliability_note": "Human ocular exposure study using synthesized onion lachrymatory factor.",
+      "used_for": [
+        "C004"
+      ]
+    }
+  ]
+}
