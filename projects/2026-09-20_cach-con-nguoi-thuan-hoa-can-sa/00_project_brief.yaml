@@ -16,7 +16,7 @@ project:
     depth: "deep"
     freshness_needs: "Kiểm tra nguồn học thuật và khảo cổ đến 2026; ưu tiên nghiên cứu gốc, nguồn học thuật, dữ liệu di truyền và khảo cổ."
   pipeline_version: "2.0"
-  pipeline_status: "running"
+  pipeline_status: "complete"
   exclusions:
     - "storyboard"
     - "shot list"
