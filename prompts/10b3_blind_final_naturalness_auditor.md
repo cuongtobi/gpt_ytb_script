@@ -28,12 +28,14 @@ Each row records arrays for:
 - translationese
 - academic_compression
 - unnecessary_label
+- alias_overload
 - duplicate_explanation_or_reveal
 - repeated_opening_or_fragment
 - parallelism_overload
 - rhetorical_question_overload
 - awkward_terminology
 - audio_density
+- high_load_listening_block
 - unclear_pronoun
 - surface_error
 
