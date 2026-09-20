@@ -15,6 +15,8 @@ Important v3.3 artifacts:
 - 10_final_integrity.json
 - artifact_manifest.json
 - 10d_proof_verification.json
+- final.txt — post-10D TTS-ready narration
+- 11_tts_export.json — post-10D export proof
 
 Allowed final statuses:
 - PASS_VERIFIED
@@ -23,6 +25,8 @@ Allowed final statuses:
 
 v3.1/v3.2 projects remain regression fixtures.
 Do not copy their artifact schemas into new projects.
+
+For new v3.3 projects, Stage 11 should run after 10D and should leave `10_final_script.md` unchanged.
 
 See:
 - tests/v3_2_integrity_proof_regression.md
