@@ -1,0 +1,291 @@
+{
+  "concepts_detected": 18,
+  "known": 7,
+  "explained": 9,
+  "removed": 2,
+  "unresolved": 0,
+  "concepts": [
+    {
+      "name": "thuần hóa",
+      "state": "EXPLAINED",
+      "first_use": "đoạn mở + phần 'Thuần hóa...'",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "definition": "quá trình nhiều thế hệ do việc giữ hạt từ cây hữu ích",
+      "dependencies": [
+        "giữ hạt",
+        "đặc điểm di truyền"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "chọn giống"
+      ]
+    },
+    {
+      "name": "chọn giống qua giữ hạt",
+      "state": "EXPLAINED",
+      "first_use": "phần 'Thuần hóa...'",
+      "label_familiarity": "medium",
+      "role_familiarity": "high after example",
+      "definition": "cho cây mong muốn nhiều cơ hội sinh sản hơn",
+      "dependencies": [],
+      "necessity": "required",
+      "confusable_with": [
+        "thuần hóa"
+      ]
+    },
+    {
+      "name": "genome",
+      "state": "EXPLAINED",
+      "first_use": "đoạn mở, giải thích đầy đủ ở phần genome",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "definition": "toàn bộ thông tin di truyền của cây",
+      "dependencies": [
+        "DNA/thông tin di truyền"
+      ],
+      "necessity": "required",
+      "confusable_with": []
+    },
+    {
+      "name": "mốc suy ra từ genome",
+      "state": "EXPLAINED",
+      "first_use": "phần genome",
+      "label_familiarity": "low",
+      "role_familiarity": "medium",
+      "definition": "ước tính từ khác biệt di truyền, không phải ngày hiện vật trực tiếp",
+      "dependencies": [
+        "genome",
+        "khoảng bất định"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "niên đại khảo cổ"
+      ]
+    },
+    {
+      "name": "niên đại khảo cổ",
+      "state": "KNOWN",
+      "first_use": "Zhuzhai",
+      "label_familiarity": "high",
+      "role_familiarity": "high",
+      "definition": "tuổi xấp xỉ của hiện vật/lớp khảo cổ",
+      "dependencies": [],
+      "necessity": "required",
+      "confusable_with": [
+        "mốc suy ra từ genome"
+      ]
+    },
+    {
+      "name": "hemp-type",
+      "state": "EXPLAINED",
+      "first_use": "đoạn mở, giải thích ở midpoint",
+      "label_familiarity": "medium",
+      "role_familiarity": "high after contrast",
+      "definition": "dòng được chọn chủ yếu cho thân/sợi",
+      "dependencies": [
+        "chọn giống"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "drug-type"
+      ]
+    },
+    {
+      "name": "drug-type",
+      "state": "EXPLAINED",
+      "first_use": "đoạn mở, giải thích ở midpoint",
+      "label_familiarity": "medium",
+      "role_familiarity": "high after contrast",
+      "definition": "dòng được chọn theo hướng hoa/nhựa và hợp chất tác động thần kinh",
+      "dependencies": [
+        "chọn giống",
+        "cannabinoid"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "hemp-type"
+      ]
+    },
+    {
+      "name": "Cannabis sativa",
+      "state": "KNOWN",
+      "first_use": "đoạn mở",
+      "label_familiarity": "medium",
+      "role_familiarity": "high",
+      "definition": "loài được bàn trong câu chuyện",
+      "dependencies": [],
+      "necessity": "required",
+      "confusable_with": []
+    },
+    {
+      "name": "cannabinoid",
+      "state": "EXPLAINED",
+      "first_use": "phần 'Hóa học...'",
+      "label_familiarity": "low",
+      "role_familiarity": "medium",
+      "definition": "nhóm hợp chất do Cannabis tạo ra",
+      "dependencies": [
+        "hợp chất hóa học"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "THC",
+        "CBN"
+      ]
+    },
+    {
+      "name": "THC",
+      "state": "KNOWN",
+      "first_use": "đoạn mở",
+      "label_familiarity": "high",
+      "role_familiarity": "medium",
+      "definition": "hợp chất chính gắn với tác dụng gây say",
+      "dependencies": [
+        "cannabinoid"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "CBN"
+      ]
+    },
+    {
+      "name": "CBN",
+      "state": "EXPLAINED",
+      "first_use": "Jirzankal",
+      "label_familiarity": "low",
+      "role_familiarity": "high after mechanism",
+      "definition": "sản phẩm có thể hình thành khi THC bị oxy hóa; dấu vết gián tiếp trong cặn cổ",
+      "dependencies": [
+        "THC",
+        "oxy hóa"
+      ],
+      "necessity": "required",
+      "confusable_with": [
+        "THC"
+      ]
+    },
+    {
+      "name": "phytolith",
+      "state": "EXPLAINED",
+      "first_use": "phần 'Trước marijuana...'",
+      "label_familiarity": "very_low",
+      "role_familiarity": "high after object explanation",
+      "definition": "hạt silica cực nhỏ hình thành trong mô cây và còn lại trong đất",
+      "dependencies": [
+        "silica"
+      ],
+      "necessity": "replaceable",
+      "confusable_with": []
+    },
+    {
+      "name": "oxy hóa",
+      "state": "KNOWN",
+      "first_use": "Jirzankal",
+      "label_familiarity": "medium",
+      "role_familiarity": "high in context",
+      "definition": "biến đổi hóa học theo thời gian/ánh sáng/nhiệt",
+      "dependencies": [],
+      "necessity": "supporting",
+      "confusable_with": []
+    },
+    {
+      "name": "hình thái hạt",
+      "state": "EXPLAINED",
+      "first_use": "Haimenkou",
+      "label_familiarity": "medium",
+      "role_familiarity": "high",
+      "definition": "so sánh kích thước/hình dạng hạt giữa các nhóm",
+      "dependencies": [],
+      "necessity": "supporting",
+      "confusable_with": []
+    },
+    {
+      "name": "quần thể",
+      "state": "KNOWN",
+      "first_use": "phần thuần hóa",
+      "label_familiarity": "high",
+      "role_familiarity": "high",
+      "definition": "một nhóm cây cùng loài trong lịch sử/địa điểm",
+      "dependencies": [],
+      "necessity": "supporting",
+      "confusable_with": []
+    },
+    {
+      "name": "mạng lưới trao đổi",
+      "state": "KNOWN",
+      "first_use": "phần di chuyển",
+      "label_familiarity": "high",
+      "role_familiarity": "high",
+      "definition": "các tuyến người và vật liệu di chuyển giữa vùng",
+      "dependencies": [],
+      "necessity": "supporting",
+      "confusable_with": []
+    },
+    {
+      "name": "gene pool tổ tiên",
+      "state": "REMOVED",
+      "first_use": null,
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "definition": "đã thay bằng nhóm di truyền cổ",
+      "dependencies": [],
+      "necessity": "replaceable",
+      "confusable_with": []
+    },
+    {
+      "name": "GC-MS/selection sweep/chemotype",
+      "state": "REMOVED",
+      "first_use": null,
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "definition": "không cần cho câu chuyện",
+      "dependencies": [],
+      "necessity": "removable",
+      "confusable_with": []
+    }
+  ],
+  "dependency_edges": [
+    [
+      "chọn giống qua giữ hạt",
+      "thuần hóa"
+    ],
+    [
+      "genome",
+      "mốc suy ra từ genome"
+    ],
+    [
+      "chọn giống qua giữ hạt",
+      "hemp-type"
+    ],
+    [
+      "chọn giống qua giữ hạt",
+      "drug-type"
+    ],
+    [
+      "cannabinoid",
+      "drug-type"
+    ],
+    [
+      "cannabinoid",
+      "THC"
+    ],
+    [
+      "THC",
+      "CBN"
+    ],
+    [
+      "oxy hóa",
+      "CBN"
+    ]
+  ],
+  "unresolved_dependencies": 0,
+  "confusable_pairs_unresolved": 0,
+  "new_concepts_discovered_after_stage_03": [
+    "hình thái hạt",
+    "mạng lưới trao đổi",
+    "oxy hóa"
+  ],
+  "closure_iterations": 2,
+  "status": "PASS"
+}
