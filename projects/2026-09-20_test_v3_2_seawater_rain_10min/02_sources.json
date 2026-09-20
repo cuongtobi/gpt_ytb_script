@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "NOAA Sea Water",
+      "url": "https://prod-01-alb-www-noaa.woc.noaa.gov/jetstream/ocean/sea-water"
+    },
+    {
+      "id": "S2",
+      "title": "USGS Why is the Ocean Salty?",
+      "url": "https://www.usgs.gov/water-science-school/science/why-ocean-salty"
+    },
+    {
+      "id": "S3",
+      "title": "USGS Hydrologic Cycle",
+      "url": "https://www.usgs.gov/centers/new-york-water-science-center/science/hydrologic-cycle"
+    },
+    {
+      "id": "S4",
+      "title": "USGS Oceans and Seas and the Water Cycle",
+      "url": "https://www.usgs.gov/water-science-school/science/oceans-and-seas-and-water-cycle"
+    }
+  ]
+}

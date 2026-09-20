@@ -1,0 +1,2844 @@
+{
+  "sentences_scanned": 87,
+  "sentence_ledger": [
+    {
+      "sentence_id": "S0001",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0002",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0003",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0004",
+      "forward_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D001",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0005",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002"
+      ]
+    },
+    {
+      "sentence_id": "S0006",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0007",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0008",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0009",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0010",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0011",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002"
+      ]
+    },
+    {
+      "sentence_id": "S0012",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0013",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0014",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0015",
+      "forward_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D001"
+      ]
+    },
+    {
+      "sentence_id": "S0016",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0017",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0018",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0019",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0020",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0021",
+      "forward_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D001",
+        "D003"
+      ]
+    },
+    {
+      "sentence_id": "S0022",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002"
+      ]
+    },
+    {
+      "sentence_id": "S0023",
+      "forward_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D004"
+      ]
+    },
+    {
+      "sentence_id": "S0024",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0025",
+      "forward_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D003",
+        "D004"
+      ]
+    },
+    {
+      "sentence_id": "S0026",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0027",
+      "forward_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D004"
+      ]
+    },
+    {
+      "sentence_id": "S0028",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0029",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D003"
+      ]
+    },
+    {
+      "sentence_id": "S0030",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D003"
+      ]
+    },
+    {
+      "sentence_id": "S0031",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0032",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0033",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D008",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0034",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0035",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0036",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0037",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [
+          "hơi nước"
+        ],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D003"
+      ]
+    },
+    {
+      "sentence_id": "S0038",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0039",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0040",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0041",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0042",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0043",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "phong hóa",
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D005",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0044",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0045",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0046",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0047",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [
+          "NOAA"
+        ],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [
+          "NOAA"
+        ],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D007"
+      ]
+    },
+    {
+      "sentence_id": "S0048",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0049",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0050",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0051",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0052",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0053",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0054",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0055",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0056",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0057",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0058",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D008"
+      ]
+    },
+    {
+      "sentence_id": "S0059",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [
+          "độ mặn"
+        ],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D008",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0060",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0061",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0062",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0063",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0064",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0065",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0066",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0068",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0069",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0070",
+      "forward_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D004"
+      ]
+    },
+    {
+      "sentence_id": "S0071",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0072",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan",
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0073",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0074",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0075",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0076",
+      "forward_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "khí quyển"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D004"
+      ]
+    },
+    {
+      "sentence_id": "S0077",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0078",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0079",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0080",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0081",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0082",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "hòa tan"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [
+          "chất hòa tan"
+        ],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D002",
+        "D006"
+      ]
+    },
+    {
+      "sentence_id": "S0083",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0084",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [
+          "bốc hơi"
+        ],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D009"
+      ]
+    },
+    {
+      "sentence_id": "S0085",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0086",
+      "forward_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [
+          "phân tử nước"
+        ],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": [
+        "D001"
+      ]
+    },
+    {
+      "sentence_id": "S0087",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "D001",
+      "exact_phrase": "phân tử nước",
+      "first_use_sentence_id": "S0004",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "technical_scientific"
+    },
+    {
+      "candidate_id": "D002",
+      "exact_phrase": "hòa tan",
+      "first_use_sentence_id": "S0005",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "abstract_processes"
+    },
+    {
+      "candidate_id": "D003",
+      "exact_phrase": "hơi nước",
+      "first_use_sentence_id": "S0021",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "classifications"
+    },
+    {
+      "candidate_id": "D004",
+      "exact_phrase": "khí quyển",
+      "first_use_sentence_id": "S0023",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "technical_scientific"
+    },
+    {
+      "candidate_id": "D005",
+      "exact_phrase": "phong hóa",
+      "first_use_sentence_id": "S0043",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "reverse",
+      "category": "specialized_common_words"
+    },
+    {
+      "candidate_id": "D006",
+      "exact_phrase": "chất hòa tan",
+      "first_use_sentence_id": "S0014",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "specialized_common_words"
+    },
+    {
+      "candidate_id": "D007",
+      "exact_phrase": "NOAA",
+      "first_use_sentence_id": "S0047",
+      "candidate_type": "INSTITUTION",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "acronyms_symbols"
+    },
+    {
+      "candidate_id": "D008",
+      "exact_phrase": "độ mặn",
+      "first_use_sentence_id": "S0033",
+      "candidate_type": "MEASUREMENT",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "measurements_quantities"
+    },
+    {
+      "candidate_id": "D009",
+      "exact_phrase": "bốc hơi",
+      "first_use_sentence_id": "S0004",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "knowledge-bearing phrase",
+      "discovered_by": "both",
+      "category": "abstract_processes"
+    }
+  ],
+  "coverage_proof": {
+    "missing_sentence_ids": [],
+    "extra_sentence_ids": [],
+    "duplicate_sentence_ids": [],
+    "coverage_ok": true
+  },
+  "status": "PASS"
+}
