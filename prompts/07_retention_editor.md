@@ -4,11 +4,16 @@
 
 Improve retention without fake suspense, duplicate reveals or knowledge regression.
 
-Read normal stage inputs plus:
-- CONTENT_ADDRESSING_PROTOCOL.md
-- FINAL_INTEGRITY_PROTOCOL.md
-
-Hash every actual input.
+Read:
+- 00_project_brief.yaml
+- 01_angle.md
+- 03_claim_map.json
+- 04_story_architecture.md
+- 06_knowledge_closure.json
+- 06_terminology_prune.json
+- 06_script_pruned.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 Stage 06 and 06B must PASS.
 
@@ -34,12 +39,43 @@ Build claim-occurrence records:
 - meaning
 - story_function: TEASE|EXPLAIN|EVIDENCE|COMPLICATE|PAYOFF|CALLBACK
 
-Same claim + same evidence + same meaning with no distinct story function = REDUNDANT_REVEAL.
+If the same claim + same evidence + same meaning repeats and the second occurrence has no distinct story function:
+flag REDUNDANT_REVEAL.
+
+Teases may hint, but should not fully spend a later reveal.
+
+Write:
+- 07_reveal_audit.json
+
+Required:
+- content_address
+- input_script_sha256
+- output_script_sha256
+- claim_occurrences
+- redundant_reveals
+- actions_taken
+- status
+
+PASS requires:
+redundant_reveals = 0
 
 ## Knowledge Delta
 
-Compare input/output for new knowledge.
-If unresolved, route back to stage 06/06B.
+Compare input/output for:
+- new_entities
+- new_aliases
+- new_components
+- new_concepts
+- new_contextual_roles
+- new_relations
+- new_dependencies
+
+If unresolved:
+route back to stage 06/06B.
+
+## Finding conservation
+
+Every reveal issue must have a stable finding ID and final disposition `RESOLVED` or `KEEP_WITH_REASON`; no finding may disappear silently.
 
 ## Outputs
 
@@ -48,11 +84,3 @@ Write:
 - 07_reveal_audit.json
 - 07_knowledge_delta.json
 - 07_script_retention_edit.md
-
-Both JSON audits include:
-- content_address
-- input_script_sha256
-- output_script_sha256
-
-07_reveal_audit.json includes finding IDs and dispositions for every reveal issue.
-No finding may disappear without RESOLVED or KEEP_WITH_REASON.
