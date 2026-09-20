@@ -1,0 +1,18 @@
+{
+  "claims_checked": 11,
+  "unsupported_claims": 0,
+  "certainty_overstatements": 0,
+  "unsupported_temporal_generalizations": 0,
+  "scope_overstatements": 0,
+  "actions_taken": [
+    {
+      "from": "THC ... chắc chắn đã được con người khai thác từ rất lâu",
+      "to": "Ít nhất khoảng 2.500 năm trước, chúng ta đã có bằng chứng trực tiếp..."
+    },
+    {
+      "from": "hàm lượng hợp chất gây say cao",
+      "to": "chứa nhiều chất gây say"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,95 @@
+{
+  "sentences_scanned": 191,
+  "candidates": [
+    {
+      "id": "L001",
+      "phrase": "cần sa",
+      "type": "CORE_ENTITY"
+    },
+    {
+      "id": "L002",
+      "phrase": "Cannabis sativa",
+      "type": "SCIENTIFIC_ALIAS"
+    },
+    {
+      "id": "L003",
+      "phrase": "THC",
+      "type": "CHEMICAL_COMPONENT"
+    },
+    {
+      "id": "L004",
+      "phrase": "Cannabis",
+      "type": "ALIAS"
+    },
+    {
+      "id": "L005",
+      "phrase": "thuần hóa",
+      "type": "PROCESS"
+    },
+    {
+      "id": "L006",
+      "phrase": "thời đồ đá mới",
+      "type": "HISTORICAL_CLASSIFICATION"
+    },
+    {
+      "id": "L007",
+      "phrase": "di truyền",
+      "type": "SPECIALIZED_COMMON_WORD"
+    },
+    {
+      "id": "L008",
+      "phrase": "genome",
+      "type": "GENETICS_TERM"
+    },
+    {
+      "id": "L009",
+      "phrase": "mô hình",
+      "type": "ABSTRACT_METHOD_TERM"
+    },
+    {
+      "id": "L010",
+      "phrase": "khoảng bất định",
+      "type": "MEASUREMENT_UNCERTAINTY"
+    },
+    {
+      "id": "L011",
+      "phrase": "phytolith",
+      "type": "ARCHAEOLOGICAL_EVIDENCE_TERM"
+    },
+    {
+      "id": "L012",
+      "phrase": "hemp",
+      "type": "FUNCTIONAL_CLASSIFICATION"
+    },
+    {
+      "id": "L013",
+      "phrase": "cannabinoid",
+      "type": "CHEMICAL_CLASS"
+    },
+    {
+      "id": "L014",
+      "phrase": "CBN",
+      "type": "CHEMICAL_COMPONENT"
+    },
+    {
+      "id": "L015",
+      "phrase": "hàm lượng",
+      "type": "MEASUREMENT_ROLE"
+    },
+    {
+      "id": "L016",
+      "phrase": "nền kinh tế cây trồng",
+      "type": "ABSTRACT_ACADEMIC_PHRASE"
+    },
+    {
+      "id": "L017",
+      "phrase": "được định tuổi",
+      "type": "EVIDENCE_METHOD_ROLE"
+    },
+    {
+      "id": "L018",
+      "phrase": "Cannabis repeated alias",
+      "type": "ALIAS_REUSE"
+    }
+  ]
+}

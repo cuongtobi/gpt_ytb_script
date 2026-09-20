@@ -1,0 +1,69 @@
+{
+  "claim_candidates": [
+    {
+      "id": "FC01",
+      "claim": "cannabis is multi-use",
+      "scope": "general historical"
+    },
+    {
+      "id": "FC02",
+      "claim": "2021 comparison of 110 samples supports East Asian domestication history",
+      "scope": "study/model"
+    },
+    {
+      "id": "FC03",
+      "claim": "important estimate around 12,000 years with wide range",
+      "certainty": "estimate"
+    },
+    {
+      "id": "FC04",
+      "claim": "Zhuzhai seed consistent with early cultivation, not proof",
+      "certainty": "qualified"
+    },
+    {
+      "id": "FC05",
+      "claim": "Japan evidence broadens East Asian story, not proof of independent domestication",
+      "certainty": "qualified"
+    },
+    {
+      "id": "FC06",
+      "claim": "Shandong mineral remains show local agricultural integration",
+      "scope": "local"
+    },
+    {
+      "id": "FC07",
+      "claim": "specialization stronger around 4,000 years",
+      "certainty": "study indicates"
+    },
+    {
+      "id": "FC08",
+      "claim": "Haimenkou >800 grains support diversification interpretation",
+      "certainty": "interpretive"
+    },
+    {
+      "id": "FC09",
+      "claim": "Yanghai burial context",
+      "certainty": "contextual"
+    },
+    {
+      "id": "FC10",
+      "claim": "Jirzankal around 2,500 years provides direct chemical evidence of burning material with stronger psychoactive chemistry",
+      "certainty": "supported with caveat"
+    },
+    {
+      "id": "FC11",
+      "claim": "Eurasian spread is complex",
+      "certainty": "synthesis"
+    }
+  ],
+  "certainty_candidates": [
+    "one of the earliest direct evidence formulations"
+  ],
+  "temporal_generalization_candidates": [],
+  "scope_candidates": [
+    "East Asia model claim",
+    "Shandong local claim",
+    "Japan qualified claim"
+  ],
+  "status": "EXTRACTED_FOR_RECONCILIATION"
+}

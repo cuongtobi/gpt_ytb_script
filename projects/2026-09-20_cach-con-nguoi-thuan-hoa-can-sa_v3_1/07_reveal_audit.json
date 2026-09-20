@@ -1,0 +1,24 @@
+{
+  "claim_occurrences": [
+    {
+      "claim": "C003 ~12,000-year estimate",
+      "opening_before": "EXPLAIN+EVIDENCE",
+      "later_before": "EXPLAIN+EVIDENCE",
+      "action": "opening reduced to TEASE",
+      "final_functions": [
+        "TEASE",
+        "EXPLAIN+EVIDENCE"
+      ]
+    },
+    {
+      "claim": "C010 ~2,500-year ritual evidence",
+      "main_section": "EVIDENCE",
+      "ending": "CALLBACK with same bounded time scope"
+    }
+  ],
+  "redundant_reveals": 0,
+  "actions_taken": [
+    "removed duplicate 12,000-year explanation from opening"
+  ],
+  "status": "PASS"
+}
