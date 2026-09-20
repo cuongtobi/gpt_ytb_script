@@ -1,0 +1,23 @@
+{
+  "core_entities": [
+    {
+      "audience_name": "ngô",
+      "what_it_is": "domesticated crop descended from teosinte"
+    },
+    {
+      "audience_name": "teosinte",
+      "what_it_is": "wild grass group closely related to maize"
+    }
+  ],
+  "entity_label_policy": {
+    "primary_spoken_labels": [
+      "ngô",
+      "teosinte"
+    ],
+    "scientific_alias_policy": "REMOVE unless precision is required",
+    "removed_aliases": [
+      "Zea mays ssp. parviglumis"
+    ]
+  },
+  "status": "PASS"
+}

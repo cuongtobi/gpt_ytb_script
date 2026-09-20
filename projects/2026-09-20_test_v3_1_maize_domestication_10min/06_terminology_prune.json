@@ -1,0 +1,14 @@
+{
+  "removed": [
+    "Zea mays ssp. parviglumis",
+    "tb1",
+    "tga1",
+    "gene"
+  ],
+  "kept": [
+    "teosinte"
+  ],
+  "unnecessary_labels": 0,
+  "alias_overload": 0,
+  "status": "PASS"
+}

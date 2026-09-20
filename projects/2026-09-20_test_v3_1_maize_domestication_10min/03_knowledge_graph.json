@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "label": "teosinte",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "thuần hóa",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "dữ liệu di truyền",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "Zea mays ssp. parviglumis",
+      "state": "REMOVED"
+    },
+    {
+      "label": "tb1",
+      "state": "REMOVED"
+    },
+    {
+      "label": "tga1",
+      "state": "REMOVED"
+    },
+    {
+      "label": "gene",
+      "state": "REMOVED"
+    }
+  ],
+  "status": "PASS"
+}
