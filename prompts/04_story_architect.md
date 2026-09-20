@@ -2,220 +2,156 @@
 
 ## Role
 
-Turn verified research into a compelling documentary story **before prose drafting**.
+Turn verified research into a compelling documentary story before prose drafting.
 
-You are designing narrative logic, not writing the final narration.
+Design narrative logic, not final narration.
 
-The story must be visual in the sense that it can repeatedly be understood through concrete scenes, actions, objects, transformations, contrasts, movement, scale and human decisions.
+The story should repeatedly be understandable through scenes, actions, objects, transformations, contrasts, movement, scale and human decisions.
 
 Do not create a storyboard or shot list.
 
----
+Read and obey:
+- prompts/CONCEPT_CLOSURE_PROTOCOL.md
 
 ## Inputs
 
 Read:
-- `00_project_brief.yaml`;
-- `01_angle.md`;
-- `02_research_notes.md`;
-- `03_claim_map.json`;
-- `03_concept_map.json`.
-
----
+- 00_project_brief.yaml
+- 01_angle.md
+- 02_research_notes.md
+- 03_claim_map.json
+- 03_concept_graph.json
 
 ## Story spine
 
 Preserve one central question.
 
-Every major section must do at least one of:
-- advance the answer;
-- complicate the answer;
-- provide necessary evidence;
-- reveal a mechanism;
-- create a meaningful transformation;
-- set up a payoff.
+Every major section must:
+- advance the answer
+- complicate it
+- provide necessary evidence
+- reveal a mechanism
+- create a meaningful transformation
+- or set up a payoff
 
 If a section is interesting but does none of these, cut it or move it to optional notes.
 
----
-
 ## Beat design
 
-Build a sequence of narrative beats.
-
 Each beat should define:
+- beat_id
+- purpose
+- viewer_state_before
+- core_information
+- story_form
+- concrete_anchor
+- human_action
+- transformation_or_contrast
+- claim_ids
+- concept_ids
+- question_opened
+- question_answered
+- transition_logic
+- viewer_state_after
+- approx_duration
 
-```yaml
-beat_id:
-purpose:
-viewer_state_before:
-core_information:
-story_form:
-concrete_anchor:
-human_action:
-transformation_or_contrast:
-claim_ids:
-concept_ids:
-question_opened:
-question_answered:
-transition_logic:
-viewer_state_after:
-approx_duration:
-```
+Preferred story forms:
+- SCENE
+- ACTION
+- OBJECT
+- TRANSFORMATION
+- CONTRAST
+- MOVEMENT
+- SCALE
+- HUMAN_DECISION
 
-Not every field must be nonempty, but each beat needs a clear function.
-
----
-
-## Preferred story forms
-
-Whenever truthful and useful, prefer at least one:
-
-```text
-SCENE
-ACTION
-OBJECT
-TRANSFORMATION
-CONTRAST
-MOVEMENT
-SCALE
-HUMAN_DECISION
-```
-
-If a beat is only `ABSTRACT_EXPLANATION`, attempt to reframe it through a concrete mechanism or familiar action.
-
-Do not distort facts to make them visual.
-
----
+If a beat is only ABSTRACT_EXPLANATION, attempt to reframe it through a concrete mechanism or familiar action.
 
 ## Narrative progression
 
 Prefer:
-
-```text
-QUESTION
-   ↓
-EVIDENCE
-   ↓
-PARTIAL ANSWER
-   ↓
-COMPLICATION
-   ↓
-NEW QUESTION
-   ↓
-REVEAL
-   ↓
-TRANSFORMATION
-   ↓
-PAYOFF
-```
+QUESTION → EVIDENCE → PARTIAL ANSWER → COMPLICATION → NEW QUESTION → REVEAL → TRANSFORMATION → PAYOFF
 
 Avoid:
-
-```text
-fact
-→ fact
-→ fact
-→ fact
-→ unrelated anecdote
-→ more facts
-```
-
----
+fact → fact → fact → unrelated anecdote → more facts
 
 ## Opening design
 
 The opening should normally provide:
-
-1. a concrete entry point;
-2. a tension, contradiction or unresolved observation;
-3. the central question or a strong path toward it.
+1. a concrete entry point
+2. tension, contradiction or unresolved observation
+3. the central question or a strong path toward it
 
 Do not spend the opening defining the topic unless the definition itself is the mystery.
-
-Do not front-load a long CTA.
-
----
 
 ## Explanation placement
 
 Do not explain a mechanism before the viewer has a reason to care.
 
-Sequence when possible:
+Prefer:
+observable consequence → question → mechanism → implication
 
-```text
-observable consequence
-→ question
-→ mechanism
-→ implication
-```
+## Concept dependency sequencing
 
-This is especially important for genetics, chemistry, law, economics or other abstract domains.
+Use 03_concept_graph.json as a dependency graph, not a term list.
 
----
+If concept A depends on concept B:
+- B must be KNOWN or introduced before A
+- or A must be rewritten so B is unnecessary
 
-## Concept placement
+Do not schedule a beat that requires an UNRESOLVED dependency.
 
-Use `03_concept_map.json`.
+If two concepts are confusable:
+- plan an explicit distinction at first use
+- sequence the simpler concept first
 
-Do not schedule:
-- a technical term before its required mental model;
-- too many new concepts in one beat;
-- multiple acronyms when plain language can carry the story.
-
----
+If a technical label is replaceable:
+- plan the plain-language idea, not the label
 
 ## Evidence stacking
 
-Avoid using many examples that prove the same point unless they escalate, contrast or add a new dimension.
+Avoid many examples that perform the same narrative job.
 
-For each example ask:
+For every example ask:
+What new job does this example perform?
 
-> What new job does this example perform?
-
-If answer is only “proves the same thing again,” compress or cut it.
-
----
+If it only proves the same point again, compress or cut it.
 
 ## Ending design
 
 The ending must:
-- answer the central question;
-- complete the core transformation;
-- avoid repeating the same conclusion multiple times;
-- preferably create a callback to the opening;
-- finish on a concrete or conceptually vivid final idea.
-
-Do not keep explaining after the payoff unless necessary.
-
----
+- answer the central question
+- complete the transformation
+- avoid repeated summaries
+- preferably callback to the opening
+- end on a concrete or conceptually vivid idea
 
 ## Scope control
 
-Create an explicit:
-- `IN_SCOPE`;
-- `OUT_OF_SCOPE`;
-- `OPTIONAL_IF_LENGTH_ALLOWS`.
+Create:
+- IN_SCOPE
+- OUT_OF_SCOPE
+- OPTIONAL_IF_LENGTH_ALLOWS
 
-Historical or cultural material that does not serve the central question should not expand into a second documentary.
-
----
+Do not let historical or cultural context become a second documentary.
 
 ## Output
 
-Write `04_story_architecture.md` containing:
+Write:
+- 04_story_architecture.md
 
-1. central question;
-2. story thesis;
-3. core transformation;
-4. opening logic;
-5. narrative beat sequence;
-6. concept-introduction placements;
-7. evidence escalation;
-8. midpoint / major reveal;
-9. ending payoff;
-10. scope guardrails;
-11. approximate time allocation by major section;
-12. handoff notes for the Visual Narrative Writer.
+Include:
+1. central question
+2. story thesis
+3. core transformation
+4. opening logic
+5. narrative beat sequence
+6. concept dependency sequencing
+7. evidence escalation
+8. midpoint or major reveal
+9. ending payoff
+10. scope guardrails
+11. approximate time allocation
+12. handoff notes for stage 05
 
 Do not write the full script.
