@@ -1,0 +1,468 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim": "Chó là động vật được thuần hoá sớm nhất được biết đến và quá trình này có trước nông nghiệp.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S004"
+      ],
+      "evidence_ids": [
+        "E001",
+        "E010"
+      ],
+      "safe_wording": "Chó là động vật được thuần hoá sớm nhất được biết đến và quá trình này có trước nông nghiệp.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "strong",
+      "forbidden_strengthening": [
+        "duy nhất nếu nguồn không nói vậy"
+      ],
+      "time_scope": "Late Pleistocene to early Holocene",
+      "geographic_scope": "Eurasia/global lineage",
+      "population_scope": "domestic dogs",
+      "preferred_temporal_wording": "Late Pleistocene to early Holocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C002",
+      "claim": "Chó có nguồn gốc từ sói xám, nhưng địa điểm và cơ chế chính xác của quá trình thuần hoá vẫn chưa được xác định.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S003"
+      ],
+      "evidence_ids": [
+        "E002",
+        "E006"
+      ],
+      "safe_wording": "Chó có nguồn gốc từ sói xám, nhưng địa điểm và cơ chế chính xác của quá trình thuần hoá vẫn chưa được xác định.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Pleistocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "dog and wolf lineages",
+      "preferred_temporal_wording": "Late Pleistocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C003",
+      "claim": "Genome chó Palaeolithic công bố năm 2026 xác nhận chó ở Pınarbaşı ~15,800 năm, Gough’s Cave ~14,300 năm và Kesslerloch ~14,200 năm.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "evidence_ids": [
+        "E003",
+        "E004"
+      ],
+      "safe_wording": "Genome chó Palaeolithic công bố năm 2026 xác nhận chó ở Pınarbaşı ~15,800 năm, Gough’s Cave ~14,300 năm và Kesslerloch ~14,200 năm.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "strong",
+      "forbidden_strengthening": [
+        "duy nhất nếu nguồn không nói vậy"
+      ],
+      "time_scope": "15,800–14,200 years ago",
+      "geographic_scope": "Western Eurasia",
+      "population_scope": "sampled ancient dogs",
+      "preferred_temporal_wording": "15,800–14,200 years ago",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C004",
+      "claim": "Các chó Palaeolithic ở Tây Á–Âu có mức tương đồng di truyền cao và xuất hiện cùng các nhóm người khác nhau, phù hợp với việc chó được trao đổi hoặc lan truyền giữa cộng đồng.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S002"
+      ],
+      "evidence_ids": [
+        "E005"
+      ],
+      "safe_wording": "Các chó Palaeolithic ở Tây Á–Âu có mức tương đồng di truyền cao và xuất hiện cùng các nhóm người khác nhau, phù hợp với việc chó được trao đổi hoặc lan truyền giữa cộng đồng.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Upper Palaeolithic",
+      "geographic_scope": "Western Eurasia",
+      "population_scope": "sampled dog and human contexts",
+      "preferred_temporal_wording": "Late Upper Palaeolithic",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C005",
+      "claim": "Đến khoảng 11,000 năm trước, ít nhất năm dòng tổ tiên chó lớn đã tồn tại.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S004"
+      ],
+      "evidence_ids": [
+        "E007"
+      ],
+      "safe_wording": "Đến khoảng 11,000 năm trước, ít nhất năm dòng tổ tiên chó lớn đã tồn tại.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "strong",
+      "forbidden_strengthening": [
+        "duy nhất nếu nguồn không nói vậy"
+      ],
+      "time_scope": "~11,000 years ago",
+      "geographic_scope": "Eurasia/global sampled dogs",
+      "population_scope": "ancient dog lineages",
+      "preferred_temporal_wording": "~11,000 years ago",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C006",
+      "claim": "Dữ liệu sói cổ cho thấy chó có ái lực mạnh hơn với các sói cổ phía đông Á–Âu, đồng thời có dấu hiệu đóng góp từ ít nhất hai nguồn sói khác biệt.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S003"
+      ],
+      "evidence_ids": [
+        "E008"
+      ],
+      "safe_wording": "Dữ liệu sói cổ cho thấy chó có ái lực mạnh hơn với các sói cổ phía đông Á–Âu, đồng thời có dấu hiệu đóng góp từ ít nhất hai nguồn sói khác biệt.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Pleistocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "ancient wolves and dog ancestry",
+      "preferred_temporal_wording": "Late Pleistocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C007",
+      "claim": "Không có bộ genome sói cổ được lấy mẫu nào khớp trực tiếp với toàn bộ nguồn tổ tiên của chó; quần thể tổ tiên chính xác có thể chưa được lấy mẫu hoặc đã biến đổi.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S003"
+      ],
+      "evidence_ids": [
+        "E009"
+      ],
+      "safe_wording": "Không có bộ genome sói cổ được lấy mẫu nào khớp trực tiếp với toàn bộ nguồn tổ tiên của chó; quần thể tổ tiên chính xác có thể chưa được lấy mẫu hoặc đã biến đổi.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Pleistocene",
+      "geographic_scope": "sampled Eurasia/North America",
+      "population_scope": "ancient wolves and dog ancestry",
+      "preferred_temporal_wording": "Late Pleistocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C008",
+      "claim": "Chó Bonn-Oberkassel khoảng 14,200 năm tuổi được chôn với người; phân tích bệnh lý gợi ý con non đã sống qua một đợt bệnh nặng nhờ chăm sóc kéo dài.",
+      "importance": "material",
+      "confidence": "medium-high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S005"
+      ],
+      "evidence_ids": [
+        "E011"
+      ],
+      "safe_wording": "Chó Bonn-Oberkassel khoảng 14,200 năm tuổi được chôn với người; phân tích bệnh lý gợi ý con non đã sống qua một đợt bệnh nặng nhờ chăm sóc kéo dài.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "~14,223 years ago",
+      "geographic_scope": "Bonn-Oberkassel, Germany",
+      "population_scope": "one archaeological dog",
+      "preferred_temporal_wording": "~14,223 years ago",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C009",
+      "claim": "Quá trình thuần hoá phải bắt đầu trước các chó đã phân hoá được xác nhận khoảng 14,200–15,800 năm trước, nhưng bao lâu trước đó vẫn chưa rõ.",
+      "importance": "material",
+      "confidence": "medium-high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "evidence_ids": [
+        "E012"
+      ],
+      "safe_wording": "Quá trình thuần hoá phải bắt đầu trước các chó đã phân hoá được xác nhận khoảng 14,200–15,800 năm trước, nhưng bao lâu trước đó vẫn chưa rõ.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "before 14,200–15,800 years ago",
+      "geographic_scope": "unknown origin; Western Eurasian evidence",
+      "population_scope": "dog lineage",
+      "preferred_temporal_wording": "before 14,200–15,800 years ago",
+      "forbidden_temporal_shortcuts": [
+        "từ xa xưa",
+        "từ thuở ban đầu"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "claim": "Cơ chế xã hội ban đầu—tự hội sinh quanh trại, con người nuôi sói non, hay kết hợp nhiều con đường—vẫn là vấn đề tranh luận.",
+      "importance": "material",
+      "confidence": "medium",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S009"
+      ],
+      "evidence_ids": [
+        "E013"
+      ],
+      "safe_wording": "Cơ chế xã hội ban đầu—tự hội sinh quanh trại, con người nuôi sói non, hay kết hợp nhiều con đường—vẫn là vấn đề tranh luận.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Pleistocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "hypotheses about wolf-human interaction",
+      "preferred_temporal_wording": "Late Pleistocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C011",
+      "claim": "Chọn lọc đối với khả năng sống gần người là một cơ chế tiến hoá hợp lý cho giai đoạn đầu, nhưng không chứng minh một kịch bản lịch sử duy nhất.",
+      "importance": "material",
+      "confidence": "medium",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S009"
+      ],
+      "evidence_ids": [
+        "E014"
+      ],
+      "safe_wording": "Chọn lọc đối với khả năng sống gần người là một cơ chế tiến hoá hợp lý cho giai đoạn đầu, nhưng không chứng minh một kịch bản lịch sử duy nhất.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Late Pleistocene conceptual model",
+      "geographic_scope": "general",
+      "population_scope": "domestication mechanism hypothesis",
+      "preferred_temporal_wording": "Late Pleistocene conceptual model",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C012",
+      "claim": "Ở chó và người hiện đại, giao tiếp bằng ánh nhìn có liên quan đến một vòng phản hồi oxytocin; điều này không trực tiếp chứng minh nguyên nhân thuần hoá Palaeolithic.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S008"
+      ],
+      "evidence_ids": [
+        "E015"
+      ],
+      "safe_wording": "Ở chó và người hiện đại, giao tiếp bằng ánh nhìn có liên quan đến một vòng phản hồi oxytocin; điều này không trực tiếp chứng minh nguyên nhân thuần hoá Palaeolithic.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "modern experimental context",
+      "geographic_scope": "Japan study population",
+      "population_scope": "modern dogs and owners",
+      "preferred_temporal_wording": "modern experimental context",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C013",
+      "claim": "Chó hiện đại có dấu hiệu chọn lọc ở các gene liên quan đến tiêu hoá tinh bột, còn dữ liệu chó cổ cho thấy mức tăng bản sao AMY2B không đồng nhất và phát triển theo thời gian.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S006",
+        "S007"
+      ],
+      "evidence_ids": [
+        "E016",
+        "E017"
+      ],
+      "safe_wording": "Chó hiện đại có dấu hiệu chọn lọc ở các gene liên quan đến tiêu hoá tinh bột, còn dữ liệu chó cổ cho thấy mức tăng bản sao AMY2B không đồng nhất và phát triển theo thời gian.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "domestication through agricultural periods",
+      "geographic_scope": "Europe/modern comparative samples",
+      "population_scope": "dogs",
+      "preferred_temporal_wording": "domestication through agricultural periods",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C014",
+      "claim": "Thuần hoá chó có trước nông nghiệp, nhưng chế độ ăn và thích nghi di truyền tiếp tục thay đổi sau khi xã hội nông nghiệp lan rộng.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S006",
+        "S007"
+      ],
+      "evidence_ids": [
+        "E001",
+        "E016",
+        "E017"
+      ],
+      "safe_wording": "Thuần hoá chó có trước nông nghiệp, nhưng chế độ ăn và thích nghi di truyền tiếp tục thay đổi sau khi xã hội nông nghiệp lan rộng.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Palaeolithic through Neolithic",
+      "geographic_scope": "Eurasia",
+      "population_scope": "dogs",
+      "preferred_temporal_wording": "Palaeolithic through Neolithic",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C015",
+      "claim": "Lịch sử chó đôi khi song song với lịch sử di chuyển của con người, nhưng chó cũng có thể lan hoặc được trao đổi giữa các nhóm người khác biệt.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S002",
+        "S004"
+      ],
+      "evidence_ids": [
+        "E005",
+        "E018"
+      ],
+      "safe_wording": "Lịch sử chó đôi khi song song với lịch sử di chuyển của con người, nhưng chó cũng có thể lan hoặc được trao đổi giữa các nhóm người khác biệt.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Palaeolithic-Holocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "sampled human and dog populations",
+      "preferred_temporal_wording": "Palaeolithic-Holocene",
+      "forbidden_temporal_shortcuts": []
+    },
+    {
+      "claim_id": "C016",
+      "claim": "Tổ tiên chó phía đông và phía tây Á–Âu đã trộn lẫn trong các quần thể châu Âu về sau.",
+      "importance": "material",
+      "confidence": "high",
+      "support_type": "primary_or_review",
+      "source_ids": [
+        "S001",
+        "S002",
+        "S003"
+      ],
+      "evidence_ids": [
+        "E019",
+        "E008"
+      ],
+      "safe_wording": "Tổ tiên chó phía đông và phía tây Á–Âu đã trộn lẫn trong các quần thể châu Âu về sau.",
+      "unsafe_wording": "Tránh biến suy luận thành chắc chắn tuyệt đối hoặc gán một địa điểm duy nhất nếu dữ liệu không hỗ trợ.",
+      "caveats": "Giữ đúng phạm vi mẫu, niên đại và mức độ chắc chắn của nguồn.",
+      "story_function": "EVIDENCE",
+      "allowed_certainty": "qualified",
+      "forbidden_strengthening": [
+        "chắc chắn",
+        "duy nhất",
+        "đã được chứng minh hoàn toàn"
+      ],
+      "time_scope": "Mesolithic-Neolithic and later",
+      "geographic_scope": "Europe/Eurasia",
+      "population_scope": "ancient dog populations",
+      "preferred_temporal_wording": "Mesolithic-Neolithic and later",
+      "forbidden_temporal_shortcuts": []
+    }
+  ],
+  "status": "PASS"
+}

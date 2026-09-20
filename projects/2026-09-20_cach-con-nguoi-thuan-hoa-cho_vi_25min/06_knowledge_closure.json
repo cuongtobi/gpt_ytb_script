@@ -1,0 +1,222 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "03_core_subject.json",
+        "sha256": "6f393c98c347985d95b6da96dbd17add4c5ae2bf1c0fa2965256fcbc3333f8ca"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      },
+      {
+        "path": "03_knowledge_graph.json",
+        "sha256": "2375401c28f769ace7c21616142257d249c2dcb94d0fe185a07ba72cf2c98dea"
+      },
+      {
+        "path": "04_story_architecture.md",
+        "sha256": "ae1c2bab72f24a53fc6d5c935cca59fe57a864030324252e6929ea8cde1b24a7"
+      },
+      {
+        "path": "05_script_draft.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      },
+      {
+        "path": "05_draft_sentence_index.json",
+        "sha256": "11c13873d1afc6c81cc655384ea8fd951e6c3fe561263ba441c6ab65d68693fc"
+      },
+      {
+        "path": "05_lexical_knowledge_sweep.json",
+        "sha256": "0fa1ef277dba4280d9c6ed84b7a2c22c42086ad61c8726f251de49477cdeaea0"
+      },
+      {
+        "path": "05_blind_knowledge_inventory.json",
+        "sha256": "5236481ff226ead9952551daae456027d2d61ebc50c8f20e44e4472ac4da6a30"
+      }
+    ],
+    "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+    "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "core_entities_ungrounded": 0,
+  "unmapped_aliases": 0,
+  "missing_discovered_nodes": 0,
+  "unresolved_concepts": 0,
+  "unresolved_dependencies": 0,
+  "unresolved_relations": 0,
+  "temporal_first_use_failures": 0,
+  "confusable_pairs_unresolved": 0,
+  "silently_ignored_candidates": 0,
+  "invalid_baseline_provenance": 0,
+  "discovery_coverage_proof": {
+    "coverage_ok": true
+  },
+  "candidate_disposition_crosswalk": {
+    "KCAN001": {
+      "status": "BASELINE_KNOWN",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thuần hoá"
+      }
+    },
+    "KCAN002": {
+      "status": "BASELINE_KNOWN",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "DNA"
+      }
+    },
+    "KCAN003": {
+      "status": "BASELINE_KNOWN",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "Kỷ Băng hà"
+      }
+    },
+    "KCAN004": {
+      "status": "BASELINE_KNOWN",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thời Đồ đá cũ"
+      }
+    },
+    "KCAN005": {
+      "status": "GROUNDED",
+      "grounding_sentence_id": "S0043"
+    },
+    "KCAN006": {
+      "status": "GROUNDED",
+      "grounding_sentence_id": "S0071"
+    },
+    "KCAN007": {
+      "status": "GROUNDED",
+      "grounding_sentence_id": "S0104"
+    }
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "KCAN001",
+      "KCAN002",
+      "KCAN003",
+      "KCAN004",
+      "KCAN005",
+      "KCAN006",
+      "KCAN007"
+    ],
+    "dispositions": {
+      "KCAN001": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "thuần hoá"
+        }
+      },
+      "KCAN002": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "DNA"
+        }
+      },
+      "KCAN003": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "Kỷ Băng hà"
+        }
+      },
+      "KCAN004": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "thời Đồ đá cũ"
+        }
+      },
+      "KCAN005": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0043"
+      },
+      "KCAN006": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0071"
+      },
+      "KCAN007": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0104"
+      }
+    },
+    "equation_valid": true,
+    "missing_candidate_ids": [],
+    "duplicate_disposition_ids": []
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "KCAN001",
+      "first_use_sentence_id": "S0005",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thuần hoá"
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN002",
+      "first_use_sentence_id": "S0012",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "DNA"
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN003",
+      "first_use_sentence_id": "S0014",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "Kỷ Băng hà"
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN004",
+      "first_use_sentence_id": "S0064",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thời Đồ đá cũ"
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN005",
+      "first_use_sentence_id": "S0043",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0043",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN006",
+      "first_use_sentence_id": "S0071",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0071",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "KCAN007",
+      "first_use_sentence_id": "S0104",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0104",
+      "ordering_valid": true
+    }
+  ],
+  "status": "PASS"
+}

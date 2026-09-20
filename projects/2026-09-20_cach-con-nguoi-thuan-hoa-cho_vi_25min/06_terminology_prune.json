@@ -1,0 +1,105 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "03_core_subject.json",
+        "sha256": "6f393c98c347985d95b6da96dbd17add4c5ae2bf1c0fa2965256fcbc3333f8ca"
+      },
+      {
+        "path": "03_knowledge_graph.json",
+        "sha256": "2375401c28f769ace7c21616142257d249c2dcb94d0fe185a07ba72cf2c98dea"
+      },
+      {
+        "path": "06_knowledge_closure.json",
+        "sha256": "93064e1916c336a5da7f712bf9e9bb493d300c090663ea76267bfe69ec417545"
+      },
+      {
+        "path": "06_script_accessible.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      }
+    ],
+    "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+    "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "labels_audited": [
+    {
+      "label": "genome",
+      "needed_for_later_reasoning": true,
+      "reuse_count": 4,
+      "precision_gain": "high",
+      "story_value": "high",
+      "replacement_available": true,
+      "context_scope": "genetic evidence",
+      "action": "KEEP",
+      "replacement_text_if_any": ""
+    },
+    {
+      "label": "hội sinh",
+      "needed_for_later_reasoning": false,
+      "reuse_count": 1,
+      "precision_gain": "medium",
+      "story_value": "medium",
+      "replacement_available": true,
+      "context_scope": "hypothesis only",
+      "action": "KEEP_ONCE",
+      "replacement_text_if_any": ""
+    },
+    {
+      "label": "oxytocin",
+      "needed_for_later_reasoning": false,
+      "reuse_count": 2,
+      "precision_gain": "medium",
+      "story_value": "medium",
+      "replacement_available": true,
+      "context_scope": "modern experiment only",
+      "action": "KEEP_ONCE",
+      "replacement_text_if_any": ""
+    }
+  ],
+  "kept": [
+    "genome"
+  ],
+  "kept_once": [
+    "hội sinh",
+    "oxytocin"
+  ],
+  "replaced": [],
+  "removed": [],
+  "unnecessary_labels": 0,
+  "alias_overload": 0,
+  "entity_label_policy_after_prune": {
+    "domestic dog": {
+      "primary_spoken_label": "chó",
+      "scientific_alias_policy": "avoid unless needed",
+      "allowed_reuse_aliases": [
+        "chó"
+      ],
+      "discouraged_reuse_aliases": [
+        "chó nhà"
+      ],
+      "removed_aliases": [
+        "Canis lupus familiaris"
+      ]
+    },
+    "grey wolf": {
+      "primary_spoken_label": "sói",
+      "scientific_alias_policy": "plain Vietnamese",
+      "allowed_reuse_aliases": [
+        "sói",
+        "sói xám"
+      ],
+      "discouraged_reuse_aliases": [],
+      "removed_aliases": [
+        "Canis lupus"
+      ]
+    }
+  },
+  "status": "PASS"
+}

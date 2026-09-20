@@ -1,0 +1,220 @@
+{
+  "audience_baseline": {
+    "language": "vi",
+    "audience": "general",
+    "technical_level": "general",
+    "assumed_known": [
+      "chó",
+      "sói",
+      "sói xám",
+      "DNA",
+      "gene",
+      "thuần hoá",
+      "Kỷ Băng hà",
+      "thời Đồ đá cũ",
+      "nông nghiệp"
+    ],
+    "normal_language_primitives": [
+      "ăn",
+      "sống",
+      "sinh sản",
+      "di chuyển",
+      "bệnh",
+      "chăm sóc",
+      "họ hàng",
+      "tổ tiên",
+      "khác nhau",
+      "giống nhau"
+    ],
+    "never_auto_known_categories": [
+      "scientific species names",
+      "acronyms",
+      "specialist genetics terms",
+      "specialist archaeological methods",
+      "biochemical terms"
+    ]
+  },
+  "entity_label_policy": {
+    "domestic dog": {
+      "primary_spoken_label": "chó",
+      "scientific_alias_policy": "avoid unless needed",
+      "allowed_reuse_aliases": [
+        "chó"
+      ],
+      "discouraged_reuse_aliases": [
+        "chó nhà"
+      ],
+      "removed_aliases": [
+        "Canis lupus familiaris"
+      ]
+    },
+    "grey wolf": {
+      "primary_spoken_label": "sói",
+      "scientific_alias_policy": "plain Vietnamese",
+      "allowed_reuse_aliases": [
+        "sói",
+        "sói xám"
+      ],
+      "discouraged_reuse_aliases": [],
+      "removed_aliases": [
+        "Canis lupus"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "knowledge_id": "K001",
+      "label": "thuần hoá",
+      "type": "PROCESS",
+      "canonical_entity": "domestication",
+      "state": "BASELINE_KNOWN",
+      "label_familiarity": "high",
+      "role_familiarity": "medium",
+      "importance": "core",
+      "necessity": {
+        "needed_for_later_reasoning": true,
+        "expected_reuse": "high",
+        "precision_gain": "high",
+        "story_value": "high",
+        "replacement_available": false
+      },
+      "minimum_grounding": "quá trình đa thế hệ",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": [
+        "huấn luyện"
+      ],
+      "first_use_strategy": "baseline + clarify early",
+      "removal_strategy": "none",
+      "definition_scope": "documentary",
+      "safe_definition": "quá trình đa thế hệ làm quần thể thích nghi với đời sống gần người",
+      "unsafe_definition": "một lần bắt và huấn luyện"
+    },
+    {
+      "knowledge_id": "K002",
+      "label": "genome",
+      "type": "CONCEPT",
+      "canonical_entity": "genome",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "evidence",
+      "necessity": {
+        "needed_for_later_reasoning": true,
+        "expected_reuse": "medium",
+        "precision_gain": "high",
+        "story_value": "high",
+        "replacement_available": true
+      },
+      "minimum_grounding": "toàn bộ thông tin di truyền",
+      "dependencies": [
+        "DNA"
+      ],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": [],
+      "first_use_strategy": "INLINE",
+      "removal_strategy": "replace with thông tin di truyền if overloaded",
+      "definition_scope": "story",
+      "safe_definition": "toàn bộ thông tin di truyền của một cá thể",
+      "unsafe_definition": "bản đồ hoàn hảo của lịch sử"
+    },
+    {
+      "knowledge_id": "K003",
+      "label": "hội sinh",
+      "type": "CONCEPT",
+      "canonical_entity": "commensal pathway",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "mechanism",
+      "necessity": {
+        "needed_for_later_reasoning": false,
+        "expected_reuse": "low",
+        "precision_gain": "medium",
+        "story_value": "medium",
+        "replacement_available": true
+      },
+      "minimum_grounding": "một loài khai thác môi trường do loài khác tạo ra",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": [],
+      "first_use_strategy": "INLINE",
+      "removal_strategy": "KEEP_ONCE",
+      "definition_scope": "hypothesis",
+      "safe_definition": "một mô hình giả thuyết",
+      "unsafe_definition": "cơ chế đã chứng minh"
+    },
+    {
+      "knowledge_id": "K004",
+      "label": "oxytocin",
+      "type": "CONCEPT",
+      "canonical_entity": "oxytocin",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "modern consequence",
+      "necessity": {
+        "needed_for_later_reasoning": false,
+        "expected_reuse": "once",
+        "precision_gain": "medium",
+        "story_value": "medium",
+        "replacement_available": true
+      },
+      "minimum_grounding": "hormone có vai trò trong nhiều dạng gắn kết xã hội",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": [],
+      "first_use_strategy": "INLINE",
+      "removal_strategy": "KEEP_ONCE",
+      "definition_scope": "modern experiment",
+      "safe_definition": "hormone liên quan nhiều dạng gắn kết xã hội",
+      "unsafe_definition": "hormone tạo ra domestication"
+    }
+  ],
+  "relations": [
+    {
+      "from": "K001",
+      "type": "RELATED_TO",
+      "to": "K002"
+    },
+    {
+      "from": "K001",
+      "type": "DEPENDS_ON",
+      "to": "K003"
+    },
+    {
+      "from": "K001",
+      "type": "RELATED_TO",
+      "to": "K004"
+    }
+  ],
+  "dependency_edges": [
+    {
+      "from": "K002",
+      "depends_on": "DNA"
+    }
+  ],
+  "alias_map": {
+    "domestic dog": [
+      "chó",
+      "chó nhà"
+    ],
+    "grey wolf": [
+      "sói",
+      "sói xám"
+    ]
+  },
+  "confusable_pairs": [
+    {
+      "a": "thuần hoá",
+      "b": "huấn luyện",
+      "resolution": "Thuần hoá là thay đổi quần thể qua nhiều thế hệ; huấn luyện là học hành vi ở cá thể."
+    }
+  ],
+  "initial_unresolved": [],
+  "status": "PASS"
+}

@@ -1,0 +1,64 @@
+{
+  "tts_export_version": "1.0",
+  "locale": "vi-VN",
+  "base_language": "vi",
+  "supported_language": true,
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "10_final_script.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      },
+      {
+        "path": "10d_proof_verification.json",
+        "sha256": "10deb71e7fe3ebf0d04c839ab07517a75b8ce7010a6e70889a92587a8a39cac1"
+      }
+    ]
+  },
+  "source": {
+    "file": "10_final_script.md",
+    "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "integrity_proof": {
+    "file": "10d_proof_verification.json",
+    "sha256": "10deb71e7fe3ebf0d04c839ab07517a75b8ce7010a6e70889a92587a8a39cac1",
+    "proof_verifier_status": "PASS",
+    "project_status": "CONTENT_PASS_ISOLATION_NOT_VERIFIED",
+    "isolation_verified": false
+  },
+  "output": {
+    "file": "final.txt",
+    "sha256": "d403127889799cf4ed83645ac8d41ce033594b1ea712007cf232c8f76403e804",
+    "encoding": "utf-8",
+    "bom": false,
+    "character_count": 15861,
+    "paragraph_count": 69,
+    "line_count": 137
+  },
+  "transformations": {
+    "markdown_headings_removed": true,
+    "horizontal_rules_removed": false,
+    "list_markers_removed": false,
+    "markdown_links_simplified": false,
+    "raw_urls_removed": false,
+    "inline_markup_removed": false,
+    "unicode_nfc": true,
+    "whitespace_normalized": true,
+    "locale_safe_unit_expansion": []
+  },
+  "checks": {
+    "source_matches_10d": true,
+    "plain_text_only": true,
+    "no_semantic_rewrite_stage": true,
+    "supported_locale": true
+  },
+  "warnings": [
+    "Isolation was not runtime-verified; content proof is PASS but project status remains CONTENT_PASS_ISOLATION_NOT_VERIFIED."
+  ],
+  "status": "PASS"
+}

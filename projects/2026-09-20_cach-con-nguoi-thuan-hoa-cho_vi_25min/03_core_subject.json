@@ -1,0 +1,112 @@
+{
+  "core_entities": [
+    {
+      "canonical_name": "domestic dog",
+      "audience_name": "chó",
+      "entity_type": "CORE_ENTITY",
+      "label_familiarity": "high",
+      "subject_understanding": "medium",
+      "minimum_grounding": "Chó là hậu duệ của sói xám đã trở thành quần thể thích nghi lâu dài với đời sống gần người qua nhiều thế hệ.",
+      "aliases": [
+        "chó nhà",
+        "Canis lupus familiaris"
+      ],
+      "related_but_not_equivalent_labels": [
+        "sói xám",
+        "canid"
+      ],
+      "relevant_parts_or_components": [
+        "hành vi xã hội",
+        "dòng tổ tiên di truyền",
+        "khả năng tiêu hoá"
+      ],
+      "story_relevant_properties": [
+        "sống gần người",
+        "di chuyển cùng/giữa cộng đồng",
+        "thích nghi qua nhiều thế hệ"
+      ],
+      "labels_recommended_for_removal": [
+        "Canis lupus familiaris trong lời đọc nếu không cần"
+      ]
+    },
+    {
+      "canonical_name": "grey wolf",
+      "audience_name": "sói xám",
+      "entity_type": "ENTITY",
+      "label_familiarity": "high",
+      "subject_understanding": "high",
+      "minimum_grounding": "Sói xám là nguồn tổ tiên của chó, nhưng quần thể sói tổ tiên cụ thể chưa được xác định.",
+      "aliases": [
+        "sói"
+      ],
+      "related_but_not_equivalent_labels": [
+        "chó"
+      ],
+      "relevant_parts_or_components": [],
+      "story_relevant_properties": [
+        "quần thể hoang dã",
+        "săn theo nhóm"
+      ],
+      "labels_recommended_for_removal": [
+        "tên Latin"
+      ]
+    }
+  ],
+  "alias_map": {
+    "domestic dog": [
+      "chó",
+      "chó nhà"
+    ],
+    "grey wolf": [
+      "sói",
+      "sói xám"
+    ]
+  },
+  "entity_label_policy": {
+    "domestic dog": {
+      "primary_spoken_label": "chó",
+      "scientific_alias_policy": "avoid unless needed",
+      "allowed_reuse_aliases": [
+        "chó"
+      ],
+      "discouraged_reuse_aliases": [
+        "chó nhà"
+      ],
+      "removed_aliases": [
+        "Canis lupus familiaris"
+      ]
+    },
+    "grey wolf": {
+      "primary_spoken_label": "sói",
+      "scientific_alias_policy": "plain Vietnamese",
+      "allowed_reuse_aliases": [
+        "sói",
+        "sói xám"
+      ],
+      "discouraged_reuse_aliases": [],
+      "removed_aliases": [
+        "Canis lupus"
+      ]
+    }
+  },
+  "minimum_grounding_requirements": [
+    "Giải thích thuần hoá là quá trình đa thế hệ, không phải một lần huấn luyện.",
+    "Phân biệt chó cổ được xác nhận với sói cổ/proto-dog còn tranh luận.",
+    "Khi dùng genome, giải thích nó là toàn bộ thông tin di truyền.",
+    "Không biến giả thuyết về hành vi ban đầu thành sự kiện."
+  ],
+  "first_specialized_use_dependencies": {
+    "genome": "giải thích inline",
+    "oxytocin": "giải thích inline",
+    "hội sinh": "giải thích inline"
+  },
+  "labels_recommended_for_removal": [
+    "mtDNA",
+    "nuclear genome",
+    "haplogroup",
+    "qpAdm",
+    "f3-statistic",
+    "AMY2B trong lời đọc"
+  ],
+  "status": "PASS"
+}

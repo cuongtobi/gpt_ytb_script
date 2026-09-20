@@ -1,0 +1,46 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      },
+      {
+        "path": "06_knowledge_closure.json",
+        "sha256": "93064e1916c336a5da7f712bf9e9bb493d300c090663ea76267bfe69ec417545"
+      },
+      {
+        "path": "06_terminology_prune.json",
+        "sha256": "5582e93549a3c523cda32af389c004c2fe3f0fa4ba6b9bfe791b0c7b8f3855e9"
+      },
+      {
+        "path": "07_reveal_audit.json",
+        "sha256": "25860176fb02d43c264518a26c3aae0e268b7db0841756825f512eb002c355e5"
+      },
+      {
+        "path": "07_knowledge_delta.json",
+        "sha256": "e6cfde467c8230b13071bbf50dcc648ad77e0be08836cb84fd553ce6b0e5ea62"
+      },
+      {
+        "path": "07_script_retention_edit.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      }
+    ],
+    "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+    "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "translationese_flags": 0,
+  "repeated_rhetorical_patterns": 0,
+  "unresolved_audio_density_flags": 0,
+  "high_load_listening_blocks": 0,
+  "actions_taken": [],
+  "finding_dispositions": {},
+  "status": "PASS"
+}

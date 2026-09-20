@@ -1,0 +1,1607 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_candidate.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      },
+      {
+        "path": "10_final_sentence_index.json",
+        "sha256": "22c146e9e9b518e71449425210c069120323ea2c9a00c748bfb2a5a8fb4dc7af"
+      },
+      {
+        "path": "10b_isolation_manifest.json",
+        "sha256": "9cdd15b4fddeb99479fda2661bb2ba4db660120b126c4c63138d1d09a11b1de0"
+      },
+      {
+        "path": "10b1_blind_knowledge_inventory.json",
+        "sha256": "29d46e02a2d8ce0fbde85a66764719f4ec7881ccd7a7fab9eda179b6f874e520"
+      },
+      {
+        "path": "10b2_blind_claim_inventory.json",
+        "sha256": "0139d931da7cb33e210b9b9c185b8ad0e7d0093e3c9452ba761bcf2a72286bec"
+      },
+      {
+        "path": "10b3_blind_naturalness_audit.json",
+        "sha256": "906ae8f6548b502a75fb0bb59f4f90077193c4592226ffe253ebf4c622c12e9c"
+      },
+      {
+        "path": "02_evidence_ledger.json",
+        "sha256": "d2b1194afad1a2a890077a58d1d1c437ee2c89104b446077a9f611e42063adc2"
+      },
+      {
+        "path": "02_sources.json",
+        "sha256": "9e72f3f5ede03773e684023b314578fa417fe6b609f1a39ff9b909522813b808"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      }
+    ]
+  },
+  "knowledge": {
+    "core_entities_ungrounded": 0,
+    "unmapped_aliases": 0,
+    "missing_discovered_nodes": 0,
+    "unresolved_concepts": 0,
+    "unresolved_dependencies": 0,
+    "unresolved_relations": 0,
+    "temporal_first_use_failures": 0,
+    "confusable_pairs_unresolved": 0,
+    "silently_ignored_candidates": 0,
+    "invalid_baseline_provenance": 0
+  },
+  "claims": {
+    "missing_claim_sentence_rows": 0,
+    "unconserved_claims": 0,
+    "unresolved_claims": 0,
+    "invalid_evidence_links": 0
+  },
+  "terminology": {
+    "unnecessary_labels": 0,
+    "alias_overload": 0
+  },
+  "narrative": {
+    "redundant_reveals": 0,
+    "high_load_listening_blocks": 0
+  },
+  "factual": {
+    "unsupported_claims": 0,
+    "certainty_overstatements": 0,
+    "unsupported_temporal_generalizations": 0,
+    "scope_overstatements": 0
+  },
+  "naturalness": {
+    "translationese_flags": 0,
+    "repeated_rhetorical_patterns": 0,
+    "unresolved_audio_density_flags": 0,
+    "unresolved_naturalness_findings": 0
+  },
+  "proof": {
+    "schema_failures": 0,
+    "hash_failures": 0,
+    "stale_audit_failures": 0,
+    "sentence_coverage_failures": 0,
+    "candidate_conservation_failures": 0,
+    "claim_conservation_failures": 0,
+    "finding_conservation_failures": 0,
+    "temporal_proof_failures": 0,
+    "isolation_failures": 1
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "KCAN001",
+      "KCAN002",
+      "KCAN003",
+      "KCAN004",
+      "KCAN005",
+      "KCAN006",
+      "KCAN007"
+    ],
+    "dispositions": {
+      "KCAN001": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "thuần hoá"
+        }
+      },
+      "KCAN002": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "DNA"
+        }
+      },
+      "KCAN003": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "Kỷ Băng hà"
+        }
+      },
+      "KCAN004": {
+        "status": "BASELINE_KNOWN",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "thời Đồ đá cũ"
+        }
+      },
+      "KCAN005": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0043"
+      },
+      "KCAN006": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0071"
+      },
+      "KCAN007": {
+        "status": "GROUNDED",
+        "grounding_sentence_id": "S0104"
+      }
+    },
+    "equation_valid": true
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "KCAN001",
+      "first_use_sentence_id": "S0005",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thuần hoá"
+      }
+    },
+    {
+      "candidate_id": "KCAN002",
+      "first_use_sentence_id": "S0012",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "DNA"
+      }
+    },
+    {
+      "candidate_id": "KCAN003",
+      "first_use_sentence_id": "S0014",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "Kỷ Băng hà"
+      }
+    },
+    {
+      "candidate_id": "KCAN004",
+      "first_use_sentence_id": "S0064",
+      "grounding_mode": "BASELINE",
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "thời Đồ đá cũ"
+      }
+    },
+    {
+      "candidate_id": "KCAN005",
+      "first_use_sentence_id": "S0043",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0043"
+    },
+    {
+      "candidate_id": "KCAN006",
+      "first_use_sentence_id": "S0071",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0071"
+    },
+    {
+      "candidate_id": "KCAN007",
+      "first_use_sentence_id": "S0104",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0104"
+    }
+  ],
+  "claim_conservation_proof": {
+    "discovered_claim_ids": [
+      "CLM0001",
+      "CLM0002",
+      "CLM0003",
+      "CLM0004",
+      "CLM0005",
+      "CLM0006",
+      "CLM0007",
+      "CLM0008",
+      "CLM0009",
+      "CLM0010",
+      "CLM0011",
+      "CLM0012",
+      "CLM0013",
+      "CLM0014",
+      "CLM0015",
+      "CLM0016",
+      "CLM0017",
+      "CLM0018",
+      "CLM0019",
+      "CLM0020",
+      "CLM0021",
+      "CLM0022",
+      "CLM0023",
+      "CLM0024",
+      "CLM0025",
+      "CLM0026",
+      "CLM0027",
+      "CLM0028",
+      "CLM0029",
+      "CLM0030",
+      "CLM0031",
+      "CLM0032",
+      "CLM0033",
+      "CLM0034",
+      "CLM0035",
+      "CLM0036",
+      "CLM0037",
+      "CLM0038",
+      "CLM0039",
+      "CLM0040",
+      "CLM0041",
+      "CLM0042",
+      "CLM0043",
+      "CLM0044",
+      "CLM0045",
+      "CLM0046",
+      "CLM0047",
+      "CLM0048",
+      "CLM0049",
+      "CLM0050",
+      "CLM0051",
+      "CLM0052",
+      "CLM0053",
+      "CLM0054",
+      "CLM0055",
+      "CLM0056",
+      "CLM0057",
+      "CLM0058",
+      "CLM0059",
+      "CLM0060",
+      "CLM0061",
+      "CLM0062",
+      "CLM0063",
+      "CLM0064",
+      "CLM0065",
+      "CLM0066",
+      "CLM0067",
+      "CLM0068",
+      "CLM0069",
+      "CLM0070",
+      "CLM0071",
+      "CLM0072",
+      "CLM0073",
+      "CLM0074",
+      "CLM0075",
+      "CLM0076",
+      "CLM0077",
+      "CLM0078",
+      "CLM0079",
+      "CLM0080",
+      "CLM0081",
+      "CLM0082",
+      "CLM0083",
+      "CLM0084",
+      "CLM0085",
+      "CLM0086",
+      "CLM0087",
+      "CLM0088",
+      "CLM0089",
+      "CLM0090",
+      "CLM0091",
+      "CLM0092",
+      "CLM0093",
+      "CLM0094",
+      "CLM0095",
+      "CLM0096",
+      "CLM0097",
+      "CLM0098",
+      "CLM0099",
+      "CLM0100",
+      "CLM0101",
+      "CLM0102",
+      "CLM0103",
+      "CLM0104",
+      "CLM0105",
+      "CLM0106",
+      "CLM0107",
+      "CLM0108",
+      "CLM0109",
+      "CLM0110",
+      "CLM0111",
+      "CLM0112",
+      "CLM0113",
+      "CLM0114",
+      "CLM0115",
+      "CLM0116",
+      "CLM0117",
+      "CLM0118",
+      "CLM0119",
+      "CLM0120",
+      "CLM0121",
+      "CLM0122",
+      "CLM0123",
+      "CLM0124",
+      "CLM0125",
+      "CLM0126",
+      "CLM0127",
+      "CLM0128",
+      "CLM0129",
+      "CLM0130",
+      "CLM0131",
+      "CLM0132",
+      "CLM0133",
+      "CLM0134",
+      "CLM0135",
+      "CLM0136",
+      "CLM0137",
+      "CLM0138",
+      "CLM0139",
+      "CLM0140",
+      "CLM0141",
+      "CLM0142",
+      "CLM0143",
+      "CLM0144",
+      "CLM0145",
+      "CLM0146",
+      "CLM0147",
+      "CLM0148",
+      "CLM0149",
+      "CLM0150",
+      "CLM0151",
+      "CLM0152",
+      "CLM0153",
+      "CLM0154"
+    ],
+    "dispositions": {
+      "CLM0001": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0002": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0003": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0004": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0005": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C014"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0006": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0007": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0008": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0009": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0010": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0011": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0012": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0013": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0014": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0015": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0016": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0017": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0018": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0019": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0020": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0021": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0022": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0023": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0024": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0025": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0026": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0027": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0028": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0029": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0030": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0031": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0032": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0033": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0034": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0035": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C008"
+        ],
+        "evidence_ids": [
+          "E011"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0036": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0037": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0038": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0039": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0040": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0041": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0042": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0043": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0044": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0045": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C005"
+        ],
+        "evidence_ids": [
+          "E007"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0046": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0047": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0048": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0049": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0050": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C007"
+        ],
+        "evidence_ids": [
+          "E009"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0051": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0052": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0053": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0054": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C006"
+        ],
+        "evidence_ids": [
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0055": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0056": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0057": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0058": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0059": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0060": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0061": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0062": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0063": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0064": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C004"
+        ],
+        "evidence_ids": [
+          "E005"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0065": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0066": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0067": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0068": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E013"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0069": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0070": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0071": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E013"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0072": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E013"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0073": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C014"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0074": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0075": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0076": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0077": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E013"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0078": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0079": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0080": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0081": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0082": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0083": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0084": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0085": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0086": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0087": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0088": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0089": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0090": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0091": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0092": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0093": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0094": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0095": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0096": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0097": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0098": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0099": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0100": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C004"
+        ],
+        "evidence_ids": [
+          "E005"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0101": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C008"
+        ],
+        "evidence_ids": [
+          "E011"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0102": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0103": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0104": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C012"
+        ],
+        "evidence_ids": [
+          "E015"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0105": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0106": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0107": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C012"
+        ],
+        "evidence_ids": [
+          "E015"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0108": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0109": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0110": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0111": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C014"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0112": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C014"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0113": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C013"
+        ],
+        "evidence_ids": [
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0114": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C013"
+        ],
+        "evidence_ids": [
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0115": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C013"
+        ],
+        "evidence_ids": [
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0116": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C013"
+        ],
+        "evidence_ids": [
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0117": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0118": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0119": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0120": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C005"
+        ],
+        "evidence_ids": [
+          "E007"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0121": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C015"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E018"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0122": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C003"
+        ],
+        "evidence_ids": [
+          "E003",
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0123": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C004"
+        ],
+        "evidence_ids": [
+          "E005"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0124": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C016"
+        ],
+        "evidence_ids": [
+          "E019",
+          "E008"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0125": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C015"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E018"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0126": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C015"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E018"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0127": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C015"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E018"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0128": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C015"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E018"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0129": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0130": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0131": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C014"
+        ],
+        "evidence_ids": [
+          "E001",
+          "E016",
+          "E017"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0132": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0133": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0134": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0135": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0136": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0137": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0138": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0139": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0140": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0141": {
+        "status": "QUALIFIED",
+        "mapped_claim_ids": [
+          "C002"
+        ],
+        "evidence_ids": [
+          "E002",
+          "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "CLM0142": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0143": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0144": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0145": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0146": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0147": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0148": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0149": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0150": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0151": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0152": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0153": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      },
+      "CLM0154": {
+        "status": "NON_FACTUAL",
+        "mapped_claim_ids": [],
+        "evidence_ids": [],
+        "remaining_issue_types": []
+      }
+    },
+    "equation_valid": true
+  },
+  "naturalness_finding_conservation_proof": {
+    "discovered_finding_ids": [],
+    "dispositions": {}
+  },
+  "sentence_coverage_proof": {
+    "b1": true,
+    "b2": true,
+    "b3": true
+  },
+  "temporal_proof_summary": {
+    "failures": 0
+  },
+  "baseline_provenance_summary": {
+    "invalid": 0
+  },
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "content_integrity_status": "PASS",
+  "proof_verifier_status": "PENDING",
+  "project_status": "PENDING_10D"
+}

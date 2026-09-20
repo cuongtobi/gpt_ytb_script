@@ -1,0 +1,97 @@
+{
+  "manifest_origin": "runtime",
+  "attestation_source": null,
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "audits": {
+    "10B1": {
+      "audit_id": "10B1",
+      "execution_id": null,
+      "context_mode": "same_chat_advisory",
+      "allowed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "00_project_brief.yaml": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453",
+        "10_final_candidate.md": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+        "10_final_sentence_index.json": "22c146e9e9b518e71449425210c069120323ea2c9a00c748bfb2a5a8fb4dc7af"
+      },
+      "forbidden_input_files": [
+        "03_knowledge_graph.json",
+        "06_knowledge_closure.json",
+        "06_terminology_prune.json",
+        "10b2_blind_claim_inventory.json",
+        "10b3_blind_naturalness_audit.json"
+      ],
+      "forbidden_input_accessed": true,
+      "runtime_attested": false
+    },
+    "10B2": {
+      "audit_id": "10B2",
+      "execution_id": null,
+      "context_mode": "same_chat_advisory",
+      "allowed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "00_project_brief.yaml": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453",
+        "10_final_candidate.md": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+        "10_final_sentence_index.json": "22c146e9e9b518e71449425210c069120323ea2c9a00c748bfb2a5a8fb4dc7af"
+      },
+      "forbidden_input_files": [
+        "03_claim_map.json",
+        "02_research_notes.md",
+        "02_sources.json",
+        "02_evidence_ledger.json",
+        "09_claim_strength_audit.json",
+        "10b1_blind_knowledge_inventory.json",
+        "10b3_blind_naturalness_audit.json"
+      ],
+      "forbidden_input_accessed": true,
+      "runtime_attested": false
+    },
+    "10B3": {
+      "audit_id": "10B3",
+      "execution_id": null,
+      "context_mode": "same_chat_advisory",
+      "allowed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "00_project_brief.yaml",
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "00_project_brief.yaml": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453",
+        "10_final_candidate.md": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+        "10_final_sentence_index.json": "22c146e9e9b518e71449425210c069120323ea2c9a00c748bfb2a5a8fb4dc7af"
+      },
+      "forbidden_input_files": [
+        "07_reveal_audit.json",
+        "08_naturalness_audit.json",
+        "06_terminology_prune.json",
+        "10b1_blind_knowledge_inventory.json",
+        "10b2_blind_claim_inventory.json"
+      ],
+      "forbidden_input_accessed": true,
+      "runtime_attested": false
+    }
+  },
+  "note": "Current chat/runtime cannot attest fresh isolated execution contexts. Audits are advisory and must not be used to claim PASS_VERIFIED."
+}

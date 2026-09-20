@@ -1,0 +1,2 @@
+# 09 — Fact Check
+Material claims were checked against the evidence ledger. 2026 dog-genome dates are stated as dates of sampled remains, not domestication onset. Origin location and number of domestication processes remain explicitly unresolved. Commensal/adoption mechanisms are framed as hypotheses. Modern oxytocin work is explicitly not used as direct Palaeolithic proof. Starch adaptation is framed as continued evolution rather than the origin of domestication.

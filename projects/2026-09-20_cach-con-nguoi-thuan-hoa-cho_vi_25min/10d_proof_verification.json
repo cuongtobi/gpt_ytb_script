@@ -1,0 +1,112 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_script.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      },
+      {
+        "path": "10_final_sentence_index.json",
+        "sha256": "22c146e9e9b518e71449425210c069120323ea2c9a00c748bfb2a5a8fb4dc7af"
+      },
+      {
+        "path": "10b1_blind_knowledge_inventory.json",
+        "sha256": "29d46e02a2d8ce0fbde85a66764719f4ec7881ccd7a7fab9eda179b6f874e520"
+      },
+      {
+        "path": "10b2_blind_claim_inventory.json",
+        "sha256": "0139d931da7cb33e210b9b9c185b8ad0e7d0093e3c9452ba761bcf2a72286bec"
+      },
+      {
+        "path": "10b3_blind_naturalness_audit.json",
+        "sha256": "906ae8f6548b502a75fb0bb59f4f90077193c4592226ffe253ebf4c622c12e9c"
+      },
+      {
+        "path": "10_final_integrity.json",
+        "sha256": "5f60f366cfd230cba220e7bd5438da28dd714b82b5be0cc0cf31634ed214f88a"
+      },
+      {
+        "path": "10b_isolation_manifest.json",
+        "sha256": "9cdd15b4fddeb99479fda2661bb2ba4db660120b126c4c63138d1d09a11b1de0"
+      },
+      {
+        "path": "artifact_manifest.json",
+        "sha256": "748268a7396fc1c9021219716f68822ea8a773c7fb94a990eea7226893722abd"
+      },
+      {
+        "path": "02_evidence_ledger.json",
+        "sha256": "d2b1194afad1a2a890077a58d1d1c437ee2c89104b446077a9f611e42063adc2"
+      },
+      {
+        "path": "02_sources.json",
+        "sha256": "9e72f3f5ede03773e684023b314578fa417fe6b609f1a39ff9b909522813b808"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      }
+    ]
+  },
+  "pipeline_version": "3.3",
+  "proof_verifier_status": "PASS",
+  "isolation_verified": false,
+  "project_status": "CONTENT_PASS_ISOLATION_NOT_VERIFIED",
+  "released_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "recomputed_sentence_count": 154,
+  "discovered_candidate_count": 7,
+  "discovered_claim_count": 154,
+  "discovered_naturalness_finding_count": 0,
+  "recomputed_hard_counters": {
+    "knowledge": {
+      "core_entities_ungrounded": 0,
+      "unmapped_aliases": 0,
+      "missing_discovered_nodes": 0,
+      "unresolved_concepts": 0,
+      "unresolved_dependencies": 0,
+      "unresolved_relations": 0,
+      "temporal_first_use_failures": 0,
+      "confusable_pairs_unresolved": 0,
+      "silently_ignored_candidates": 0,
+      "invalid_baseline_provenance": 0
+    },
+    "claims": {
+      "missing_claim_sentence_rows": 0,
+      "unconserved_claims": 0,
+      "unresolved_claims": 0,
+      "invalid_evidence_links": 0
+    },
+    "terminology": {
+      "unnecessary_labels": 0,
+      "alias_overload": 0
+    },
+    "narrative": {
+      "redundant_reveals": 0,
+      "high_load_listening_blocks": 0
+    },
+    "factual": {
+      "unsupported_claims": 0,
+      "certainty_overstatements": 0,
+      "unsupported_temporal_generalizations": 0,
+      "scope_overstatements": 0
+    },
+    "naturalness": {
+      "translationese_flags": 0,
+      "repeated_rhetorical_patterns": 0,
+      "unresolved_audio_density_flags": 0,
+      "unresolved_naturalness_findings": 0
+    }
+  },
+  "recomputed_proof_counters": {
+    "schema_failures": 0,
+    "hash_failures": 0,
+    "stale_audit_failures": 0,
+    "sentence_coverage_failures": 0,
+    "candidate_conservation_failures": 0,
+    "claim_conservation_failures": 0,
+    "finding_conservation_failures": 0,
+    "temporal_proof_failures": 0,
+    "isolation_failures": 1
+  },
+  "errors": []
+}

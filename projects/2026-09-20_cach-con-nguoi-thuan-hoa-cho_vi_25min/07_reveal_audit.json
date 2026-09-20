@@ -1,0 +1,44 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "01_angle.md",
+        "sha256": "8b97005cd94dd164251e990b533079b08cf411e91940845a751330a89aa68009"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      },
+      {
+        "path": "04_story_architecture.md",
+        "sha256": "ae1c2bab72f24a53fc6d5c935cca59fe57a864030324252e6929ea8cde1b24a7"
+      },
+      {
+        "path": "06_knowledge_closure.json",
+        "sha256": "93064e1916c336a5da7f712bf9e9bb493d300c090663ea76267bfe69ec417545"
+      },
+      {
+        "path": "06_terminology_prune.json",
+        "sha256": "5582e93549a3c523cda32af389c004c2fe3f0fa4ba6b9bfe791b0c7b8f3855e9"
+      },
+      {
+        "path": "06_script_pruned.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      }
+    ],
+    "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+    "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "claim_occurrences": [],
+  "redundant_reveals": 0,
+  "actions_taken": [],
+  "finding_dispositions": {},
+  "status": "PASS"
+}

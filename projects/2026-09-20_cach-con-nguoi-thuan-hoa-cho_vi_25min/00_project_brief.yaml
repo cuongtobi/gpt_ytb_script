@@ -1,0 +1,18 @@
+project:
+  topic: cách con người thuần hoá chó
+  language: tiếng Việt
+  locale: vi-VN
+  duration_minutes: 25
+  audience: general
+  hook_mode: auto
+  angle_mode: auto
+  narration_style: documentary, natural spoken Vietnamese, evidence-first
+  target_word_count: 3600-4000
+pipeline:
+  version: '3.3'
+  artifact_schema_version: 3.3.0
+  segmenter_version: 3.3.0
+integrity_policy:
+  blind_isolation_required_for_pass_verified: true
+  fail_closed: true
+  do_not_self_attest_isolation: true

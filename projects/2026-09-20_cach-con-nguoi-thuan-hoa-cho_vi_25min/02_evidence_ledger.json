@@ -1,0 +1,275 @@
+{
+  "evidence": [
+    {
+      "evidence_id": "E001",
+      "claim_ids": [
+        "C001",
+        "C014"
+      ],
+      "source_id": "S001",
+      "locator": "Abstract + Main, opening paragraph",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Nature 2026 states dogs were the only domestic animal in Europe before agriculture and were domesticated from grey wolves toward the end of the last Ice Age.",
+      "limitations": "Does not resolve exact origin location or first domestication event.",
+      "temporal_scope": "Late Pleistocene",
+      "geographic_scope": "Europe/Eurasia",
+      "population_scope": "dog lineage"
+    },
+    {
+      "evidence_id": "E002",
+      "claim_ids": [
+        "C002"
+      ],
+      "source_id": "S001",
+      "locator": "Main, opening paragraphs",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Study states where in the world dogs were domesticated and which human groups were involved remain unknown.",
+      "limitations": "Addresses current uncertainty, not a mechanism.",
+      "temporal_scope": "Late Pleistocene",
+      "geographic_scope": "global question",
+      "population_scope": "dog lineage"
+    },
+    {
+      "evidence_id": "E003",
+      "claim_ids": [
+        "C003"
+      ],
+      "source_id": "S002",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Reports nuclear and mitochondrial dog genomes from Pınarbaşı ~15,800 years and Gough’s Cave ~14,300 years.",
+      "limitations": "Dates refer to sampled remains; not dates of domestication onset.",
+      "temporal_scope": "15,800–14,300 years ago",
+      "geographic_scope": "Türkiye and UK",
+      "population_scope": "sampled canids"
+    },
+    {
+      "evidence_id": "E004",
+      "claim_ids": [
+        "C003"
+      ],
+      "source_id": "S001",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Reports 14,200-year-old Kesslerloch dog with ancestry shared with later dogs and diversification predating it.",
+      "limitations": "Does not identify the original wolf population.",
+      "temporal_scope": "~14,200 years ago",
+      "geographic_scope": "Switzerland",
+      "population_scope": "sampled dog"
+    },
+    {
+      "evidence_id": "E005",
+      "claim_ids": [
+        "C004",
+        "C015"
+      ],
+      "source_id": "S002",
+      "locator": "Abstract + sections 'Genetically similar Palaeolithic dogs' and 'Close Palaeolithic human–dog association'",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Finds genetically similar Palaeolithic dogs across Europe and Anatolia associated with genetically and culturally distinct human groups; exchange/dispersal is inferred.",
+      "limitations": "Exact social mechanism of dog transfer cannot be observed directly.",
+      "temporal_scope": "Late Upper Palaeolithic",
+      "geographic_scope": "Western Eurasia",
+      "population_scope": "sampled ancient dogs and human contexts"
+    },
+    {
+      "evidence_id": "E006",
+      "claim_ids": [
+        "C002"
+      ],
+      "source_id": "S003",
+      "locator": "Abstract + Main introduction",
+      "support_mode": "DIRECT",
+      "evidence_summary": "States there is no consensus on when, where and how dog domestication occurred, while grey wolves gave rise to dogs.",
+      "limitations": "Ancient-wolf sampling remains incomplete.",
+      "temporal_scope": "Late Pleistocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "dogs and wolves"
+    },
+    {
+      "evidence_id": "E007",
+      "claim_ids": [
+        "C005"
+      ],
+      "source_id": "S004",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "By 11,000 years ago at least five major ancestry lineages of dogs had diversified.",
+      "limitations": "Lineage count depends on sampled ancient genomes and analytical resolution.",
+      "temporal_scope": "by ~11,000 years ago",
+      "geographic_scope": "Eurasia/global sampled dogs",
+      "population_scope": "ancient dog lineages"
+    },
+    {
+      "evidence_id": "E008",
+      "claim_ids": [
+        "C006",
+        "C016"
+      ],
+      "source_id": "S003",
+      "locator": "Abstract + sections 'Dog ancestry has eastern wolf affinities' and 'A second source for western dog ancestry'",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Dogs show stronger affinity to eastern Eurasian ancient wolves and ancestry from at least two wolf-related sources; western-related ancestry contributes to Near Eastern/African and later European dogs.",
+      "limitations": "Cannot distinguish all single-vs-multiple domestication scenarios.",
+      "temporal_scope": "Late Pleistocene-Holocene",
+      "geographic_scope": "Eurasia",
+      "population_scope": "ancient wolves and dogs"
+    },
+    {
+      "evidence_id": "E009",
+      "claim_ids": [
+        "C007"
+      ],
+      "source_id": "S003",
+      "locator": "Abstract + 'Dog ancestry has eastern wolf affinities'",
+      "support_mode": "DIRECT",
+      "evidence_summary": "None of the analysed ancient wolf genomes is a direct match for dog progenitor ancestries.",
+      "limitations": "Absence from sampled genomes is not proof that progenitor populations did not exist.",
+      "temporal_scope": "100,000-year wolf time series",
+      "geographic_scope": "Europe, Siberia, North America plus comparative wolves",
+      "population_scope": "sampled ancient wolves"
+    },
+    {
+      "evidence_id": "E010",
+      "claim_ids": [
+        "C001"
+      ],
+      "source_id": "S004",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Science 2020 identifies dogs as the first domestic animal.",
+      "limitations": "Not a statement about exact domestication location.",
+      "temporal_scope": "pre-Holocene origin",
+      "geographic_scope": "global dog lineage",
+      "population_scope": "dogs"
+    },
+    {
+      "evidence_id": "E011",
+      "claim_ids": [
+        "C008"
+      ],
+      "source_id": "S005",
+      "locator": "Abstract + article highlights",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Bonn-Oberkassel dog is ~14,223 years old, about seven months old, buried with two humans, and showed evidence of severe distemper; authors interpret survival as prolonged human care.",
+      "limitations": "Care inference is archaeological interpretation, not direct observation.",
+      "temporal_scope": "~14,223 years ago",
+      "geographic_scope": "Germany",
+      "population_scope": "one dog burial"
+    },
+    {
+      "evidence_id": "E012",
+      "claim_ids": [
+        "C009"
+      ],
+      "source_id": "S001",
+      "locator": "Main, discussion around Kesslerloch dog",
+      "support_mode": "INFERENCE",
+      "evidence_summary": "Authors note domestication reasonably predates the 14.2 ka dog by several millennia to allow observed structure, while saying their data cannot resolve exact origin.",
+      "limitations": "Amount of lead time is not directly dated; wording must remain qualified.",
+      "temporal_scope": "before 14.2 ka",
+      "geographic_scope": "unknown origin",
+      "population_scope": "dog lineage"
+    },
+    {
+      "evidence_id": "E013",
+      "claim_ids": [
+        "C010"
+      ],
+      "source_id": "S009",
+      "locator": "Abstract + sections on commensal scavenger and cross-species adoption hypotheses",
+      "support_mode": "CONTEXT",
+      "evidence_summary": "Review contrasts commensal-scavenging and cross-species-adoption narratives and argues assumptions remain debated.",
+      "limitations": "Review author favors adoption interpretation; not consensus proof.",
+      "temporal_scope": "Late Pleistocene models",
+      "geographic_scope": "Eurasia",
+      "population_scope": "domestication hypotheses"
+    },
+    {
+      "evidence_id": "E014",
+      "claim_ids": [
+        "C011"
+      ],
+      "source_id": "S009",
+      "locator": "Discussion",
+      "support_mode": "INFERENCE",
+      "evidence_summary": "Review discusses behavioral/social selection as central to wolf-human domestication scenarios.",
+      "limitations": "Mechanistic plausibility is not direct archaeological proof of sequence.",
+      "temporal_scope": "Late Pleistocene models",
+      "geographic_scope": "Eurasia",
+      "population_scope": "wolf-human interaction hypotheses"
+    },
+    {
+      "evidence_id": "E015",
+      "claim_ids": [
+        "C012"
+      ],
+      "source_id": "S008",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Modern dog-owner gaze interactions were associated with an oxytocin positive feedback loop.",
+      "limitations": "Modern experimental result cannot establish the original Palaeolithic cause of domestication.",
+      "temporal_scope": "modern experiment",
+      "geographic_scope": "Japan study",
+      "population_scope": "participating dogs and owners"
+    },
+    {
+      "evidence_id": "E016",
+      "claim_ids": [
+        "C013",
+        "C014"
+      ],
+      "source_id": "S006",
+      "locator": "Abstract + editorial summary",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Comparative genomics identified dog selection signals in genes related to starch digestion and fat metabolism.",
+      "limitations": "Modern-dog genomic signature does not by itself date when every adaptation arose.",
+      "temporal_scope": "dog domestication history",
+      "geographic_scope": "comparative modern samples",
+      "population_scope": "dogs and wolves"
+    },
+    {
+      "evidence_id": "E017",
+      "claim_ids": [
+        "C013",
+        "C014"
+      ],
+      "source_id": "S007",
+      "locator": "Abstract/results summary",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Ancient European dogs show changing AMY2B copy number; strong modern expansion was not universal in early dogs.",
+      "limitations": "Ancient sample set is regionally and temporally limited.",
+      "temporal_scope": "prehistoric to historic",
+      "geographic_scope": "Europe",
+      "population_scope": "ancient dogs"
+    },
+    {
+      "evidence_id": "E018",
+      "claim_ids": [
+        "C015"
+      ],
+      "source_id": "S004",
+      "locator": "Abstract",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Co-analysis of dog and human genomes found several aspects of dog population history mirroring humans.",
+      "limitations": "Mirroring is partial, not universal.",
+      "temporal_scope": "prehistoric-Holocene",
+      "geographic_scope": "Eurasia and connected regions",
+      "population_scope": "ancient dogs and humans"
+    },
+    {
+      "evidence_id": "E019",
+      "claim_ids": [
+        "C016"
+      ],
+      "source_id": "S002",
+      "locator": "Abstract + 'Genomic legacy of Palaeolithic dogs'",
+      "support_mode": "DIRECT",
+      "evidence_summary": "Study identifies eastern Eurasian dog ancestry influx during the Mesolithic and later ancestry mixtures in Europe.",
+      "limitations": "Exact timing and magnitude vary across sampled populations.",
+      "temporal_scope": "Mesolithic and later",
+      "geographic_scope": "Europe/Eurasia",
+      "population_scope": "ancient dogs"
+    }
+  ]
+}

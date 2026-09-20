@@ -1,0 +1,60 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "02_research_notes.md",
+        "sha256": "0deeec64bf055dd383367278b49518e41033c8d280f0b5fb5e8956290abd2b21"
+      },
+      {
+        "path": "02_sources.json",
+        "sha256": "9e72f3f5ede03773e684023b314578fa417fe6b609f1a39ff9b909522813b808"
+      },
+      {
+        "path": "02_evidence_ledger.json",
+        "sha256": "d2b1194afad1a2a890077a58d1d1c437ee2c89104b446077a9f611e42063adc2"
+      },
+      {
+        "path": "03_claim_map.json",
+        "sha256": "e013b9ab52b4575f39e7c71ce64edbced107f1bcd014fdb640100d4d87b2704f"
+      },
+      {
+        "path": "06_knowledge_closure.json",
+        "sha256": "93064e1916c336a5da7f712bf9e9bb493d300c090663ea76267bfe69ec417545"
+      },
+      {
+        "path": "08_script_natural.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      }
+    ],
+    "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+    "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+  },
+  "input_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "output_script_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "invalid_evidence_links": 0,
+  "claims_checked": [
+    "C001",
+    "C002",
+    "C003",
+    "C004",
+    "C005",
+    "C006",
+    "C007",
+    "C008",
+    "C009",
+    "C010",
+    "C011",
+    "C012",
+    "C013",
+    "C014",
+    "C015",
+    "C016"
+  ],
+  "unsupported_claims": 0,
+  "certainty_overstatements": 0,
+  "unsupported_temporal_generalizations": 0,
+  "scope_overstatements": 0,
+  "actions_taken": [],
+  "status": "PASS"
+}

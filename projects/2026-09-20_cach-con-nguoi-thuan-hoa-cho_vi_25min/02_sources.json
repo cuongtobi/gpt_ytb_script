@@ -1,0 +1,135 @@
+{
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Genomic history of early dogs in Europe",
+      "authors_or_org": "Bergström, A., Furtwängler, A., Johnston, S. et al.",
+      "year": "2026",
+      "publication_date": "2026-03-25",
+      "url_or_locator": "https://doi.org/10.1038/s41586-026-10112-7",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Nature ancient-genome study; 216 canid remains, oldest genome-wide dog data around 14,200 years.",
+      "used_for": [
+        "C001",
+        "C002",
+        "C003",
+        "C009",
+        "C016"
+      ]
+    },
+    {
+      "id": "S002",
+      "title": "Dogs were widely distributed across western Eurasia during the Palaeolithic",
+      "authors_or_org": "Marsh, W.A., Scarsbrook, L., Yüncü, E. et al.",
+      "year": "2026",
+      "publication_date": "2026-03-25",
+      "url_or_locator": "https://doi.org/10.1038/s41586-026-10170-x",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Nature ancient-genome study; Pınarbaşı and Gough’s Cave Palaeolithic dogs and cross-cultural distribution.",
+      "used_for": [
+        "C003",
+        "C004",
+        "C015",
+        "C016"
+      ]
+    },
+    {
+      "id": "S003",
+      "title": "Grey wolf genomic history reveals a dual ancestry of dogs",
+      "authors_or_org": "Bergström, A., Stanton, D.W.G., Taron, U.H. et al.",
+      "year": "2022",
+      "publication_date": "2022-06-29",
+      "url_or_locator": "https://doi.org/10.1038/s41586-022-04824-9",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Nature study of 72 ancient wolf genomes across 100,000 years.",
+      "used_for": [
+        "C002",
+        "C006",
+        "C007"
+      ]
+    },
+    {
+      "id": "S004",
+      "title": "Origins and genetic legacy of prehistoric dogs",
+      "authors_or_org": "Bergström, A., Frantz, L., Schmidt, R. et al.",
+      "year": "2020",
+      "publication_date": "2020-10-29",
+      "url_or_locator": "https://doi.org/10.1126/science.aba9572",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Science ancient-dog genome study; 27 ancient dog genomes.",
+      "used_for": [
+        "C001",
+        "C005",
+        "C015"
+      ]
+    },
+    {
+      "id": "S005",
+      "title": "A new look at an old dog: Bonn-Oberkassel reconsidered",
+      "authors_or_org": "Janssens, L., Giemsch, L., Schmitz, R. et al.",
+      "year": "2018",
+      "publication_date": "2018-04",
+      "url_or_locator": "https://doi.org/10.1016/j.jas.2018.01.004",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Journal of Archaeological Science reanalysis of Bonn-Oberkassel dog remains.",
+      "used_for": [
+        "C008"
+      ]
+    },
+    {
+      "id": "S006",
+      "title": "The genomic signature of dog domestication reveals adaptation to a starch-rich diet",
+      "authors_or_org": "Axelsson, E., Ratnakumar, A., Arendt, M.L. et al.",
+      "year": "2013",
+      "publication_date": "2013-01-23",
+      "url_or_locator": "https://doi.org/10.1038/nature11837",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Nature comparative genomics study identifying selection signals related to starch digestion.",
+      "used_for": [
+        "C013",
+        "C014"
+      ]
+    },
+    {
+      "id": "S007",
+      "title": "Amy2B copy number variation reveals starch diet adaptations in ancient European dogs",
+      "authors_or_org": "Ollivier, M., Tresset, A., Bastian, F. et al.",
+      "year": "2016",
+      "publication_date": "2016-11-09",
+      "url_or_locator": "https://doi.org/10.1098/rsos.160449",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Royal Society Open Science ancient-dog study of AMY2B copy number.",
+      "used_for": [
+        "C013",
+        "C014"
+      ]
+    },
+    {
+      "id": "S008",
+      "title": "Oxytocin-gaze positive loop and the coevolution of human-dog bonds",
+      "authors_or_org": "Nagasawa, M., Mitsui, S., En, S. et al.",
+      "year": "2015",
+      "publication_date": "2015-04-16",
+      "url_or_locator": "https://doi.org/10.1126/science.1261022",
+      "source_type": "primary",
+      "reliability_note": "Peer-reviewed Science experiment on modern dog–human gaze and oxytocin; not direct evidence for Palaeolithic domestication.",
+      "used_for": [
+        "C012"
+      ]
+    },
+    {
+      "id": "S009",
+      "title": "Commensalism or Cross-Species Adoption? A Critical Review of Theories of Wolf Domestication",
+      "authors_or_org": "Serpell, J.A.",
+      "year": "2021",
+      "publication_date": "2021-04-15",
+      "url_or_locator": "https://doi.org/10.3389/fvets.2021.662370",
+      "source_type": "academic_secondary",
+      "reliability_note": "Critical scholarly review of competing domestication scenarios; useful for framing uncertainty, not for proving one mechanism.",
+      "used_for": [
+        "C010",
+        "C011"
+      ]
+    }
+  ]
+}

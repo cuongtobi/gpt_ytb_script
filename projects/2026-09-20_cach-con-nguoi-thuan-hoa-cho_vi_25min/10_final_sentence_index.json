@@ -1,0 +1,797 @@
+{
+  "source_file": "10_final_candidate.md",
+  "source_sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd",
+  "locale": "vi-VN",
+  "segmenter_version": "3.3.0",
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "00_project_brief.yaml",
+        "sha256": "27d836ea256d75a080596b8fd324df9afd3d759a432d8fb5008a0d2319ff0453"
+      },
+      {
+        "path": "10_final_candidate.md",
+        "sha256": "bbe67e7718b1d99c39e5616abf0e8ae45321e529ed719e3a458d7fedc6284bcd"
+      }
+    ]
+  },
+  "units": [
+    {
+      "sentence_id": "S0001",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Nếu phải tưởng tượng khoảnh khắc con chó đầu tiên xuất hiện, nhiều người sẽ nghĩ đến một người tiền sử bắt được một con sói con, nuôi nó cạnh đống lửa, rồi qua nhiều thế hệ biến nó thành chó."
+    },
+    {
+      "sentence_id": "S0002",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Hình ảnh ấy rất dễ hiểu."
+    },
+    {
+      "sentence_id": "S0003",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Nhưng bằng chứng hiện nay không cho chúng ta một khoảnh khắc duy nhất như vậy."
+    },
+    {
+      "sentence_id": "S0004",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Điều chắc chắn hơn lại kỳ lạ hơn."
+    },
+    {
+      "sentence_id": "S0005",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Chó là động vật được con người thuần hoá sớm nhất mà chúng ta biết, và mối quan hệ này đã bắt đầu từ trước khi nông nghiệp xuất hiện."
+    },
+    {
+      "sentence_id": "S0006",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Nghĩa là trước khi con người có làng mạc lớn, trước khi có đàn cừu hay đàn bò, một loài thú săn mồi họ hàng với sói đã bước vào thế giới của chúng ta."
+    },
+    {
+      "sentence_id": "S0007",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Câu hỏi vì thế không chỉ là “con người đã làm gì với sói?”."
+    },
+    {
+      "sentence_id": "S0008",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Câu hỏi khó hơn là: tại sao một số con sói lại có thể sống đủ gần con người để hai loài vốn có thể cạnh tranh với nhau cuối cùng lại trở thành cộng sự?"
+    },
+    {
+      "sentence_id": "S0009",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Và càng nghiên cứu, các nhà khoa học càng phát hiện ra một nghịch lý."
+    },
+    {
+      "sentence_id": "S0010",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Chúng ta có những con chó rất cổ."
+    },
+    {
+      "sentence_id": "S0011",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Chúng ta có bộ xương."
+    },
+    {
+      "sentence_id": "S0012",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Chúng ta có DNA."
+    },
+    {
+      "sentence_id": "S0013",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Nhưng chúng ta vẫn chưa tìm được chính xác quần thể sói nào đã trở thành tổ tiên trực tiếp của chó ngày nay."
+    },
+    {
+      "sentence_id": "S0014",
+      "section_heading": "Mở đầu — Có lẽ câu chuyện không bắt đầu bằng việc con người “thuần phục” sói",
+      "exact_text": "Muốn hiểu chuyện đó, phải quay về cuối Kỷ Băng hà, khi châu Âu và phần lớn Bắc Á vẫn là một thế giới lạnh, rộng và đầy những kẻ săn mồi."
+    },
+    {
+      "sentence_id": "S0015",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Hàng chục nghìn năm trước, con người săn bắt–hái lượm và sói xám đều sống trên những vùng đất rộng của lục địa Á–Âu."
+    },
+    {
+      "sentence_id": "S0016",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Cả hai đều săn theo nhóm."
+    },
+    {
+      "sentence_id": "S0017",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Cả hai có thể theo dấu những đàn thú lớn."
+    },
+    {
+      "sentence_id": "S0018",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Và trong nhiều hoàn cảnh, cả hai có thể nhắm tới cùng một nguồn thức ăn."
+    },
+    {
+      "sentence_id": "S0019",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Điều đó nghe giống công thức của xung đột hơn là tình bạn."
+    },
+    {
+      "sentence_id": "S0020",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Một bầy sói trưởng thành không phải vật nuôi dễ chịu."
+    },
+    {
+      "sentence_id": "S0021",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Nó nhanh, mạnh, cảnh giác và có thể nguy hiểm."
+    },
+    {
+      "sentence_id": "S0022",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Vì vậy, khi nói “thuần hoá”, ta không nên hình dung rằng người tiền sử đơn giản bắt vài con sói trưởng thành rồi huấn luyện chúng như chó hiện đại."
+    },
+    {
+      "sentence_id": "S0023",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Thuần hoá là một quá trình qua nhiều thế hệ, khi những cá thể sống và sinh sản trong mối quan hệ mới với con người dần khác với quần thể hoang dã."
+    },
+    {
+      "sentence_id": "S0024",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Ban đầu, thay đổi quan trọng nhất có thể không phải là tai cụp hay bộ lông nhiều màu."
+    },
+    {
+      "sentence_id": "S0025",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Nó có thể chỉ là ngưỡng chịu đựng khoảng cách: con vật nào bớt sợ người hơn, ít hung hăng hơn, và có thể ở gần trại người lâu hơn mà không bỏ chạy hay tấn công."
+    },
+    {
+      "sentence_id": "S0026",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Nhưng đây là chỗ bằng chứng trở nên khó xử."
+    },
+    {
+      "sentence_id": "S0027",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Hành vi không hoá thạch."
+    },
+    {
+      "sentence_id": "S0028",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Một cái xương có thể cho biết tuổi, kích thước, đôi khi là bệnh tật hay chế độ ăn."
+    },
+    {
+      "sentence_id": "S0029",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Nó không thể trực tiếp kể cho ta con vật đó đã ngủ cạnh lửa, cùng đi săn hay chỉ lảng vảng quanh nơi con người vứt xương."
+    },
+    {
+      "sentence_id": "S0030",
+      "section_heading": "1. Trước khi có chó, đã có hai thợ săn sống trong cùng một thế giới",
+      "exact_text": "Vì vậy lịch sử thuần hoá chó phải được ghép từ nhiều mảnh khác nhau: hình dạng xương, bối cảnh chôn cất, dấu vết thức ăn, và ngày càng quan trọng hơn là DNA cổ, tức vật liệu di truyền được lấy từ hài cốt hàng nghìn năm tuổi."
+    },
+    {
+      "sentence_id": "S0031",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Sói và chó đầu tiên không có một đường ranh hình thể sắc nét như chó Chihuahua và sói xám ngày nay."
+    },
+    {
+      "sentence_id": "S0032",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Ở giai đoạn sớm, một cá thể có thể mang vài đặc điểm giống chó nhưng vẫn rất gần sói về nhiều mặt khác."
+    },
+    {
+      "sentence_id": "S0033",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Đó là lý do một số hài cốt canid rất cổ, có niên đại hơn hai mươi nghìn năm, từng được đề xuất là “chó tiền sử”, nhưng cách phân loại vẫn gây tranh luận."
+    },
+    {
+      "sentence_id": "S0034",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Nếu chỉ dựa vào hộp sọ hay răng, các quần thể sói cổ vốn đã đa dạng có thể làm câu chuyện rối thêm."
+    },
+    {
+      "sentence_id": "S0035",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Trong nhiều năm, một mốc nổi tiếng là Bonn-Oberkassel ở Đức."
+    },
+    {
+      "sentence_id": "S0036",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Tại đây, một con chó khoảng mười bốn nghìn năm tuổi được chôn cùng hai người."
+    },
+    {
+      "sentence_id": "S0037",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Nghiên cứu lại bộ xương cho thấy con vật chết khi còn trẻ và từng trải qua một giai đoạn bệnh nặng."
+    },
+    {
+      "sentence_id": "S0038",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Một cách diễn giải có sức nặng là nó đã nhận được sự chăm sóc kéo dài, bởi một con non bị bệnh như vậy khó sống sót lâu nếu hoàn toàn tự xoay xở."
+    },
+    {
+      "sentence_id": "S0039",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Điều đó không chứng minh con chó này là “con chó đầu tiên”."
+    },
+    {
+      "sentence_id": "S0040",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Nó cũng không nói cho ta nơi quá trình thuần hoá bắt đầu."
+    },
+    {
+      "sentence_id": "S0041",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Nhưng nó cho thấy vào cuối Kỷ Băng hà, ít nhất ở một số cộng đồng, mối quan hệ người–chó đã vượt xa chuyện một con thú hoang thỉnh thoảng nhặt đồ thừa."
+    },
+    {
+      "sentence_id": "S0042",
+      "section_heading": "2. Vì sao rất khó chỉ vào một bộ xương và nói: “đây là con chó đầu tiên”",
+      "exact_text": "Và rồi DNA bắt đầu thay đổi bức tranh."
+    },
+    {
+      "sentence_id": "S0043",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Genome, tức toàn bộ thông tin di truyền của một cá thể, cho phép các nhà nghiên cứu so sánh chó cổ với sói cổ và với những con chó sống ở thời kỳ khác."
+    },
+    {
+      "sentence_id": "S0044",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Đây là một lợi thế lớn, vì hình dạng có thể giống nhau do môi trường hoặc biến thiên tự nhiên, còn quan hệ di truyền có thể cho thấy các quần thể có chung lịch sử tổ tiên hay không."
+    },
+    {
+      "sentence_id": "S0045",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Một nghiên cứu lớn năm 2020 cho thấy đến khoảng mười một nghìn năm trước, chó đã chia thành ít nhất năm dòng tổ tiên lớn."
+    },
+    {
+      "sentence_id": "S0046",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Điều đó có nghĩa là lịch sử của chó phải sâu hơn mốc mười một nghìn năm rất nhiều."
+    },
+    {
+      "sentence_id": "S0047",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Không thể có một quần thể vừa mới xuất hiện mà ngay lập tức đã phân hoá rộng khắp như vậy."
+    },
+    {
+      "sentence_id": "S0048",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Năm 2022, một nghiên cứu giải trình tự bảy mươi hai bộ gene sói cổ trải dài khoảng một trăm nghìn năm lại tạo ra một vấn đề thú vị."
+    },
+    {
+      "sentence_id": "S0049",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Chó nhìn chung có quan hệ gần hơn với những con sói cổ ở phía đông Á–Âu so với nhiều quần thể sói cổ ở phía tây được lấy mẫu."
+    },
+    {
+      "sentence_id": "S0050",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Nhưng không một bộ gene sói cổ nào trong nghiên cứu khớp trực tiếp với tổ tiên chó."
+    },
+    {
+      "sentence_id": "S0051",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Nghiên cứu đó cũng cho thấy chó ở Cận Đông và châu Phi mang thêm thành phần tổ tiên liên quan đến một nguồn sói phía tây nam Á–Âu."
+    },
+    {
+      "sentence_id": "S0052",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Có ít nhất hai cách giải thích còn mở: có thể đã có hơn một quá trình thuần hoá rồi các dòng chó trộn với nhau, hoặc chó đã được thuần hoá từ một nguồn chính rồi sau đó lai với sói ở vùng khác."
+    },
+    {
+      "sentence_id": "S0053",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Điểm quan trọng là khoa học chưa chốt được câu trả lời."
+    },
+    {
+      "sentence_id": "S0054",
+      "section_heading": "3. DNA cổ biến câu hỏi từ “trông giống chó không?” thành “nó thuộc về nhánh nào?”",
+      "exact_text": "Nói “chó chắc chắn được thuần hoá tại nơi X” hiện vẫn mạnh hơn bằng chứng."
+    },
+    {
+      "sentence_id": "S0055",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Trong một thời gian dài, bằng chứng genome chắc chắn của chó cổ nhất chỉ vươn tới khoảng mười một nghìn năm trước."
+    },
+    {
+      "sentence_id": "S0056",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Điều đó tạo ra một khoảng trống khó chịu, bởi khảo cổ học đã có những bộ xương giống chó cổ hơn."
+    },
+    {
+      "sentence_id": "S0057",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Tháng Ba năm 2026, hai nghiên cứu trên Nature đã làm khoảng trống đó nhỏ đi đáng kể."
+    },
+    {
+      "sentence_id": "S0058",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Một nhóm phân tích hài cốt canid ở Pınarbaşı, thuộc Thổ Nhĩ Kỳ ngày nay, có niên đại khoảng mười lăm nghìn tám trăm năm, và ở Gough’s Cave tại Anh, khoảng mười bốn nghìn ba trăm năm."
+    },
+    {
+      "sentence_id": "S0059",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Dữ liệu hạt nhân và ty thể cho thấy chúng thuộc về chó, không chỉ là sói có hình dạng lạ."
+    },
+    {
+      "sentence_id": "S0060",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Nghiên cứu khác phân tích hàng trăm hài cốt canid ở châu Âu và vùng lân cận, trong đó có một con chó ở Kesslerloch, Thụy Sĩ, khoảng mười bốn nghìn hai trăm năm tuổi."
+    },
+    {
+      "sentence_id": "S0061",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Con vật này đã mang quan hệ tổ tiên với những quần thể chó về sau, cho thấy sự phân hoá trong loài chó đã bắt đầu trước thời điểm đó."
+    },
+    {
+      "sentence_id": "S0062",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Đáng chú ý hơn, chó ở những địa điểm cách xa nhau từ Anh đến Anatolia lại khá giống nhau về di truyền, dù những nhóm người sống cùng chúng thuộc các truyền thống văn hoá và nền tảng di truyền khác nhau."
+    },
+    {
+      "sentence_id": "S0063",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Điều đó gợi ra một hình ảnh hoàn toàn khác với “mỗi nhóm người tự bắt một bầy sói địa phương rồi tạo ra chó của riêng mình”."
+    },
+    {
+      "sentence_id": "S0064",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Ít nhất tại Tây Á–Âu cuối thời Đồ đá cũ, chó dường như đã được mang đi, trao đổi hoặc lan truyền giữa các nhóm người."
+    },
+    {
+      "sentence_id": "S0065",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Nhưng phát hiện năm 2026 vẫn không cho chúng ta nơi sinh của con chó đầu tiên."
+    },
+    {
+      "sentence_id": "S0066",
+      "section_heading": "4. Năm 2026, chiếc đồng hồ di truyền được đẩy lùi thêm vài nghìn năm",
+      "exact_text": "Chính các tác giả cũng nhấn mạnh rằng quá trình thuần hoá phải bắt đầu trước những con chó đã phân hoá mà họ tìm thấy, còn trước bao lâu và ở đâu thì dữ liệu hiện tại chưa đủ để xác định."
+    },
+    {
+      "sentence_id": "S0067",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Đây là phần hấp dẫn nhất của câu chuyện, và cũng là phần dễ bị kể quá chắc chắn nhất."
+    },
+    {
+      "sentence_id": "S0068",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Một giả thuyết quen thuộc nói rằng những con sói ít sợ người hơn bắt đầu lảng vảng quanh trại để ăn phần thừa."
+    },
+    {
+      "sentence_id": "S0069",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Những cá thể hung hăng hoặc quá nhát sẽ giữ khoảng cách; những cá thể chịu được sự hiện diện của con người có thêm cơ hội kiếm thức ăn."
+    },
+    {
+      "sentence_id": "S0070",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Qua nhiều thế hệ, sự khác biệt hành vi có thể tích luỹ."
+    },
+    {
+      "sentence_id": "S0071",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Giả thuyết này thường được gọi là con đường “hội sinh”: một loài tự khai thác môi trường mới do loài khác tạo ra, rồi dần hình thành quan hệ gần hơn."
+    },
+    {
+      "sentence_id": "S0072",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Nhưng không phải ai cũng cho rằng mô hình bãi rác là đủ cho bối cảnh cuối Kỷ Băng hà."
+    },
+    {
+      "sentence_id": "S0073",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Các nhóm săn bắt–hái lượm thường di chuyển, và thức ăn dư có thể không tạo ra nguồn rác ổn định như ở làng nông nghiệp về sau."
+    },
+    {
+      "sentence_id": "S0074",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Một số nhà nghiên cứu vì thế nhấn mạnh khả năng con người chủ động mang sói con về trại, nuôi dưỡng và xã hội hoá chúng."
+    },
+    {
+      "sentence_id": "S0075",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Có thể cả hai kiểu tương tác đều từng xảy ra."
+    },
+    {
+      "sentence_id": "S0076",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Có thể quá trình khác nhau theo vùng và thời điểm."
+    },
+    {
+      "sentence_id": "S0077",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Điều mà khảo cổ học hiện chưa thể cho chúng ta là một chuỗi sự kiện kiểu: năm thứ nhất sói đến ăn xương, năm thứ hai con người nhận nuôi sói con, rồi vài thế kỷ sau chó xuất hiện."
+    },
+    {
+      "sentence_id": "S0078",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Vì vậy, cách an toàn hơn là nói thế này: chó xuất hiện từ một quá trình quan hệ lặp đi lặp lại giữa người và sói, trong đó những cá thể phù hợp hơn với đời sống gần người có cơ hội tồn tại và sinh sản trong một môi trường xã hội mới."
+    },
+    {
+      "sentence_id": "S0079",
+      "section_heading": "5. Vậy ai bước lại gần ai trước?",
+      "exact_text": "Còn tỷ lệ giữa “sói tự đến” và “người chủ động nuôi” vẫn là câu hỏi mở."
+    },
+    {
+      "sentence_id": "S0080",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nếu một con sói sống gần người, điều kiện đầu tiên không phải là nó phải nhỏ hơn hay đẹp hơn."
+    },
+    {
+      "sentence_id": "S0081",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nó phải có thể chịu được con người."
+    },
+    {
+      "sentence_id": "S0082",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Hãy tưởng tượng hai con vật cùng đứng ở rìa một trại săn."
+    },
+    {
+      "sentence_id": "S0083",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Một con bỏ chạy ngay khi có người nhìn thấy."
+    },
+    {
+      "sentence_id": "S0084",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Con kia lùi lại nhưng không biến mất."
+    },
+    {
+      "sentence_id": "S0085",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nếu con thứ hai liên tục lấy được thức ăn, hoặc được con người dung nạp, nó có nhiều cơ hội quay lại."
+    },
+    {
+      "sentence_id": "S0086",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nếu nó sinh con trong môi trường đó, những đặc điểm hành vi khiến việc sống gần người dễ hơn có thể tiếp tục được giữ lại."
+    },
+    {
+      "sentence_id": "S0087",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Đây không phải bằng chứng trực tiếp về chính xác cách con chó đầu tiên ra đời."
+    },
+    {
+      "sentence_id": "S0088",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nó là một cơ chế tiến hoá hợp lý để hiểu vì sao quá trình thuần hoá có thể diễn ra mà không cần một “kế hoạch nhân giống” có ý thức ngay từ đầu."
+    },
+    {
+      "sentence_id": "S0089",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Sau này, khi con người chủ động chọn những con vật có hành vi và khả năng phù hợp với nhu cầu của mình, áp lực chọn lọc có thể trở nên trực tiếp hơn."
+    },
+    {
+      "sentence_id": "S0090",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Nhưng ở giai đoạn đầu, chỉ riêng việc môi trường sống mới ưu tiên những cá thể bớt sợ người đã có thể làm quần thể thay đổi."
+    },
+    {
+      "sentence_id": "S0091",
+      "section_heading": "6. Thay đổi lớn nhất ban đầu có thể nằm trong hành vi, không phải hình dáng",
+      "exact_text": "Và một khi hai loài giao tiếp ngày càng tốt hơn, lợi ích của việc ở gần nhau có thể tăng lên."
+    },
+    {
+      "sentence_id": "S0092",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Chúng ta phải thận trọng ở đây, vì rất khó chứng minh một nhiệm vụ cụ thể từ một bộ xương mười lăm nghìn năm tuổi."
+    },
+    {
+      "sentence_id": "S0093",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Chó có thể hỗ trợ phát hiện con mồi, cảnh báo nguy hiểm hoặc theo dấu bằng khứu giác."
+    },
+    {
+      "sentence_id": "S0094",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Con người có thể cung cấp thức ăn, nơi trú và sự bảo vệ."
+    },
+    {
+      "sentence_id": "S0095",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Những khả năng này rất hợp lý về sinh thái, nhưng mức độ chúng thúc đẩy thuần hoá ban đầu vẫn đang được tranh luận."
+    },
+    {
+      "sentence_id": "S0096",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Điều chắc hơn là đến cuối thời Đồ đá cũ, chó không chỉ xuất hiện ở một điểm đơn lẻ."
+    },
+    {
+      "sentence_id": "S0097",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Dữ liệu năm 2026 cho thấy các nhóm người khác nhau đã sống với những con chó có quan hệ di truyền gần nhau trên một vùng rất rộng của Tây Á–Âu."
+    },
+    {
+      "sentence_id": "S0098",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Một vật hay một con vật chỉ lan truyền giữa các cộng đồng khi nó có giá trị nào đó."
+    },
+    {
+      "sentence_id": "S0099",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Giá trị ấy có thể thực dụng, xã hội, biểu tượng, hoặc kết hợp nhiều thứ."
+    },
+    {
+      "sentence_id": "S0100",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Khảo cổ học không thể cân từng yếu tố, nhưng việc chó đi cùng hoặc được trao đổi giữa những nhóm người khác nhau cho thấy chúng đã trở thành thứ đáng mang theo."
+    },
+    {
+      "sentence_id": "S0101",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Và tại Bonn-Oberkassel, một con chó non bị bệnh vẫn sống đủ lâu để để lại dấu vết của một giai đoạn chăm sóc kéo dài."
+    },
+    {
+      "sentence_id": "S0102",
+      "section_heading": "7. Từ kẻ cạnh tranh thành cộng sự: điều gì mỗi bên có thể nhận được?",
+      "exact_text": "Dù ta không thể đọc cảm xúc của người tiền sử từ xương, đây là bằng chứng rất khó hòa với hình ảnh chó chỉ là công cụ dùng khi có ích rồi bỏ đi."
+    },
+    {
+      "sentence_id": "S0103",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Ngày nay, chó đặc biệt nhạy với cử chỉ và sự chú ý của con người."
+    },
+    {
+      "sentence_id": "S0104",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Một nghiên cứu năm 2015 còn phát hiện rằng trong các tương tác giữa chó và chủ, việc nhìn vào nhau có thể liên quan đến một vòng phản hồi oxytocin, một hormone có vai trò trong nhiều dạng gắn kết xã hội."
+    },
+    {
+      "sentence_id": "S0105",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Nhưng cần đặt phát hiện này đúng chỗ."
+    },
+    {
+      "sentence_id": "S0106",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Nó được quan sát ở chó và người hiện đại."
+    },
+    {
+      "sentence_id": "S0107",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Nó không phải máy quay thời gian chứng minh rằng oxytocin là nguyên nhân khiến sói được thuần hoá mười lăm hay hai mươi nghìn năm trước."
+    },
+    {
+      "sentence_id": "S0108",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Giá trị của nghiên cứu nằm ở chỗ khác: nó cho thấy quá trình đồng hành lâu dài đã tạo ra một hệ tương tác xã hội sâu đến mức có thể đo được bằng hành vi và sinh lý."
+    },
+    {
+      "sentence_id": "S0109",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Sau hàng nghìn thế hệ, chó không chỉ sống cạnh người; chúng đã trở thành loài cực kỳ giỏi đọc môi trường xã hội do con người tạo ra."
+    },
+    {
+      "sentence_id": "S0110",
+      "section_heading": "8. Mối quan hệ xã hội mới dần trở thành một phần của sinh học",
+      "exact_text": "Đó là một thay đổi lớn so với điểm xuất phát là một kẻ săn mồi hoang dã luôn phải cân nhắc xem con người trước mặt là đối thủ, mối nguy hay cơ hội."
+    },
+    {
+      "sentence_id": "S0111",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Điều đặc biệt về chó là quá trình thuần hoá của chúng bắt đầu trước nông nghiệp."
+    },
+    {
+      "sentence_id": "S0112",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Nhưng sau khi nông nghiệp lan rộng, môi trường sống của chó lại đổi một lần nữa."
+    },
+    {
+      "sentence_id": "S0113",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Các làng định cư tạo ra kiểu thức ăn khác, nhiều nguyên liệu thực vật và tinh bột hơn so với chế độ ăn của một loài săn mồi hoang dã."
+    },
+    {
+      "sentence_id": "S0114",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Nghiên cứu di truyền ở chó hiện đại đã tìm thấy dấu hiệu chọn lọc ở các gene liên quan đến tiêu hoá tinh bột."
+    },
+    {
+      "sentence_id": "S0115",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Tuy nhiên, câu chuyện không đơn giản là “con người trồng lúa mì và chó lập tức có gene ăn tinh bột”."
+    },
+    {
+      "sentence_id": "S0116",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Nghiên cứu trên chó cổ cho thấy sự gia tăng số bản sao của một gene tiêu hoá tinh bột quan trọng chưa đạt mức cao như ở nhiều chó hiện đại trong một số quần thể thời kỳ đầu."
+    },
+    {
+      "sentence_id": "S0117",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Nói cách khác, thuần hoá chó không phải một sự kiện kết thúc rồi đóng lại."
+    },
+    {
+      "sentence_id": "S0118",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Quan hệ với con người liên tục tạo ra môi trường mới, và chó tiếp tục thích nghi khi con người chuyển từ săn bắt–hái lượm sang nông nghiệp, di cư đến vùng mới và hình thành những xã hội khác nhau."
+    },
+    {
+      "sentence_id": "S0119",
+      "section_heading": "9. Khi con người thay đổi cách sống, chó cũng tiếp tục thay đổi",
+      "exact_text": "Chính lịch sử di chuyển ấy cũng để lại dấu vết trong DNA."
+    },
+    {
+      "sentence_id": "S0120",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Nghiên cứu năm 2020 cho thấy lịch sử quần thể chó có nhiều đoạn song song với lịch sử con người."
+    },
+    {
+      "sentence_id": "S0121",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Khi người di chuyển, chó thường di chuyển cùng."
+    },
+    {
+      "sentence_id": "S0122",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Nhưng nghiên cứu năm 2026 bổ sung một chi tiết thú vị: ở cuối thời Đồ đá cũ, những con chó tương đối giống nhau về di truyền đã xuất hiện bên cạnh các nhóm người khác biệt nhau."
+    },
+    {
+      "sentence_id": "S0123",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Điều đó có nghĩa là chó có thể được trao đổi giữa các cộng đồng, hoặc một quần thể chó có thể lan rộng nhanh hơn ranh giới di truyền của chính con người."
+    },
+    {
+      "sentence_id": "S0124",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Về sau, các dòng tổ tiên chó từ phía đông và phía tây Á–Âu tiếp tục gặp nhau."
+    },
+    {
+      "sentence_id": "S0125",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Nhiều chó châu Âu thời kỳ sau mang hỗn hợp các thành phần tổ tiên này."
+    },
+    {
+      "sentence_id": "S0126",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Vì vậy khi nhìn một con chó hiện đại và hỏi “nó đến từ con sói nào?”, câu hỏi nghe đơn giản hơn thực tế."
+    },
+    {
+      "sentence_id": "S0127",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Phả hệ của chó không phải một đường thẳng từ một bầy sói cổ đến một giống chó hôm nay."
+    },
+    {
+      "sentence_id": "S0128",
+      "section_heading": "10. Chó đi theo con người, nhưng không phải lúc nào cũng đi cùng đúng một nhóm người",
+      "exact_text": "Nó là mạng lưới của tách nhánh, di chuyển, lai trộn và chọn lọc kéo dài hàng nghìn năm."
+    },
+    {
+      "sentence_id": "S0129",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Đến đây có vài điều khá chắc."
+    },
+    {
+      "sentence_id": "S0130",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Chó có nguồn gốc từ sói xám."
+    },
+    {
+      "sentence_id": "S0131",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Chúng đã trở thành một quần thể khác biệt từ cuối Kỷ Băng hà, trước khi nông nghiệp xuất hiện."
+    },
+    {
+      "sentence_id": "S0132",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Đến khoảng mười bốn đến mười sáu nghìn năm trước, chó đã có mặt trên một vùng rộng của Tây Á–Âu, và bằng chứng genome mới cho thấy chúng đã được tích hợp vào nhiều cộng đồng săn bắt–hái lượm khác nhau."
+    },
+    {
+      "sentence_id": "S0133",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Nhưng những câu hỏi lớn nhất vẫn còn mở."
+    },
+    {
+      "sentence_id": "S0134",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Ta chưa biết địa điểm chính xác nơi quá trình thuần hoá bắt đầu."
+    },
+    {
+      "sentence_id": "S0135",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Ta chưa biết có một lần thuần hoá chính rồi lai với sói ở nơi khác, hay có nhiều quá trình ban đầu rồi các dòng chó hợp nhất."
+    },
+    {
+      "sentence_id": "S0136",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Ta cũng chưa biết cơ chế xã hội nào quan trọng nhất ở những thế hệ đầu tiên: nhặt thức ăn quanh trại, con người nuôi sói non, hợp tác săn bắn, hay một tổ hợp thay đổi theo từng vùng."
+    },
+    {
+      "sentence_id": "S0137",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Và có một lý do khiến những khoảng trống đó có thể tồn tại rất lâu."
+    },
+    {
+      "sentence_id": "S0138",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Quần thể sói đã sống cách đây hai mươi hay ba mươi nghìn năm không nhất thiết còn hậu duệ nguyên vẹn ngày nay."
+    },
+    {
+      "sentence_id": "S0139",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Một dòng tổ tiên có thể biến mất, bị pha trộn hoặc chưa từng được lấy mẫu DNA cổ."
+    },
+    {
+      "sentence_id": "S0140",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Nói cách khác, việc không tìm thấy “con sói tổ tiên hoàn hảo” trong dữ liệu hiện có không có nghĩa là nó chưa từng tồn tại."
+    },
+    {
+      "sentence_id": "S0141",
+      "section_heading": "11. Điều chúng ta vẫn chưa biết quan trọng không kém điều đã biết",
+      "exact_text": "Nó chỉ có nghĩa là bản đồ di truyền của quá khứ vẫn còn nhiều ô trống."
+    },
+    {
+      "sentence_id": "S0142",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Câu chuyện về chó thường được kể như một chiến thắng của con người trước tự nhiên: chúng ta bắt một con thú hoang, kiểm soát nó, rồi biến nó thành bạn đồng hành."
+    },
+    {
+      "sentence_id": "S0143",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Nhưng bằng chứng hiện đại gợi ra một câu chuyện ít một chiều hơn."
+    },
+    {
+      "sentence_id": "S0144",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Ở đâu đó trước mốc mười bốn nghìn năm, một số quần thể sói đã bước vào một quan hệ mới với con người."
+    },
+    {
+      "sentence_id": "S0145",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Những con vật có thể sống gần người được giữ lại trong môi trường mới."
+    },
+    {
+      "sentence_id": "S0146",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Con người nhận được một cộng sự có giác quan và khả năng khác mình."
+    },
+    {
+      "sentence_id": "S0147",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Qua nhiều thế hệ, hành vi, di truyền, chế độ ăn và cách di chuyển của chó đều thay đổi."
+    },
+    {
+      "sentence_id": "S0148",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Đến khi những con chó ở Pınarbaşı, Gough’s Cave hay Kesslerloch để lại xương và DNA cho chúng ta tìm thấy, quá trình ấy đã diễn ra đủ lâu để chó không còn chỉ là “sói sống gần người”."
+    },
+    {
+      "sentence_id": "S0149",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Chúng đã là một phần của mạng lưới xã hội giữa những cộng đồng người khác nhau."
+    },
+    {
+      "sentence_id": "S0150",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Và đó có lẽ là phần đáng chú ý nhất."
+    },
+    {
+      "sentence_id": "S0151",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Con vật đầu tiên con người thuần hoá không phải loài ăn cỏ hiền lành."
+    },
+    {
+      "sentence_id": "S0152",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Nó là một kẻ săn mồi cạnh tranh với chúng ta."
+    },
+    {
+      "sentence_id": "S0153",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Chúng ta vẫn chưa biết chính xác ai bước lại gần trước."
+    },
+    {
+      "sentence_id": "S0154",
+      "section_heading": "Kết — Có lẽ con người không chỉ thuần hoá chó; hai loài đã thay đổi môi trường sống của nhau",
+      "exact_text": "Nhưng từ khoảnh khắc khoảng cách đó bắt đầu thu hẹp, cả lịch sử của con người lẫn lịch sử của chó đều không còn như cũ."
+    }
+  ],
+  "source_sentence_count": 154,
+  "indexed_sentence_count": 154,
+  "duplicate_sentence_ids": [],
+  "missing_sentence_ids": [],
+  "reconstruction_ok": true,
+  "status": "PASS"
+}
