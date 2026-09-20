@@ -1,0 +1,30 @@
+{
+  "artifact_schema_version": "3.3.0",
+  "artifacts": {
+    "00_project_brief.yaml": "project-brief.schema.json",
+    "02_sources.json": "sources.schema.json",
+    "02_evidence_ledger.json": "evidence-ledger.schema.json",
+    "03_core_subject.json": "core-subject.schema.json",
+    "03_claim_map.json": "claim-map.schema.json",
+    "03_knowledge_graph.json": "knowledge-graph.schema.json",
+    "05_draft_sentence_index.json": "sentence-index.schema.json",
+    "05_lexical_knowledge_sweep.json": "stage-audit.schema.json",
+    "05_blind_knowledge_inventory.json": "knowledge-inventory.schema.json",
+    "06_knowledge_closure.json": "knowledge-closure.schema.json",
+    "06_terminology_prune.json": "stage-audit.schema.json",
+    "07_reveal_audit.json": "stage-audit.schema.json",
+    "07_knowledge_delta.json": "stage-audit.schema.json",
+    "08_naturalness_audit.json": "stage-audit.schema.json",
+    "08_knowledge_delta.json": "stage-audit.schema.json",
+    "09_claim_strength_audit.json": "stage-audit.schema.json",
+    "09_knowledge_delta.json": "stage-audit.schema.json",
+    "10_final_sentence_index.json": "sentence-index.schema.json",
+    "10b_isolation_manifest.json": "isolation-manifest.schema.json",
+    "10b1_blind_knowledge_inventory.json": "knowledge-inventory.schema.json",
+    "10b2_blind_claim_inventory.json": "claim-inventory.schema.json",
+    "10b3_blind_naturalness_audit.json": "naturalness-audit.schema.json",
+    "10_final_integrity.json": "final-integrity.schema.json",
+    "artifact_manifest.json": "artifact-manifest.schema.json",
+    "10d_proof_verification.json": "proof-verification.schema.json"
+  }
+}
