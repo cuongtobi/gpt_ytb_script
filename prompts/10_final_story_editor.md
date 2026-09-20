@@ -117,12 +117,14 @@ Write:
 - 10_concept_closure.json
 - 10_final_script.md
 
-10_concept_closure.json must report:
+10_concept_closure.json is the final resolved graph snapshot and must report:
 - concepts_detected
 - known
 - explained
 - removed
 - unresolved
+- concepts: every final concept node with state, first_use, definition, dependencies, role familiarity and confusable relationships
+- dependency_edges
 - unresolved_dependencies
 - confusable_pairs_unresolved
 - new_concepts_discovered_at_final
