@@ -2,13 +2,10 @@
 
 ## Role
 
-Reconcile final candidate and blind outputs while preserving exact proof identity.
+Reconcile final candidate and isolated blind outputs.
 
 Read:
 - normal upstream evidence
-- 02_sources.json
-- 02_evidence_ledger.json
-- 03_claim_map.json
 - 10_final_candidate.md
 - 10_final_sentence_index.json
 - 10b_isolation_manifest.json
@@ -16,33 +13,121 @@ Read:
 - 10b2_blind_claim_inventory.json
 - 10b3_blind_naturalness_audit.json
 - shared protocols
-
-Hash every actual input.
+- CONTENT_ADDRESSING_PROTOCOL.md
+- EVIDENCE_PROVENANCE_PROTOCOL.md
 
 ## 1. Isolation status
 
 Read runtime manifest.
-If isolation is not VERIFIED, continue advisory reconciliation but final project cannot be PASS_VERIFIED.
 
-## 2. Validate freshness before reconciliation
+If isolation not VERIFIED:
+- continue only as advisory reconciliation;
+- project cannot be PASS_VERIFIED.
 
-Require B1/B2/B3 declared script/index hashes to match the current final candidate/index.
-A mismatch is stale proof and requires rerunning the stale audit before reconciliation.
+Do not rewrite manifest.
 
-## 3. Knowledge conservation
+## 2. Validate 10B1 sentence coverage
 
-Every B1 candidate receives exactly one:
+Require:
+- canonical sentence IDs == 10B1 ledger sentence IDs
+- no missing/extra/duplicate IDs
+
+Otherwise FAIL.
+
+## 3. Candidate-level disposition
+
+Every 10B1 candidate receives exactly one:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-Require exact discovered/disposition ID equality, strict baseline provenance and valid temporal proof.
+BASELINE_KNOWN requires exact provenance.
 
-## 4. Claim conservation
+## 4. Conservation equation
 
-Every B2 claim candidate receives exactly one FINAL disposition:
+Compute and store:
+
+discovered_count
+=
+baseline_known_count
++ grounded_count
++ replaced_count
++ removed_count
++ unresolved_count
+
+Also:
+- missing_candidate_ids
+- duplicate_disposition_ids
+- equation_valid
+
+If invalid:
+FAIL.
+
+## 5. Temporal proof
+
+For every retained unfamiliar candidate record:
+- first_use_sentence_id
+- grounding_mode
+- grounding_sentence_id or baseline provenance
+- ordering_valid
+
+If coordinate missing or ordering invalid:
+FAIL.
+
+## 6. Claims
+
+Reconcile all 10B2 claims against Claim Map/sources/stage 09.
+
+Repair unsupported strength/scope minimally.
+
+If factual substance changes:
+rerun 09.
+
+## 7. Naturalness/redundancy
+
+Reconcile 10B3 flags.
+
+Prefer minimal repair.
+
+## 8. Repair loop
+
+Any final-text change invalidates:
+- 10_final_sentence_index.json
+- all 10B outputs
+- temporal proofs
+
+Regenerate index and rerun all three isolated audits.
+
+## Outputs
+
+Write:
+- 10_final_story_report.md
+- 10_final_integrity.json
+- 10_final_script.md
+
+10_final_integrity.json must include:
+- all normal integrity counters
+- sentence_coverage_proof
+- candidate_conservation_proof
+- temporal_proof_summary
+- baseline_provenance_summary
+- isolation_status
+- content_integrity_status
+- proof_verifier_status: PENDING
+- project_status: PENDING_10D
+
+Do not declare PASS_VERIFIED here.
+
+
+## v3.3 — Content-addressed claim + finding conservation
+
+Before reconciliation, require 10B1/10B2/10B3 script/index hashes to match the current final candidate/index. Hash mismatch means stale proof and requires rerunning that blind audit.
+
+### Blind claim conservation
+
+Every 10B2 claim_candidate_id receives exactly one final disposition:
 - SUPPORTED
 - QUALIFIED
 - NON_FACTUAL
@@ -53,57 +138,27 @@ For SUPPORTED/QUALIFIED record:
 - evidence_ids
 - remaining_issue_types
 
-Evidence IDs must already exist in 02_evidence_ledger.json.
-Mapped claim IDs must already exist in 03_claim_map.json.
+Evidence must already exist in 02_evidence_ledger.json and map onward to a valid source. New evidence may not be invented in 10C.
 
-If a blind claim needs new research, reroute to stage 02/03B/09; do not manufacture evidence here.
+### B3 finding conservation
 
-UNRESOLVED must be zero.
-
-## 5. Naturalness finding conservation
-
-Every B3 finding receives exactly one:
+Every 10B3 finding_id receives exactly one:
 - RESOLVED
 - KEEP_WITH_REASON
 - UNRESOLVED
 
-KEEP_WITH_REASON requires a reason and is permitted only for soft/editorial findings.
-UNRESOLVED must be zero.
+KEEP_WITH_REASON is allowed only for soft/editorial findings and requires a reason.
 
-## 6. Repair loop
+### Repair invalidation
 
-If reconciliation changes final text:
-- write the repaired text back as a new 10_final_candidate.md;
-- invalidate 10_final_sentence_index.json;
-- invalidate B1/B2/B3;
-- rerun 10A1 and all three blind audits;
-- rerun 10C.
+If any final-text change is made, regenerate 10_final_sentence_index.json and rerun 10B1, 10B2 and 10B3 before continuing. Final released script bytes must equal the bytes audited by all three blind auditors.
 
-Never release a script that differs from the script bytes audited by B1/B2/B3.
+### Additional 10_final_integrity.json proof records
 
-## 7. Recomputable integrity record
-
-Write proof records, not only summary zeros.
-
-10_final_integrity.json must contain:
+Include:
 - content_address
-- knowledge candidate_conservation_proof
-- temporal_proofs
 - claim_conservation_proof
 - naturalness_finding_conservation_proof
-- summary counters
-- isolation_status
-- content_integrity_status
-- proof_verifier_status: PENDING
-- project_status: PENDING_10D
+- v3.3 proof counters for schema/hash/stale-audit/claim/finding conservation
 
-## Outputs
-
-Write:
-- 10_final_story_report.md
-- 10_final_integrity.json
-- 10_final_script.md
-
-10_final_script.md must be byte-identical to the final candidate audited by B1/B2/B3. If not, rerun the final proof cycle.
-
-Do not declare PASS_VERIFIED here.
+10D recomputes these counters and rejects summary mismatches.
