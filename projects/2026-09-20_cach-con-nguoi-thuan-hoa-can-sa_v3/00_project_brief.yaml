@@ -1,0 +1,36 @@
+project:
+  topic: "Cách con người thuần hóa cần sa"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 25
+  target_word_range: "3500-3900"
+  assumed_delivery_rate: "145-155 từ/phút"
+  audience: "general"
+  technical_level: "accessible"
+  tone: "conversational_documentary"
+
+story:
+  hook_mode: "contradiction"
+  angle_mode: "auto"
+  visual_storytelling: true
+
+research:
+  depth: "deep"
+  freshness_required: true
+  web_research_allowed: true
+  source_priority:
+    - primary
+    - peer_reviewed
+    - academic_secondary
+
+pipeline:
+  version: "3.0"
+  status: "complete"
+
+non_goals:
+  - storyboard
+  - shot list
+  - image prompts
+  - B-roll list
+  - camera directions
+  - visual timeline

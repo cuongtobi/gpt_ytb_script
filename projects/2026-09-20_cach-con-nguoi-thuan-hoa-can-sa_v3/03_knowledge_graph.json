@@ -1,0 +1,388 @@
+{
+  "audience_baseline": {
+    "language": "vi-VN",
+    "audience": "general",
+    "technical_level": "accessible",
+    "assumed_known": [
+      "cây",
+      "hạt",
+      "thân",
+      "hoa",
+      "nhựa",
+      "sợi",
+      "thực phẩm",
+      "dầu",
+      "đất",
+      "không khí",
+      "ánh sáng",
+      "nhiệt",
+      "thế hệ",
+      "nông nghiệp",
+      "nghi lễ",
+      "khảo cổ"
+    ],
+    "normal_language_primitives": [
+      "người",
+      "nước",
+      "đá",
+      "mùa",
+      "giống",
+      "khác",
+      "trồng",
+      "giữ",
+      "đốt",
+      "ăn",
+      "dây",
+      "vải"
+    ],
+    "never_auto_known_categories": [
+      "scientific species names",
+      "acronyms",
+      "chemical labels",
+      "specialist genetics terms",
+      "specialist archaeological methods"
+    ]
+  },
+  "nodes": [
+    {
+      "knowledge_id": "K001",
+      "label": "cần sa",
+      "type": "CORE_ENTITY",
+      "canonical_entity": "Cannabis sativa",
+      "state": "GROUNDED",
+      "label_familiarity": "high",
+      "role_familiarity": "low_before_opening_grounding",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "là một loài cây",
+        "thân cho sợi",
+        "hạt cho thực phẩm/dầu",
+        "hoa/nhựa chứa hợp chất"
+      ],
+      "dependencies": [],
+      "relations": [
+        "AUDIENCE_NAME_OF K002"
+      ],
+      "first_use_strategy": "common label allowed in hook; ground immediately in opening"
+    },
+    {
+      "knowledge_id": "K002",
+      "label": "Cannabis sativa",
+      "type": "ALIAS",
+      "canonical_entity": "Cannabis sativa",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "tên khoa học dùng cho cây cần sa trong các nghiên cứu nguồn gốc"
+      ],
+      "dependencies": [
+        "K001"
+      ],
+      "relations": [
+        "ALIAS_OF K001"
+      ],
+      "first_use_strategy": "introduce after 'cần sa' is identified as a plant"
+    },
+    {
+      "knowledge_id": "K003",
+      "label": "Cannabis",
+      "type": "ALIAS",
+      "canonical_entity": "Cannabis sativa",
+      "state": "GROUNDED",
+      "label_familiarity": "medium",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "cách gọi ngắn của Cannabis sativa trong video"
+      ],
+      "dependencies": [
+        "K002"
+      ],
+      "relations": [
+        "SHORT_FORM_OF K002"
+      ],
+      "first_use_strategy": "explicitly map before free reuse"
+    },
+    {
+      "knowledge_id": "K004",
+      "label": "THC",
+      "type": "COMPONENT",
+      "canonical_entity": "Cannabis sativa",
+      "state": "GROUNDED",
+      "label_familiarity": "medium",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "một hợp chất của cây cần sa",
+        "liên quan mạnh đến tác dụng gây say"
+      ],
+      "dependencies": [
+        "K001"
+      ],
+      "relations": [
+        "PRODUCED_BY K001",
+        "ASSOCIATED_WITH intoxicating effect"
+      ],
+      "first_use_strategy": "ground in opening"
+    },
+    {
+      "knowledge_id": "K005",
+      "label": "thuần hóa",
+      "type": "PROCESS",
+      "state": "GROUNDED",
+      "label_familiarity": "medium",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "qua nhiều thế hệ con người giữ lại cây có đặc điểm hữu ích làm các đặc điểm đó phổ biến hơn"
+      ],
+      "dependencies": [
+        "thế hệ"
+      ],
+      "relations": [
+        "ACTS_ON K001"
+      ],
+      "first_use_strategy": "inline gloss at first spoken use"
+    },
+    {
+      "knowledge_id": "K006",
+      "label": "genome",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "toàn bộ thông tin di truyền",
+        "kho chỉ dẫn sinh học truyền qua thế hệ"
+      ],
+      "dependencies": [
+        "thế hệ"
+      ],
+      "relations": [
+        "PART_OF organism"
+      ],
+      "first_use_strategy": "plain idea then label"
+    },
+    {
+      "knowledge_id": "K007",
+      "label": "phytolith",
+      "type": "EVIDENCE_TYPE",
+      "state": "GROUNDED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "necessity": "required",
+      "minimum_grounding": [
+        "hạt khoáng cực nhỏ hình thành trong mô cây và có thể tồn tại lâu trong đất"
+      ],
+      "dependencies": [
+        "cây",
+        "đất"
+      ],
+      "relations": [
+        "EVIDENCE_FOR past plant presence"
+      ],
+      "first_use_strategy": "mechanism first then label"
+    },
+    {
+      "knowledge_id": "K008",
+      "label": "hemp",
+      "type": "CLASSIFICATION",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "dòng Cannabis được chọn chủ yếu cho thân/sợi hoặc hạt, không phải vì tác dụng gây say"
+      ],
+      "dependencies": [
+        "K001",
+        "sợi",
+        "hạt"
+      ],
+      "relations": [
+        "SUBTYPE_OF K001",
+        "SELECTED_FOR fiber/seed"
+      ],
+      "first_use_strategy": "function first then label"
+    },
+    {
+      "knowledge_id": "K009",
+      "label": "cannabinoid",
+      "type": "CLASSIFICATION",
+      "state": "GROUNDED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "necessity": "required",
+      "minimum_grounding": [
+        "tên chung cho một nhóm hợp chất đặc trưng của cây cần sa",
+        "THC là một thành viên"
+      ],
+      "dependencies": [
+        "K001",
+        "K004"
+      ],
+      "relations": [
+        "PRODUCED_BY K001",
+        "CONTAINS K004"
+      ],
+      "first_use_strategy": "plain group definition at first use"
+    },
+    {
+      "knowledge_id": "K010",
+      "label": "CBN",
+      "type": "COMPONENT",
+      "state": "GROUNDED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "necessity": "required",
+      "minimum_grounding": [
+        "hợp chất có thể hình thành khi THC thay đổi theo không khí/ánh sáng/nhiệt"
+      ],
+      "dependencies": [
+        "K004",
+        "không khí",
+        "ánh sáng",
+        "nhiệt"
+      ],
+      "relations": [
+        "RELATED_TO K004"
+      ],
+      "first_use_strategy": "define in same sentence"
+    },
+    {
+      "knowledge_id": "K011",
+      "label": "thời đồ đá mới",
+      "type": "CLASSIFICATION",
+      "state": "GROUNDED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "supporting",
+      "necessity": "required",
+      "minimum_grounding": [
+        "giai đoạn nhiều cộng đồng chuyển mạnh sang trồng trọt và định cư"
+      ],
+      "dependencies": [
+        "nông nghiệp"
+      ],
+      "relations": [],
+      "first_use_strategy": "micro-gloss inline"
+    },
+    {
+      "knowledge_id": "K012",
+      "label": "marijuana",
+      "type": "ALIAS",
+      "state": "REMOVED",
+      "label_familiarity": "medium",
+      "role_familiarity": "ambiguous",
+      "importance": "optional",
+      "necessity": "removable",
+      "minimum_grounding": [],
+      "dependencies": [],
+      "relations": [
+        "RELATED_TO drug-oriented cannabis"
+      ],
+      "first_use_strategy": "do not use",
+      "removal_strategy": "omit from narration"
+    }
+  ],
+  "relations": [
+    {
+      "source": "K002",
+      "relation_type": "ALIAS_OF",
+      "target": "K001",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    },
+    {
+      "source": "K003",
+      "relation_type": "SHORT_FORM_OF",
+      "target": "K002",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    },
+    {
+      "source": "K004",
+      "relation_type": "PRODUCED_BY",
+      "target": "K001",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    },
+    {
+      "source": "K008",
+      "relation_type": "SUBTYPE_OF",
+      "target": "K001",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    },
+    {
+      "source": "K009",
+      "relation_type": "CONTAINS",
+      "target": "K004",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    },
+    {
+      "source": "K010",
+      "relation_type": "RELATED_TO",
+      "target": "K004",
+      "grounding_required": true,
+      "status": "GROUNDED"
+    }
+  ],
+  "dependency_edges": [
+    [
+      "K002",
+      "K001"
+    ],
+    [
+      "K003",
+      "K002"
+    ],
+    [
+      "K004",
+      "K001"
+    ],
+    [
+      "K008",
+      "K001"
+    ],
+    [
+      "K009",
+      "K001"
+    ],
+    [
+      "K009",
+      "K004"
+    ],
+    [
+      "K010",
+      "K004"
+    ]
+  ],
+  "alias_map": [
+    [
+      "cần sa",
+      "Cannabis sativa"
+    ],
+    [
+      "Cannabis",
+      "Cannabis sativa"
+    ]
+  ],
+  "confusable_pairs": [],
+  "initial_unresolved": [],
+  "status": "PASS"
+}

@@ -1,0 +1,190 @@
+{
+  "core_entities_ungrounded": 0,
+  "unmapped_aliases": 0,
+  "missing_discovered_nodes": 0,
+  "unresolved_concepts": 0,
+  "unresolved_dependencies": 0,
+  "unresolved_relations": 0,
+  "temporal_first_use_failures": 0,
+  "confusable_pairs_unresolved": 0,
+  "nodes": [
+    {
+      "label": "cần sa",
+      "state": "GROUNDED",
+      "first_use": "opening sentence 1",
+      "grounded_at": "opening paragraph 2"
+    },
+    {
+      "label": "thuần hóa",
+      "state": "GROUNDED",
+      "first_use": "opening sentence 1",
+      "grounded_at": "opening sentence 1 inline gloss"
+    },
+    {
+      "label": "Cannabis sativa",
+      "state": "GROUNDED",
+      "first_use": "opening paragraph 2",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "THC",
+      "state": "GROUNDED",
+      "first_use": "opening paragraph 2",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "Cannabis",
+      "state": "GROUNDED",
+      "first_use": "opening paragraph 5",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "thời đồ đá mới",
+      "state": "GROUNDED",
+      "first_use": "opening research paragraph",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "genome",
+      "state": "GROUNDED",
+      "first_use": "genome section",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "phytolith",
+      "state": "GROUNDED",
+      "first_use": "Shandong section",
+      "grounded_at": "same paragraph before/with label"
+    },
+    {
+      "label": "hemp",
+      "state": "GROUNDED",
+      "first_use": "fiber section",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "cannabinoid",
+      "state": "GROUNDED",
+      "first_use": "chemistry section",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "CBN",
+      "state": "GROUNDED",
+      "first_use": "Jirzankal section",
+      "grounded_at": "same sentence"
+    },
+    {
+      "label": "marijuana",
+      "state": "REMOVED",
+      "first_use": null,
+      "grounded_at": null
+    }
+  ],
+  "relations": [
+    [
+      "Cannabis sativa",
+      "ALIAS_OF",
+      "cần sa"
+    ],
+    [
+      "Cannabis",
+      "SHORT_FORM_OF",
+      "Cannabis sativa"
+    ],
+    [
+      "THC",
+      "PRODUCED_BY",
+      "cần sa"
+    ],
+    [
+      "hemp",
+      "SUBTYPE_OF",
+      "Cannabis"
+    ],
+    [
+      "THC",
+      "IS_A",
+      "cannabinoid"
+    ],
+    [
+      "CBN",
+      "RELATED_TO",
+      "THC"
+    ]
+  ],
+  "alias_map": [
+    [
+      "cần sa",
+      "Cannabis sativa"
+    ],
+    [
+      "Cannabis",
+      "Cannabis sativa"
+    ]
+  ],
+  "first_use_timeline": [
+    [
+      "thuần hóa",
+      "first spoken sentence",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "Cannabis sativa",
+      "opening paragraph 2",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "THC",
+      "opening paragraph 2",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "Cannabis",
+      "opening paragraph 5",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "genome",
+      "genome section",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "phytolith",
+      "Shandong section",
+      "same paragraph",
+      "PASS"
+    ],
+    [
+      "hemp",
+      "fiber section",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "cannabinoid",
+      "chemistry section",
+      "same sentence",
+      "PASS"
+    ],
+    [
+      "CBN",
+      "Jirzankal section",
+      "same sentence",
+      "PASS"
+    ]
+  ],
+  "blind_inventory_reconciliation": {
+    "blind_candidates": 11,
+    "matched_or_added": 11,
+    "ignored": 0,
+    "missing_after_reconciliation": 0
+  },
+  "repair_iterations": 2,
+  "status": "PASS"
+}

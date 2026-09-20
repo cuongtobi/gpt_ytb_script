@@ -1,0 +1,129 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim": "Cannabis sativa is a historically multi-use plant used for fiber, seeds/oil and psychoactive/medicinal purposes.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001",
+        "S007"
+      ],
+      "safe_wording": "Cần sa là một loài cây có nhiều công dụng; thân, hạt và các hợp chất của cây đã được khai thác theo những cách khác nhau."
+    },
+    {
+      "claim_id": "C002",
+      "claim": "A 2021 whole-genome study supports early domestication in East Asia.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Nghiên cứu 2021 đặt Đông Á vào vị trí trung tâm trong lịch sử thuần hóa các dòng Cannabis hiện đại."
+    },
+    {
+      "claim_id": "C003",
+      "claim": "The 2021 demographic model estimates divergence around 12,000 BP with a wide 95% confidence interval.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "model_estimate",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Mô hình di truyền đặt một mốc quan trọng khoảng 12.000 năm trước, với khoảng bất định hơn 6.000 đến hơn 15.000 năm."
+    },
+    {
+      "claim_id": "C004",
+      "claim": "Zhuzhai has an early charred Cannabis seed consistent with early cultivation but not definitive proof of full domestication.",
+      "importance": "supporting",
+      "confidence": "medium",
+      "support_type": "archaeobotanical_inference",
+      "source_ids": [
+        "S003",
+        "S004"
+      ],
+      "safe_wording": "Hạt Zhuzhai phù hợp với canh tác sớm nhưng không tự chứng minh toàn bộ quá trình thuần hóa."
+    },
+    {
+      "claim_id": "C005",
+      "claim": "Very early Japanese Cannabis seeds complicate a simple single-point story.",
+      "importance": "supporting",
+      "confidence": "medium",
+      "support_type": "archaeobotanical_inference",
+      "source_ids": [
+        "S004"
+      ],
+      "safe_wording": "Các hạt rất cổ ở Nhật Bản cho thấy lịch sử sử dụng/canh tác Đông Á rộng hơn, nhưng không chứng minh chắc một lần thuần hóa độc lập."
+    },
+    {
+      "claim_id": "C006",
+      "claim": "2026 Shandong phytolith evidence supports integration of Cannabis into local agriculture by Late Neolithic/Early Bronze Age.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S005"
+      ],
+      "safe_wording": "Phytolith Cannabis trong bối cảnh sinh hoạt và cùng cây lương thực cho thấy cây đã được tích hợp vào hệ thống nông nghiệp địa phương."
+    },
+    {
+      "claim_id": "C007",
+      "claim": "Genomic evidence supports divergence between hemp and drug-oriented cultivars around 4,000 BP and different selected traits.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Khoảng 4.000 năm trước, các dòng thiên về sợi và các dòng thiên về hoa/nhựa ngày càng phân hóa."
+    },
+    {
+      "claim_id": "C008",
+      "claim": "Haimenkou yielded more than 800 Cannabis grains with sizes largely in overlapping modern functional ranges.",
+      "importance": "supporting",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S004"
+      ],
+      "safe_wording": "Hơn 800 hạt Haimenkou nằm chủ yếu trong vùng chồng lấn, phù hợp với một cây trồng đang tách theo nhiều hướng sử dụng."
+    },
+    {
+      "claim_id": "C009",
+      "claim": "Yanghai preserves Cannabis plant remains in a burial context; Jirzankal provides stronger direct chemical evidence for burning.",
+      "importance": "supporting",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S006",
+        "S002"
+      ],
+      "safe_wording": "Yanghai cho thấy Cannabis trong mộ; Jirzankal cho thấy cặn hóa học của Cannabis bị đốt."
+    },
+    {
+      "claim_id": "C010",
+      "claim": "Jirzankal braziers contain CBN and other cannabinoid evidence consistent with burning cannabis with relatively high psychoactive compounds.",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S002"
+      ],
+      "safe_wording": "CBN trong cặn cháy hỗ trợ việc Cannabis giàu hợp chất gây say được cố ý đốt trong nghi lễ."
+    },
+    {
+      "claim_id": "C011",
+      "claim": "The archaeological spread of Cannabis across Eurasia is complex and should not be reduced to one simple arrow.",
+      "importance": "supporting",
+      "confidence": "medium",
+      "support_type": "synthesis",
+      "source_ids": [
+        "S007",
+        "S004"
+      ],
+      "safe_wording": "Hồ sơ khảo cổ cho thấy sự lan rộng diễn ra qua nhiều vùng, thời điểm và loại bằng chứng khác nhau."
+    }
+  ]
+}
