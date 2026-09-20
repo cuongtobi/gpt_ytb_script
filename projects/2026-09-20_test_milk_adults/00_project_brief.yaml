@@ -1,0 +1,21 @@
+project:
+  topic: "Vì sao một số người trưởng thành vẫn uống được sữa?"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 3.5
+  target_word_range: "520-680"
+  audience: "general"
+  technical_level: "accessible"
+  tone: "conversational_documentary"
+story:
+  hook_mode: "contradiction"
+  angle_mode: "auto"
+  visual_storytelling: true
+research:
+  depth: "deep"
+  freshness_required: false
+  web_research_allowed: true
+  special_constraints: ["pipeline test", "preserve uncertainty"]
+pipeline:
+  version: "1.0"
+  status: "complete"
