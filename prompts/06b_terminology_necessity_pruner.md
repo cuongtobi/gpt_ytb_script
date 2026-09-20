@@ -58,10 +58,14 @@ Do not universalize study-specific labels.
 
 Produce a full revised script.
 
-After pruning, verify removal does not:
+After pruning, verify removal/replacement does not:
 - create ambiguity;
 - break a dependency;
-- change factual meaning.
+- change factual meaning;
+- introduce a new unfamiliar label, concept, relation or specialized role.
+
+Replacement language must use BASELINE_KNOWN or already GROUNDED knowledge.
+If a necessary replacement introduces new unfamiliar knowledge, route the script back to stage 06 before PASS.
 
 ## Outputs
 
