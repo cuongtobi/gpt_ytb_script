@@ -16,6 +16,7 @@ Read:
 5. prompts/EVIDENCE_PROVENANCE_PROTOCOL.md
 6. prompts/FINAL_INTEGRITY_PROTOCOL.md
 7. prompts/INTEGRITY_PROOF_PROTOCOL.md
+8. prompts/11_tts_export.md
 
 ## Current pipeline: v3.3
 
