@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"proof-verification.schema.json",
+  "type":"object",
+  "required":["proof_verifier_status","isolation_verified","project_status","errors"],
+  "properties":{
+    "proof_verifier_status":{"enum":["PASS","FAIL"]},
+    "isolation_verified":{"type":"boolean"},
+    "project_status":{"enum":["PASS_VERIFIED","CONTENT_PASS_ISOLATION_NOT_VERIFIED","FAIL"]},
+    "errors":{"type":"array","items":{"type":"string"}}
+  }
+}
