@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knowledge-graph.schema.json",
+  "type": "object",
+  "required": ["audience_baseline", "nodes", "relations", "dependency_edges", "alias_map", "status"],
+  "properties": {
+    "audience_baseline": {
+      "type": "object",
+      "required": ["language", "audience", "assumed_known", "normal_language_primitives"]
+    },
+    "nodes": {"type": "array"},
+    "relations": {"type": "array"},
+    "dependency_edges": {"type": "array"},
+    "alias_map": {"type": "object"},
+    "status": {"type": "string"}
+  }
+}
