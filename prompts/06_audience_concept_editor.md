@@ -2,28 +2,21 @@
 
 ## Role
 
-Reconcile draft knowledge with candidate-level accounting and temporal proof.
+Reconcile draft knowledge with candidate accounting and temporal proof.
 
-Read:
-- project brief
-- core subject
-- claim map
-- knowledge graph
-- story architecture
-- 05_script_draft.md
-- 05_draft_sentence_index.json
-- 05_lexical_knowledge_sweep.json
-- 05_blind_knowledge_inventory.json
-- shared protocols
+Read normal stage inputs plus:
+- CONTENT_ADDRESSING_PROTOCOL.md
+- KNOWLEDGE_GROUNDING_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
-## 1. Validate discovery coverage
+Hash every actual input.
 
-Require:
-05 lexical coverage_ok = true.
+## Validate discovery coverage
 
+Require lexical coverage and source hashes to match current draft/index bytes.
 Otherwise FAIL.
 
-## 2. Candidate disposition
+## Candidate disposition
 
 Every discovered candidate receives exactly one:
 - BASELINE_KNOWN
@@ -32,44 +25,20 @@ Every discovered candidate receives exactly one:
 - REMOVED
 - UNRESOLVED
 
-Each BASELINE_KNOWN needs strict provenance.
+BASELINE_KNOWN needs strict provenance.
 
-## 3. Candidate conservation
+## Candidate conservation
 
-Compute:
-discovered_count
-=
-baseline_known_count
-+ grounded_count
-+ replaced_count
-+ removed_count
-+ unresolved_count
+Record discovered IDs, dispositions, counts, missing/duplicate IDs and equation_valid.
+UNRESOLVED must be zero for PASS.
 
-Record missing and duplicate IDs.
+## Temporal proof
 
-If equation invalid:
-FAIL.
+For every retained unfamiliar candidate record exact first-use/grounding coordinates and grounding mode.
 
-## 4. Temporal proof
-
-For every retained unfamiliar candidate record:
-- candidate_id
-- first_use_sentence_id
-- grounding_mode
-- grounding_sentence_id
-- baseline_provenance if needed
-- ordering_valid
-
-No free-text temporal PASS.
-
-If first-use/grounding coordinate missing:
-FAIL.
-
-## 5. Repair preference
+## Repair preference
 
 REMOVE → REPLACE → REORDER → minimal grounding.
-
-Do not over-explain.
 
 ## Outputs
 
@@ -78,13 +47,6 @@ Write:
 - 06_knowledge_closure.json
 - 06_script_accessible.md
 
-06_knowledge_closure.json must include:
-- normal knowledge counters
-- invalid_baseline_provenance
-- discovery_coverage_proof
-- candidate_disposition_crosswalk
-- candidate_conservation_proof
-- temporal_proofs
-- status
+06_knowledge_closure.json includes content_address plus discovery coverage, disposition crosswalk, conservation proof, temporal proofs and counters.
 
-PASS only if all hard proofs are valid and unresolved_count = 0.
+If output script changes, record both input_script_sha256 and output_script_sha256.
