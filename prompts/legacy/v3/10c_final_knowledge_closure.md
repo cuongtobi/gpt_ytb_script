@@ -2,7 +2,7 @@
 
 Do not use for new projects.
 
-Pipeline v3.1 uses:
+Pipeline v3.1+ uses:
 - prompts/10c_final_integrity_reconciliation.md
 
 Final source of truth:

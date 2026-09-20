@@ -2,19 +2,21 @@
 
 ## Role
 
-Control the v3.2 proof-carrying documentary pipeline.
+Control the v3.3 content-addressed proof-carrying documentary pipeline.
 
 Read:
 - AGENTS.md
+- CONTENT_ADDRESSING_PROTOCOL.md
 - KNOWLEDGE_GROUNDING_PROTOCOL.md
+- EVIDENCE_PROVENANCE_PROTOCOL.md
 - FINAL_INTEGRITY_PROTOCOL.md
 - INTEGRITY_PROOF_PROTOCOL.md
 
-## Pipeline v3.2
+## Pipeline v3.3
 
 00 Project Brief
 → 01 Angle
-→ 02 Research
+→ 02 Research + Evidence Ledger
 → 03A Core Subject
 → 03B Claim Map + Knowledge Graph
 → 04 Story + Knowledge Architect
@@ -30,19 +32,42 @@ Read:
 → 10A1 Canonical Final Sentence Index
 → 10B Isolation Handoff
 → 10B1 Isolated Knowledge Audit
-→ 10B2 Isolated Claim Audit
+→ 10B2 Isolated Sentence-Level Claim Audit
 → 10B3 Isolated Naturalness Audit
 → 10C Final Reconciliation
-→ 10D Integrity Proof Verifier
+→ Artifact Manifest
+→ 10D Full Integrity Proof Verifier
 → FINAL
 
 ## Creative vs integrity lanes
 
 Creative stages should optimize story quality.
-
 Do not force the writer to explain every candidate.
 
-Integrity stages prove coverage after writing.
+Integrity stages prove:
+- exact input identity;
+- sentence coverage;
+- candidate and claim conservation;
+- temporal grounding;
+- claim-to-evidence-to-source provenance;
+- final naturalness/redundancy finding closure;
+- blind execution isolation where available.
+
+## Content-addressing
+
+Every audit artifact records SHA-256 for every actual input.
+Final B1/B2/B3 must bind to the same exact script hash as 10_final_script.md.
+
+Any final-text change invalidates:
+- 10_final_sentence_index.json;
+- 10B1;
+- 10B2;
+- 10B3;
+- 10_final_integrity.json;
+- artifact_manifest.json;
+- 10D.
+
+Regenerate from 10A1 onward after a final-text change.
 
 ## Blind isolation rule
 
@@ -54,21 +79,24 @@ If runtime supports isolated agents/tasks/chats:
 
 If runtime cannot verify fresh contexts:
 - set isolation_status = ISOLATION_NOT_VERIFIED;
-- continue advisory audits if useful;
+- continue advisory audits;
 - final project cannot be PASS_VERIFIED.
 
 Never fabricate execution IDs or isolation proof.
 
 ## Project brief
 
-pipeline.version: 3.2
+pipeline.version: 3.3
+artifact_schema_version: 3.3.0
+segmenter_version: 3.3.0
 
-## Required v3.2 artifacts
+## Required v3.3 artifacts
 
 00_project_brief.yaml
 01_angle.md
 02_research_notes.md
 02_sources.json
+02_evidence_ledger.json
 03_core_subject.json
 03_claim_map.json
 03_knowledge_graph.json
@@ -104,19 +132,25 @@ pipeline.version: 3.2
 10_final_story_report.md
 10_final_integrity.json
 10_final_script.md
+artifact_manifest.json
 10d_proof_verification.json
 
 ## Completion
 
 PASS_VERIFIED requires:
-- all content integrity gates pass;
-- canonical sentence coverage proof passes;
-- candidate conservation proof passes;
+- all artifact/schema gates pass;
+- all declared audit input hashes match current bytes;
+- final B1/B2/B3 script hashes equal the released script hash;
+- canonical sentence coverage passes for B1/B2/B3;
+- knowledge candidate conservation passes;
+- claim conservation passes;
+- finding conservation passes;
 - temporal proof passes;
 - strict baseline provenance passes;
-- stage 09 passes;
+- factual dispositions have valid evidence/source provenance;
+- recomputed hard counters are zero;
 - isolation VERIFIED;
-- tools/verify_integrity_proof.py or equivalent deterministic proof check passes.
+- tools/verify_integrity_proof.py passes.
 
 If content passes but isolation cannot be verified:
 project_status = CONTENT_PASS_ISOLATION_NOT_VERIFIED

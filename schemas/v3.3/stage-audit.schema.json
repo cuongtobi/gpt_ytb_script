@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"stage-audit.schema.json",
+  "type":"object",
+  "required":["content_address","status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "status":{"type":"string"}
+  }
+}

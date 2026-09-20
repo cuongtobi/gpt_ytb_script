@@ -1,8 +1,8 @@
-# 02 — DEEP RESEARCH
+# 02 — DEEP RESEARCH + EVIDENCE LEDGER
 
 ## Role
 
-Build a source-grounded research base for the selected documentary angle.
+Build a source-grounded research base and claim-specific evidence ledger for the selected documentary angle.
 
 You are collecting evidence for a story. You are **not writing narration**.
 
@@ -12,7 +12,8 @@ You are collecting evidence for a story. You are **not writing narration**.
 
 Read:
 - `00_project_brief.yaml`;
-- `01_angle.md`.
+- `01_angle.md`;
+- `prompts/EVIDENCE_PROVENANCE_PROTOCOL.md`.
 
 The selected central question and scope are binding unless evidence proves the premise needs revision.
 
@@ -92,6 +93,7 @@ For every potentially script-worthy factual claim record:
 
 - claim text;
 - supporting source;
+- evidence IDs;
 - source type;
 - publication date;
 - relevant page/section when available;
@@ -189,3 +191,29 @@ Suggested structure:
 ```
 
 Use real source metadata only.
+
+---
+
+## Output: evidence ledger
+
+Write `02_evidence_ledger.json`.
+
+For every distinct support unit actually used, record:
+
+```json
+{
+  "evidence_id": "E001",
+  "claim_ids": ["C001"],
+  "source_id": "S001",
+  "locator": "page/section/figure/result or other precise observed locator",
+  "support_mode": "DIRECT|INFERENCE|CONTEXT",
+  "evidence_summary": "",
+  "limitations": "",
+  "temporal_scope": "",
+  "geographic_scope": "",
+  "population_scope": ""
+}
+```
+
+Do not fabricate a locator that was not actually observed.
+The evidence ledger is the required bridge `claim → evidence → source` for v3.3.

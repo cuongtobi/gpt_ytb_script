@@ -7,6 +7,7 @@ Verify factual substance, certainty and scope without breaking knowledge groundi
 Read:
 - 02_research_notes.md
 - 02_sources.json
+- 02_evidence_ledger.json
 - 03_claim_map.json
 - 06_knowledge_closure.json
 - 07_knowledge_delta.json
@@ -14,6 +15,8 @@ Read:
 - 08_knowledge_delta.json
 - 08_script_natural.md
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
+- prompts/EVIDENCE_PROVENANCE_PROTOCOL.md
 
 ## Factual extraction
 
@@ -30,6 +33,8 @@ Check:
 - comparisons
 - consensus/certainty
 - population scope
+
+Each supported factual result must reference `evidence_ids`, not only `source_ids`.
 
 Statuses:
 - SUPPORTED
@@ -87,6 +92,10 @@ Write:
 - 09_script_fact_checked.md
 
 09_claim_strength_audit.json includes:
+- content_address
+- input_script_sha256
+- output_script_sha256
+- invalid_evidence_links
 - claims_checked
 - unsupported_claims
 - certainty_overstatements
@@ -100,3 +109,4 @@ PASS requires:
 - certainty_overstatements = 0
 - unsupported_temporal_generalizations = 0
 - scope_overstatements = 0
+- invalid_evidence_links = 0

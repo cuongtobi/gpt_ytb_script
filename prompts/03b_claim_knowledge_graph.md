@@ -11,8 +11,10 @@ Read:
 - 01_angle.md
 - 02_research_notes.md
 - 02_sources.json
+- 02_evidence_ledger.json
 - 03_core_subject.json
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/EVIDENCE_PROVENANCE_PROTOCOL.md
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
 
 Do not write narration.
@@ -26,6 +28,7 @@ For each material claim record:
 - confidence
 - support_type
 - source_ids
+- evidence_ids
 - safe_wording
 - unsafe_wording
 - caveats
@@ -37,6 +40,8 @@ For each material claim record:
 - population_scope
 - preferred_temporal_wording
 - forbidden_temporal_shortcuts
+
+Every evidence_id must exist in `02_evidence_ledger.json`, and every linked evidence record must point to a source in `02_sources.json` and include this claim_id.
 
 Claim strength is a contract for stages 05, 09 and 10C.
 

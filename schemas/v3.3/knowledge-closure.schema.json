@@ -1,0 +1,12 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"knowledge-closure.schema.json",
+  "type":"object",
+  "required":["content_address","candidate_conservation_proof","temporal_proofs","status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "candidate_conservation_proof":{"type":"object"},
+    "temporal_proofs":{"type":"array"},
+    "status":{"type":"string"}
+  }
+}

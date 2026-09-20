@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "core-subject.schema.json",
+  "type": "object",
+  "required": ["core_entities", "alias_map", "entity_label_policy", "minimum_grounding_requirements", "status"],
+  "properties": {
+    "core_entities": {"type": "array"},
+    "alias_map": {"type": "object"},
+    "entity_label_policy": {"type": "object"},
+    "minimum_grounding_requirements": {"type": "array"},
+    "status": {"type": "string"}
+  }
+}

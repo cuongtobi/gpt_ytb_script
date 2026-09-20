@@ -9,6 +9,7 @@ Allowed:
 - 05_script_draft.md
 - 05_draft_sentence_index.json
 - shared protocols
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 ## PASS A1 — Forward lexical review
 
@@ -72,6 +73,10 @@ Every candidate ID must appear exactly once in semantic crosswalk:
 - specialized_role_candidate
 
 Do not assign final disposition here.
+
+## Content address
+
+Before writing outputs, record SHA-256 for every actual input. Both JSON outputs must include `content_address` using `CONTENT_ADDRESSING_PROTOCOL.md`.
 
 ## Outputs
 

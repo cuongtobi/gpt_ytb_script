@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentence-index.schema.json",
+  "type": "object",
+  "required": ["source_file", "source_sha256", "locale", "segmenter_version", "content_address", "units", "source_sentence_count", "indexed_sentence_count", "reconstruction_ok", "status"],
+  "properties": {
+    "source_file": {"type": "string"},
+    "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "locale": {"type": "string"},
+    "segmenter_version": {"const": "3.3.0"},
+    "content_address": {"$ref": "audit-envelope.schema.json#/$defs/content_address"},
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sentence_id", "section_heading", "exact_text"],
+        "properties": {
+          "sentence_id": {"type": "string", "pattern": "^S[0-9]{4,}$"},
+          "section_heading": {"type": "string"},
+          "exact_text": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "source_sentence_count": {"type": "integer", "minimum": 0},
+    "indexed_sentence_count": {"type": "integer", "minimum": 0},
+    "reconstruction_ok": {"type": "boolean"},
+    "status": {"type": "string"}
+  }
+}

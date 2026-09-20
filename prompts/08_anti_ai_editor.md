@@ -13,6 +13,7 @@ Read:
 - 07_knowledge_delta.json
 - 07_script_retention_edit.md
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 ## Language-native rule
 
@@ -80,11 +81,15 @@ Write:
 - 08_script_natural.md
 
 08_naturalness_audit.json includes:
+- content_address
+- input_script_sha256
+- output_script_sha256
 - translationese_flags
 - repeated_rhetorical_patterns
 - unresolved_audio_density_flags
 - high_load_listening_blocks
 - actions_taken
+- finding_dispositions
 - status
 
 PASS requires all four counts = 0.

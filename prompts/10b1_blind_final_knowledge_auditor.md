@@ -10,6 +10,7 @@ Allowed:
 - 10_final_sentence_index.json
 - KNOWLEDGE_GROUNDING_PROTOCOL.md
 - INTEGRITY_PROOF_PROTOCOL.md
+- CONTENT_ADDRESSING_PROTOCOL.md
 
 Forbidden:
 - graph
@@ -18,6 +19,10 @@ Forbidden:
 - knowledge deltas
 - prior knowledge inventories
 - 10B2/10B3 outputs
+
+## Content address
+
+Hash every actual allowed input. Output must bind to exact final-candidate and sentence-index bytes.
 
 ## PASS A1 — Forward review
 
@@ -81,6 +86,7 @@ Write:
 
 Include:
 - audit_run_id supplied by runtime
+- content_address
 - sentence_ledger
 - lexical_candidates
 - semantic_crosswalk

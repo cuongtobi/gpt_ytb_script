@@ -13,6 +13,7 @@ Read:
 - 06_terminology_prune.json
 - 06_script_pruned.md
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 Stage 06 and 06B must PASS.
 
@@ -47,6 +48,9 @@ Write:
 - 07_reveal_audit.json
 
 Required:
+- content_address
+- input_script_sha256
+- output_script_sha256
 - claim_occurrences
 - redundant_reveals
 - actions_taken
@@ -68,6 +72,10 @@ Compare input/output for:
 
 If unresolved:
 route back to stage 06/06B.
+
+## Finding conservation
+
+Every reveal issue must have a stable finding ID and final disposition `RESOLVED` or `KEEP_WITH_REASON`; no finding may disappear silently.
 
 ## Outputs
 

@@ -15,11 +15,13 @@ Read:
 - 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
 - shared protocols
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 ## 1. Validate discovery coverage
 
 Require:
 05 lexical coverage_ok = true.
+The 05 script/index hashes declared by discovery artifacts must also match the current input bytes.
 
 Otherwise FAIL.
 
@@ -79,6 +81,9 @@ Write:
 - 06_script_accessible.md
 
 06_knowledge_closure.json must include:
+- content_address for every actual input;
+- input_script_sha256;
+- output_script_sha256;
 - normal knowledge counters
 - invalid_baseline_provenance
 - discovery_coverage_proof

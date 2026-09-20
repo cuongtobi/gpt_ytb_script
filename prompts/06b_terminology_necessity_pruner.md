@@ -11,6 +11,7 @@ Read:
 - 06_knowledge_closure.json
 - 06_script_accessible.md
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
+- prompts/CONTENT_ADDRESSING_PROTOCOL.md
 
 Do not add new factual substance.
 
@@ -74,6 +75,9 @@ Write:
 - 06_script_pruned.md
 
 06_terminology_prune.json includes:
+- content_address;
+- input_script_sha256;
+- output_script_sha256;
 - labels_audited
 - kept
 - kept_once
