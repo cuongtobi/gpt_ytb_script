@@ -740,12 +740,16 @@ def compare_summary(integrity, hard, counters, errors):
     for section in ("knowledge", "claims", "terminology", "narrative", "factual", "naturalness"):
         declared = integrity.get(section, {})
         for key, actual in hard[section].items():
-            if key in declared and declared.get(key) != actual:
+            if key not in declared:
+                errors.append(f"missing required summary counter {section}.{key}")
+            elif declared.get(key) != actual:
                 errors.append(f"summary counter mismatch {section}.{key}: declared {declared.get(key)}, recomputed {actual}")
 
     declared_proof = integrity.get("proof", {})
     for key, actual in counters.items():
-        if key in declared_proof and key != "isolation_failures" and declared_proof.get(key) != actual:
+        if key not in declared_proof:
+            errors.append(f"missing required proof counter proof.{key}")
+        elif declared_proof.get(key) != actual:
             errors.append(f"proof counter mismatch proof.{key}: declared {declared_proof.get(key)}, recomputed {actual}")
 
 
@@ -853,7 +857,22 @@ def verify_v33(args):
         else "FAIL"
     )
 
+    verifier_input_paths = [
+        args.script, args.index, args.blind, args.claims, args.naturalness,
+        args.integrity, args.isolation, args.manifest, args.evidence, args.sources
+    ]
+    if claim_map_path.exists():
+        verifier_input_paths.append(str(claim_map_path))
+    proof_content_address = {
+        "hash_algorithm": "sha256",
+        "inputs": [
+            {"path": Path(p).name, "sha256": sha256_file(p)}
+            for p in verifier_input_paths
+        ]
+    }
+
     return {
+        "content_address": proof_content_address,
         "pipeline_version": "3.3",
         "proof_verifier_status": status,
         "isolation_verified": iso_ok,
