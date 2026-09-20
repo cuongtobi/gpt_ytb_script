@@ -4,145 +4,112 @@
 
 Perform the final factual audit of the current narration.
 
-The job is not to make the script more impressive.
+Ensure the story says no more than the evidence supports.
 
-The job is to ensure the final story says **no more than the evidence supports**.
-
----
+Read and obey:
+- prompts/CONCEPT_CLOSURE_PROTOCOL.md
 
 ## Inputs
 
 Read:
-- `02_research_notes.md`;
-- `02_sources.json`;
-- `03_claim_map.json`;
-- `07_retention_report.md`;
-- `08_anti_ai_report.md`;
-- `08_script_natural.md`.
+- 02_research_notes.md
+- 02_sources.json
+- 03_claim_map.json
+- 06_concept_closure.json
+- 07_retention_report.md
+- 07_concept_delta.json
+- 08_anti_ai_report.md
+- 08_concept_delta.json
+- 08_script_natural.md
 
-Use fresh web verification when required by the project, when a source is outdated for the claim, or when downstream edits introduced new factual substance.
-
----
+Use fresh web verification when required, when a source is outdated for the claim, or when downstream edits introduced new factual substance.
 
 ## Extract claims from the current script
 
-Do not assume the original Claim Map fully covers downstream rewrites.
+Do not assume Claim Map covers every downstream rewrite.
 
 Identify:
-- dates;
-- quantities;
-- percentages;
-- first/only/largest claims;
-- causal claims;
-- scientific mechanisms;
-- archaeological interpretations;
-- legal/policy statements;
-- geographic claims;
-- attribution;
-- comparisons/multipliers;
-- claims about consensus;
-- claims framed as certainty.
-
----
+- dates
+- quantities
+- percentages
+- first, only or largest claims
+- causal claims
+- scientific mechanisms
+- archaeological interpretations
+- legal or policy statements
+- geographic claims
+- attribution
+- comparisons and multipliers
+- consensus claims
+- certainty claims
 
 ## Status taxonomy
 
-Each material claim must receive one:
+Each material claim receives one:
+- SUPPORTED
+- SUPPORTED_BUT_OVERSTATED
+- PARTIALLY_SUPPORTED
+- UNSUPPORTED
+- CONTRADICTED
+- SOURCE_TOO_WEAK
 
-```text
-SUPPORTED
-SUPPORTED_BUT_OVERSTATED
-PARTIALLY_SUPPORTED
-UNSUPPORTED
-CONTRADICTED
-SOURCE_TOO_WEAK
-```
+## Check certainty and precision
 
----
-
-## Check certainty
-
-Common failure:
-
-Source:
-> may have / likely / suggests / is consistent with
-
-Script:
-> did / proved / definitely
-
-Repair the script to source-matched certainty.
-
----
-
-## Check precision
+Repair wording that is stronger or more precise than sources.
 
 Flag:
-- percentages absent from sources;
-- probability estimates invented by the script;
-- exact dates replacing ranges;
-- rounded numbers presented as exact;
-- “X times” calculations inconsistent with stated values.
+- invented percentages
+- invented probabilities
+- exact dates replacing ranges
+- unsupported multipliers
+- causal claims not supported by evidence
 
-If a calculation is necessary, verify it.
+## Check internal consistency and attribution
 
----
+Compare the whole script for contradictions.
 
-## Check internal consistency
-
-Compare claims across the whole script.
-
-Examples:
-- one section says 3×, another 10×;
-- two dates conflict;
-- location changes;
-- same event is assigned two periods;
-- the conclusion is stronger than the body evidence.
-
----
-
-## Check attribution
-
-Make sure:
-- the correct study/author/institution is associated with the claim;
-- historical sources are not described as modern scientific confirmation by themselves;
-- interpretations are attributed where contested.
-
----
+Ensure studies, institutions and historical evidence are attributed correctly.
 
 ## Correction rule
 
-Correct the narration directly when evidence is sufficient.
+Correct narration directly when evidence is sufficient.
 
-If evidence is not sufficient:
-- remove the claim;
-- qualify it;
-- replace it with the closest supported statement.
+If not:
+- remove the claim
+- qualify it
+- replace it with the closest supported statement
 
-Do not leave a material unsupported claim in the final script.
+Do not leave material unsupported claims.
 
----
+## Concept safety during factual correction
 
-## Report output
+Fact correction can accidentally introduce new jargon.
 
-Write `09_fact_check.md` containing:
+After corrections:
+1. compare concepts in 08_script_natural.md with 09_script_fact_checked.md
+2. identify any new technical concept, specialized role or dependency
+3. prefer plain supported wording
+4. if a new concept is required, record it for final closure
 
-1. claim audit table/list;
-2. corrections;
-3. removed claims;
-4. precision checks;
-5. consistency checks;
-6. source limitations;
-7. unresolved issues;
-8. final status.
+Write:
+- 09_concept_delta.json
 
-Final status can be `PASS` only when there is no unresolved material `UNSUPPORTED` or `CONTRADICTED` claim.
+Stage 09 factual PASS does not override concept closure.
 
----
+## Outputs
 
-## Script output
+Write:
+- 09_fact_check.md
+- 09_concept_delta.json
+- 09_script_fact_checked.md
 
-Write the fully corrected narration to:
+09_concept_delta.json should include:
+- new_concepts
+- new_contextual_roles
+- new_dependencies
+- actions_taken
+- unresolved_for_final_closure
 
-`09_script_fact_checked.md`
+Final factual status can be PASS only when there is no unresolved material UNSUPPORTED or CONTRADICTED claim.
 
 No production directions.
