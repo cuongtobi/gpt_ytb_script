@@ -1,25 +1,27 @@
-# 07 — RETENTION EDITOR + KNOWLEDGE DELTA
+# 07 — RETENTION + REVEAL INTEGRITY EDITOR
 
 ## Role
 
-Improve retention without fake suspense and without breaking knowledge closure.
+Improve retention without fake suspense, duplicate reveals or knowledge regression.
 
 Read:
 - 00_project_brief.yaml
 - 01_angle.md
+- 03_claim_map.json
 - 04_story_architecture.md
 - 06_knowledge_closure.json
-- 06_script_accessible.md
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- 06_terminology_prune.json
+- 06_script_pruned.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-Stage 06 must PASS.
+Stage 06 and 06B must PASS.
 
 ## Retention audit
 
 Review 30–60 second blocks for:
 - curiosity
 - change
-- conflict/tension
+- tension
 - concrete anchor
 - new information
 - payoff
@@ -27,13 +29,35 @@ Review 30–60 second blocks for:
 - repetition
 - scope relevance
 
-Repair by reordering, compressing, clarifying, cutting or adding a truthful bridge.
+## Reveal Duplication Audit
 
-Do not manufacture mystery.
+Build claim-occurrence records:
+- claim_id or normalized_claim
+- section/block
+- evidence_used
+- meaning
+- story_function: TEASE|EXPLAIN|EVIDENCE|COMPLICATE|PAYOFF|CALLBACK
+
+If the same claim + same evidence + same meaning repeats and the second occurrence has no distinct story function:
+flag REDUNDANT_REVEAL.
+
+Teases may hint, but should not fully spend a later reveal.
+
+Write:
+- 07_reveal_audit.json
+
+Required:
+- claim_occurrences
+- redundant_reveals
+- actions_taken
+- status
+
+PASS requires:
+redundant_reveals = 0
 
 ## Knowledge Delta
 
-After rewrite compare input/output for:
+Compare input/output for:
 - new_entities
 - new_aliases
 - new_components
@@ -42,15 +66,13 @@ After rewrite compare input/output for:
 - new_relations
 - new_dependencies
 
-If any new item is unresolved:
-- ground/replace/remove it;
-- or route current script back to stage 06.
-
-Do not PASS with unresolved knowledge.
+If unresolved:
+route back to stage 06/06B.
 
 ## Outputs
 
 Write:
 - 07_retention_report.md
+- 07_reveal_audit.json
 - 07_knowledge_delta.json
 - 07_script_retention_edit.md

@@ -3,8 +3,8 @@
 ## Role
 
 Create:
-1. the factual Claim Map;
-2. the initial Audience Knowledge Graph.
+1. factual Claim Map;
+2. initial Audience Knowledge Graph.
 
 Read:
 - 00_project_brief.yaml
@@ -13,6 +13,7 @@ Read:
 - 02_sources.json
 - 03_core_subject.json
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
 Do not write narration.
 
@@ -29,15 +30,19 @@ For each material claim record:
 - unsafe_wording
 - caveats
 - story_function
+- allowed_certainty
+- forbidden_strengthening
+- time_scope
+- geographic_scope
+- population_scope
+- preferred_temporal_wording
+- forbidden_temporal_shortcuts
 
-Preserve uncertainty and precision.
+Claim strength is a contract for stages 05, 09 and 10C.
 
-Write:
-- 03_claim_map.json
+Do not allow later prose to become more certain, broader or more temporally vague than the evidence.
 
 ## Part B — Audience baseline
-
-Create a deliberately small audience baseline.
 
 Record:
 - language
@@ -47,15 +52,16 @@ Record:
 - normal_language_primitives
 - never_auto_known_categories
 
-Never-auto-known should normally include:
-- scientific species names;
-- acronyms;
-- biochemical terms;
-- specialist archaeological methods;
-- specialist genetics/evolution terms;
-- legal/technical labels.
+Never-auto-known normally includes:
+- scientific species names
+- acronyms
+- biochemical terms
+- specialist archaeological methods
+- specialist genetics/evolution terms
+- legal/technical labels
+- specialized uses of ordinary words
 
-A node cannot later become BASELINE_KNOWN unless justified by this baseline.
+BASELINE_KNOWN requires exact baseline support or explicit canonical mapping to a primitive.
 
 ## Part C — Knowledge graph
 
@@ -64,7 +70,7 @@ Node fields:
 - label
 - type
 - canonical_entity
-- state: BASELINE_KNOWN | GROUNDED | UNRESOLVED | REMOVED
+- state
 - label_familiarity
 - role_familiarity
 - importance
@@ -76,39 +82,42 @@ Node fields:
 - confusable_with
 - first_use_strategy
 - removal_strategy
+- definition_scope
+- safe_definition
+- unsafe_definition
 
-Relationship fields:
-- source
-- relation_type
-- target
-- grounding_required
-- status
+Necessity should include when relevant:
+- needed_for_later_reasoning
+- expected_reuse
+- precision_gain
+- story_value
+- replacement_available
 
-Node types and relations must follow the shared protocol.
+## Alias Budget
+
+Import entity_label_policy from 03_core_subject.json.
+
+Graph aliases must respect:
+- primary spoken label
+- scientific alias policy
+- reuse policy
+- labels recommended for removal
 
 ## Dependency validation
 
-Do not place status=BASELINE_KNOWN on a dependency unless:
-- it exists in audience_baseline.assumed_known or normal_language_primitives.
+A dependency may be BASELINE_KNOWN only if supported by audience baseline.
 
-Otherwise:
-- create a node;
-- ground it;
-- replace it;
-- or remove the dependency.
+Otherwise create/ground/replace/remove it.
 
-## Core subject integration
-
-Every core entity and every retained alias from 03_core_subject.json must appear in the graph.
-
-## Output
+## Outputs
 
 Write:
 - 03_claim_map.json
 - 03_knowledge_graph.json
 
-03_knowledge_graph.json must include:
+03_knowledge_graph.json includes:
 - audience_baseline
+- entity_label_policy
 - nodes
 - relations
 - dependency_edges

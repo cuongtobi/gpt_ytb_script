@@ -2,37 +2,49 @@
 
 ## Role
 
-Perform whole-story editing before the independent final knowledge audit.
+Produce the best final candidate before independent blind integrity audits.
 
-Read all normal project artifacts including:
+Read normal upstream artifacts including:
 - 00_project_brief.yaml
 - 01_angle.md
 - 03_claim_map.json
 - 04_story_architecture.md
 - 06_knowledge_closure.json
+- 06_terminology_prune.json
 - 07_retention_report.md
+- 07_reveal_audit.json
 - 08_anti_ai_report.md
+- 08_naturalness_audit.json
 - 09_fact_check.md
+- 09_claim_strength_audit.json
 - 09_script_fact_checked.md
 
-Do not declare final knowledge closure here.
+Do not declare final integrity PASS here.
 
-## Audit
+## Whole-story audit
 
 Check:
 - hook
 - central question
-- story progression
+- progression
 - transformation
 - visual storytelling
 - scope
 - retention
-- repetition
+- duplicate reveals
 - natural language
+- listening density
 - ending/payoff
 - duration
 
-Make final prose edits without inventing unsupported facts.
+## Editing constraints
+
+Do not:
+- reintroduce pruned labels without necessity;
+- strengthen factual certainty;
+- broaden geographic/population scope;
+- repeat a reveal already paid off;
+- add a new technical label to make prose sound sophisticated.
 
 ## Outputs
 

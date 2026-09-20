@@ -2,7 +2,7 @@
 
 ## Role
 
-Reconcile the actual draft with the initial graph and independent blind inventory.
+Reconcile actual draft, two-pass blind discovery and initial knowledge graph.
 
 Read:
 - 00_project_brief.yaml
@@ -11,63 +11,73 @@ Read:
 - 03_knowledge_graph.json
 - 04_story_architecture.md
 - 05_script_draft.md
+- 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-## Phase 1 — Missing-node reconciliation
+## Phase 1 — Discovery coverage
 
-Every candidate from blind inventory must be:
-- mapped to an existing graph node;
-- added as a new node;
-- or explicitly classified as ordinary vocabulary that requires no knowledge node.
+Every lexical candidate must receive one disposition:
+- BASELINE_KNOWN
+- GROUNDED
+- REPLACED
+- REMOVED
+- UNRESOLVED
 
-Do not silently ignore blind-discovered candidates.
+Create a crosswalk from candidate_id → disposition.
 
-Record missing_discovered_nodes.
+No Silent Ignore.
 
-## Phase 2 — Core Subject Grounding
+Record:
+- lexical_candidates
+- reconciled_candidates
+- silently_ignored_candidates
+
+If silently_ignored_candidates > 0:
+FAIL.
+
+## Phase 2 — Strict BASELINE_KNOWN validation
+
+A candidate may be BASELINE_KNOWN only if:
+- exact/canonical phrase is supported by audience baseline;
+- or explicitly mapped to a declared primitive.
+
+Do not infer KNOWN from familiarity.
+
+## Phase 3 — Core subject
 
 Check:
-- what kind of thing the core subject is;
+- kind of thing;
 - story-relevant parts/properties;
-- alias relationships;
-- required component relationships.
+- alias relations;
+- component relations.
 
-The topic label itself does not count as grounding.
+Topic mention alone is not grounding.
 
-## Phase 3 — Alias and relation closure
+## Phase 4 — Alias/relation closure
 
-For every retained alias:
-- verify relationship is clear before free reuse.
+Retained aliases must be mapped before free reuse.
 
-For every required relation:
-- verify the viewer can understand it at the first claim that relies on it.
+Required relations must be understood before claims rely on them.
 
-## Phase 4 — Recursive dependency closure
+## Phase 5 — Recursive dependencies
 
-For each node:
-- validate dependencies;
-- reject self-declared BASELINE_KNOWN nodes not supported by audience baseline;
-- replace/remove unnecessary jargon;
-- recurse until all required dependencies terminate at baseline-known or earlier-grounded nodes.
+Reject explanations that require unresolved knowledge.
 
-## Phase 5 — Temporal closure
+Ground, replace or remove dependencies recursively.
 
-For each unfamiliar required node:
-- identify actual first use;
-- identify grounding position.
+## Phase 6 — Temporal closure
 
-FAIL if grounding happens after first use.
+For each unfamiliar required item:
+- actual first_use
+- grounded_at
 
-Repair by:
-- moving grounding earlier;
-- grounding inline;
-- replacing the label;
-- removing it.
+FAIL if grounded later.
 
-## Phase 6 — Confusable labels
+## Phase 7 — Confusable labels
 
-Resolve all required distinctions at first introduction.
+Resolve distinctions at first introduction.
 
 ## Outputs
 
@@ -76,7 +86,7 @@ Write:
 - 06_knowledge_closure.json
 - 06_script_accessible.md
 
-06_knowledge_closure.json must include:
+06_knowledge_closure.json includes:
 - core_entities_ungrounded
 - unmapped_aliases
 - missing_discovered_nodes
@@ -85,11 +95,13 @@ Write:
 - unresolved_relations
 - temporal_first_use_failures
 - confusable_pairs_unresolved
+- silently_ignored_candidates
+- discovery_coverage
+- candidate_disposition_crosswalk
 - nodes
 - relations
 - first_use_timeline
-- blind_inventory_reconciliation
 - closure_iterations
 - status
 
-PASS only if all eight failure counts are zero.
+PASS only when all nine knowledge failure counts are zero.

@@ -1,15 +1,19 @@
 # GPT YouTube Visual-Storytelling Script Pipeline
 
-Pipeline viết YouTube documentary script trên ChatGPT Web + GitHub, tập trung vào:
-- research chắc;
-- visual storytelling ngay trong narration;
-- dễ hiểu với khán giả phổ thông;
-- retention;
-- ngôn ngữ tự nhiên;
-- fact-check;
-- knowledge grounding theo đúng thứ tự người xem nghe.
+Pipeline tạo YouTube documentary narration trên ChatGPT Web + GitHub.
 
-## Pipeline v3
+Mục tiêu:
+- research chắc;
+- visual storytelling trong lời kể;
+- dễ hiểu với audience phổ thông;
+- không bắt người xem học jargon không cần thiết;
+- retention tốt;
+- không lặp reveal;
+- ngôn ngữ nghe tự nhiên;
+- fact-check đúng mức chắc chắn của nguồn;
+- final audit độc lập.
+
+## Pipeline v3.1
 
 USER INPUT
 → 00 ORCHESTRATOR
@@ -19,108 +23,120 @@ USER INPUT
 → 03B CLAIM MAP + AUDIENCE KNOWLEDGE GRAPH
 → 04 STORY + KNOWLEDGE ARCHITECT
 → 05 VISUAL NARRATIVE WRITER
-→ 05B BLIND KNOWLEDGE DISCOVERY
+→ 05B TWO-PASS BLIND KNOWLEDGE DISCOVERY
 → 06 AUDIENCE KNOWLEDGE CLOSURE
-→ 07 RETENTION + KNOWLEDGE DELTA
-→ 08 ANTI-AI + KNOWLEDGE DELTA
-→ 09 FACT CHECK + KNOWLEDGE DELTA
+→ 06B TERMINOLOGY NECESSITY PRUNER
+→ 07 RETENTION + REVEAL INTEGRITY
+→ 08 NATURALNESS + RHYTHM + LISTENING
+→ 09 FACT CHECK + CLAIM STRENGTH
 → 10A FINAL STORY EDITOR
-→ 10B BLIND FINAL KNOWLEDGE AUDIT
-→ 10C FINAL TEMPORAL KNOWLEDGE CLOSURE
+→ 10B1 BLIND KNOWLEDGE AUDIT
+→ 10B2 BLIND CLAIM AUDIT
+→ 10B3 BLIND NATURALNESS AUDIT
+→ 10C FINAL INTEGRITY RECONCILIATION
 → FINAL SCRIPT
 
-## V3 giải quyết vấn đề gì?
+## V3.1 thêm gì?
 
-Pipeline cũ có thể giải thích thuật ngữ nhưng vẫn bỏ sót:
-- chủ đề trung tâm chưa được giải thích;
-- tên khoa học/alias chưa map;
-- component như THC xuất hiện trước khi biết nó là gì;
-- definition sinh dependency mới;
-- concept được giải thích quá muộn;
-- final script có jargon mà graph cũ không phát hiện.
+### 1. Two-pass Knowledge Discovery
 
-V3 chuyển từ Concept Graph sang Audience Knowledge Graph.
+PASS A scan từng câu và tạo lexical candidates.
 
-Nó quản lý:
-- CORE_ENTITY
-- ENTITY
-- ALIAS
-- COMPONENT
-- PROPERTY
-- PROCESS
-- MECHANISM
-- CONCEPT
-- EVIDENCE_TYPE
-- CLASSIFICATION
-- RELATIONSHIPS
+PASS B kiểm semantic role.
 
-## Core Subject Grounding
+Mọi candidate đều phải được reconcile.
 
-Biết tên chủ đề không có nghĩa là hiểu chủ đề.
+Không còn:
+concept xuất hiện → auditor không notice → false PASS.
 
-Ví dụ với "cần sa", pipeline phải xác định tối thiểu:
-- đây là loại thứ gì;
-- bộ phận/tính chất nào quan trọng với câu chuyện;
-- Cannabis / Cannabis sativa liên hệ với "cần sa" thế nào;
-- marijuana có phải alias chính xác hay chỉ là label liên quan;
-- THC nằm ở đâu trong mental model.
+### 2. No Silent Ignore
 
-## Alias Resolution
+Mỗi candidate phải thành:
+- BASELINE_KNOWN
+- GROUNDED
+- REPLACED
+- REMOVED
+- UNRESOLVED
 
-Không tự coi các tên khác nhau là đồng nghĩa.
+Final:
+silently_ignored_candidates = 0
 
-Các relation có thể gồm:
-- ALIAS_OF
-- SHORT_FORM_OF
-- RELATED_TO
-- SUBTYPE_OF
+### 3. Terminology Necessity Pruner
 
-Label chỉ được dùng tự do sau khi relation được grounding.
+Một label được giải thích đúng vẫn có thể bị xóa nếu người xem không cần nhớ nó.
 
-## Strict KNOWN rule
+Ví dụ:
+- scientific alias chỉ dùng một lần nếu đủ;
+- Cannabis có thể quay về "cần sa";
+- hemp có thể đổi thành "dòng lấy sợi" nếu label không phục vụ reasoning.
 
-Một concept không được tự động đánh KNOWN chỉ vì nghe quen.
+### 4. Alias Budget
 
-BASELINE_KNOWN chỉ hợp lệ nếu:
-- nằm trong audience baseline; hoặc
-- là normal-language primitive theo baseline.
+Mỗi core entity ưu tiên một spoken label chính.
 
-Scientific name, acronym, biochemical term và specialist term không được auto-known.
+Không luân phiên quá nhiều tên chỉ vì chúng đều đúng.
 
-## Temporal Knowledge Closure
+### 5. Reveal Duplication Gate
 
-Một concept phải được grounding trước hoặc ngay lúc first use.
+Mỗi occurrence của một claim phải có story function:
+- TEASE
+- EXPLAIN
+- EVIDENCE
+- COMPLICATE
+- PAYOFF
+- CALLBACK
 
-Sai:
-genome xuất hiện ở hook → 3 phút sau mới định nghĩa.
+Cùng claim + cùng evidence + cùng meaning lặp lại không có chức năng mới → cắt/gộp.
 
-Đúng:
-toàn bộ thông tin di truyền của cây — tức genome → sau đó dùng genome.
+### 6. Claim Strength Contract
 
-## Blind Knowledge Discovery
+Claim Map giờ kiểm:
+- allowed certainty
+- forbidden strengthening
+- time scope
+- geographic scope
+- population scope
+- temporal wording
 
-Đây là lớp chống false PASS.
+Ví dụ:
+"ít nhất khoảng 2.500 năm trước"
+tốt hơn
+"chắc chắn từ rất lâu"
+khi nguồn chỉ trực tiếp chứng minh mốc ~2.500 năm.
 
-05B và 10B chỉ đọc:
-- audience profile;
-- current script;
-- shared protocol.
+### 7. Naturalness + Rhythm + Listening
 
-Chúng KHÔNG đọc Knowledge Graph trước.
+Audit:
+- translationese
+- noun stacking
+- academic compression
+- repeated sentence openings
+- fragment patterns
+- rhetorical-question overload
+- audio density
 
-Sau đó stage closure mới reconcile blind inventory với graph.
+UNDERSTANDABLE không đồng nghĩa NATURAL.
 
-Nhờ vậy nếu final script có:
-- enzyme;
-- áp lực chọn lọc;
-- silica;
-- marijuana;
+### 8. Three independent final auditors
 
-mà graph cũ quên, blind auditor vẫn phải phát hiện.
+10B1:
+blind knowledge extraction.
 
-## Final Knowledge Gate
+10B2:
+blind claim/certainty extraction.
 
-Pipeline chỉ PASS khi tất cả bằng 0:
+10B3:
+blind naturalness/redundancy extraction.
+
+Các auditor không được nhìn report tương ứng trước đó.
+
+## Final Integrity Gate
+
+10_final_integrity.json là source of truth.
+
+PASS khi tất cả bằng 0:
+
+knowledge:
 - core_entities_ungrounded
 - unmapped_aliases
 - missing_discovered_nodes
@@ -129,8 +145,27 @@ Pipeline chỉ PASS khi tất cả bằng 0:
 - unresolved_relations
 - temporal_first_use_failures
 - confusable_pairs_unresolved
+- silently_ignored_candidates
 
-## Artifact chính
+terminology:
+- unnecessary_labels
+- alias_overload
+
+narrative:
+- redundant_reveals
+- high_load_listening_blocks
+
+factual:
+- unsupported_claims
+- certainty_overstatements
+- unsupported_temporal_generalizations
+
+naturalness:
+- translationese_flags
+- repeated_rhetorical_patterns
+- unresolved_audio_density_flags
+
+## Required artifacts
 
 projects/<project_slug>/
 
@@ -143,24 +178,32 @@ projects/<project_slug>/
 - 03_knowledge_graph.json
 - 04_story_architecture.md
 - 05_script_draft.md
+- 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
 - 06_audience_report.md
 - 06_knowledge_closure.json
 - 06_script_accessible.md
+- 06_terminology_prune.json
+- 06_script_pruned.md
 - 07_retention_report.md
+- 07_reveal_audit.json
 - 07_knowledge_delta.json
 - 07_script_retention_edit.md
 - 08_anti_ai_report.md
+- 08_naturalness_audit.json
 - 08_knowledge_delta.json
 - 08_script_natural.md
 - 09_fact_check.md
+- 09_claim_strength_audit.json
 - 09_knowledge_delta.json
 - 09_script_fact_checked.md
 - 10_story_report_draft.md
 - 10_final_candidate.md
-- 10b_blind_knowledge_inventory.json
+- 10b1_blind_knowledge_inventory.json
+- 10b2_blind_claim_inventory.json
+- 10b3_blind_naturalness_audit.json
 - 10_final_story_report.md
-- 10_knowledge_closure.json
+- 10_final_integrity.json
 - 10_final_script.md
 
 ## Cách sử dụng trên ChatGPT Web
@@ -184,32 +227,17 @@ Chạy toàn bộ pipeline.
 Tạo một project mới trong projects/ và lưu mọi artifact vào đó.
 ~~~
 
-## Input
-
-Bắt buộc:
-- topic
-- language
-- duration
-
-Tùy chọn:
-- audience: general
-- hook_mode: auto
-- angle_mode: auto
-- research_depth: deep
-- technical_level: accessible
-- tone: conversational_documentary
-
 ## Output dùng để sản xuất
 
 projects/<project_slug>/10_final_script.md
 
-Không chứa storyboard, shot list, image prompt, B-roll direction, camera direction hoặc visual timeline.
+## Shared protocols
 
-## Shared protocol
+- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-Source of truth cho knowledge grounding:
+Legacy v3 final closure:
+- 10_knowledge_closure.json
 
-prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
-
-Legacy:
-prompts/CONCEPT_CLOSURE_PROTOCOL.md chỉ dành cho project v2 cũ.
+v3.1 final source of truth:
+- 10_final_integrity.json

@@ -2,17 +2,18 @@
 
 ## Role
 
-Build the minimum mental model the target audience needs for the central subject before the story uses specialized names, components or mechanisms.
+Build the minimum mental model the target audience needs for the central subject before specialized names, components or mechanisms are used.
 
 Read:
 - 00_project_brief.yaml
 - 01_angle.md
 - 02_research_notes.md
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
 Do not write narration.
 
-## Identify core entity
+## Core entity record
 
 For each central subject record:
 - canonical_name
@@ -25,43 +26,43 @@ For each central subject record:
 - related_but_not_equivalent_labels
 - relevant_parts_or_components
 - story_relevant_properties
-- labels_to_remove_if_unnecessary
+- labels_recommended_for_removal
 
 ## Topic-familiarity trap
 
-Do not assume the audience understands the subject simply because the topic name is common.
+Do not assume the viewer understands the subject because the label is common.
 
 Ask:
 - What kind of thing is it?
-- Which parts/properties matter to THIS story?
+- Which parts/properties matter to this story?
 - Which alternate names will appear?
 - Which related names are not exact synonyms?
-- What must the viewer know before the first specialized claim?
+- What must be known before the first specialized claim?
 
-## Minimum grounding
+## Entity Label Policy
 
-Keep it short and story-relevant.
+Create:
+- primary_spoken_label
+- scientific_alias_policy
+- allowed_reuse_aliases
+- discouraged_reuse_aliases
+- removed_aliases
 
-Do not turn this into a dictionary definition or encyclopedic overview.
+Prefer one primary spoken label.
 
-## Alias mapping
+A scientific name may appear once or be reused only when it adds precision/story value.
 
-Classify each alternate label with an explicit relationship:
-- ALIAS_OF
-- SHORT_FORM_OF
-- RELATED_TO
-- SUBTYPE_OF
-
-Do not mark overlapping labels as synonyms unless sources and context support that.
+Do not multiply aliases unnecessarily.
 
 ## Output
 
 Write:
 - 03_core_subject.json
 
-Required top-level fields:
+Include:
 - core_entities
 - alias_map
+- entity_label_policy
 - minimum_grounding_requirements
 - first_specialized_use_dependencies
 - labels_recommended_for_removal

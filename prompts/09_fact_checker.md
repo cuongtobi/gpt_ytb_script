@@ -1,8 +1,8 @@
-# 09 — FACT CHECKER + KNOWLEDGE DELTA
+# 09 — FACT CHECKER + CLAIM STRENGTH AUDIT
 
 ## Role
 
-Perform final factual verification without breaking knowledge grounding.
+Verify factual substance, certainty and scope without breaking knowledge grounding.
 
 Read:
 - 02_research_notes.md
@@ -10,13 +10,14 @@ Read:
 - 03_claim_map.json
 - 06_knowledge_closure.json
 - 07_knowledge_delta.json
+- 08_naturalness_audit.json
 - 08_knowledge_delta.json
 - 08_script_natural.md
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-## Factual audit
+## Factual extraction
 
-Extract and check:
+Check:
 - dates
 - quantities
 - percentages
@@ -27,7 +28,8 @@ Extract and check:
 - geographic claims
 - attribution
 - comparisons
-- claims about consensus/certainty
+- consensus/certainty
+- population scope
 
 Statuses:
 - SUPPORTED
@@ -37,29 +39,64 @@ Statuses:
 - CONTRADICTED
 - SOURCE_TOO_WEAK
 
-Correct unsupported wording.
+## Claim Strength Contract
+
+For each material claim reconcile wording with Claim Map:
+- allowed_certainty
+- forbidden_strengthening
+- time_scope
+- geographic_scope
+- population_scope
+- preferred_temporal_wording
+- forbidden_temporal_shortcuts
+
+Scan especially:
+- chắc chắn
+- rõ ràng
+- đầu tiên
+- sớm nhất
+- duy nhất
+- luôn
+- tất cả
+- chưa từng
+- từ rất lâu
+- từ xa xưa
+
+## Temporal Precision Gate
+
+If the evidence supports a useful date/range, prefer that over vague stronger phrasing.
+
+Do not turn:
+"evidence around 2,500 years ago"
+
+into:
+"definitely from very ancient times".
 
 ## Knowledge Delta
 
-A factual correction can introduce:
-- a new entity;
-- alias;
-- component;
-- concept;
-- relation;
-- specialized role.
+Factual corrections may introduce new knowledge.
 
-Record all changes.
-
-Prefer plain supported wording.
-
-If a correction needs a new unresolved node, mark it for final closure; if grounding changes factual substance, rerun factual check after repair.
+Record and resolve/reroute it.
 
 ## Outputs
 
 Write:
 - 09_fact_check.md
+- 09_claim_strength_audit.json
 - 09_knowledge_delta.json
 - 09_script_fact_checked.md
 
-Factual PASS requires no material UNSUPPORTED or CONTRADICTED claim.
+09_claim_strength_audit.json includes:
+- claims_checked
+- unsupported_claims
+- certainty_overstatements
+- unsupported_temporal_generalizations
+- scope_overstatements
+- actions_taken
+- status
+
+PASS requires:
+- unsupported_claims = 0
+- certainty_overstatements = 0
+- unsupported_temporal_generalizations = 0
+- material scope overstatements = 0

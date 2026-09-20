@@ -1,30 +1,32 @@
-# KNOWLEDGE GROUNDING PROTOCOL — v3
+# KNOWLEDGE GROUNDING PROTOCOL — v3.1
 
 ## Purpose
 
-This is the shared source of truth for audience understanding.
+This is the source of truth for what the audience knows at each point in narration.
 
-The pipeline does not merely manage technical terms. It manages what the audience knows at each point in the narration.
+Use together with:
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-A script can fail even when every tracked technical term is eventually defined.
+A script cannot pass simply because tracked technical terms are eventually defined.
 
-Examples of failure:
-- the topic itself is familiar by name but never grounded as an object;
-- an alias appears before the viewer knows what it refers to;
-- THC appears before the viewer knows it is a compound made by cannabis;
-- a definition introduces an unexplained dependency;
-- a concept is explained later, after its first use;
-- the final script contains a concept absent from the old graph.
+The pipeline manages:
+- core subjects;
+- entities;
+- aliases;
+- components;
+- properties;
+- processes;
+- mechanisms;
+- concepts;
+- evidence types;
+- classifications;
+- institutions;
+- measurements;
+- semantic relationships;
+- first-use timing.
 
-The pipeline therefore uses an Audience Knowledge Graph plus Temporal Knowledge Closure.
+## Knowledge node types
 
----
-
-## 1. Knowledge node types
-
-Track all story-relevant knowledge that may require grounding.
-
-Node types:
 - CORE_ENTITY
 - ENTITY
 - ALIAS
@@ -38,13 +40,7 @@ Node types:
 - INSTITUTION
 - MEASUREMENT
 
-Do not turn ordinary vocabulary into a glossary.
-
----
-
-## 2. Relationship types
-
-Use explicit semantic relationships when useful:
+## Relationship types
 
 - IS_A
 - ALIAS_OF
@@ -63,192 +59,143 @@ Use explicit semantic relationships when useful:
 - CONTRASTS_WITH
 - DEPENDS_ON
 
-A relationship itself can be unknown and require grounding.
+## Core Subject Grounding
 
----
+For every CORE_ENTITY distinguish:
+- label_familiarity;
+- subject_understanding.
 
-## 3. Core Subject Grounding
+A familiar topic name does not prove subject understanding.
 
-Every project must identify one or more CORE_ENTITY nodes.
+Minimum story-relevant grounding should answer:
+- what kind of thing is it?
+- which parts/properties matter?
+- which names refer to it?
+- which related labels are not exact aliases?
 
-For each core entity, distinguish:
+The common topic label may appear in the title/hook before complete grounding.
 
-- label_familiarity: has the viewer heard the name?
-- subject_understanding: does the viewer know what kind of thing it is and which properties matter to this story?
+Before a specialized alias, component or mechanism relies on the subject, minimum grounding must already exist in the same sentence or earlier.
 
-High label familiarity does NOT imply adequate subject understanding.
+## Alias Resolution
 
-A core entity needs minimum story-relevant grounding:
-- what kind of thing it is;
-- which properties/parts matter to this story;
-- which names refer to it;
-- which related labels are not exact aliases.
+Do not assume two labels are understood as the same/related entity.
 
-Example:
-"Cần sa" may be familiar as a word while the viewer may not know it is a plant used for seed, fiber, flowers/resin and chemically active compounds.
-
-### Core label exception
-
-The common topic label may appear in the title or first hook line before full grounding.
-
-However, before the narration uses:
-- a scientific name;
-- a specialized alias;
-- a component;
-- a mechanism;
-- a claim that depends on understanding the entity's nature;
-
-the minimum grounding must already be present in the same sentence or earlier.
-
----
-
-## 4. Alias Resolution
-
-Never assume the audience knows that two labels refer to the same or overlapping thing.
-
-Every nontrivial alternate label must have a relationship:
+Retained labels require explicit relations such as:
 - ALIAS_OF
 - SHORT_FORM_OF
 - RELATED_TO
 - SUBTYPE_OF
-- or another explicit relationship
 
-An alias or related label cannot be freely alternated until the relationship has been grounded.
+If an alias adds no later reasoning value, terminology pruning should remove it.
 
-If the label is unnecessary, REMOVE it.
+## Minimum Grounding Requirement
 
----
+Teach only what later reasoning needs.
 
-## 5. Minimum Grounding Requirement
+Each required node records:
+- minimum_grounding
+- dependencies
+- relations
+- first_use_strategy
 
-Do not teach more than the story requires.
-
-Each required node should define minimum_grounding: the smallest set of facts the viewer needs to follow later reasoning.
-
-Example:
-
-THC:
-- is_what: a compound made by cannabis;
-- story_role: strongly associated with intoxicating effects.
-
-Not required:
-- molecular structure;
-- receptor pharmacology;
-- biosynthetic pathway.
-
----
-
-## 6. Knowledge states
-
-Each knowledge node has one current state:
+## Knowledge states
 
 - BASELINE_KNOWN
 - GROUNDED
 - UNRESOLVED
 - REMOVED
 
-BASELINE_KNOWN is strictly controlled.
+### Strict baseline rule
 
 A node may be BASELINE_KNOWN only if:
-1. it appears explicitly in the project audience baseline; or
-2. it is a normal-language primitive declared by that baseline policy.
+1. the phrase appears in audience_baseline.assumed_known; or
+2. it is explicitly mapped to a declared normal_language_primitive.
 
-A downstream stage may NOT self-declare a new technical, scientific, historical or specialized item as known merely because it feels familiar.
+Do not infer KNOWN from familiarity.
 
-High label familiarity is not the same as BASELINE_KNOWN.
+High label familiarity is not a knowledge state.
 
----
+## No Unknowns in Explanations
 
-## 7. No Unknowns in Explanations
-
-A node is not GROUNDED if its explanation requires another unresolved node or relation.
+A node is not GROUNDED if its explanation depends on unresolved knowledge.
 
 For every explanation:
 1. extract dependencies;
-2. validate every dependency;
-3. simplify, replace or remove unnecessary labels;
-4. recurse until dependencies terminate at BASELINE_KNOWN or earlier GROUNDED nodes.
+2. validate dependencies;
+3. ground, replace or remove them;
+4. recurse until all required dependencies terminate at BASELINE_KNOWN or earlier GROUNDED nodes.
 
----
+## Temporal Knowledge Closure
 
-## 8. Temporal Knowledge Closure
+Narration is linear.
 
-Documentary narration is linear.
+Eventually explained is not enough.
 
-Eventually explained is NOT good enough.
-
-For every required node record:
-- first_use position;
-- grounded_at position.
+Record:
+- first_use;
+- grounded_at.
 
 PASS requires:
-
 grounded_at <= first_use
 
-or grounding occurs inside the same first-use sentence before the unfamiliar label becomes necessary.
+or grounding occurs inside the same first-use sentence before the label is relied upon.
 
-If:
-- genome appears in the opening;
-- genome is defined several minutes later;
+## Blind Discovery — two passes
 
-that is a temporal failure.
+Blind discovery must not read the prior graph.
 
----
+PASS A:
+sentence-by-sentence lexical knowledge sweep.
 
-## 9. Blind Knowledge Discovery
+PASS B:
+semantic knowledge audit.
 
-A blind auditor must discover knowledge from the current script without seeing the previous knowledge graph.
+The lexical sweep must create candidate IDs so every candidate can later be reconciled.
 
-Required inputs only:
-- project audience profile;
-- current script.
+Do not silently drop:
+- common words in specialized roles;
+- abstract process labels;
+- scientific labels;
+- acronyms;
+- classifications;
+- evidence methods;
+- mechanisms.
 
-Do NOT provide:
-- 03_knowledge_graph.json;
-- earlier closure reports;
-- earlier knowledge inventories.
+## No Silent Ignore
 
-The auditor extracts:
-- entities;
+Every lexical candidate must receive one final disposition:
+- BASELINE_KNOWN
+- GROUNDED
+- REPLACED
+- REMOVED
+- UNRESOLVED
+
+PASS requires:
+silently_ignored_candidates = 0
+
+## Independent Reconciliation
+
+Closure reconciles:
+- lexical sweep;
+- semantic blind inventory;
+- Audience Knowledge Graph;
+- actual current script.
+
+Check:
+- core subject;
 - aliases;
-- components;
-- processes;
-- mechanisms;
-- technical concepts;
-- specialized contextual roles;
-- relationships required to understand claims.
+- relations;
+- dependencies;
+- contextual role;
+- temporal first use;
+- confusable labels;
+- graph omissions;
+- discovery coverage.
 
-This prevents graph-confirmation bias.
+## Knowledge Delta
 
----
-
-## 10. Independent reconciliation
-
-After blind discovery, a separate closure stage reconciles:
-
-BLIND INVENTORY
-+
-AUDIENCE KNOWLEDGE GRAPH
-+
-CURRENT SCRIPT
-
-Questions:
-- Did blind discovery find nodes absent from the graph?
-- Are aliases mapped?
-- Are required relations grounded?
-- Is the core subject grounded?
-- Are dependencies resolved?
-- Is each node grounded before or at first use?
-- Are confusable labels distinguished?
-
-A graph missing a blind-discovered node is itself a failure until repaired.
-
----
-
-## 11. Knowledge Delta after rewrites
-
-Every stage that rewrites narration must compare input vs output for:
-
+After every rewrite compare input/output for:
 - new_entities
 - new_aliases
 - new_components
@@ -257,58 +204,32 @@ Every stage that rewrites narration must compare input vs output for:
 - new_relations
 - new_dependencies
 
-Each delta item must be:
+Every new item must be:
 - GROUND
 - REPLACE
 - REMOVE
 - ROUTE_TO_STAGE_06
 
-No rewrite stage may introduce unresolved knowledge and still PASS.
+## Context Scope
 
----
+Knowledge nodes may include:
+- definition_scope
+- safe_definition
+- unsafe_definition
 
-## 12. Necessity test
+Do not turn research-specific categories into universal definitions.
 
-For every unfamiliar label or relationship ask:
+## Final Knowledge Counts
 
-Does the viewer need this exact label or relationship to follow later reasoning?
+Knowledge closure requires:
+- core_entities_ungrounded = 0
+- unmapped_aliases = 0
+- missing_discovered_nodes = 0
+- unresolved_concepts = 0
+- unresolved_dependencies = 0
+- unresolved_relations = 0
+- temporal_first_use_failures = 0
+- confusable_pairs_unresolved = 0
+- silently_ignored_candidates = 0
 
-If YES:
-- GROUND it.
-
-If the idea matters but the label does not:
-- REPLACE with plain language.
-
-If neither matters:
-- REMOVE.
-
-Prefer replacement/removal over glossary expansion.
-
----
-
-## 13. Confusable labels
-
-If two labels can be confused and both remain:
-- explicitly distinguish their roles at first introduction.
-
-Examples:
-- lactose vs lactase;
-- hemp vs drug-type cannabis;
-- common name vs scientific name where needed.
-
----
-
-## 14. Required final gate
-
-Final Knowledge Closure PASS requires all values to be zero:
-
-- core_entities_ungrounded
-- unmapped_aliases
-- missing_discovered_nodes
-- unresolved_concepts
-- unresolved_dependencies
-- unresolved_relations
-- temporal_first_use_failures
-- confusable_pairs_unresolved
-
-The pipeline cannot be marked complete otherwise.
+Final completion additionally requires every gate in FINAL_INTEGRITY_PROTOCOL.md.

@@ -2,7 +2,7 @@
 
 ## Role
 
-Write the full documentary narration from the approved Story + Knowledge Architecture.
+Write full documentary narration from Story + Knowledge Architecture.
 
 Read:
 - 00_project_brief.yaml
@@ -13,8 +13,9 @@ Read:
 - 03_knowledge_graph.json
 - 04_story_architecture.md
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-Do not create storyboard, B-roll, camera directions, image prompts or editing notes.
+No storyboard, B-roll, camera directions, image prompts or production notes.
 
 ## Writing principles
 
@@ -26,35 +27,58 @@ Do not create storyboard, B-roll, camera directions, image prompts or editing no
 - transformation over static description
 - evidence before drama
 - explain only what is needed now
+- spoken naturalness over academic compression
 
-## Core subject requirement
+## Core subject
 
-The common topic label may appear in the hook.
+Common topic label may appear in hook.
 
-Before using a scientific name, specialized alias, component or mechanism, the core subject must already have its minimum grounding.
+Ground the subject before specialized aliases/components/mechanisms rely on it.
 
 ## Temporal requirement
 
-Do not use an unfamiliar node and explain it later.
+Ground unfamiliar knowledge before or at first use.
 
-Ground it:
-- before first use; or
-- inside the same first-use sentence.
+Do not explain a label several paragraphs later.
 
-## Alias requirement
+## Terminology necessity
 
-Do not freely switch between common name, scientific name, product name or category label until the relationship has been made clear.
+Before keeping a non-baseline label ask:
+- Is it needed for later reasoning?
+- Will it be reused meaningfully?
+- Does it add precision the plain-language version lacks?
+- Is a simple replacement available?
 
-## New knowledge contract
+If not needed, prefer plain language.
 
-If prose needs a node or relationship absent from 03_knowledge_graph.json:
+Respect the entity alias budget.
+
+## Claim strength
+
+Use Claim Map safe wording, allowed certainty, time/geographic/population scope.
+
+Do not add:
+- stronger certainty;
+- broader scope;
+- vague dramatic temporal language;
+- unsupported "first/only/always" wording.
+
+## Reveal discipline
+
+Respect claim_story_function from architecture.
+
+Do not repeat a reveal with the same evidence and meaning merely to restate it.
+
+## New knowledge
+
+If prose needs a node/relation absent from graph:
 - do not silently assume it is known;
-- use plain language if possible;
-- otherwise record it for blind discovery and stage 06.
+- prefer plain language;
+- blind discovery will independently audit the result.
 
 ## Output
 
 Write:
 - 05_script_draft.md
 
-Do NOT write a self-audit inventory here. Blind discovery is a separate stage.
+Do not self-generate the blind audit.

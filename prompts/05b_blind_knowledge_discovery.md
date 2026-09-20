@@ -1,56 +1,95 @@
-# 05B — BLIND KNOWLEDGE DISCOVERY
+# 05B — TWO-PASS BLIND KNOWLEDGE DISCOVERY
 
 ## Independence requirement
 
-This stage MUST NOT read:
+MUST NOT read:
 - 03_core_subject.json
 - 03_knowledge_graph.json
-- any earlier knowledge closure/delta file
+- any earlier knowledge closure/delta artifact
 
-Inputs allowed:
+Allowed inputs:
 - 00_project_brief.yaml
 - 05_script_draft.md
 - prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
-The purpose is independent discovery, not confirmation of the existing graph.
+Purpose: independent discovery, not graph confirmation.
 
-## Role
+## PASS A — Lexical Knowledge Sweep
 
-Read the draft as a general viewer and extract every story-relevant piece of knowledge that may require grounding.
+Read EVERY sentence in order.
 
-Extract:
-- core entities
-- other entities
-- aliases/names
-- components
-- properties
-- processes
-- mechanisms
-- concepts
-- evidence types
-- classifications
-- specialized contextual roles
-- relationships required to understand claims
+Assign sentence IDs:
+S001, S002, S003...
 
-For each candidate record:
-- label
-- type
-- first_use_quote_or_position
-- why_it_may_need_grounding
-- likely_relationships
-- confidence
+Create a lexical candidate for any phrase that may be:
+- scientific/technical;
+- acronym;
+- abstract process;
+- classification;
+- evidence method;
+- measurement concept;
+- historical/institutional term;
+- common word in a specialized role;
+- causal mechanism;
+- nontrivial alias;
+- relation the viewer may need.
 
-Do not decide closure status from prior graph knowledge.
+For every lexical candidate record:
+- candidate_id
+- sentence_id
+- exact_phrase
+- first_use_quote
+- candidate_type
+- reason_flagged
 
-## Output
+Do not skip a phrase because it sounds familiar.
+
+Write:
+- 05_lexical_knowledge_sweep.json
+
+Include:
+- sentences_scanned
+- candidates
+
+## PASS B — Semantic Knowledge Audit
+
+Using only:
+- project brief;
+- draft;
+- lexical sweep;
+- shared protocols
+
+For EVERY lexical candidate classify:
+- likely_knowledge_bearing
+- likely_ordinary_vocabulary
+- duplicate_of_candidate
+- alias_candidate
+- specialized_role_candidate
+
+Do not assign final BASELINE_KNOWN/GROUNDED status here.
+
+Extract relationships and core-entity candidates.
 
 Write:
 - 05_blind_knowledge_inventory.json
 
 Required:
-- candidates
+- lexical_candidate_ids
+- semantic_candidates
+- ordinary_vocabulary_candidates
+- duplicate_candidate_map
 - core_entity_candidates
 - alias_candidates
 - relationship_candidates
 - specialized_role_candidates
 - first_use_index
+
+## Coverage invariant
+
+Every lexical candidate ID must appear somewhere in PASS B output.
+
+If not:
+- discovery stage FAILS.
+
+Do not silently ignore a lexical candidate.
