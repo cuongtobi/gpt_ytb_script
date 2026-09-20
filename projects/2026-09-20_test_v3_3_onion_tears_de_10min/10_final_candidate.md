@@ -97,7 +97,7 @@ Züchtung und Biotechnologie können daher beeinflussen, wie stark gerade dieser
 
 Wenn man den Mechanismus kennt, lassen sich viele Küchentricks einfacher beurteilen.
 Der Tränenfaktor muss zunächst im verletzten Gewebe entstehen und anschließend durch die Luft zu den Augen gelangen.
-Die direkteste Strategie besteht deshalb darin, die Belastung durch den flüchtigen Stoff zu verringern.
+Die direkteste Strategie besteht deshalb darin, die Belastung durch den Reizstoff in der Luft zu verringern.
 Gute Lüftung oder ein Luftstrom, der vom Gesicht wegführt, kann einen Teil der Dämpfe in eine andere Richtung transportieren.
 Mehr Abstand zwischen Gesicht und aufsteigender Luft kann die Exposition ebenfalls verringern.
 Keine dieser Methoden muss Gefühle neutralisieren oder ein geheimnisvolles Gift aus der Zwiebel ziehen.
