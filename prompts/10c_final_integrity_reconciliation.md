@@ -124,6 +124,7 @@ factual:
 - unsupported_claims
 - certainty_overstatements
 - unsupported_temporal_generalizations
+- scope_overstatements
 
 naturalness:
 - translationese_flags
