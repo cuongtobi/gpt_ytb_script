@@ -99,4 +99,4 @@ PASS requires:
 - unsupported_claims = 0
 - certainty_overstatements = 0
 - unsupported_temporal_generalizations = 0
-- material scope overstatements = 0
+- scope_overstatements = 0
