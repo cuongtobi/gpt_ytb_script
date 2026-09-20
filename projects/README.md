@@ -1,14 +1,19 @@
 # projects/
 
-## Current schema: v3.2
+## Current schema: v3.3
 
-New projects use proof-carrying integrity.
+New projects use content-addressed full-integrity proofs.
 
-Important new artifacts:
+Important v3.3 artifacts:
+- 02_evidence_ledger.json
 - 05_draft_sentence_index.json
 - 10_final_sentence_index.json
 - 10b_isolation_manifest.json
+- 10b1_blind_knowledge_inventory.json
+- 10b2_blind_claim_inventory.json
+- 10b3_blind_naturalness_audit.json
 - 10_final_integrity.json
+- artifact_manifest.json
 - 10d_proof_verification.json
 
 Allowed final statuses:
@@ -16,10 +21,10 @@ Allowed final statuses:
 - CONTENT_PASS_ISOLATION_NOT_VERIFIED
 - FAIL
 
-v3.1 projects remain regression fixtures.
+v3.1/v3.2 projects remain regression fixtures.
+Do not copy their artifact schemas into new projects.
 
 See:
-- tests/v3_1_three_10min_stress_test.md
 - tests/v3_2_integrity_proof_regression.md
-
-Do not copy v3/v3.1 artifact schemas into new projects.
+- tests/v3_3_adversarial_regression.md
+- schemas/v3.3/schema_manifest.json
