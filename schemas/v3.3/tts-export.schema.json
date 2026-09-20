@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tts-export.schema.json",
+  "type": "object",
+  "required": [
+    "tts_export_version",
+    "locale",
+    "base_language",
+    "supported_language",
+    "content_address",
+    "source",
+    "integrity_proof",
+    "output",
+    "transformations",
+    "checks",
+    "warnings",
+    "status"
+  ],
+  "properties": {
+    "tts_export_version": {"const": "1.0"},
+    "locale": {"type": "string", "minLength": 2},
+    "base_language": {"enum": ["vi", "en", "de", "fr", "es", "ko", "ja"]},
+    "supported_language": {"const": true},
+    "content_address": {"$ref": "audit-envelope.schema.json#/$defs/content_address"},
+    "source": {
+      "type": "object",
+      "required": ["file", "sha256"],
+      "properties": {
+        "file": {"const": "10_final_script.md"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "integrity_proof": {
+      "type": "object",
+      "required": ["file", "sha256", "proof_verifier_status", "project_status", "isolation_verified"],
+      "properties": {
+        "file": {"const": "10d_proof_verification.json"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "proof_verifier_status": {"const": "PASS"},
+        "project_status": {"enum": ["PASS_VERIFIED", "CONTENT_PASS_ISOLATION_NOT_VERIFIED"]},
+        "isolation_verified": {"type": "boolean"}
+      }
+    },
+    "output": {
+      "type": "object",
+      "required": ["file", "sha256", "encoding", "bom", "character_count", "paragraph_count", "line_count"],
+      "properties": {
+        "file": {"const": "final.txt"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "encoding": {"const": "utf-8"},
+        "bom": {"const": false},
+        "character_count": {"type": "integer", "minimum": 1},
+        "paragraph_count": {"type": "integer", "minimum": 1},
+        "line_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "transformations": {"type": "object"},
+    "checks": {
+      "type": "object",
+      "required": ["source_matches_10d", "plain_text_only", "no_semantic_rewrite_stage", "supported_locale"],
+      "properties": {
+        "source_matches_10d": {"const": true},
+        "plain_text_only": {"const": true},
+        "no_semantic_rewrite_stage": {"const": true},
+        "supported_locale": {"const": true}
+      }
+    },
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "status": {"const": "PASS"}
+  }
+}
