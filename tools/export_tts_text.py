@@ -231,6 +231,20 @@ def transform_for_tts(markdown_text: str, locale: str) -> tuple[str, dict, list[
     return output, stats, warnings
 
 
+def declared_script_hash_from_10d(proof_obj: dict, source_name: str) -> str | None:
+    direct = proof_obj.get("released_script_sha256")
+    if isinstance(direct, str) and direct:
+        return direct
+    ca = proof_obj.get("content_address")
+    if isinstance(ca, dict):
+        for rec in ca.get("inputs", []):
+            if isinstance(rec, dict) and Path(str(rec.get("path", ""))).name == Path(source_name).name:
+                digest = rec.get("sha256")
+                if isinstance(digest, str) and digest:
+                    return digest
+    return None
+
+
 def export_project(
     project_dir: Path,
     *,
@@ -258,9 +272,11 @@ def export_project(
         raise ValueError("10D project_status is not exportable")
 
     source_hash = sha256_file(source)
-    declared_source_hash = proof_obj.get("released_script_sha256")
-    if declared_source_hash and declared_source_hash != source_hash:
-        raise ValueError("10D released_script_sha256 does not match current 10_final_script.md")
+    declared_source_hash = declared_script_hash_from_10d(proof_obj, source_name)
+    if not declared_source_hash:
+        raise ValueError("10D proof does not contain a content-addressed hash for 10_final_script.md")
+    if declared_source_hash != source_hash:
+        raise ValueError("10D script hash does not match current 10_final_script.md")
 
     selected_locale = locale or detect_locale(brief.read_text(encoding="utf-8"))
     if not selected_locale:
@@ -305,7 +321,7 @@ def export_project(
             if k not in {"character_count", "paragraph_count", "line_count", "residual_checks"}
         },
         "checks": {
-            "source_matches_10d": declared_source_hash in {None, source_hash},
+            "source_matches_10d": declared_source_hash == source_hash,
             "plain_text_only": all(stats["residual_checks"].values()),
             "no_semantic_rewrite_stage": True,
             "supported_locale": base_language(selected_locale) in SUPPORTED_LANGS,
