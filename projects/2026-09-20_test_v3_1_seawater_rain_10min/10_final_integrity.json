@@ -3,10 +3,10 @@
     "core_entities_ungrounded": 0,
     "unmapped_aliases": 0,
     "missing_discovered_nodes": 0,
-    "unresolved_concepts": 0,
+    "unresolved_concepts": 2,
     "unresolved_dependencies": 0,
     "unresolved_relations": 0,
-    "temporal_first_use_failures": 0,
+    "temporal_first_use_failures": 2,
     "confusable_pairs_unresolved": 0,
     "silently_ignored_candidates": 0
   },
@@ -29,6 +29,10 @@
     "repeated_rhetorical_patterns": 0,
     "unresolved_audio_density_flags": 0
   },
-  "final_word_count": 1500,
-  "status": "PASS"
+  "status": "FAIL",
+  "failure_notes": [
+    "phong hóa was extracted but not grounded/replaced",
+    "khí quyển was extracted but strict BASELINE_KNOWN provenance was never established",
+    "10C did not produce candidate-level dispositions"
+  ]
 }
