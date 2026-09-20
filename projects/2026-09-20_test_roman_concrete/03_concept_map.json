@@ -1,0 +1,73 @@
+{
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "quicklime / vôi sống",
+      "audience_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "vật liệu rất phản ứng tạo ra khi nung đá vôi",
+      "first_use_strategy": "plain meaning with Vietnamese label",
+      "best_explanation_type": "mechanism",
+      "mental_model": "vôi vừa nung, gặp nước thì tỏa nhiệt",
+      "reuse_policy": "use vôi sống",
+      "confusable_with": "vôi tôi",
+      "avoid_explanation": "full chemistry equation"
+    },
+    {
+      "concept_id": "K002",
+      "name": "hot mixing / trộn nóng",
+      "audience_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "trộn quicklime với vật liệu khô rồi thêm nước, tạo phản ứng tỏa nhiệt trong hỗn hợp",
+      "first_use_strategy": "process first then label",
+      "best_explanation_type": "human_action",
+      "mental_model": "trộn khô trước, thêm nước sau",
+      "reuse_policy": "use trộn nóng",
+      "confusable_with": "heating concrete externally",
+      "avoid_explanation": "temperature details unless needed"
+    },
+    {
+      "concept_id": "K003",
+      "name": "lime clast",
+      "audience_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": false,
+      "plain_language_meaning": "cục nhỏ giàu vôi còn nằm trong vật liệu",
+      "first_use_strategy": "plain description only",
+      "best_explanation_type": "object",
+      "mental_model": "đốm trắng/cục vôi nhỏ",
+      "reuse_policy": "cục giàu vôi",
+      "confusable_with": "aggregate stone",
+      "avoid_explanation": "English label"
+    },
+    {
+      "concept_id": "K004",
+      "name": "pozzolan",
+      "audience_familiarity": "very_low",
+      "importance": "optional",
+      "technical_term_required": false,
+      "plain_language_meaning": "vật liệu núi lửa phản ứng dùng trong binder",
+      "first_use_strategy": "omit label",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "tro/đá núi lửa nghiền",
+      "reuse_policy": "vật liệu núi lửa",
+      "confusable_with": "cement",
+      "avoid_explanation": "mineralogy"
+    }
+  ],
+  "high_load_clusters": [
+    "Draft can stack quicklime, slaked lime, hot mixing, lime clast, pozzolan. Final should keep only vôi sống + trộn nóng as labels."
+  ],
+  "concepts_intentionally_removed": [
+    "lime clast label",
+    "pozzolan label",
+    "C-A-S-H",
+    "calcite polymorphs"
+  ],
+  "must_explain_before_first_label": [
+    "trộn nóng",
+    "vôi sống"
+  ]
+}
