@@ -96,7 +96,7 @@ Because lactase and lactose are confusable and both are non-obvious to a general
 
 Expected repair:
 
-Lactose là loại đường tự nhiên có trong sữa. Lactase thì khác: đó là enzyme giúp cơ thể phân giải lactose.
+Lactose là loại đường tự nhiên có trong sữa. Lactase thì khác: đó là một chất ruột non tạo ra để giúp cơ thể xử lý lactose.
 
 ### Pass condition
 
