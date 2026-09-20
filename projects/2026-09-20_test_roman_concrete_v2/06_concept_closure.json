@@ -1,0 +1,99 @@
+{
+  "concepts_detected": 10,
+  "known": 6,
+  "explained": 4,
+  "removed": 6,
+  "unresolved": 0,
+  "concepts": [
+    {
+      "name": "vôi sống",
+      "state": "EXPLAINED",
+      "first_use": "vôi sống — vật liệu thu được khi nung đá vôi và phản ứng rất mạnh khi gặp nước",
+      "definition": "vật liệu thu được khi nung đá vôi, phản ứng mạnh với nước",
+      "dependencies": [
+        "đá vôi",
+        "nước"
+      ],
+      "label_familiarity": "low",
+      "role_familiarity": "high_after_explanation",
+      "necessity": "required",
+      "confusable_with": []
+    },
+    {
+      "name": "trộn nóng",
+      "state": "EXPLAINED",
+      "first_use": "một cách trộn được gọi là 'trộn nóng'",
+      "definition": "cho vôi sống vào hỗn hợp khô rồi mới thêm nước, làm hỗn hợp nóng lên",
+      "dependencies": [
+        "vôi sống",
+        "nước"
+      ],
+      "label_familiarity": "very_low",
+      "role_familiarity": "high_after_explanation",
+      "necessity": "required",
+      "confusable_with": [
+        "đun nóng từ bên ngoài"
+      ]
+    },
+    {
+      "name": "calcium",
+      "state": "REMOVED",
+      "first_use": null,
+      "definition": null,
+      "dependencies": [],
+      "necessity": "replaceable",
+      "confusable_with": []
+    },
+    {
+      "name": "tái kết tinh",
+      "state": "REMOVED",
+      "first_use": null,
+      "definition": null,
+      "dependencies": [],
+      "necessity": "replaceable",
+      "confusable_with": []
+    },
+    {
+      "name": "mẫu so sánh",
+      "state": "EXPLAINED",
+      "first_use": "Những mẫu so sánh không dùng vôi sống",
+      "definition": "mẫu được làm khác đi để so kết quả",
+      "dependencies": [
+        "mẫu",
+        "vôi sống"
+      ],
+      "role_familiarity": "high_in_context",
+      "confusable_with": []
+    }
+  ],
+  "dependency_edges": [
+    [
+      "vôi sống",
+      "đá vôi"
+    ],
+    [
+      "vôi sống",
+      "nước"
+    ],
+    [
+      "trộn nóng",
+      "vôi sống"
+    ],
+    [
+      "trộn nóng",
+      "nước"
+    ],
+    [
+      "mẫu so sánh",
+      "vôi sống"
+    ]
+  ],
+  "unresolved_dependencies": [],
+  "confusable_pairs_unresolved": [],
+  "new_concepts_discovered_after_stage_03": [
+    "vật liệu rắn mới",
+    "mẫu so sánh"
+  ],
+  "closure_iterations": 2,
+  "status": "PASS"
+}

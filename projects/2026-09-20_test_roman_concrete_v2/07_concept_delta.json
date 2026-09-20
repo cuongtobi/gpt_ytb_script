@@ -1,0 +1,18 @@
+{
+  "input_concepts": [
+    "vôi sống",
+    "trộn nóng",
+    "mẫu so sánh"
+  ],
+  "output_concepts": [
+    "vôi sống",
+    "trộn nóng",
+    "mẫu so sánh"
+  ],
+  "new_concepts": [],
+  "new_contextual_roles": [],
+  "new_dependencies": [],
+  "actions_taken": [],
+  "unresolved": 0,
+  "status": "PASS"
+}

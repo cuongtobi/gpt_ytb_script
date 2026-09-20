@@ -1,0 +1,186 @@
+{
+  "audience_baseline": [
+    "bê tông",
+    "vôi",
+    "nước",
+    "vết nứt",
+    "đá vôi",
+    "vật liệu",
+    "núi lửa"
+  ],
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "vôi sống",
+      "status": "UNRESOLVED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "vật liệu thu được khi nung đá vôi và phản ứng rất mạnh khi gặp nước",
+        "dependencies": [
+          {
+            "name": "đá vôi",
+            "relationship": "made_from",
+            "status": "KNOWN"
+          },
+          {
+            "name": "nước",
+            "relationship": "reacts_with",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "definition inline",
+      "reuse_policy": "label allowed after closure"
+    },
+    {
+      "concept_id": "K002",
+      "name": "trộn nóng",
+      "status": "UNRESOLVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "cho vôi sống vào hỗn hợp khô rồi thêm nước, khiến hỗn hợp nóng lên",
+        "dependencies": [
+          {
+            "name": "vôi sống",
+            "relationship": "uses",
+            "status": "UNRESOLVED"
+          },
+          {
+            "name": "nước",
+            "relationship": "added_after",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [
+        "đun nóng bê tông từ bên ngoài"
+      ],
+      "first_use_strategy": "action then label",
+      "reuse_policy": "use label after explanation"
+    },
+    {
+      "concept_id": "K003",
+      "name": "calcium",
+      "status": "REMOVED",
+      "label_familiarity": "medium",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "vật chất phản ứng có nguồn từ cục vôi",
+        "dependencies": [
+          {
+            "name": "cục vôi",
+            "relationship": "source",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "replace with 'vật chất trong cục vôi'",
+      "reuse_policy": "none"
+    },
+    {
+      "concept_id": "K004",
+      "name": "tái kết tinh",
+      "status": "REMOVED",
+      "label_familiarity": "low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "vật chất hòa trong nước đóng lại thành chất rắn trong khe",
+        "dependencies": [
+          {
+            "name": "nước",
+            "relationship": "medium",
+            "status": "KNOWN"
+          },
+          {
+            "name": "chất rắn",
+            "relationship": "result",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "plain action",
+      "reuse_policy": "none"
+    },
+    {
+      "concept_id": "K005",
+      "name": "lime clast",
+      "status": "REMOVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "cục vôi nhỏ nằm trong bê tông",
+        "dependencies": [
+          {
+            "name": "vôi",
+            "relationship": "is",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "confusable_with": [],
+      "first_use_strategy": "say 'cục vôi'",
+      "reuse_policy": "plain language"
+    }
+  ],
+  "dependency_edges": [
+    [
+      "vôi sống",
+      "đá vôi"
+    ],
+    [
+      "vôi sống",
+      "nước"
+    ],
+    [
+      "trộn nóng",
+      "vôi sống"
+    ],
+    [
+      "calcium",
+      "cục vôi"
+    ],
+    [
+      "tái kết tinh",
+      "nước"
+    ]
+  ],
+  "high_load_clusters": [
+    "Do not stack quicklime, lime clast, calcium, recrystallization, pozzolan."
+  ],
+  "concepts_intentionally_removed": [
+    "quicklime English label",
+    "lime clast",
+    "calcium",
+    "calcium carbonate",
+    "recrystallization",
+    "pozzolan",
+    "mẫu đối chứng"
+  ],
+  "confusable_pairs": [
+    [
+      "trộn nóng",
+      "đun nóng từ bên ngoài"
+    ]
+  ],
+  "initial_closure_status": "planned"
+}
