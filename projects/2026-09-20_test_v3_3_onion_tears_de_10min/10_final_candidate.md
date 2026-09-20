@@ -46,8 +46,7 @@ Man schneidet, die Zellen brechen auf und die Reaktionen beginnen.
 
 ## Das Molekül, das bis zum Auge gelangt
 
-Der wichtigste tränenauslösende Stoff heißt syn-Propanthial-S-oxid, eine kleine flüchtige Schwefelverbindung, die auch als Tränenfaktor der Zwiebel bezeichnet wird.
-Flüchtig bedeutet hier, dass der Stoff leicht in die Luft übergehen kann.
+Der wichtigste tränenauslösende Stoff heißt syn-Propanthial-S-oxid, eine kleine Schwefelverbindung, die leicht in die Luft übergeht und auch als Tränenfaktor der Zwiebel bezeichnet wird.
 Nachdem er im beschädigten Gewebe entstanden ist, verteilt sich ein Teil davon über dem Schneidebrett.
 Erreicht er die feuchte Oberfläche des Auges, wirkt er dort als chemischer Reizstoff.
 Dem Auge ist dabei völlig egal, ob das Molekül aus einer Zwiebel, aus Rauch oder aus einer anderen Quelle stammt.
@@ -67,7 +66,7 @@ Forschende beschreiben die schwefelhaltige Chemie der Zwiebel als Teil eines gr�
 Wenn Gewebe verletzt wird, entstehen schnell verschiedene reaktive Schwefelverbindungen.
 Einige davon tragen zum scharfen Geruch und Geschmack bei, den wir mit Zwiebeln verbinden.
 Ein Zweig dieses Reaktionsnetzes führt zum Tränenfaktor.
-Aus Sicht der Pflanze ist genau der Moment einer Verletzung ein sinnvoller Zeitpunkt, um Abwehrchemie zu aktivieren.
+Aus Sicht der Pflanze ist genau der Moment einer Verletzung ein sinnvoller Zeitpunkt, um chemische Abwehrreaktionen zu aktivieren.
 Aus unserer Sicht ist es der Moment, in dem die Vorbereitung des Abendessens unangenehm wird.
 Dieselbe Chemie kann also der Pflanze helfen und gleichzeitig den Menschen am Schneidebrett nerven.
 
@@ -77,7 +76,7 @@ Wie stark die Augen reagieren, hängt von mehreren Faktoren ab.
 Je mehr Gewebe zerstört wird, desto mehr Zellinhalte können miteinander reagieren.
 Auch die Luftbewegung ist wichtig, denn der flüchtige Tränenfaktor muss von der Zwiebel bis zum Gesicht gelangen.
 Außerdem sind Zwiebeln untereinander nicht identisch.
-Sorten und einzelne Knollen enthalten unterschiedliche Mengen der schwefelhaltigen Ausgangsstoffe und können unterschiedlich viel scharfe Chemie produzieren.
+Sorten und einzelne Knollen enthalten unterschiedliche Mengen der schwefelhaltigen Ausgangsstoffe und können unterschiedliche Mengen reizender Schwefelverbindungen bilden.
 Und auch Menschen reagieren nicht exakt gleich empfindlich auf Reizstoffe.
 Zwei Personen können deshalb dieselbe Zwiebel schneiden und die Erfahrung sehr unterschiedlich beschreiben.
 Der grundlegende Reaktionsweg bleibt trotzdem derselbe.
@@ -100,7 +99,6 @@ Wenn man den Mechanismus kennt, lassen sich viele Küchentricks einfacher beurte
 Der Tränenfaktor muss zunächst im verletzten Gewebe entstehen und anschließend durch die Luft zu den Augen gelangen.
 Die direkteste Strategie besteht deshalb darin, die Belastung durch den flüchtigen Stoff zu verringern.
 Gute Lüftung oder ein Luftstrom, der vom Gesicht wegführt, kann einen Teil der Dämpfe in eine andere Richtung transportieren.
-Ein sehr scharfes Messer kann unnötiges Quetschen gegenüber einer stumpfen Klinge reduzieren, auch wenn jeder Schnitt weiterhin Zellen zerstört.
 Mehr Abstand zwischen Gesicht und aufsteigender Luft kann die Exposition ebenfalls verringern.
 Keine dieser Methoden muss Gefühle neutralisieren oder ein geheimnisvolles Gift aus der Zwiebel ziehen.
 Hier trifft ganz normale Pflanzenchemie auf einen ganz normalen Schutzreflex des Auges.
