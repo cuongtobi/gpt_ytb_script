@@ -25,14 +25,17 @@ Expected state before repair:
 
 ### Expected repair
 
-Prefer dependency-first sequencing:
+Prefer dependency-first sequencing and remove unnecessary labels:
 
-Lactose là loại đường tự nhiên có trong sữa. Ruột non tạo ra một enzyme gọi là lactase để phân giải loại đường này thành những phần cơ thể có thể hấp thu.
+Lactose là loại đường tự nhiên có trong sữa. Ruột non tạo lactase, một chất giúp cơ thể xử lý loại đường này.
+
+The label “enzyme” is not required for this short explanation, so the preferred action is REPLACE rather than creating another dependency.
 
 ### Pass condition
 
 - lactose: EXPLAINED
 - lactase: EXPLAINED
+- enzyme: REMOVED or not introduced
 - unresolved: 0
 - unresolved_dependencies: 0
 
@@ -73,7 +76,7 @@ Vôi sống gặp nước sẽ tỏa nhiệt. Sau khi hỗn hợp đông lại, 
 
 Later mechanism can remain plain:
 
-Khi nước lọt vào một vết nứt, một phần vật chất trong cục vôi có thể hòa vào nước, di chuyển vào khe và góp phần tạo khoáng mới.
+Khi nước lọt vào một vết nứt, một phần vật chất trong cục vôi có thể hòa vào nước rồi đóng lại trong khe, giúp lấp một phần vết nứt.
 
 ### Pass condition
 
