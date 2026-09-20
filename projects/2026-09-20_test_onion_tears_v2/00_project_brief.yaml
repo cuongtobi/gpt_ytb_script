@@ -1,0 +1,20 @@
+project:
+  topic: "Vì sao cắt hành tây lại làm bạn khóc?"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 3.5
+  target_word_range: "450-600"
+  audience: "general"
+  technical_level: "accessible"
+  tone: "conversational_documentary"
+story:
+  hook_mode: "hidden_mechanism"
+  angle_mode: "auto"
+  visual_storytelling: true
+research:
+  depth: "deep"
+  freshness_required: false
+  web_research_allowed: true
+pipeline:
+  version: "2.0"
+  status: "complete"
