@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim": "Some Roman concretes contain lime clasts consistent with hot mixing involving quicklime.",
+      "category": "materials",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Phân tích một số mẫu Roman concrete cho thấy lime clasts phù hợp với hot mixing dùng quicklime.",
+      "unsafe_wording": "Mọi bê tông La Mã đều được làm bằng một công thức quicklime duy nhất.",
+      "caveats": "Formulations varied.",
+      "visual_potential": "very_high",
+      "story_function": "reverse_assumption"
+    },
+    {
+      "claim_id": "C002",
+      "claim": "Reactive calcium from lime clasts can contribute to crack-filling mineral formation when water enters cracks.",
+      "category": "mechanism",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Nước có thể huy động calcium từ lime clasts và tạo khoáng mới trong khe nứt.",
+      "unsafe_wording": "Bê tông La Mã tự chữa mọi vết nứt.",
+      "caveats": "Mechanism is conditional and partial.",
+      "visual_potential": "very_high",
+      "story_function": "mechanism"
+    },
+    {
+      "claim_id": "C003",
+      "claim": "In 2023 hot-mixed replica tests, cracks healed within about two weeks sufficiently to stop water flow, unlike control.",
+      "category": "experiment",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Trong thử nghiệm, khoảng hai tuần sau nước không còn chảy qua các vết nứt ở mẫu hot-mixed.",
+      "unsafe_wording": "Mọi crack Roman tự đóng trong hai tuần.",
+      "caveats": "Modern experimental replicas, not every ancient structure.",
+      "visual_potential": "very_high",
+      "story_function": "evidence"
+    },
+    {
+      "claim_id": "C004",
+      "claim": "A 2025 Pompeii construction site preserved dry premixed quicklime and volcanic/pozzolanic material before water addition.",
+      "category": "archaeology",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S002",
+        "S003"
+      ],
+      "safe_wording": "Tại Regio IX Pompeii, nguyên liệu khô bảo tồn quicklime pre-mixed với vật liệu núi lửa trước khi thêm nước.",
+      "unsafe_wording": "Pompeii chứng minh mọi người La Mã luôn dùng hot mixing.",
+      "caveats": "Direct evidence at investigated site.",
+      "visual_potential": "very_high",
+      "story_function": "payoff"
+    },
+    {
+      "claim_id": "C005",
+      "claim": "The Pompeii site was abandoned during the 79 CE Vesuvius eruption while construction was ongoing.",
+      "category": "chronology",
+      "importance": "supporting",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S002"
+      ],
+      "safe_wording": "Công trường đang xây dở khi Vesuvius phun trào năm 79 CE.",
+      "unsafe_wording": "Toàn bộ Pompeii đang xây lại bằng cùng một concrete.",
+      "caveats": "Site-specific.",
+      "visual_potential": "high",
+      "story_function": "scene"
+    }
+  ]
+}
