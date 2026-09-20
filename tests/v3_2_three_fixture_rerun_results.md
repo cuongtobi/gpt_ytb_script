@@ -2,9 +2,11 @@
 
 Date: 2026-09-20
 
-GitHub Actions run: 35516259457
-Head SHA tested: 0d56f108246c30c2d67997a152210318f0f520fa
+GitHub Actions run: 35516336963
+Head SHA tested: c0d46cfdca7d77a624efee5bb94bfa3147880110
 Workflow conclusion: **SUCCESS**
+
+Final HEAD verification: all three matrix jobs completed with `success`.
 
 The workflow executed:
 - `tools/assert_v3_2_fixture_targets.py`
