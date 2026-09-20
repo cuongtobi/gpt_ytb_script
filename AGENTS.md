@@ -4,157 +4,174 @@
 
 This repository is a prompt-native pipeline for creating research-driven YouTube documentary narration with strong visual storytelling.
 
-The pipeline runs through ChatGPT Web with GitHub access. It does **not** require a local runtime, package manager, Python application, Node application, CI workflow, or external orchestration service.
+It runs through ChatGPT Web with GitHub access. It does not require a local runtime, Python app, Node app, CI workflow or external orchestration service.
 
 ## Source of truth
 
 When asked to create a new script:
 
 1. Read this file.
-2. Read `prompts/00_orchestrator.md`.
-3. Follow the stage prompts in numerical order.
-4. Use web research when the task requests research or when factual freshness/verification is needed.
-5. Create a new directory under `projects/`.
-6. Persist every required artifact before moving to dependent stages.
-7. The final production artifact is `10_final_script.md`.
+2. Read prompts/00_orchestrator.md.
+3. Read prompts/CONCEPT_CLOSURE_PROTOCOL.md.
+4. Follow stage prompts in numerical order.
+5. Use web research when requested or required for freshness/verification.
+6. Create a new directory under projects/.
+7. Persist every required artifact before moving to dependent stages.
+8. Final production artifact is 10_final_script.md.
 
 ## Pipeline
 
-```text
 00 Orchestrator
-01 Angle Engine
-02 Researcher
-03 Claim + Concept Mapper
-04 Story Architect
-05 Visual Narrative Writer
-06 Audience + Concept Editor
-07 Retention Editor
-08 Anti-AI Editor
-09 Fact Checker
-10 Final Story Editor
-```
+→ 01 Angle Engine
+→ 02 Researcher
+→ 03 Claim Map + Initial Concept Graph
+→ 04 Story Architect
+→ 05 Visual Narrative Writer + Concept Delta
+→ 06 Audience + Recursive Concept Closure
+→ 07 Retention Editor + Concept Delta
+→ 08 Anti-AI Editor + Concept Delta
+→ 09 Fact Checker + Concept Delta
+→ 10 Final Story Editor + Final Concept Closure
 
 ## Non-goals
 
-Do not create any of the following unless the user explicitly asks for a separate workflow:
+Do not create unless explicitly requested:
+- storyboard
+- shot list
+- image prompts
+- image-generation plan
+- B-roll list
+- camera directions
+- visual timeline
+- editing timeline
+- video-generation prompts
 
-- storyboard;
-- shot list;
-- image prompts;
-- image-generation plan;
-- B-roll list;
-- camera directions;
-- visual timeline;
-- editing timeline;
-- video-generation prompts.
-
-“Visual storytelling” means the narration itself should create clear mental images through scenes, actions, objects, transformations, contrasts, scale and human decisions.
+Visual storytelling means narration itself creates clear mental images through scenes, actions, objects, transformations, contrasts, scale and human decisions.
 
 ## Required principles
 
 ### Story before prose
-Do not draft the full script before the story architecture exists.
+Do not draft the full script before story architecture exists.
 
 ### Understanding before terminology
-Do not make a general audience learn a technical label unless the label is necessary.
+Do not make a general audience learn a technical label unless the label is needed.
 
 ### Concrete before abstract
-Prefer concrete actions, objects, scenes, changes and contrasts before abstract explanation.
+Prefer actions, objects, scenes, changes and contrasts before abstraction.
 
 ### Evidence before drama
-Never strengthen certainty, precision or causation beyond what the source supports.
+Never strengthen certainty, precision or causation beyond sources.
 
 ### Language-native editing
-Naturalness must be judged according to the target language itself. Do not use English or Vietnamese as a universal stylistic reference.
+Judge naturalness according to the target language itself.
+
+### Dynamic concepts, not a static glossary
+03_concept_graph.json is only an initial graph.
+
+The current narration must be rescanned after every rewrite.
+
+### No Unknowns in Definitions
+A concept is not explained if its explanation depends on another unresolved concept.
+
+### Final closure from actual final script
+Stage 10 must rebuild concept inventory from the final candidate. Earlier PASS results are not enough.
 
 ## Project isolation
 
-Every run must create a unique project directory.
+Every run creates a unique directory:
+projects/YYYY-MM-DD_topic-slug/
 
-Recommended slug:
+Append _02, _03 and so on if needed.
 
-```text
-projects/YYYY-MM-DD_<topic-slug>/
-```
-
-If that path already exists, append `_02`, `_03`, etc.
-
-Never overwrite artifacts from a previous project unless the user explicitly asks to update that project.
+Never overwrite previous projects unless explicitly requested.
 
 ## Stage dependencies
 
-- 01 depends on 00.
-- 02 depends on 00 + 01.
-- 03 depends on 02.
-- 04 depends on 00 + 01 + 02 + 03.
-- 05 depends on 04 + Claim Map + Concept Map.
-- 06 depends on 05 + Concept Map.
-- 07 depends on 06 + 04.
-- 08 depends on 07.
-- 09 depends on 08 + Claim Map + sources.
-- 10 depends on all current upstream artifacts.
+- 01 depends on 00
+- 02 depends on 00 + 01
+- 03 depends on 02
+- 04 depends on 00 + 01 + 02 + 03
+- 05 depends on 04 + Claim Map + Concept Graph
+- 06 depends on 05 + Concept Delta + Concept Graph
+- 07 depends on stage 06 closure PASS
+- 08 depends on stage 07 concept delta PASS
+- 09 depends on stage 08 concept delta PASS + Claim Map + sources
+- 10 depends on all current artifacts + stage 09 factual PASS
 
-If a downstream editor changes factual substance, the changed claim must be rechecked by stage 09.
+If stage 07 or 08 introduces an unresolved concept, route the current narration back to stage 06 before continuing.
+
+If a downstream editor changes factual substance, stage 09 must recheck it.
 
 ## Research discipline
 
-Prefer primary sources, peer-reviewed research, official institutions, high-quality reference works and reputable reporting.
+Prefer:
+- primary sources
+- peer-reviewed research
+- official institutions
+- high-quality reference works
+- reputable reporting
 
-For each important factual claim record:
+For each important claim record:
+- source
+- source date
+- confidence
+- direct evidence vs inference
+- caveats
 
-- source;
-- source date;
-- access date when useful;
-- confidence;
-- whether the wording is direct evidence, inference or disputed interpretation.
-
-Do not manufacture probability values, citations, quotations, dates or study conclusions.
+Do not manufacture probabilities, citations, quotations, dates or conclusions.
 
 ## Concept discipline
 
-Track unfamiliar concepts before script drafting.
+Use the shared Concept Closure Protocol.
 
-Each concept should include:
+Each concept may include:
+- label familiarity
+- contextual role familiarity
+- necessity
+- dependencies
+- status
+- first-use strategy
+- confusable concepts
+- reuse policy
 
-- audience familiarity;
-- importance;
-- technical-term requirement;
-- first-use strategy;
-- plain-language explanation;
-- reuse policy.
+States:
+- KNOWN
+- EXPLAINED
+- UNRESOLVED
+- REMOVED
 
-Default concept protocol:
+Required closure:
+- unresolved = 0
+- unresolved_dependencies = 0
+- confusable_pairs_unresolved = 0
 
-```text
-mental model / familiar action
-→ plain-language explanation
-→ technical label only if needed
-```
+Prefer EXPLAIN only when the term is needed.
+Otherwise REPLACE or REMOVE.
 
 ## Reporting language
 
-Unless the user requests otherwise:
-
-- final narration uses the requested script language;
-- intermediate reports use the requested script language;
-- source titles may remain in their original language.
+Unless user requests otherwise:
+- final narration uses requested script language
+- intermediate reports use requested script language
+- source titles may remain original
 
 ## Completion rule
 
-Do not claim the pipeline is complete unless:
-
-- all required artifacts exist;
-- 09_fact_check contains no unresolved material unsupported claim;
-- 10_final_story_report passes the quality gates;
-- 10_final_script.md exists and fits the requested duration within a reasonable narration-rate tolerance.
+Do not claim complete unless:
+- all required artifacts exist
+- factual audit PASS
+- final concept closure PASS
+- 10_final_story_report passes quality gates
+- 10_final_script.md exists
+- duration is reasonably aligned with target
 
 ## User-facing completion response
 
-Keep the completion response compact. Include:
-
-- project path;
-- selected angle;
-- approximate final word count / duration;
-- whether fact check passed;
-- link or reference to `10_final_script.md`;
-- notable limitations only if they materially affect the script.
+Include:
+- project path
+- selected angle
+- approximate word count / duration
+- fact-check PASS/FAIL
+- concept-closure PASS/FAIL
+- final script path
+- material limitations only
