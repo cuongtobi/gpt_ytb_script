@@ -1,0 +1,60 @@
+{
+  "concepts_detected": 7,
+  "known": 4,
+  "explained": 3,
+  "removed": 3,
+  "unresolved": 0,
+  "concepts": [
+    {
+      "name": "chất gây kích thích",
+      "state": "EXPLAINED",
+      "first_use": "sau khi mô hành bị cắt",
+      "definition": "chất được tạo ra sau tổn thương và gây kích thích mắt",
+      "dependencies": [
+        "mắt",
+        "không khí"
+      ],
+      "role_familiarity": "high_after_explanation",
+      "confusable_with": []
+    },
+    {
+      "name": "protein",
+      "state": "KNOWN",
+      "first_use": "một protein đặc biệt",
+      "definition": null,
+      "dependencies": [],
+      "role_familiarity": "medium",
+      "confusable_with": []
+    },
+    {
+      "name": "dây thần kinh cảm giác",
+      "state": "EXPLAINED",
+      "first_use": "nhận ra sự kích thích",
+      "definition": "dây thần kinh ở mắt nhận biết kích thích",
+      "dependencies": [
+        "mắt"
+      ],
+      "role_familiarity": "high_after_explanation",
+      "confusable_with": []
+    }
+  ],
+  "dependency_edges": [
+    [
+      "chất gây kích thích",
+      "mắt"
+    ],
+    [
+      "chất gây kích thích",
+      "không khí"
+    ],
+    [
+      "dây thần kinh cảm giác",
+      "mắt"
+    ]
+  ],
+  "unresolved_dependencies": [],
+  "confusable_pairs_unresolved": [],
+  "new_concepts_discovered_at_final": [],
+  "closure_iterations": 1,
+  "status": "PASS"
+}
