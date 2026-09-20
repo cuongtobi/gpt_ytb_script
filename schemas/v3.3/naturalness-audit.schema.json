@@ -1,0 +1,29 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"naturalness-audit.schema.json",
+  "type":"object",
+  "required":["content_address","sentence_ledger","findings","coverage_proof","status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "sentence_ledger":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["sentence_id","flags"],
+        "properties":{
+          "sentence_id":{"type":"string","pattern":"^S[0-9]{4,}$"},
+          "flags":{"type":"object"}
+        }
+      }
+    },
+    "findings":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["finding_id","finding_type","sentence_ids","description","severity","suggested_action"]
+      }
+    },
+    "coverage_proof":{"type":"object"},
+    "status":{"type":"string"}
+  }
+}
