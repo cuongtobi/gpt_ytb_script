@@ -1,0 +1,1590 @@
+{
+  "audit_run_id": null,
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_candidate.md",
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
+      },
+      {
+        "path": "10_final_sentence_index.json",
+        "sha256": "ad31e48dd486380dcce57edd255cfc704215425902617487b178357c09422fb2"
+      }
+    ]
+  },
+  "sentence_ledger": [
+    {
+      "sentence_id": "S0001",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0002",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0003",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0004",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0005",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0006",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0007",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0008",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0009",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0010",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0011",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0012",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0013",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0014",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0015",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0016",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0017",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0018",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0019",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0020",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0021",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0022",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0023",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0024",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0025",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0026",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0027",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0028",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0029",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0030",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0031",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0032",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0033",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0034",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0035",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0036",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0037",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0038",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0039",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0040",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0041",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0042",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0043",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0044",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0045",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0046",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0047",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0048",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0049",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0050",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0051",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0052",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0053",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0054",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0055",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0056",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0057",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0058",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0059",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0060",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0061",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0062",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0063",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0064",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0065",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0066",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0067",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0068",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0069",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0070",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0071",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0072",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0073",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0074",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0075",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0076",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0077",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0078",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0079",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0080",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0081",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0082",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0083",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0084",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0085",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0086",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    },
+    {
+      "sentence_id": "S0087",
+      "flags": {
+        "translationese": [],
+        "academic_compression": [],
+        "unnecessary_label": [],
+        "alias_overload": [],
+        "duplicate_explanation_or_reveal": [],
+        "repeated_opening_or_fragment": [],
+        "parallelism_overload": [],
+        "rhetorical_question_overload": [],
+        "awkward_terminology": [],
+        "audio_density": [],
+        "high_load_listening_block": [],
+        "unclear_pronoun": [],
+        "surface_error": []
+      }
+    }
+  ],
+  "findings": [],
+  "coverage_proof": {
+    "coverage_ok": true,
+    "sentence_count": 87
+  },
+  "status": "PASS"
+}

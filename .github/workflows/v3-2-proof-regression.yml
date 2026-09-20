@@ -9,6 +9,7 @@ on:
       - "tools/**"
       - "tests/**"
       - "projects/2026-09-20_test_v3_2_*/**"
+      - "projects/2026-09-20_test_v3_3_onion_tears_*/**"
       - ".github/workflows/v3-2-proof-regression.yml"
   pull_request:
     paths:
@@ -18,6 +19,7 @@ on:
       - "tools/**"
       - "tests/**"
       - "projects/2026-09-20_test_v3_2_*/**"
+      - "projects/2026-09-20_test_v3_3_onion_tears_*/**"
       - ".github/workflows/v3-2-proof-regression.yml"
   workflow_dispatch:
 
@@ -70,3 +72,45 @@ jobs:
           python -m py_compile tests/test_v3_3_adversarial.py
       - name: Run v3.3 adversarial mutation tests
         run: python -m unittest -v tests.test_v3_3_adversarial
+
+  v3-3-multilingual:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - projects/2026-09-20_test_v3_3_onion_tears_en_10min
+          - projects/2026-09-20_test_v3_3_onion_tears_fr_10min
+          - projects/2026-09-20_test_v3_3_onion_tears_de_10min
+          - projects/2026-09-20_test_v3_3_onion_tears_es_10min
+          - projects/2026-09-20_test_v3_3_onion_tears_ko_10min
+          - projects/2026-09-20_test_v3_3_onion_tears_ja_10min
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install verifier dependencies
+        run: python -m pip install --disable-pip-version-check jsonschema PyYAML
+      - name: Validate v3.3 multilingual project
+        shell: bash
+        run: |
+          set -euo pipefail
+          p="${{ matrix.project }}"
+          python tools/validate_project_artifacts.py "$p"
+          python tools/verify_integrity_proof.py \
+            --script "$p/10_final_script.md" \
+            --index "$p/10_final_sentence_index.json" \
+            --blind "$p/10b1_blind_knowledge_inventory.json" \
+            --claims "$p/10b2_blind_claim_inventory.json" \
+            --naturalness "$p/10b3_blind_naturalness_audit.json" \
+            --integrity "$p/10_final_integrity.json" \
+            --isolation "$p/10b_isolation_manifest.json" \
+            --manifest "$p/artifact_manifest.json" \
+            --evidence "$p/02_evidence_ledger.json" \
+            --sources "$p/02_sources.json" \
+            | tee proof-result.json
+          python - <<'PY'
+          import json
+          r=json.load(open('proof-result.json',encoding='utf-8'))
+          assert r['proof_verifier_status']=='PASS', r
+          assert r['project_status']=='CONTENT_PASS_ISOLATION_NOT_VERIFIED', r
+          assert r['isolation_verified'] is False, r
+          PY

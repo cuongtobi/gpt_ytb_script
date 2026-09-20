@@ -1,0 +1,61 @@
+{
+  "research_date": "2026-09-20",
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Application of Direct Thermal Desorption–Gas Chromatography–Mass Spectrometry for Determination of Volatile and Semi-Volatile Organosulfur Compounds in Onions",
+      "authors_or_org": "et al.",
+      "year": 2023,
+      "url_or_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220549/",
+      "source_type": "primary"
+    },
+    {
+      "id": "S002",
+      "title": "An onion enzyme that makes the eyes water",
+      "authors_or_org": "S. Imai et al.",
+      "year": 2002,
+      "url_or_locator": "https://doi.org/10.1038/419685a",
+      "source_type": "primary"
+    },
+    {
+      "id": "S003",
+      "title": "Dissecting the Stereocontrolled Conversion of Short-Lived Sulfenic Acid by Lachrymatory Factor Synthase",
+      "authors_or_org": "et al.",
+      "year": 2020,
+      "url_or_locator": "https://doi.org/10.1021/acscatal.9b03720",
+      "source_type": "primary"
+    },
+    {
+      "id": "S004",
+      "title": "Crying: Why We Cry & How It Works",
+      "authors_or_org": "Cleveland Clinic",
+      "year": 2024,
+      "url_or_locator": "https://my.clevelandclinic.org/health/articles/crying",
+      "source_type": "official"
+    },
+    {
+      "id": "S005",
+      "title": "Production and characterization of tearless and non-pungent onion",
+      "authors_or_org": "Eady et al.",
+      "year": 2016,
+      "url_or_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4822150/",
+      "source_type": "primary"
+    },
+    {
+      "id": "S006",
+      "title": "Enzyme That Makes You Cry–Crystal Structure of Lachrymatory Factor Synthase from Allium cepa",
+      "authors_or_org": "Silvaroli et al.",
+      "year": 2017,
+      "url_or_locator": "https://doi.org/10.1021/acschembio.7b00336",
+      "source_type": "primary"
+    },
+    {
+      "id": "S007",
+      "title": "Severity of Onion Tearing and Chemosensory Sensitivity: A Preliminary Investigation",
+      "authors_or_org": "research team",
+      "year": 2026,
+      "url_or_locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13240051/",
+      "source_type": "primary"
+    }
+  ]
+}

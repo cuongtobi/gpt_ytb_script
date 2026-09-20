@@ -1,0 +1,483 @@
+{
+  "source_file": "10_final_candidate.md",
+  "source_sha256": "b107f65ca4e699d3cd73e44a77ed220e552226e4464f9083580a13ff8d05f9e8",
+  "locale": "es",
+  "segmenter_version": "3.3.0",
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_candidate.md",
+        "sha256": "b107f65ca4e699d3cd73e44a77ed220e552226e4464f9083580a13ff8d05f9e8"
+      }
+    ]
+  },
+  "units": [
+    {
+      "sentence_id": "S0001",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Una cebolla puede quedarse varios días sobre la encimera sin provocar una sola lágrima."
+    },
+    {
+      "sentence_id": "S0002",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Pero basta con cortarla para que, pocos segundos después, los ojos empiecen a picar y a llenarse de lágrimas."
+    },
+    {
+      "sentence_id": "S0003",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Si lo pensamos, resulta extraño."
+    },
+    {
+      "sentence_id": "S0004",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "No hemos quemado nada, no hemos calentado la cebolla y nadie ha rociado un producto irritante."
+    },
+    {
+      "sentence_id": "S0005",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Solo hemos roto unas cuantas capas de tejido vegetal."
+    },
+    {
+      "sentence_id": "S0006",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Precisamente esa lesión pone en marcha todo el proceso."
+    },
+    {
+      "sentence_id": "S0007",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "La cebolla no guarda un gas irritante ya preparado dentro de sus células como si escondiera una pequeña botella."
+    },
+    {
+      "sentence_id": "S0008",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Mantiene separados varios ingredientes químicos."
+    },
+    {
+      "sentence_id": "S0009",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Cuando el cuchillo rompe las células, esos ingredientes pueden encontrarse por primera vez."
+    },
+    {
+      "sentence_id": "S0010",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Entonces empieza una cadena rápida de reacciones."
+    },
+    {
+      "sentence_id": "S0011",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Y las lágrimas que aparecen no son lágrimas emocionales."
+    },
+    {
+      "sentence_id": "S0012",
+      "section_heading": "Una alarma química escondida en la cocina",
+      "exact_text": "Son lágrimas reflejas, una respuesta protectora del ojo."
+    },
+    {
+      "sentence_id": "S0013",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "En una cebolla intacta, ciertos compuestos precursores que contienen azufre y una enzima llamada aliinasa se encuentran en zonas diferentes de las células."
+    },
+    {
+      "sentence_id": "S0014",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Una enzima es una proteína que acelera una reacción química."
+    },
+    {
+      "sentence_id": "S0015",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Mientras la estructura celular permanece intacta, esos componentes están en gran medida separados."
+    },
+    {
+      "sentence_id": "S0016",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "El cuchillo cambia la situación de inmediato."
+    },
+    {
+      "sentence_id": "S0017",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "La hoja rompe paredes y membranas celulares."
+    },
+    {
+      "sentence_id": "S0018",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Sustancias que antes estaban apartadas se mezclan en el tejido dañado."
+    },
+    {
+      "sentence_id": "S0019",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "La aliinasa puede entonces actuar sobre los precursores azufrados."
+    },
+    {
+      "sentence_id": "S0020",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Esa reacción produce, entre otras cosas, ácidos sulfénicos, compuestos de azufre muy reactivos y de vida corta."
+    },
+    {
+      "sentence_id": "S0021",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "No permanecen mucho tiempo en esa forma."
+    },
+    {
+      "sentence_id": "S0022",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Son intermediarios, moléculas temporales que aparecen camino de otros productos."
+    },
+    {
+      "sentence_id": "S0023",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Por eso el olor de una cebolla cambia casi en el mismo instante en que empezamos a cortarla."
+    },
+    {
+      "sentence_id": "S0024",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Parte de ese aroma no estaba simplemente atrapado dentro del bulbo."
+    },
+    {
+      "sentence_id": "S0025",
+      "section_heading": "La cebolla mantiene separados los ingredientes",
+      "exact_text": "Se está fabricando mientras dañamos el tejido."
+    },
+    {
+      "sentence_id": "S0026",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Durante años se pensó que la molécula responsable del lagrimeo aparecía casi de manera espontánea después de la acción de la aliinasa."
+    },
+    {
+      "sentence_id": "S0027",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "En 2002, un trabajo publicado en Nature cambió esa imagen."
+    },
+    {
+      "sentence_id": "S0028",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Los investigadores demostraron que la cebolla utiliza otra enzima, la sintasa del factor lacrimógeno, para producir específicamente el compuesto que causa las lágrimas."
+    },
+    {
+      "sentence_id": "S0029",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "El nombre parece complicado, pero su función es fácil de entender."
+    },
+    {
+      "sentence_id": "S0030",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Ayuda a convertir un intermediario de azufre muy inestable en el factor lacrimógeno."
+    },
+    {
+      "sentence_id": "S0031",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Eso significa que no estamos ante un simple subproducto irritante que aparece por casualidad."
+    },
+    {
+      "sentence_id": "S0032",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "La cebolla posee un paso bioquímico dedicado a producirlo."
+    },
+    {
+      "sentence_id": "S0033",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Investigaciones estructurales y bioquímicas posteriores estudiaron con más detalle cómo esta enzima realiza la conversión."
+    },
+    {
+      "sentence_id": "S0034",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "En una cocina todo sucede tan rápido que parece instantáneo."
+    },
+    {
+      "sentence_id": "S0035",
+      "section_heading": "La enzima que cambió la explicación",
+      "exact_text": "Cortamos, las células se abren y la química comienza."
+    },
+    {
+      "sentence_id": "S0036",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "El principal compuesto que provoca el lagrimeo es el syn-propanetial-S-óxido, una pequeña molécula de azufre que pasa con facilidad al aire y que también se conoce como factor lacrimógeno de la cebolla."
+    },
+    {
+      "sentence_id": "S0037",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Una vez formado en el tejido dañado, parte del compuesto se aleja de la tabla de cortar y se dispersa alrededor de nuestra cara."
+    },
+    {
+      "sentence_id": "S0038",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Si llega a la superficie húmeda del ojo, actúa como un irritante químico."
+    },
+    {
+      "sentence_id": "S0039",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "El ojo no necesita saber que la molécula procede de una verdura."
+    },
+    {
+      "sentence_id": "S0040",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Solo detecta que su superficie está siendo irritada."
+    },
+    {
+      "sentence_id": "S0041",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Entonces aparecen las lágrimas reflejas, el tipo de lágrimas protectoras que también producimos cuando entra polvo, humo u otro irritante en el ojo."
+    },
+    {
+      "sentence_id": "S0042",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Ese líquido adicional ayuda a diluir y arrastrar el material irritante."
+    },
+    {
+      "sentence_id": "S0043",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "Por eso las lágrimas terminan corriendo por la cara."
+    },
+    {
+      "sentence_id": "S0044",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "La cebolla no está sacando una emoción escondida."
+    },
+    {
+      "sentence_id": "S0045",
+      "section_heading": "La molécula que llega hasta nuestros ojos",
+      "exact_text": "El ojo simplemente ha activado su sistema de limpieza."
+    },
+    {
+      "sentence_id": "S0046",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "El mecanismo se entiende mejor si dejamos de pensar como cocineros y pensamos por un momento como una planta."
+    },
+    {
+      "sentence_id": "S0047",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Una cebolla no puede escapar cuando un animal, un insecto o un microbio daña su tejido."
+    },
+    {
+      "sentence_id": "S0048",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "La defensa química es una herramienta útil para un organismo que permanece fijo en un lugar."
+    },
+    {
+      "sentence_id": "S0049",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Los investigadores describen la química azufrada de las cebollas como parte de un sistema defensivo más amplio frente a microbios y animales."
+    },
+    {
+      "sentence_id": "S0050",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "El daño celular activa rápidamente varias reacciones con compuestos de azufre."
+    },
+    {
+      "sentence_id": "S0051",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Algunos de esos productos contribuyen al olor intenso y al sabor picante que asociamos con la cebolla."
+    },
+    {
+      "sentence_id": "S0052",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Una rama de esa química produce el factor lacrimógeno."
+    },
+    {
+      "sentence_id": "S0053",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Desde el punto de vista de la planta, el momento en que el tejido resulta dañado es precisamente cuando una defensa puede resultar útil."
+    },
+    {
+      "sentence_id": "S0054",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "Desde nuestro punto de vista, es el momento en que preparar la cena se vuelve incómodo."
+    },
+    {
+      "sentence_id": "S0055",
+      "section_heading": "Por qué una cebolla tiene esta química",
+      "exact_text": "La misma química puede ser beneficiosa para la planta y molesta para la persona que sostiene el cuchillo."
+    },
+    {
+      "sentence_id": "S0056",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "La intensidad de la irritación puede variar por varias razones."
+    },
+    {
+      "sentence_id": "S0057",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "Cuanto más tejido se daña, más contenido celular puede mezclarse y reaccionar."
+    },
+    {
+      "sentence_id": "S0058",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "El movimiento del aire también importa, porque el factor lacrimógeno tiene que viajar desde la cebolla hasta los ojos."
+    },
+    {
+      "sentence_id": "S0059",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "La propia cebolla es otra variable."
+    },
+    {
+      "sentence_id": "S0060",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "Las distintas variedades y los distintos bulbos no contienen exactamente las mismas cantidades de precursores azufrados ni producen la misma cantidad de compuestos azufrados irritantes."
+    },
+    {
+      "sentence_id": "S0061",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "Además, las personas tampoco reaccionan de forma idéntica ante los irritantes."
+    },
+    {
+      "sentence_id": "S0062",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "Dos personas pueden cortar la misma cebolla y describir experiencias bastante diferentes."
+    },
+    {
+      "sentence_id": "S0063",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "La vía química básica, sin embargo, puede ser exactamente la misma."
+    },
+    {
+      "sentence_id": "S0064",
+      "section_heading": "Por qué algunas cebollas hacen llorar mucho más",
+      "exact_text": "Lo que cambia es cuánto compuesto se forma, cuánto llega a los ojos y cómo responde cada persona."
+    },
+    {
+      "sentence_id": "S0065",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "Sí, al menos en líneas experimentales se ha demostrado que la ruta química puede modificarse."
+    },
+    {
+      "sentence_id": "S0066",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "Estudios en los que se redujo la actividad de la sintasa del factor lacrimógeno produjeron cebollas con una formación mucho menor del factor que causa las lágrimas."
+    },
+    {
+      "sentence_id": "S0067",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "Cuando esa enzima está menos activa, el intermediario azufrado puede entrar en otras reacciones en vez de convertirse de manera eficiente en el factor lacrimógeno."
+    },
+    {
+      "sentence_id": "S0068",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "El resultado es interesante por dos motivos."
+    },
+    {
+      "sentence_id": "S0069",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "Primero, confirma que esta enzima es un punto de control importante en la ruta."
+    },
+    {
+      "sentence_id": "S0070",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "Segundo, demuestra que reducir el lagrimeo no exige eliminar toda la química del azufre de la cebolla."
+    },
+    {
+      "sentence_id": "S0071",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "La química puede desviarse hacia otros productos en lugar de apagarse por completo."
+    },
+    {
+      "sentence_id": "S0072",
+      "section_heading": "¿Se puede crear una cebolla que casi no haga llorar?",
+      "exact_text": "La selección vegetal y la biotecnología pueden, por tanto, modificar la intensidad de esta rama concreta del sistema de defensa."
+    },
+    {
+      "sentence_id": "S0073",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "Cuando entendemos el mecanismo, resulta más fácil evaluar los trucos para cortar cebolla."
+    },
+    {
+      "sentence_id": "S0074",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "El factor lacrimógeno tiene que formarse primero en el tejido dañado y después desplazarse por el aire hasta nuestros ojos."
+    },
+    {
+      "sentence_id": "S0075",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "La estrategia más directa consiste en reducir la exposición al irritante que circula por el aire."
+    },
+    {
+      "sentence_id": "S0076",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "Una buena ventilación o una corriente de aire que se aleje de la cara puede transportar parte del compuesto en otra dirección."
+    },
+    {
+      "sentence_id": "S0077",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "Aumentar la distancia entre la cara y la zona por la que asciende el vapor también puede disminuir la exposición."
+    },
+    {
+      "sentence_id": "S0078",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "Ninguno de estos métodos necesita neutralizar emociones ni extraer una misteriosa toxina de la cebolla."
+    },
+    {
+      "sentence_id": "S0079",
+      "section_heading": "Qué ayuda realmente en la cocina",
+      "exact_text": "Es simplemente química vegetal encontrándose con un reflejo normal de protección ocular."
+    },
+    {
+      "sentence_id": "S0080",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Entonces, ¿por qué las cebollas nos hacen llorar?"
+    },
+    {
+      "sentence_id": "S0081",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Porque el cuchillo convierte ingredientes que estaban separados dentro de las células en una pequeña línea de producción química."
+    },
+    {
+      "sentence_id": "S0082",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "El daño celular pone en contacto los precursores azufrados con la aliinasa."
+    },
+    {
+      "sentence_id": "S0083",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "La aliinasa genera intermediarios de azufre de vida corta."
+    },
+    {
+      "sentence_id": "S0084",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "La sintasa del factor lacrimógeno dirige uno de esos intermediarios hacia el syn-propanetial-S-óxido."
+    },
+    {
+      "sentence_id": "S0085",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "La molécula volátil alcanza la superficie del ojo y la irrita."
+    },
+    {
+      "sentence_id": "S0086",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "El ojo responde con lágrimas reflejas que diluyen y ayudan a eliminar el irritante."
+    },
+    {
+      "sentence_id": "S0087",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Lo sorprendente es cuánta biología cabe en apenas unos segundos."
+    },
+    {
+      "sentence_id": "S0088",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Lo que parece una pequeña molestia doméstica es en realidad una defensa vegetal, una ruta enzimática, una molécula que viaja por el aire y un reflejo protector humano actuando uno detrás de otro."
+    },
+    {
+      "sentence_id": "S0089",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Una cebolla no contiene una diminuta lata de gas lacrimógeno lista para abrirse."
+    },
+    {
+      "sentence_id": "S0090",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Contiene la maquinaria química necesaria para fabricar un irritante cuando su tejido resulta dañado."
+    },
+    {
+      "sentence_id": "S0091",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "El cuchillo inicia la química."
+    },
+    {
+      "sentence_id": "S0092",
+      "section_heading": "Toda la historia en un solo corte",
+      "exact_text": "Los ojos terminan la historia."
+    }
+  ],
+  "source_sentence_count": 92,
+  "indexed_sentence_count": 92,
+  "duplicate_sentence_ids": [],
+  "missing_sentence_ids": [],
+  "reconstruction_ok": true,
+  "status": "PASS"
+}

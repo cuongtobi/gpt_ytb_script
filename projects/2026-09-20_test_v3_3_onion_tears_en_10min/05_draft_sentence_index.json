@@ -1,0 +1,458 @@
+{
+  "source_file": "05_script_draft.md",
+  "source_sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05",
+  "locale": "en",
+  "segmenter_version": "3.3.0",
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "05_script_draft.md",
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
+      }
+    ]
+  },
+  "units": [
+    {
+      "sentence_id": "S0001",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "An onion can sit quietly on a counter for days and do nothing to your eyes."
+    },
+    {
+      "sentence_id": "S0002",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "Cut it open, and within seconds the same vegetable can make you blink, sting, and tear up."
+    },
+    {
+      "sentence_id": "S0003",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "That feels almost absurd."
+    },
+    {
+      "sentence_id": "S0004",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "Nothing has been heated, burned, or sprayed."
+    },
+    {
+      "sentence_id": "S0005",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "You simply broke a few layers of plant tissue."
+    },
+    {
+      "sentence_id": "S0006",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "But that damage is exactly the point."
+    },
+    {
+      "sentence_id": "S0007",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "An onion does not store its irritating chemistry as one ready-made gas waiting to escape."
+    },
+    {
+      "sentence_id": "S0008",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "It stores separate ingredients inside living cells, and cutting lets those ingredients meet."
+    },
+    {
+      "sentence_id": "S0009",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "What happens next is a tiny chemical chain reaction built into the plant."
+    },
+    {
+      "sentence_id": "S0010",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "And the tears are not an emotional response at all."
+    },
+    {
+      "sentence_id": "S0011",
+      "section_heading": "The strange alarm hidden in a kitchen staple",
+      "exact_text": "They are reflex tears, a protective response from the eyes."
+    },
+    {
+      "sentence_id": "S0012",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "Inside an intact onion, sulfur-containing precursor compounds and an enzyme called alliinase are kept in different parts of the cells."
+    },
+    {
+      "sentence_id": "S0013",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "Alliinase is simply a protein that speeds up a chemical reaction."
+    },
+    {
+      "sentence_id": "S0014",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "As long as the cells stay intact, the ingredients are largely separated."
+    },
+    {
+      "sentence_id": "S0015",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "A knife changes that arrangement instantly."
+    },
+    {
+      "sentence_id": "S0016",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "When the blade breaks cell walls and membranes, compounds that were stored apart spill into the same damaged tissue."
+    },
+    {
+      "sentence_id": "S0017",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "Alliinase can now act on the sulfur-containing precursors."
+    },
+    {
+      "sentence_id": "S0018",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "That reaction produces unstable sulfur compounds called sulfenic acids."
+    },
+    {
+      "sentence_id": "S0019",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "They do not remain in that form for long."
+    },
+    {
+      "sentence_id": "S0020",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "They are reactive intermediates, temporary molecules created on the way to other products."
+    },
+    {
+      "sentence_id": "S0021",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "This is why chopping an onion changes its smell almost immediately."
+    },
+    {
+      "sentence_id": "S0022",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "The odor is not just something that was trapped inside the bulb."
+    },
+    {
+      "sentence_id": "S0023",
+      "section_heading": "The onion keeps the ingredients apart",
+      "exact_text": "Part of it is being manufactured at the moment the tissue is damaged."
+    },
+    {
+      "sentence_id": "S0024",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "For years, researchers thought the tear-causing molecule formed more or less automatically after alliinase began the reaction."
+    },
+    {
+      "sentence_id": "S0025",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "Then a 2002 Nature paper changed the picture."
+    },
+    {
+      "sentence_id": "S0026",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "The researchers showed that onions use another enzyme, lachrymatory-factor synthase, to specifically make the tear-causing factor."
+    },
+    {
+      "sentence_id": "S0027",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "The name sounds intimidating, but its job is simple: it helps turn a short-lived sulfur intermediate into the molecule that makes your eyes water."
+    },
+    {
+      "sentence_id": "S0028",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "That finding matters because the onion is not merely releasing a random irritating by-product."
+    },
+    {
+      "sentence_id": "S0029",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "It has a dedicated biochemical step that produces it."
+    },
+    {
+      "sentence_id": "S0030",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "Later structural and biochemical work examined how this enzyme performs that conversion."
+    },
+    {
+      "sentence_id": "S0031",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "The chemistry is fast enough that, from a cook's point of view, it seems instantaneous."
+    },
+    {
+      "sentence_id": "S0032",
+      "section_heading": "The enzyme scientists did not expect",
+      "exact_text": "Slice, and the reaction begins."
+    },
+    {
+      "sentence_id": "S0033",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "The main tear-causing compound is syn-propanethial S-oxide, a small sulfur compound that can readily enter the air and is often called the onion lachrymatory factor."
+    },
+    {
+      "sentence_id": "S0034",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "Once it forms in the damaged onion, some of it moves away from the cutting board and reaches the moist surface of your eyes."
+    },
+    {
+      "sentence_id": "S0035",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "There it acts as an irritant."
+    },
+    {
+      "sentence_id": "S0036",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "Your eye does not need to know that the molecule came from a vegetable."
+    },
+    {
+      "sentence_id": "S0037",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "It only needs to detect that the surface is being chemically irritated."
+    },
+    {
+      "sentence_id": "S0038",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "That triggers reflex tears, the protective tears produced when dust, smoke, or another irritant reaches the eye."
+    },
+    {
+      "sentence_id": "S0039",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "The extra fluid helps dilute and wash away the irritating material."
+    },
+    {
+      "sentence_id": "S0040",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "So the stream running down your face is not the onion somehow forcing emotion out of you."
+    },
+    {
+      "sentence_id": "S0041",
+      "section_heading": "The molecule that reaches your eyes",
+      "exact_text": "It is your eye performing a cleanup response."
+    },
+    {
+      "sentence_id": "S0042",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "The reaction makes more sense when we stop thinking like cooks and start thinking like plants."
+    },
+    {
+      "sentence_id": "S0043",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "An onion cannot run away when something bites into it."
+    },
+    {
+      "sentence_id": "S0044",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "Chemical defense is one of the tools available to a plant that is rooted in place."
+    },
+    {
+      "sentence_id": "S0045",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "Researchers studying onion chemistry describe the sulfur pathway as part of a broader defense system against microbes and animals."
+    },
+    {
+      "sentence_id": "S0046",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "Damage activates a burst of reactive sulfur chemistry."
+    },
+    {
+      "sentence_id": "S0047",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "Some of the products contribute to the sharp smell and flavor we associate with onions."
+    },
+    {
+      "sentence_id": "S0048",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "One branch of that chemistry produces the lachrymatory factor."
+    },
+    {
+      "sentence_id": "S0049",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "From the plant's perspective, tissue damage is a moment when chemical defense is useful."
+    },
+    {
+      "sentence_id": "S0050",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "From our perspective, it is the moment dinner becomes uncomfortable."
+    },
+    {
+      "sentence_id": "S0051",
+      "section_heading": "Why onions evolved such chemistry",
+      "exact_text": "The same chemistry can therefore be both biologically useful to the plant and culinarily annoying to us."
+    },
+    {
+      "sentence_id": "S0052",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "The amount of irritation you experience can vary because several things change how much reactive chemistry is created and how much of the volatile product reaches your face."
+    },
+    {
+      "sentence_id": "S0053",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "More tissue damage means more cell contents can mix."
+    },
+    {
+      "sentence_id": "S0054",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "Air movement matters because the tear factor has to travel from the onion to your eyes."
+    },
+    {
+      "sentence_id": "S0055",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "The onion itself also matters."
+    },
+    {
+      "sentence_id": "S0056",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "Different onions do not contain identical amounts of the precursor compounds or produce identical levels of pungent sulfur chemistry."
+    },
+    {
+      "sentence_id": "S0057",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "And people differ in how strongly they react to irritants."
+    },
+    {
+      "sentence_id": "S0058",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "That is why two people can chop the same onion and report very different experiences."
+    },
+    {
+      "sentence_id": "S0059",
+      "section_heading": "Why some cuts feel worse than others",
+      "exact_text": "The underlying pathway can be the same even when the subjective intensity is not."
+    },
+    {
+      "sentence_id": "S0060",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "Yes, at least in experimental lines, researchers have shown that the pathway can be redirected."
+    },
+    {
+      "sentence_id": "S0061",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "Studies that suppressed the activity of lachrymatory-factor synthase produced onions with dramatically reduced tear-factor formation."
+    },
+    {
+      "sentence_id": "S0062",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "When that enzyme is less active, the sulfur intermediate is available for other reactions instead of being efficiently converted into the lachrymatory factor."
+    },
+    {
+      "sentence_id": "S0063",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "That result is useful for two reasons."
+    },
+    {
+      "sentence_id": "S0064",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "First, it confirms that the tear-producing enzyme really is a key control point in the pathway."
+    },
+    {
+      "sentence_id": "S0065",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "Second, it shows that reducing tears does not require removing all sulfur chemistry from the onion."
+    },
+    {
+      "sentence_id": "S0066",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "The plant's chemistry can be shifted rather than simply switched off."
+    },
+    {
+      "sentence_id": "S0067",
+      "section_heading": "Can an onion be made that does not make you cry?",
+      "exact_text": "Breeding and biotechnology can therefore change how strongly an onion activates this particular defense branch."
+    },
+    {
+      "sentence_id": "S0068",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "Once you understand the mechanism, many kitchen tricks become easier to judge."
+    },
+    {
+      "sentence_id": "S0069",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "The tear factor has to be produced in damaged tissue and then reach your eyes through the air."
+    },
+    {
+      "sentence_id": "S0070",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "So the most direct strategy is to reduce your exposure to the airborne irritant."
+    },
+    {
+      "sentence_id": "S0071",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere."
+    },
+    {
+      "sentence_id": "S0072",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "Anything that places your eyes farther from the rising vapor can reduce exposure simply by changing where the air goes."
+    },
+    {
+      "sentence_id": "S0073",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "The important point is that no trick needs to \"neutralize emotion\" or pull toxins out of the onion."
+    },
+    {
+      "sentence_id": "S0074",
+      "section_heading": "What actually helps in the kitchen",
+      "exact_text": "This is ordinary plant chemistry meeting ordinary eye protection."
+    },
+    {
+      "sentence_id": "S0075",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "So why do onions make us cry?"
+    },
+    {
+      "sentence_id": "S0076",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Because a knife turns separated cellular ingredients into a rapid chemical assembly line."
+    },
+    {
+      "sentence_id": "S0077",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Cell damage brings sulfur precursors together with alliinase."
+    },
+    {
+      "sentence_id": "S0078",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Alliinase creates short-lived sulfur intermediates."
+    },
+    {
+      "sentence_id": "S0079",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Lachrymatory-factor synthase redirects one of those intermediates toward syn-propanethial S-oxide."
+    },
+    {
+      "sentence_id": "S0080",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "That volatile molecule reaches the eye and irritates its surface."
+    },
+    {
+      "sentence_id": "S0081",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "The eye answers with reflex tears that dilute and wash away the irritant."
+    },
+    {
+      "sentence_id": "S0082",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "The remarkable part is how much biology is compressed into those few seconds."
+    },
+    {
+      "sentence_id": "S0083",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "What looks like a simple nuisance in the kitchen is actually a defense system, an enzyme pathway, an airborne chemical signal, and a protective human reflex unfolding one after another."
+    },
+    {
+      "sentence_id": "S0084",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "An onion does not contain a tiny bottle of tear gas."
+    },
+    {
+      "sentence_id": "S0085",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "It contains the machinery to make an irritant when its tissue is damaged."
+    },
+    {
+      "sentence_id": "S0086",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Your knife starts the chemistry."
+    },
+    {
+      "sentence_id": "S0087",
+      "section_heading": "The whole chain in one cut",
+      "exact_text": "Your eyes finish the story."
+    }
+  ],
+  "source_sentence_count": 87,
+  "indexed_sentence_count": 87,
+  "duplicate_sentence_ids": [],
+  "missing_sentence_ids": [],
+  "reconstruction_ok": true,
+  "status": "PASS"
+}

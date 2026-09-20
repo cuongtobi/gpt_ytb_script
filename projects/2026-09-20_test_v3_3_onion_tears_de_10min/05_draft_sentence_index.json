@@ -1,0 +1,483 @@
+{
+  "source_file": "05_script_draft.md",
+  "source_sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+  "locale": "de",
+  "segmenter_version": "3.3.0",
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "05_script_draft.md",
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
+      }
+    ]
+  },
+  "units": [
+    {
+      "sentence_id": "S0001",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Eine Zwiebel kann tagelang auf der Arbeitsplatte liegen, ohne dass unsere Augen reagieren."
+    },
+    {
+      "sentence_id": "S0002",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Schneidet man sie auf, beginnen die Augen oft schon wenige Sekunden später zu brennen und zu tränen."
+    },
+    {
+      "sentence_id": "S0003",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Das wirkt fast widersprüchlich."
+    },
+    {
+      "sentence_id": "S0004",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Nichts wurde verbrannt, nichts wurde erhitzt und niemand hat ein Reizgas versprüht."
+    },
+    {
+      "sentence_id": "S0005",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Man hat lediglich Pflanzengewebe verletzt."
+    },
+    {
+      "sentence_id": "S0006",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Genau diese Verletzung setzt jedoch die entscheidende Chemie in Gang."
+    },
+    {
+      "sentence_id": "S0007",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Die Zwiebel lagert den reizenden Stoff nicht fertig in ihren Zellen, als wäre dort eine winzige Gasflasche versteckt."
+    },
+    {
+      "sentence_id": "S0008",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Stattdessen hält sie mehrere chemische Zutaten voneinander getrennt."
+    },
+    {
+      "sentence_id": "S0009",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Beim Schneiden werden Zellwände und Membranen zerstört, und plötzlich können diese Zutaten aufeinandertreffen."
+    },
+    {
+      "sentence_id": "S0010",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Innerhalb kürzester Zeit startet eine Reaktionskette."
+    },
+    {
+      "sentence_id": "S0011",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Und die Tränen, die danach kommen, sind keine emotionalen Tränen."
+    },
+    {
+      "sentence_id": "S0012",
+      "section_heading": "Ein Alarmmechanismus mitten in der Küche",
+      "exact_text": "Es sind Reflextränen, also eine Schutzreaktion des Auges."
+    },
+    {
+      "sentence_id": "S0013",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "In einer intakten Zwiebel befinden sich schwefelhaltige Vorläuferstoffe und ein Enzym namens Alliinase in unterschiedlichen Bereichen der Zellen."
+    },
+    {
+      "sentence_id": "S0014",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Ein Enzym ist ein Protein, das eine chemische Reaktion beschleunigt."
+    },
+    {
+      "sentence_id": "S0015",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Solange die Zellstruktur erhalten bleibt, kommen diese Stoffe nur begrenzt miteinander in Kontakt."
+    },
+    {
+      "sentence_id": "S0016",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Ein Messer ändert diese Ordnung sofort."
+    },
+    {
+      "sentence_id": "S0017",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Die Klinge zerreißt Wände und Membranen der Pflanzenzellen."
+    },
+    {
+      "sentence_id": "S0018",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Stoffe, die vorher getrennt waren, mischen sich im verletzten Gewebe."
+    },
+    {
+      "sentence_id": "S0019",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Nun kann die Alliinase auf die schwefelhaltigen Vorläufer reagieren."
+    },
+    {
+      "sentence_id": "S0020",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Dabei entstehen unter anderem Sulfensäuren, sehr reaktive und kurzlebige Schwefelverbindungen."
+    },
+    {
+      "sentence_id": "S0021",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Sie bleiben nicht lange in dieser Form erhalten."
+    },
+    {
+      "sentence_id": "S0022",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Sie sind Zwischenprodukte, also vorübergehende Moleküle auf dem Weg zu anderen Stoffen."
+    },
+    {
+      "sentence_id": "S0023",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Deshalb verändert sich auch der Geruch einer Zwiebel praktisch in dem Moment, in dem man sie anschneidet."
+    },
+    {
+      "sentence_id": "S0024",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Ein Teil des typischen Aromas war nicht einfach fertig im Inneren eingeschlossen."
+    },
+    {
+      "sentence_id": "S0025",
+      "section_heading": "Solange die Zelle heil ist, bleiben die Zutaten getrennt",
+      "exact_text": "Er entsteht erst durch die Reaktionen nach der Verletzung."
+    },
+    {
+      "sentence_id": "S0026",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Lange Zeit ging man davon aus, dass der tränenauslösende Stoff nach der Reaktion der Alliinase weitgehend von selbst entsteht."
+    },
+    {
+      "sentence_id": "S0027",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Eine 2002 in Nature veröffentlichte Arbeit änderte dieses Bild."
+    },
+    {
+      "sentence_id": "S0028",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Die Forschenden zeigten, dass Zwiebeln ein weiteres Enzym besitzen, die sogenannte Tränenfaktor-Synthase, die den tränenauslösenden Faktor gezielt bildet."
+    },
+    {
+      "sentence_id": "S0029",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Der Name klingt kompliziert, aber die Aufgabe ist einfach."
+    },
+    {
+      "sentence_id": "S0030",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Das Enzym hilft dabei, ein kurzlebiges schwefelhaltiges Zwischenprodukt in den Stoff umzuwandeln, der unsere Augen reizt."
+    },
+    {
+      "sentence_id": "S0031",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Damit ist der Tränenfaktor nicht bloß ein zufälliges Nebenprodukt der Zwiebelchemie."
+    },
+    {
+      "sentence_id": "S0032",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Es gibt einen eigenen biochemischen Schritt, der zu seiner Bildung führt."
+    },
+    {
+      "sentence_id": "S0033",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Spätere strukturbiologische und biochemische Untersuchungen haben genauer untersucht, wie die Tränenfaktor-Synthase diese Umwandlung katalysiert."
+    },
+    {
+      "sentence_id": "S0034",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "In der Küche läuft das so schnell ab, dass wir nur den unmittelbaren Effekt wahrnehmen."
+    },
+    {
+      "sentence_id": "S0035",
+      "section_heading": "Das Enzym, mit dem man lange nicht gerechnet hatte",
+      "exact_text": "Man schneidet, die Zellen brechen auf und die Reaktionen beginnen."
+    },
+    {
+      "sentence_id": "S0036",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Der wichtigste tränenauslösende Stoff heißt syn-Propanthial-S-oxid, eine kleine Schwefelverbindung, die leicht in die Luft übergeht und auch als Tränenfaktor der Zwiebel bezeichnet wird."
+    },
+    {
+      "sentence_id": "S0037",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Nachdem er im beschädigten Gewebe entstanden ist, verteilt sich ein Teil davon über dem Schneidebrett."
+    },
+    {
+      "sentence_id": "S0038",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Erreicht er die feuchte Oberfläche des Auges, wirkt er dort als chemischer Reizstoff."
+    },
+    {
+      "sentence_id": "S0039",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Dem Auge ist dabei völlig egal, ob das Molekül aus einer Zwiebel, aus Rauch oder aus einer anderen Quelle stammt."
+    },
+    {
+      "sentence_id": "S0040",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Es registriert lediglich, dass seine Oberfläche gereizt wird."
+    },
+    {
+      "sentence_id": "S0041",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Daraufhin entstehen Reflextränen, also zusätzliche Tränen, die das Auge bei Staub, Rauch oder anderen Reizstoffen produziert."
+    },
+    {
+      "sentence_id": "S0042",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Die Flüssigkeit hilft, den Reizstoff zu verdünnen und von der Augenoberfläche wegzuspülen."
+    },
+    {
+      "sentence_id": "S0043",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Darum laufen die Tränen über das Gesicht."
+    },
+    {
+      "sentence_id": "S0044",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Die Zwiebel löst keine versteckte Traurigkeit aus."
+    },
+    {
+      "sentence_id": "S0045",
+      "section_heading": "Das Molekül, das bis zum Auge gelangt",
+      "exact_text": "Das Auge startet schlicht sein eigenes Spülprogramm."
+    },
+    {
+      "sentence_id": "S0046",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Die Reaktion wird verständlicher, wenn man für einen Moment nicht wie ein Koch, sondern wie eine Pflanze denkt."
+    },
+    {
+      "sentence_id": "S0047",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Eine Zwiebel kann nicht weglaufen, wenn ein Tier, ein Insekt oder ein Mikroorganismus ihr Gewebe beschädigt."
+    },
+    {
+      "sentence_id": "S0048",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Chemische Abwehr ist deshalb für eine festsitzende Pflanze besonders nützlich."
+    },
+    {
+      "sentence_id": "S0049",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Forschende beschreiben die schwefelhaltige Chemie der Zwiebel als Teil eines größeren Abwehrsystems gegen Mikroben und Tiere."
+    },
+    {
+      "sentence_id": "S0050",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Wenn Gewebe verletzt wird, entstehen schnell verschiedene reaktive Schwefelverbindungen."
+    },
+    {
+      "sentence_id": "S0051",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Einige davon tragen zum scharfen Geruch und Geschmack bei, den wir mit Zwiebeln verbinden."
+    },
+    {
+      "sentence_id": "S0052",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Ein Zweig dieses Reaktionsnetzes führt zum Tränenfaktor."
+    },
+    {
+      "sentence_id": "S0053",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Aus Sicht der Pflanze ist genau der Moment einer Verletzung ein sinnvoller Zeitpunkt, um chemische Abwehrreaktionen zu aktivieren."
+    },
+    {
+      "sentence_id": "S0054",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Aus unserer Sicht ist es der Moment, in dem die Vorbereitung des Abendessens unangenehm wird."
+    },
+    {
+      "sentence_id": "S0055",
+      "section_heading": "Warum hat eine Zwiebel überhaupt so eine Chemie?",
+      "exact_text": "Dieselbe Chemie kann also der Pflanze helfen und gleichzeitig den Menschen am Schneidebrett nerven."
+    },
+    {
+      "sentence_id": "S0056",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Wie stark die Augen reagieren, hängt von mehreren Faktoren ab."
+    },
+    {
+      "sentence_id": "S0057",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Je mehr Gewebe zerstört wird, desto mehr Zellinhalte können miteinander reagieren."
+    },
+    {
+      "sentence_id": "S0058",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Auch die Luftbewegung ist wichtig, denn der flüchtige Tränenfaktor muss von der Zwiebel bis zum Gesicht gelangen."
+    },
+    {
+      "sentence_id": "S0059",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Außerdem sind Zwiebeln untereinander nicht identisch."
+    },
+    {
+      "sentence_id": "S0060",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Sorten und einzelne Knollen enthalten unterschiedliche Mengen der schwefelhaltigen Ausgangsstoffe und können unterschiedliche Mengen reizender Schwefelverbindungen bilden."
+    },
+    {
+      "sentence_id": "S0061",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Und auch Menschen reagieren nicht exakt gleich empfindlich auf Reizstoffe."
+    },
+    {
+      "sentence_id": "S0062",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Zwei Personen können deshalb dieselbe Zwiebel schneiden und die Erfahrung sehr unterschiedlich beschreiben."
+    },
+    {
+      "sentence_id": "S0063",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Der grundlegende Reaktionsweg bleibt trotzdem derselbe."
+    },
+    {
+      "sentence_id": "S0064",
+      "section_heading": "Warum sind manche Zwiebeln viel schlimmer als andere?",
+      "exact_text": "Unterschiedlich sind vor allem die produzierte Menge, die tatsächlich die Augen erreicht, und die Empfindlichkeit der Person."
+    },
+    {
+      "sentence_id": "S0065",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Zumindest bei experimentellen Linien ist das möglich."
+    },
+    {
+      "sentence_id": "S0066",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Studien, in denen die Aktivität der Tränenfaktor-Synthase unterdrückt wurde, erzeugten Zwiebeln mit deutlich verringerter Bildung des Tränenfaktors."
+    },
+    {
+      "sentence_id": "S0067",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Wenn dieses Enzym weniger aktiv ist, kann das schwefelhaltige Zwischenprodukt stärker in andere Reaktionen fließen, statt effizient in den Tränenfaktor umgewandelt zu werden."
+    },
+    {
+      "sentence_id": "S0068",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Das ist aus zwei Gründen interessant."
+    },
+    {
+      "sentence_id": "S0069",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Erstens bestätigt es, dass dieses Enzym tatsächlich eine zentrale Schaltstelle des Weges ist."
+    },
+    {
+      "sentence_id": "S0070",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Zweitens zeigt es, dass man nicht die gesamte Schwefelchemie der Zwiebel entfernen muss, um die Tränenbildung zu verringern."
+    },
+    {
+      "sentence_id": "S0071",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Man kann einen Reaktionsweg verschieben, statt das ganze System abzuschalten."
+    },
+    {
+      "sentence_id": "S0072",
+      "section_heading": "Kann man eine Zwiebel züchten, die kaum noch Tränen auslöst?",
+      "exact_text": "Züchtung und Biotechnologie können daher beeinflussen, wie stark gerade dieser Teil der pflanzlichen Abwehr ausfällt."
+    },
+    {
+      "sentence_id": "S0073",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Wenn man den Mechanismus kennt, lassen sich viele Küchentricks einfacher beurteilen."
+    },
+    {
+      "sentence_id": "S0074",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Der Tränenfaktor muss zunächst im verletzten Gewebe entstehen und anschließend durch die Luft zu den Augen gelangen."
+    },
+    {
+      "sentence_id": "S0075",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Die direkteste Strategie besteht deshalb darin, die Belastung durch den Reizstoff in der Luft zu verringern."
+    },
+    {
+      "sentence_id": "S0076",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Gute Lüftung oder ein Luftstrom, der vom Gesicht wegführt, kann einen Teil der Dämpfe in eine andere Richtung transportieren."
+    },
+    {
+      "sentence_id": "S0077",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Mehr Abstand zwischen Gesicht und aufsteigender Luft kann die Exposition ebenfalls verringern."
+    },
+    {
+      "sentence_id": "S0078",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Keine dieser Methoden muss Gefühle neutralisieren oder ein geheimnisvolles Gift aus der Zwiebel ziehen."
+    },
+    {
+      "sentence_id": "S0079",
+      "section_heading": "Was hilft in der Küche wirklich?",
+      "exact_text": "Hier trifft ganz normale Pflanzenchemie auf einen ganz normalen Schutzreflex des Auges."
+    },
+    {
+      "sentence_id": "S0080",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Warum bringen uns Zwiebeln also zum Weinen?"
+    },
+    {
+      "sentence_id": "S0081",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Weil ein Messer getrennte Bestandteile der Zelle in eine schnelle chemische Produktionskette verwandelt."
+    },
+    {
+      "sentence_id": "S0082",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Die Zellverletzung bringt schwefelhaltige Vorläufer mit Alliinase zusammen."
+    },
+    {
+      "sentence_id": "S0083",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Die Alliinase erzeugt kurzlebige Schwefel-Zwischenprodukte."
+    },
+    {
+      "sentence_id": "S0084",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Die Tränenfaktor-Synthase lenkt eines dieser Zwischenprodukte in Richtung syn-Propanthial-S-oxid."
+    },
+    {
+      "sentence_id": "S0085",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Dieses flüchtige Molekül erreicht die Augenoberfläche und reizt sie."
+    },
+    {
+      "sentence_id": "S0086",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Das Auge antwortet mit Reflextränen, die den Reizstoff verdünnen und wegspülen."
+    },
+    {
+      "sentence_id": "S0087",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Erstaunlich ist, wie viel Biologie in wenigen Sekunden abläuft."
+    },
+    {
+      "sentence_id": "S0088",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Ein kleines Küchenproblem ist in Wirklichkeit eine Abwehrstrategie der Pflanze, ein Enzymweg, ein luftgetragenes Molekül und ein menschlicher Schutzreflex, die direkt nacheinander wirken."
+    },
+    {
+      "sentence_id": "S0089",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Eine Zwiebel enthält also keine fertige Miniatur-Tränengaspatrone."
+    },
+    {
+      "sentence_id": "S0090",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Sie enthält die biochemische Maschinerie, mit der nach einer Verletzung ein Reizstoff hergestellt wird."
+    },
+    {
+      "sentence_id": "S0091",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Das Messer startet die Chemie."
+    },
+    {
+      "sentence_id": "S0092",
+      "section_heading": "Die ganze Geschichte in einem Schnitt",
+      "exact_text": "Die Augen beenden die Geschichte."
+    }
+  ],
+  "source_sentence_count": 92,
+  "indexed_sentence_count": 92,
+  "duplicate_sentence_ids": [],
+  "missing_sentence_ids": [],
+  "reconstruction_ok": true,
+  "status": "PASS"
+}

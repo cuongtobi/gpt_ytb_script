@@ -1,0 +1,19 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "07_script_retention_edit.md",
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
+      }
+    ]
+  },
+  "input_script_sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+  "output_script_sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+  "translationese_flags": 0,
+  "repeated_rhetorical_patterns": 0,
+  "unresolved_audio_density_flags": 0,
+  "high_load_listening_blocks": 0,
+  "finding_dispositions": {},
+  "status": "PASS"
+}

@@ -1,0 +1,2779 @@
+{
+  "audit_run_id": null,
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "10_final_candidate.md",
+        "sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961"
+      },
+      {
+        "path": "10_final_sentence_index.json",
+        "sha256": "5761d432ddc503c8105c5785b5f2e59c21d785af94298673c81d6fa93308d094"
+      }
+    ]
+  },
+  "sentence_ledger": [
+    {
+      "sentence_id": "S0001",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0002",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0003",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0004",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0005",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0006",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0007",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0008",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0009",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0010",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0011",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0012",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0013",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "硫黄を含む前駆物質とアリイナーゼという酵素が別々の区画にあります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "硫黄を含む前駆物質とアリイナーゼという酵素が別々の区画にあります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC001"
+      ]
+    },
+    {
+      "sentence_id": "S0014",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0015",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0016",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0017",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0018",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0019",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "スルフェン酸と呼ばれる反応性が高く寿命の短い硫黄化合物が生まれます。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "スルフェン酸と呼ばれる反応性が高く寿命の短い硫黄化合物が生まれます。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC002"
+      ]
+    },
+    {
+      "sentence_id": "S0020",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0021",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0022",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0023",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0024",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0025",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0026",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0027",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "催涙因子合成酵素という別の酵素を使って、涙を起こす物質を特異的に作っていること"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "催涙因子合成酵素という別の酵素を使って、涙を起こす物質を特異的に作っていること"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC003"
+      ]
+    },
+    {
+      "sentence_id": "S0028",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0029",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0030",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0031",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0032",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0033",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0034",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0035",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "主な催涙物質はsyn-プロパンチアール-S-オキシド"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "主な催涙物質はsyn-プロパンチアール-S-オキシド"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC004"
+      ]
+    },
+    {
+      "sentence_id": "S0036",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0037",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0038",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0039",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0040",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0041",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0042",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "増えた涙は刺激物を薄め、目の表面から洗い流す助けになります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "増えた涙は刺激物を薄め、目の表面から洗い流す助けになります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC005"
+      ]
+    },
+    {
+      "sentence_id": "S0043",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0044",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0045",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0046",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0047",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0048",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0049",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "微生物や動物に対するより大きな防御システムの一部として説明しています。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "微生物や動物に対するより大きな防御システムの一部として説明しています。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC007"
+      ]
+    },
+    {
+      "sentence_id": "S0050",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0051",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "強い香りや辛味にも関わります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "強い香りや辛味にも関わります。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC008"
+      ]
+    },
+    {
+      "sentence_id": "S0052",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0053",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0054",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0055",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0056",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0057",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0058",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0059",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0060",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0061",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "すべての品種や球根が同じ量の硫黄前駆物質を持っているわけではなく"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "すべての品種や球根が同じ量の硫黄前駆物質を持っているわけではなく"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC010"
+      ]
+    },
+    {
+      "sentence_id": "S0062",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0063",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0064",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0065",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0066",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "催涙因子合成酵素の働きを抑えた研究では、催涙因子の生成が大きく減ったタマネギが作られました。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "催涙因子合成酵素の働きを抑えた研究では、催涙因子の生成が大きく減ったタマネギが作られました。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC006"
+      ]
+    },
+    {
+      "sentence_id": "S0068",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0069",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0070",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0071",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0072",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0073",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0074",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0075",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0076",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0077",
+      "forward_claim_review": {
+        "empirical_fact": [
+          "換気をよくしたり、顔とは反対方向へ空気を流したりすれば、空気中の刺激物の一部を別の方向へ運べます。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [
+          "換気をよくしたり、顔とは反対方向へ空気を流したりすれば、空気中の刺激物の一部を別の方向へ運べます。"
+        ],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": [
+        "BC009"
+      ]
+    },
+    {
+      "sentence_id": "S0078",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0079",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0080",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0081",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0082",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0083",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0084",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0085",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0086",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0087",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0088",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0089",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0090",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0091",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0092",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0093",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
+    }
+  ],
+  "claim_candidates": [
+    {
+      "claim_candidate_id": "BC001",
+      "sentence_id": "S0013",
+      "exact_quote": "硫黄を含む前駆物質とアリイナーゼという酵素が別々の区画にあります。",
+      "normalized_claim": "Intact onion tissue separates sulfur precursors and alliinase until tissue disruption enables rapid mixing.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC002",
+      "sentence_id": "S0019",
+      "exact_quote": "スルフェン酸と呼ばれる反応性が高く寿命の短い硫黄化合物が生まれます。",
+      "normalized_claim": "Cutting enables alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC003",
+      "sentence_id": "S0027",
+      "exact_quote": "催涙因子合成酵素という別の酵素を使って、涙を起こす物質を特異的に作っていること",
+      "normalized_claim": "A 2002 Nature study showed LFS specifically produces the onion tear factor.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC004",
+      "sentence_id": "S0035",
+      "exact_quote": "主な催涙物質はsyn-プロパンチアール-S-オキシド",
+      "normalized_claim": "The principal onion lachrymatory factor is syn-propanethial S-oxide.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC005",
+      "sentence_id": "S0042",
+      "exact_quote": "増えた涙は刺激物を薄め、目の表面から洗い流す助けになります。",
+      "normalized_claim": "Onion irritation triggers reflex tears that help wash irritants from the eye surface.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC006",
+      "sentence_id": "S0067",
+      "exact_quote": "催涙因子合成酵素の働きを抑えた研究では、催涙因子の生成が大きく減ったタマネギが作られました。",
+      "normalized_claim": "Suppressing LFS can greatly reduce tear-factor formation in experimental onion lines.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC007",
+      "sentence_id": "S0049",
+      "exact_quote": "微生物や動物に対するより大きな防御システムの一部として説明しています。",
+      "normalized_claim": "Onion sulfur chemistry forms part of a broader damage-triggered chemical-defense system.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC008",
+      "sentence_id": "S0051",
+      "exact_quote": "強い香りや辛味にも関わります。",
+      "normalized_claim": "Onion sulfur chemistry contributes to characteristic pungent aroma and flavor.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC009",
+      "sentence_id": "S0077",
+      "exact_quote": "換気をよくしたり、顔とは反対方向へ空気を流したりすれば、空気中の刺激物の一部を別の方向へ運べます。",
+      "normalized_claim": "Moving air away from the face can reduce exposure to the airborne onion irritant.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC010",
+      "sentence_id": "S0061",
+      "exact_quote": "すべての品種や球根が同じ量の硫黄前駆物質を持っているわけではなく",
+      "normalized_claim": "Tearing intensity can vary with onion material and individual chemosensory sensitivity.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    }
+  ],
+  "coverage_proof": {
+    "coverage_ok": true,
+    "sentence_count": 93
+  },
+  "status": "PASS"
+}

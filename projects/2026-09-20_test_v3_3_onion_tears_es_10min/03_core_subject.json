@@ -1,0 +1,48 @@
+{
+  "core_entities": [
+    {
+      "canonical_name": "Allium cepa",
+      "audience_name": "onion",
+      "entity_type": "plant",
+      "label_familiarity": "high",
+      "minimum_grounding": "A bulb whose damage mixes previously separated sulfur chemistry.",
+      "aliases": [
+        "onion"
+      ],
+      "related_but_not_equivalent_labels": [],
+      "relevant_parts_or_components": [
+        "cell",
+        "sulfur precursor",
+        "enzyme"
+      ],
+      "story_relevant_properties": [
+        "damage-triggered chemistry"
+      ]
+    }
+  ],
+  "alias_map": {
+    "Allium cepa": "onion"
+  },
+  "entity_label_policy": {
+    "primary_spoken_label": "localized onion term",
+    "scientific_alias_policy": "remove scientific name",
+    "allowed_reuse_aliases": [],
+    "discouraged_reuse_aliases": [
+      "Allium cepa"
+    ],
+    "removed_aliases": [
+      "Allium cepa"
+    ]
+  },
+  "minimum_grounding_requirements": [
+    "enzyme role",
+    "airborne irritant",
+    "reflex tears"
+  ],
+  "first_specialized_use_dependencies": [],
+  "labels_recommended_for_removal": [
+    "volatile as an avoidable specialist label",
+    "Allium cepa"
+  ],
+  "status": "PASS"
+}

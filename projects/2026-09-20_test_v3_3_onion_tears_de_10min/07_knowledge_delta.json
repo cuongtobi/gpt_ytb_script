@@ -1,0 +1,23 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "06_script_pruned.md",
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
+      },
+      {
+        "path": "07_script_retention_edit.md",
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
+      }
+    ]
+  },
+  "new_entities": [],
+  "new_aliases": [],
+  "new_components": [],
+  "new_concepts": [],
+  "new_contextual_roles": [],
+  "new_relations": [],
+  "new_dependencies": [],
+  "status": "PASS"
+}

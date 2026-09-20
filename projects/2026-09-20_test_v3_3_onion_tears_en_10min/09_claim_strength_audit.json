@@ -1,0 +1,99 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "08_script_natural.md",
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
+      },
+      {
+        "path": "02_evidence_ledger.json",
+        "sha256": "d2aaecc327ae70becd3e2d8781f995f2a3efe3a01727ab34eaa145cf9a122a4e"
+      }
+    ]
+  },
+  "input_script_sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05",
+  "output_script_sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05",
+  "claims_checked": [
+    {
+      "claim_id": "C001",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    {
+      "claim_id": "C002",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001"
+      ]
+    },
+    {
+      "claim_id": "C003",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "claim_id": "C004",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "claim_id": "C005",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E004"
+      ]
+    },
+    {
+      "claim_id": "C006",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E005"
+      ]
+    },
+    {
+      "claim_id": "C007",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E006"
+      ]
+    },
+    {
+      "claim_id": "C008",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E001",
+        "E006"
+      ]
+    },
+    {
+      "claim_id": "C009",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E004"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E005",
+        "E007"
+      ]
+    }
+  ],
+  "unsupported_claims": 0,
+  "certainty_overstatements": 0,
+  "unsupported_temporal_generalizations": 0,
+  "scope_overstatements": 0,
+  "invalid_evidence_links": 0,
+  "status": "PASS"
+}

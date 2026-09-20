@@ -1,0 +1,16 @@
+{
+  "content_address": {
+    "hash_algorithm": "sha256",
+    "inputs": [
+      {
+        "path": "06_script_accessible.md",
+        "sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a"
+      }
+    ]
+  },
+  "input_script_sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a",
+  "output_script_sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a",
+  "unnecessary_labels": 0,
+  "alias_overload": 0,
+  "status": "PASS"
+}

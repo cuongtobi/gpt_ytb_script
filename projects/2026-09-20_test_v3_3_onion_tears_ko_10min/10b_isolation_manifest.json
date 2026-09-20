@@ -1,0 +1,67 @@
+{
+  "manifest_origin": "orchestrator_unverified",
+  "attestation_source": null,
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "audits": {
+    "10B1": {
+      "audit_id": "10B1",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814",
+        "10_final_sentence_index.json": "58b93097072a741fde04e5ce914e697149f838ae6e582d1834594a6a8a7b619d"
+      },
+      "forbidden_input_files": [],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    },
+    "10B2": {
+      "audit_id": "10B2",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814",
+        "10_final_sentence_index.json": "58b93097072a741fde04e5ce914e697149f838ae6e582d1834594a6a8a7b619d"
+      },
+      "forbidden_input_files": [],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    },
+    "10B3": {
+      "audit_id": "10B3",
+      "execution_id": null,
+      "context_mode": "same_context_unverified",
+      "allowed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_files": [
+        "10_final_candidate.md",
+        "10_final_sentence_index.json"
+      ],
+      "observed_input_hashes": {
+        "10_final_candidate.md": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814",
+        "10_final_sentence_index.json": "58b93097072a741fde04e5ce914e697149f838ae6e582d1834594a6a8a7b619d"
+      },
+      "forbidden_input_files": [],
+      "forbidden_input_accessed": null,
+      "runtime_attested": false
+    }
+  }
+}
