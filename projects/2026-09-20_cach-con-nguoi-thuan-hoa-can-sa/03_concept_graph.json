@@ -1,0 +1,593 @@
+{
+  "audience_baseline": {
+    "language": "vi-VN",
+    "audience": "general",
+    "technical_level": "accessible",
+    "assumed_known": [
+      "cây trồng",
+      "hạt giống",
+      "nông dân",
+      "đồ đá mới",
+      "di truyền ở mức khái niệm đơn giản",
+      "DNA/genome ở mức 'thông tin di truyền của sinh vật'"
+    ],
+    "not_assumed_known": [
+      "landrace",
+      "feral population",
+      "population-genomic dating",
+      "phytolith",
+      "cannabinoid",
+      "CBN",
+      "selection sweep",
+      "chemotype",
+      "photoperiod"
+    ]
+  },
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "thuần hóa cây trồng",
+      "aliases": [
+        "domestication"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "Quá trình nhiều thế hệ trong đó con người liên tục giữ và cho sinh sản những cây có đặc điểm hữu ích, khiến quần thể dần khác dạng tổ tiên.",
+        "dependencies": [
+          {
+            "name": "giữ hạt giống từ cây được chọn",
+            "relationship": "human action that creates selection",
+            "status": "KNOWN"
+          },
+          {
+            "name": "đặc điểm di truyền",
+            "relationship": "traits can be inherited",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "human_action",
+      "best_explanation_type": "human_action",
+      "mental_model": "Mỗi mùa người trồng vô tình hoặc cố ý quyết định cây nào có hậu duệ ở mùa sau.",
+      "confusable_with": [
+        "K002"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Sau lần giải thích đầu chỉ dùng 'thuần hóa'.",
+      "avoid_explanation": "Không định nghĩa bằng thuật ngữ chọn lọc nhân tạo trước khi khán giả thấy hành động giữ hạt."
+    },
+    {
+      "concept_id": "K002",
+      "name": "chọn giống / chọn lọc do con người",
+      "aliases": [
+        "artificial selection"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Việc để những cây có đặc điểm mong muốn đóng góp nhiều hạt giống hơn cho thế hệ sau.",
+        "dependencies": [
+          {
+            "name": "thế hệ sau",
+            "relationship": "inheritance across generations",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "human_action",
+      "best_explanation_type": "human_action",
+      "mental_model": "Giữ hạt từ cây tốt, bỏ qua cây khác.",
+      "confusable_with": [
+        "K001"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Ưu tiên mô tả hành động thay cho nhãn 'chọn lọc nhân tạo'.",
+      "avoid_explanation": "Không biến thành bài học tiến hóa."
+    },
+    {
+      "concept_id": "K003",
+      "name": "genome",
+      "aliases": [
+        "bộ gene",
+        "bộ gen"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "Toàn bộ thông tin di truyền của cây; so sánh genome của nhiều quần thể cho phép dựng lại quan hệ họ hàng và dấu vết chọn giống.",
+        "dependencies": [
+          {
+            "name": "DNA/thông tin di truyền",
+            "relationship": "what genome contains",
+            "status": "KNOWN"
+          },
+          {
+            "name": "quan hệ họ hàng",
+            "relationship": "comparative inference",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "analogy",
+      "best_explanation_type": "analogy",
+      "mental_model": "Một hồ sơ gia phả còn ghi vết những lựa chọn đã lặp lại qua nhiều thế hệ.",
+      "confusable_with": [],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Sau đó dùng 'genome' bình thường.",
+      "avoid_explanation": "Không mô tả kỹ thuật sequencing."
+    },
+    {
+      "concept_id": "K004",
+      "name": "mốc ước tính từ genome",
+      "aliases": [
+        "demographic dating",
+        "population-genomic estimate"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Một mốc thời gian được suy ra từ mức độ khác biệt di truyền giữa các nhóm, nên đi kèm khoảng bất định thay vì là ngày khảo cổ trực tiếp.",
+        "dependencies": [
+          {
+            "name": "genome",
+            "relationship": "source of comparison",
+            "status": "EXPLAINED"
+          },
+          {
+            "name": "khoảng bất định",
+            "relationship": "limits precision",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "contrast",
+      "best_explanation_type": "contrast",
+      "mental_model": "Đồng hồ suy ra từ DNA, không phải niên đại viết trên một hiện vật.",
+      "confusable_with": [
+        "K005"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Không dùng nhãn kỹ thuật; nói 'mô hình di truyền ước tính'.",
+      "avoid_explanation": "Không dạy coalescent/demographic model."
+    },
+    {
+      "concept_id": "K005",
+      "name": "niên đại khảo cổ",
+      "aliases": [
+        "radiocarbon dating",
+        "cal BP"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Tuổi của hiện vật hoặc lớp khảo cổ được đo/hiệu chỉnh bằng phương pháp định tuổi; trong narration chuyển thành 'khoảng X năm trước'.",
+        "dependencies": []
+      },
+      "first_use_strategy": "contrast",
+      "best_explanation_type": "contrast",
+      "mental_model": "Tuổi của vật thật được đào lên.",
+      "confusable_with": [
+        "K004"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Không dùng ký hiệu BP/cal BP trong narration.",
+      "avoid_explanation": "Không giải thích vật lý carbon-14."
+    },
+    {
+      "concept_id": "K006",
+      "name": "Basal cannabis",
+      "aliases": [
+        "nhóm basal",
+        "gene pool tổ tiên"
+      ],
+      "status": "REMOVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Trong script thay bằng 'những quần thể hiện đại gần với gene pool tổ tiên trong mô hình'.",
+        "dependencies": [
+          {
+            "name": "gene pool",
+            "relationship": "technical parent idea",
+            "status": "REMOVED"
+          }
+        ]
+      },
+      "first_use_strategy": "REMOVE",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "Không cần cho khán giả học nhãn basal.",
+      "confusable_with": [
+        "K007"
+      ],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Không dùng 'Basal cannabis' trong narration.",
+      "avoid_explanation": "Tránh khiến khán giả tưởng đó là cây hoang nguyên thủy còn nguyên vẹn."
+    },
+    {
+      "concept_id": "K007",
+      "name": "feral / landrace",
+      "aliases": [
+        "cây thoát canh tác",
+        "giống địa phương"
+      ],
+      "status": "REMOVED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "optional",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Nếu cần, nói đơn giản 'các giống địa phương và quần thể đã thoát khỏi canh tác'.",
+        "dependencies": []
+      },
+      "first_use_strategy": "REPLACE",
+      "best_explanation_type": "example",
+      "mental_model": "Giống địa phương và cây sống ngoài ruộng nhưng có lịch sử gắn với canh tác.",
+      "confusable_with": [
+        "K006"
+      ],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Không dùng nhãn tiếng Anh.",
+      "avoid_explanation": "Không kéo sang phân loại học."
+    },
+    {
+      "concept_id": "K008",
+      "name": "hemp-type và drug-type",
+      "aliases": [
+        "dòng cho sợi",
+        "dòng giàu hợp chất tác động thần kinh"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "Hai hướng chọn giống trong cùng Cannabis sativa: một hướng ưu tiên thân/sợi, hướng kia ưu tiên hoa, nhựa và các hợp chất tác động thần kinh.",
+        "dependencies": [
+          {
+            "name": "chọn giống",
+            "relationship": "why groups diverge",
+            "status": "EXPLAINED"
+          },
+          {
+            "name": "hợp chất tác động thần kinh",
+            "relationship": "drug-type role",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "contrast",
+      "best_explanation_type": "contrast",
+      "mental_model": "Một bên là cột thân dài, một bên là bụi nhiều cành/hoa.",
+      "confusable_with": [
+        "K009"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Ưu tiên 'dòng cho sợi' và 'dòng drug-type' để tránh hiểu hemp là loài khác.",
+      "avoid_explanation": "Không dùng taxonomy sativa/indica hiện đại."
+    },
+    {
+      "concept_id": "K009",
+      "name": "cùng một loài Cannabis sativa",
+      "aliases": [
+        "một loài, nhiều kiểu cây"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "medium",
+      "role_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "Hemp và các dòng drug-type trong câu chuyện là các nhóm được con người chọn theo mục tiêu khác nhau trong cùng loài Cannabis sativa.",
+        "dependencies": []
+      },
+      "first_use_strategy": "contrast",
+      "best_explanation_type": "contrast",
+      "mental_model": "Hai hình dạng rất khác nhưng cùng thuộc một loài.",
+      "confusable_with": [
+        "K008"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Nêu rõ một lần ở midpoint.",
+      "avoid_explanation": "Không mở tranh luận phân loại nhiều loài."
+    },
+    {
+      "concept_id": "K010",
+      "name": "cannabinoid",
+      "aliases": [
+        "các hợp chất cannabinoid"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "low",
+      "role_familiarity": "low",
+      "importance": "core",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "Một nhóm hợp chất do Cannabis tạo ra; trong câu chuyện chỉ cần biết một số hợp chất của nhóm này liên quan đến tác động thần kinh.",
+        "dependencies": [
+          {
+            "name": "hợp chất hóa học",
+            "relationship": "category",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "direct_definition",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "Một họ hợp chất của cây, không phải một chất duy nhất.",
+      "confusable_with": [
+        "K011"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Không liệt kê nhiều cannabinoid.",
+      "avoid_explanation": "Không mô tả sinh tổng hợp chi tiết."
+    },
+    {
+      "concept_id": "K011",
+      "name": "THC và CBN",
+      "aliases": [
+        "THC",
+        "CBN"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "THC high; CBN low",
+      "role_familiarity": "THC medium; CBN very_low",
+      "importance": "supporting",
+      "technical_term_required": true,
+      "necessity": "required",
+      "definition": {
+        "text": "THC là hợp chất chính gắn với tác động gây say; khi THC bị oxy hóa theo thời gian/nhiệt, một phần biến thành CBN, nên CBN trong cặn cháy có thể là dấu vết gián tiếp của THC cổ.",
+        "dependencies": [
+          {
+            "name": "cannabinoid",
+            "relationship": "category",
+            "status": "EXPLAINED"
+          },
+          {
+            "name": "oxy hóa",
+            "relationship": "why CBN indicates degraded THC",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "mechanism",
+      "best_explanation_type": "mechanism",
+      "mental_model": "Dấu vết biến đổi còn lại sau khi chất ban đầu không còn nguyên.",
+      "confusable_with": [
+        "K010"
+      ],
+      "explicit_contrast_required": true,
+      "reuse_policy": "Chỉ dùng trong đoạn Jirzankal.",
+      "avoid_explanation": "Không đi sâu hóa học hoặc potency."
+    },
+    {
+      "concept_id": "K012",
+      "name": "phytolith",
+      "aliases": [
+        "hạt silica thực vật"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Những hạt silica cực nhỏ hình thành trong mô cây và có thể còn lại trong đất lâu sau khi phần hữu cơ phân hủy.",
+        "dependencies": [
+          {
+            "name": "silica",
+            "relationship": "material composing phytolith",
+            "status": "KNOWN"
+          }
+        ]
+      },
+      "first_use_strategy": "object",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "Một loại 'bụi khoáng' mang hình dạng đặc trưng do cây để lại.",
+      "confusable_with": [],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Nêu nhãn một lần rồi nói 'dấu vết silica của cây'.",
+      "avoid_explanation": "Không dạy phân loại phytolith."
+    },
+    {
+      "concept_id": "K013",
+      "name": "dấu hiệu chọn lọc trong genome",
+      "aliases": [
+        "selection signature",
+        "selection sweep"
+      ],
+      "status": "EXPLAINED",
+      "label_familiarity": "low",
+      "role_familiarity": "very_low",
+      "importance": "core",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Những vùng genome có kiểu khác biệt phù hợp với việc một số biến thể đã được giữ lại nhiều hơn qua nhiều thế hệ.",
+        "dependencies": [
+          {
+            "name": "genome",
+            "relationship": "where signal is observed",
+            "status": "EXPLAINED"
+          },
+          {
+            "name": "chọn giống",
+            "relationship": "process producing signal",
+            "status": "EXPLAINED"
+          }
+        ]
+      },
+      "first_use_strategy": "mechanism",
+      "best_explanation_type": "mechanism",
+      "mental_model": "Dấu chân lặp lại của việc giữ cùng kiểu cây qua nhiều thế hệ.",
+      "confusable_with": [],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Không dùng 'selection sweep' trong narration.",
+      "avoid_explanation": "Không nêu FST, XP-CLR, pi ratio."
+    },
+    {
+      "concept_id": "K014",
+      "name": "GC-MS",
+      "aliases": [
+        "gas chromatography–mass spectrometry"
+      ],
+      "status": "REMOVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "optional",
+      "technical_term_required": false,
+      "necessity": "replaceable",
+      "definition": {
+        "text": "Trong narration chỉ nói 'phân tích hóa học cặn cháy'.",
+        "dependencies": []
+      },
+      "first_use_strategy": "REPLACE",
+      "best_explanation_type": "human_action",
+      "mental_model": "Phòng thí nghiệm tách và nhận diện các chất trong cặn.",
+      "confusable_with": [],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Không dùng acronym.",
+      "avoid_explanation": "Không giải thích thiết bị."
+    },
+    {
+      "concept_id": "K015",
+      "name": "chemotype",
+      "aliases": [
+        "kiểu hóa học"
+      ],
+      "status": "REMOVED",
+      "label_familiarity": "very_low",
+      "role_familiarity": "very_low",
+      "importance": "optional",
+      "technical_term_required": false,
+      "necessity": "removable",
+      "definition": {
+        "text": "Không cần cho câu chuyện.",
+        "dependencies": []
+      },
+      "first_use_strategy": "REMOVE",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "Không sử dụng.",
+      "confusable_with": [],
+      "explicit_contrast_required": false,
+      "reuse_policy": "Cấm đưa vào narration trừ khi bắt buộc.",
+      "avoid_explanation": "Thuật ngữ không cần thiết."
+    }
+  ],
+  "dependency_edges": [
+    [
+      "K001",
+      "K002"
+    ],
+    [
+      "K003",
+      "K013"
+    ],
+    [
+      "K004",
+      "K003"
+    ],
+    [
+      "K008",
+      "K002"
+    ],
+    [
+      "K010",
+      "K011"
+    ],
+    [
+      "K013",
+      "K003"
+    ],
+    [
+      "K013",
+      "K002"
+    ]
+  ],
+  "high_load_clusters": [
+    {
+      "cluster": "genome dating",
+      "concepts": [
+        "K003",
+        "K004",
+        "K013"
+      ],
+      "mitigation": "Giải thích genome trước; chỉ sau đó nói mốc ước tính và ngay lập tức đối lập với vật chứng khảo cổ."
+    },
+    {
+      "cluster": "drug-type chemistry",
+      "concepts": [
+        "K008",
+        "K010",
+        "K011"
+      ],
+      "mitigation": "Giới thiệu dòng drug-type bằng hình dạng cây trước, cannabinoid sau; CBN chỉ xuất hiện ở đoạn Jirzankal."
+    }
+  ],
+  "concepts_intentionally_removed": [
+    "Basal cannabis",
+    "feral/landrace labels",
+    "GC-MS",
+    "chemotype",
+    "selection sweep",
+    "photoperiod",
+    "gene names D14/KNAT1/NDL2/DTX48/HDR"
+  ],
+  "confusable_pairs": [
+    {
+      "a": "K001",
+      "b": "K002",
+      "resolution": "Thuần hóa là quá trình dài; chọn giống là hành động lặp lại bên trong quá trình đó."
+    },
+    {
+      "a": "K008",
+      "b": "K009",
+      "resolution": "Hemp và drug-type là hai hướng trong cùng loài, không phải hai loài hoàn toàn tách biệt."
+    },
+    {
+      "a": "K010",
+      "b": "K011",
+      "resolution": "Cannabinoid là nhóm; THC và CBN là các chất cụ thể trong/ liên quan đến nhóm."
+    },
+    {
+      "a": "K004",
+      "b": "K005",
+      "resolution": "Một bên là mốc suy ra từ genome; một bên là tuổi của hiện vật/lớp khảo cổ."
+    }
+  ],
+  "initial_closure_status": "PLANNED",
+  "unresolved_planned_for_stage_06": [
+    "K004 role familiarity",
+    "K011 CBN mechanism",
+    "K012 phytolith if retained"
+  ]
+}
