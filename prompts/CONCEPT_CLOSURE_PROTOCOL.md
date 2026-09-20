@@ -163,12 +163,18 @@ Use judgment, not a mechanical target.
 
 ## Closure artifact
 
+A closure artifact is both:
+1. a gate summary, and
+2. the current resolved graph snapshot.
+
 Report:
 - concepts_detected
 - known
 - explained
 - removed
 - unresolved
+- concepts: full current concept nodes with state, first use, definition, dependencies and confusable relationships
+- dependency_edges: full current dependency edges
 - unresolved_dependencies
 - confusable_pairs_unresolved
 - new_concepts_discovered
