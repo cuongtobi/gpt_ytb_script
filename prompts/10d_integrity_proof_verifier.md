@@ -61,4 +61,6 @@ python tools/verify_integrity_proof.py \
 
 Write 10d_proof_verification.json.
 
+The output itself must include `content_address` with SHA-256 for every project artifact actually read by 10D, including the claim map when used. This terminal proof output is not included in `artifact_manifest.json` because it is produced after manifest verification.
+
 Do not repair script or proof artifacts silently.
