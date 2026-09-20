@@ -1,0 +1,24 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"final-integrity.schema.json",
+  "type":"object",
+  "required":["content_address","knowledge","claims","terminology","narrative","factual","naturalness","proof","candidate_conservation_proof","temporal_proofs","claim_conservation_proof","naturalness_finding_conservation_proof","isolation_status","content_integrity_status","proof_verifier_status","project_status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "knowledge":{"type":"object"},
+    "claims":{"type":"object"},
+    "terminology":{"type":"object"},
+    "narrative":{"type":"object"},
+    "factual":{"type":"object"},
+    "naturalness":{"type":"object"},
+    "proof":{"type":"object"},
+    "candidate_conservation_proof":{"type":"object"},
+    "temporal_proofs":{"type":"array"},
+    "claim_conservation_proof":{"type":"object"},
+    "naturalness_finding_conservation_proof":{"type":"object"},
+    "isolation_status":{"type":"string"},
+    "content_integrity_status":{"type":"string"},
+    "proof_verifier_status":{"type":"string"},
+    "project_status":{"type":"string"}
+  }
+}
