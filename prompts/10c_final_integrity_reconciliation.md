@@ -1,143 +1,102 @@
-# 10C — FINAL INTEGRITY RECONCILIATION
+# 10C — FINAL INTEGRITY RECONCILIATION WITH CONSERVATION
 
 ## Role
 
-Reconcile three independent blind audits against project evidence and repair the final candidate until all integrity layers PASS.
+Reconcile final candidate and isolated blind outputs.
 
 Read:
-- 00_project_brief.yaml
-- 02_research_notes.md
-- 02_sources.json
-- 03_core_subject.json
-- 03_claim_map.json
-- 03_knowledge_graph.json
-- 06_knowledge_closure.json
-- 06_terminology_prune.json
-- 07_reveal_audit.json
-- 08_naturalness_audit.json
-- 09_fact_check.md
-- 09_claim_strength_audit.json
-- 10_story_report_draft.md
+- normal upstream evidence
 - 10_final_candidate.md
+- 10_final_sentence_index.json
+- 10b_isolation_manifest.json
 - 10b1_blind_knowledge_inventory.json
 - 10b2_blind_claim_inventory.json
 - 10b3_blind_naturalness_audit.json
-- KNOWLEDGE_GROUNDING_PROTOCOL.md
-- FINAL_INTEGRITY_PROTOCOL.md
+- shared protocols
 
-## Part A — Knowledge reconciliation
+## 1. Isolation status
 
-Every 10B1 lexical candidate receives final disposition:
+Read runtime manifest.
+
+If isolation not VERIFIED:
+- continue only as advisory reconciliation;
+- project cannot be PASS_VERIFIED.
+
+Do not rewrite manifest.
+
+## 2. Validate 10B1 sentence coverage
+
+Require:
+- canonical sentence IDs == 10B1 ledger sentence IDs
+- no missing/extra/duplicate IDs
+
+Otherwise FAIL.
+
+## 3. Candidate-level disposition
+
+Every 10B1 candidate receives exactly one:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-Validate:
-- core subjects
-- aliases
-- relations
-- dependencies
-- temporal first use
-- confusable labels
-- strict baseline
-- discovery coverage
+BASELINE_KNOWN requires exact provenance.
 
-No Silent Ignore.
+## 4. Conservation equation
 
-## Part B — Terminology reconciliation
+Compute and store:
 
-For every blind unnecessary-label candidate:
-- verify necessity;
-- apply alias budget;
-- remove/replace labels not needed later.
+discovered_count
+=
+baseline_known_count
++ grounded_count
++ replaced_count
++ removed_count
++ unresolved_count
 
-Recheck context-scoped definitions.
+Also:
+- missing_candidate_ids
+- duplicate_disposition_ids
+- equation_valid
 
-## Part C — Claim reconciliation
+If invalid:
+FAIL.
 
-Reconcile every 10B2 claim candidate against:
-- Claim Map
-- sources
-- stage 09 audit
+## 5. Temporal proof
 
-Repair:
-- unsupported claims
-- certainty drift
-- temporal overgeneralization
-- scope drift
+For every retained unfamiliar candidate record:
+- first_use_sentence_id
+- grounding_mode
+- grounding_sentence_id or baseline provenance
+- ordering_valid
 
-If repair changes factual substance:
-- rerun stage 09.
+If coordinate missing or ordering invalid:
+FAIL.
 
-## Part D — Narrative reconciliation
+## 6. Claims
 
-Reconcile 10B3 duplicate-reveal candidates against architecture/reveal audit.
+Reconcile all 10B2 claims against Claim Map/sources/stage 09.
 
-Remove/compress repeated claim+evidence+meaning unless occurrences have distinct story functions.
+Repair unsupported strength/scope minimally.
 
-## Part E — Naturalness/listening reconciliation
+If factual substance changes:
+rerun 09.
 
-Repair:
-- translationese
-- repeated rhetorical patterns
-- alias overload
-- audio-density failures
-- awkward academic compression
+## 7. Naturalness/redundancy
 
-Do not introduce new factual meaning.
+Reconcile 10B3 flags.
 
-## Repair loop
+Prefer minimal repair.
 
-After ANY change to final candidate:
-1. rerun affected stage checks;
-2. rerun 10B1, 10B2 and 10B3 on the repaired final text;
-3. reconcile again.
+## 8. Repair loop
 
-Stop only at stable fixed point.
+Any final-text change invalidates:
+- 10_final_sentence_index.json
+- all 10B outputs
+- temporal proofs
 
-## Final gate
-
-Write 10_final_integrity.json with:
-
-knowledge:
-- core_entities_ungrounded
-- unmapped_aliases
-- missing_discovered_nodes
-- unresolved_concepts
-- unresolved_dependencies
-- unresolved_relations
-- temporal_first_use_failures
-- confusable_pairs_unresolved
-- silently_ignored_candidates
-
-terminology:
-- unnecessary_labels
-- alias_overload
-
-narrative:
-- redundant_reveals
-- high_load_listening_blocks
-
-factual:
-- unsupported_claims
-- certainty_overstatements
-- unsupported_temporal_generalizations
-- scope_overstatements
-
-naturalness:
-- translationese_flags
-- repeated_rhetorical_patterns
-- unresolved_audio_density_flags
-
-All counts must be 0.
-
-Also require:
-- stage 09 factual PASS
-- Visual Storytelling Score >= 8.0
-- duration reasonably aligned
-- no production directions unless requested
+Regenerate index and rerun all three isolated audits.
 
 ## Outputs
 
@@ -146,4 +105,15 @@ Write:
 - 10_final_integrity.json
 - 10_final_script.md
 
-Do not use 10_knowledge_closure.json as the final source of truth for v3.1 projects.
+10_final_integrity.json must include:
+- all normal integrity counters
+- sentence_coverage_proof
+- candidate_conservation_proof
+- temporal_proof_summary
+- baseline_provenance_summary
+- isolation_status
+- content_integrity_status
+- proof_verifier_status: PENDING
+- project_status: PENDING_10D
+
+Do not declare PASS_VERIFIED here.

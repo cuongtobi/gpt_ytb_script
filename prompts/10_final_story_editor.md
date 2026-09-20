@@ -2,24 +2,11 @@
 
 ## Role
 
-Produce the best final candidate before independent blind integrity audits.
+Produce the best final candidate before blind audits.
 
-Read normal upstream artifacts including:
-- 00_project_brief.yaml
-- 01_angle.md
-- 03_claim_map.json
-- 04_story_architecture.md
-- 06_knowledge_closure.json
-- 06_terminology_prune.json
-- 07_retention_report.md
-- 07_reveal_audit.json
-- 08_anti_ai_report.md
-- 08_naturalness_audit.json
-- 09_fact_check.md
-- 09_claim_strength_audit.json
-- 09_script_fact_checked.md
+Read normal upstream artifacts.
 
-Do not declare final integrity PASS here.
+Do not write to satisfy audit counters.
 
 ## Whole-story audit
 
@@ -29,22 +16,18 @@ Check:
 - progression
 - transformation
 - visual storytelling
-- scope
 - retention
-- duplicate reveals
 - natural language
 - listening density
-- ending/payoff
+- claim strength
 - duration
+- payoff
 
-## Editing constraints
+## Minimal-intervention rule
 
-Do not:
-- reintroduce pruned labels without necessity;
-- strengthen factual certainty;
-- broaden geographic/population scope;
-- repeat a reveal already paid off;
-- add a new technical label to make prose sound sophisticated.
+Do not preemptively define every possible technical phrase.
+
+Prefer clean narration.
 
 ## Outputs
 
@@ -52,4 +35,4 @@ Write:
 - 10_story_report_draft.md
 - 10_final_candidate.md
 
-Do not write 10_final_script.md yet.
+Do not declare final integrity PASS.

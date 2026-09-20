@@ -1,215 +1,96 @@
-# GPT YouTube Visual-Storytelling Script Pipeline
+# GPT YouTube Documentary Script Pipeline
 
-Pipeline tạo YouTube documentary narration trên ChatGPT Web + GitHub.
+Current version: **v3.2 — Proof-Carrying Integrity**
 
-Mục tiêu:
-- research chắc;
-- visual storytelling trong lời kể;
-- dễ hiểu với audience phổ thông;
-- không bắt người xem học jargon không cần thiết;
-- retention tốt;
-- không lặp reveal;
-- ngôn ngữ nghe tự nhiên;
-- fact-check đúng mức chắc chắn của nguồn;
-- final audit độc lập.
+## Goal
 
-## Pipeline v3.1
+Create documentary narration that is:
+- factual
+- understandable
+- natural when heard once
+- retention-aware
+- visually tellable
+- not overloaded with jargon
+- auditable without trusting the model's own PASS statement
 
-USER INPUT
-→ 00 ORCHESTRATOR
-→ 01 ANGLE ENGINE
-→ 02 DEEP RESEARCH
-→ 03A CORE SUBJECT GROUNDING
-→ 03B CLAIM MAP + AUDIENCE KNOWLEDGE GRAPH
-→ 04 STORY + KNOWLEDGE ARCHITECT
-→ 05 VISUAL NARRATIVE WRITER
-→ 05B TWO-PASS BLIND KNOWLEDGE DISCOVERY
-→ 06 AUDIENCE KNOWLEDGE CLOSURE
-→ 06B TERMINOLOGY NECESSITY PRUNER
-→ 07 RETENTION + REVEAL INTEGRITY
-→ 08 NATURALNESS + RHYTHM + LISTENING
-→ 09 FACT CHECK + CLAIM STRENGTH
-→ 10A FINAL STORY EDITOR
-→ 10B1 BLIND KNOWLEDGE AUDIT
-→ 10B2 BLIND CLAIM AUDIT
-→ 10B3 BLIND NATURALNESS AUDIT
-→ 10C FINAL INTEGRITY RECONCILIATION
-→ FINAL SCRIPT
+## What v3.2 fixes
 
-## V3.1 thêm gì?
+### 1. Exhaustive lexical coverage
 
-### 1. Two-pass Knowledge Discovery
+A canonical sentence index is created first.
 
-PASS A scan từng câu và tạo lexical candidates.
+Every sentence ID must have a lexical-ledger row, even when candidate list is empty.
 
-PASS B kiểm semantic role.
+### 2. Hard temporal proof
 
-Mọi candidate đều phải được reconcile.
+Every retained unfamiliar candidate records:
+- first-use sentence ID
+- grounding sentence ID/mode
+- ordering validity
 
-Không còn:
-concept xuất hiện → auditor không notice → false PASS.
+### 3. Candidate conservation
 
-### 2. No Silent Ignore
-
-Mỗi candidate phải thành:
+Every discovered candidate must end as exactly one of:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-Final:
-silently_ignored_candidates = 0
+The totals must balance exactly.
 
-### 3. Terminology Necessity Pruner
+### 4. Verified blind isolation
 
-Một label được giải thích đúng vẫn có thể bị xóa nếu người xem không cần nhớ nó.
+10B1/10B2/10B3 must run in distinct fresh contexts for PASS_VERIFIED.
 
-Ví dụ:
-- scientific alias chỉ dùng một lần nếu đủ;
-- Cannabis có thể quay về "cần sa";
-- hemp có thể đổi thành "dòng lấy sợi" nếu label không phục vụ reasoning.
+If fresh-context execution cannot be attested:
+CONTENT_PASS_ISOLATION_NOT_VERIFIED
 
-### 4. Alias Budget
+not PASS_VERIFIED.
 
-Mỗi core entity ưu tiên một spoken label chính.
+## Pipeline
 
-Không luân phiên quá nhiều tên chỉ vì chúng đều đúng.
+00 → 01 → 02 → 03A → 03B → 04 → 05
+→ 05A1 sentence index
+→ 05B blind discovery
+→ 06 proof-carrying knowledge closure
+→ 06B terminology
+→ 07 retention/reveal
+→ 08 naturalness/listening
+→ 09 fact/claim strength
+→ 10A final candidate
+→ 10A1 final sentence index
+→ isolated 10B1 / 10B2 / 10B3
+→ 10C reconciliation
+→ 10D deterministic proof verification
+→ final
 
-### 5. Reveal Duplication Gate
+## Important principle
 
-Mỗi occurrence của một claim phải có story function:
-- TEASE
-- EXPLAIN
-- EVIDENCE
-- COMPLICATE
-- PAYOFF
-- CALLBACK
+Detection does not mean explanation.
 
-Cùng claim + cùng evidence + cùng meaning lặp lại không có chức năng mới → cắt/gộp.
+The writer stays free.
+The auditor is constrained.
 
-### 6. Claim Strength Contract
+## Final statuses
 
-Claim Map giờ kiểm:
-- allowed certainty
-- forbidden strengthening
-- time scope
-- geographic scope
-- population scope
-- temporal wording
+- PASS_VERIFIED
+- CONTENT_PASS_ISOLATION_NOT_VERIFIED
+- FAIL
 
-Ví dụ:
-"ít nhất khoảng 2.500 năm trước"
-tốt hơn
-"chắc chắn từ rất lâu"
-khi nguồn chỉ trực tiếp chứng minh mốc ~2.500 năm.
+## Deterministic verifier
 
-### 7. Naturalness + Rhythm + Listening
+When Python runtime is available:
 
-Audit:
-- translationese
-- noun stacking
-- academic compression
-- repeated sentence openings
-- fragment patterns
-- rhetorical-question overload
-- audio density
+~~~text
+python tools/verify_integrity_proof.py \
+  --index <project>/10_final_sentence_index.json \
+  --blind <project>/10b1_blind_knowledge_inventory.json \
+  --integrity <project>/10_final_integrity.json \
+  --isolation <project>/10b_isolation_manifest.json
+~~~
 
-UNDERSTANDABLE không đồng nghĩa NATURAL.
-
-### 8. Three independent final auditors
-
-10B1:
-blind knowledge extraction.
-
-10B2:
-blind claim/certainty extraction.
-
-10B3:
-blind naturalness/redundancy extraction.
-
-Các auditor không được nhìn report tương ứng trước đó.
-
-## Final Integrity Gate
-
-10_final_integrity.json là source of truth.
-
-PASS khi tất cả bằng 0:
-
-knowledge:
-- core_entities_ungrounded
-- unmapped_aliases
-- missing_discovered_nodes
-- unresolved_concepts
-- unresolved_dependencies
-- unresolved_relations
-- temporal_first_use_failures
-- confusable_pairs_unresolved
-- silently_ignored_candidates
-
-terminology:
-- unnecessary_labels
-- alias_overload
-
-narrative:
-- redundant_reveals
-- high_load_listening_blocks
-
-factual:
-- unsupported_claims
-- certainty_overstatements
-- unsupported_temporal_generalizations
-- scope_overstatements
-
-naturalness:
-- translationese_flags
-- repeated_rhetorical_patterns
-- unresolved_audio_density_flags
-
-## Required artifacts
-
-projects/<project_slug>/
-
-- 00_project_brief.yaml
-- 01_angle.md
-- 02_research_notes.md
-- 02_sources.json
-- 03_core_subject.json
-- 03_claim_map.json
-- 03_knowledge_graph.json
-- 04_story_architecture.md
-- 05_script_draft.md
-- 05_lexical_knowledge_sweep.json
-- 05_blind_knowledge_inventory.json
-- 06_audience_report.md
-- 06_knowledge_closure.json
-- 06_script_accessible.md
-- 06_terminology_prune.json
-- 06_script_pruned.md
-- 07_retention_report.md
-- 07_reveal_audit.json
-- 07_knowledge_delta.json
-- 07_script_retention_edit.md
-- 08_anti_ai_report.md
-- 08_naturalness_audit.json
-- 08_knowledge_delta.json
-- 08_script_natural.md
-- 09_fact_check.md
-- 09_claim_strength_audit.json
-- 09_knowledge_delta.json
-- 09_script_fact_checked.md
-- 10_story_report_draft.md
-- 10_final_candidate.md
-- 10b1_blind_knowledge_inventory.json
-- 10b2_blind_claim_inventory.json
-- 10b3_blind_naturalness_audit.json
-- 10_final_story_report.md
-- 10_final_integrity.json
-- 10_final_script.md
-
-## Cách sử dụng trên ChatGPT Web
-
-### Prompt mẫu — copy toàn bộ block
+## ChatGPT Web usage
 
 ~~~text
 @GitHub làm việc với repo cuongtobi/gpt_ytb_script
@@ -217,28 +98,13 @@ projects/<project_slug>/
 
 Viết một YouTube documentary script mới.
 
-topic: cách con người thuần hóa cần sa
-language: tiếng Việt
-duration: 25 minutes
+topic: ...
+language: ...
+duration: ...
 audience: general
-hook_mode: contradiction
 
 Đọc AGENTS.md và prompts/00_orchestrator.md.
-Chạy toàn bộ pipeline.
-Tạo một project mới trong projects/ và lưu mọi artifact vào đó.
+Chạy pipeline v3.2.
+Tạo project mới trong projects/ và lưu mọi artifact.
+Không tự báo PASS_VERIFIED nếu blind isolation không được runtime xác nhận.
 ~~~
-
-## Output dùng để sản xuất
-
-projects/<project_slug>/10_final_script.md
-
-## Shared protocols
-
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
-
-Legacy v3 final closure:
-- 10_knowledge_closure.json
-
-v3.1 final source of truth:
-- 10_final_integrity.json

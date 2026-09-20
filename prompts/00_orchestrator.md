@@ -2,134 +2,68 @@
 
 ## Role
 
-Control the v3.1 research-driven YouTube documentary pipeline.
+Control the v3.2 proof-carrying documentary pipeline.
 
 Read:
 - AGENTS.md
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
-- this file
+- KNOWLEDGE_GROUNDING_PROTOCOL.md
+- FINAL_INTEGRITY_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
-## Input
-
-Required:
-- topic
-- language
-- duration
-
-Defaults:
-- audience: general
-- hook_mode: auto
-- angle_mode: auto
-- research_depth: deep
-- technical_level: accessible
-- tone: conversational_documentary
-
-## Project
-
-Create:
-projects/YYYY-MM-DD_topic-slug/
-
-Never overwrite an old project unless explicitly requested.
-
-## Pipeline v3.1
+## Pipeline v3.2
 
 00 Project Brief
-→ 01 Angle Engine
-→ 02 Deep Research
-→ 03A Core Subject Grounding
-→ 03B Claim Map + Audience Knowledge Graph
+→ 01 Angle
+→ 02 Research
+→ 03A Core Subject
+→ 03B Claim Map + Knowledge Graph
 → 04 Story + Knowledge Architect
-→ 05 Visual Narrative Writer
-→ 05B Two-Pass Blind Knowledge Discovery
-→ 06 Audience Knowledge Closure
-→ 06B Terminology Necessity Pruner
-→ 07 Retention + Reveal Integrity + Knowledge Delta
-→ 08 Naturalness + Rhythm + Listening + Knowledge Delta
-→ 09 Fact Check + Claim Strength + Knowledge Delta
+→ 05 Writer
+→ 05A1 Canonical Draft Sentence Index
+→ 05B Blind Knowledge Discovery + Coverage Proof
+→ 06 Knowledge Closure + Conservation + Temporal Proof
+→ 06B Terminology Pruner
+→ 07 Retention + Reveal Audit
+→ 08 Naturalness + Listening
+→ 09 Fact Check + Claim Strength
 → 10A Final Story Editor
-→ 10B1 Blind Final Knowledge Audit
-→ 10B2 Blind Final Claim/Certainty Audit
-→ 10B3 Blind Final Naturalness/Redundancy Audit
-→ 10C Final Integrity Reconciliation
-→ FINAL SCRIPT
+→ 10A1 Canonical Final Sentence Index
+→ 10B Isolation Handoff
+→ 10B1 Isolated Knowledge Audit
+→ 10B2 Isolated Claim Audit
+→ 10B3 Isolated Naturalness Audit
+→ 10C Final Reconciliation
+→ 10D Integrity Proof Verifier
+→ FINAL
 
-## Blind isolation
+## Creative vs integrity lanes
 
-### 05B
-Allowed only:
-- 00_project_brief.yaml
-- 05_script_draft.md
-- shared protocols
+Creative stages should optimize story quality.
 
-Must not read graph/closure artifacts.
+Do not force the writer to explain every candidate.
 
-### 10B1
-Allowed only:
-- 00_project_brief.yaml
-- 10_final_candidate.md
-- shared protocols
+Integrity stages prove coverage after writing.
 
-### 10B2
-Allowed only:
-- 00_project_brief.yaml
-- 10_final_candidate.md
-- FINAL_INTEGRITY_PROTOCOL.md
+## Blind isolation rule
 
-Must not read Claim Map/sources before extraction.
+10B1, 10B2 and 10B3 require separate fresh execution contexts.
 
-### 10B3
-Allowed only:
-- 00_project_brief.yaml
-- 10_final_candidate.md
-- FINAL_INTEGRITY_PROTOCOL.md
+If runtime supports isolated agents/tasks/chats:
+- create distinct executions;
+- runtime writes 10b_isolation_manifest.json.
 
-Must not read retention/anti-AI/naturalness reports.
+If runtime cannot verify fresh contexts:
+- set isolation_status = ISOLATION_NOT_VERIFIED;
+- continue advisory audits if useful;
+- final project cannot be PASS_VERIFIED.
+
+Never fabricate execution IDs or isolation proof.
 
 ## Project brief
 
-Write 00_project_brief.yaml with:
-- topic
-- language
-- locale
-- duration_minutes
-- target_word_range
-- audience
-- technical_level
-- tone
-- hook_mode
-- angle_mode
-- visual_storytelling: true
-- research settings
-- pipeline.version: 3.1
-- pipeline.status: running
+pipeline.version: 3.2
 
-## Routing
-
-Stage 06 fails if any knowledge failure count > 0.
-
-Stage 06B fails if:
-- unnecessary_labels > 0
-- alias_overload > 0
-
-Stage 07 fails if:
-- redundant_reveals > 0
-- unresolved knowledge delta exists
-
-Stage 08 fails if naturalness/listening counts remain > 0.
-
-Stage 09 fails on unsupported/overstated claims.
-
-If downstream edits introduce unresolved knowledge:
-route back to stage 06/06B.
-
-If final factual repair changes substance:
-rerun stage 09.
-
-After any final candidate repair:
-rerun all three blind final auditors.
-
-## Required v3.1 artifacts
+## Required v3.2 artifacts
 
 00_project_brief.yaml
 01_angle.md
@@ -140,6 +74,7 @@ rerun all three blind final auditors.
 03_knowledge_graph.json
 04_story_architecture.md
 05_script_draft.md
+05_draft_sentence_index.json
 05_lexical_knowledge_sweep.json
 05_blind_knowledge_inventory.json
 06_audience_report.md
@@ -161,21 +96,29 @@ rerun all three blind final auditors.
 09_script_fact_checked.md
 10_story_report_draft.md
 10_final_candidate.md
+10_final_sentence_index.json
+10b_isolation_manifest.json
 10b1_blind_knowledge_inventory.json
 10b2_blind_claim_inventory.json
 10b3_blind_naturalness_audit.json
 10_final_story_report.md
 10_final_integrity.json
 10_final_script.md
+10d_proof_verification.json
 
-## Final completion
+## Completion
 
-Do not mark complete until:
-- all required artifacts exist;
-- stage 09 factual PASS;
-- 10_final_integrity.json status = PASS;
-- every Final Integrity count = 0;
-- central question paid off;
-- Visual Storytelling Score >= 8.0;
-- duration reasonably aligned;
-- no production directions unless requested.
+PASS_VERIFIED requires:
+- all content integrity gates pass;
+- canonical sentence coverage proof passes;
+- candidate conservation proof passes;
+- temporal proof passes;
+- strict baseline provenance passes;
+- stage 09 passes;
+- isolation VERIFIED;
+- tools/verify_integrity_proof.py or equivalent deterministic proof check passes.
+
+If content passes but isolation cannot be verified:
+project_status = CONTENT_PASS_ISOLATION_NOT_VERIFIED
+
+Do not call that PASS_VERIFIED.

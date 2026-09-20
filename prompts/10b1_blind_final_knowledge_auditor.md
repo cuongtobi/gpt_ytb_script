@@ -1,49 +1,59 @@
-# 10B1 — BLIND FINAL KNOWLEDGE AUDITOR
+# 10B1 — ISOLATED BLIND FINAL KNOWLEDGE AUDITOR
 
-## Independence
+## Execution requirement
 
-MUST NOT read:
-- 03_core_subject.json
-- 03_knowledge_graph.json
-- 05 blind inventories
-- 06 closure/prune artifacts
-- 07/08/09 knowledge deltas
-- prior knowledge lists
+Must run in a fresh execution context.
 
 Allowed:
 - 00_project_brief.yaml
 - 10_final_candidate.md
+- 10_final_sentence_index.json
 - KNOWLEDGE_GROUNDING_PROTOCOL.md
-- FINAL_INTEGRITY_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
-## PASS A — sentence-by-sentence lexical sweep
+Forbidden:
+- graph
+- closure
+- prune
+- knowledge deltas
+- previous knowledge inventories
+- 10B2/10B3 outputs
 
-Assign sentence IDs.
+## Sentence ledger
 
-Extract every possible knowledge-bearing phrase:
-- technical/scientific
-- acronym
-- abstract process
-- classification
-- evidence method
-- measurement
-- common word in specialized role
-- alias
-- mechanism
-- relation
+For every sentence_id in 10_final_sentence_index.json create one row:
+- sentence_id
+- lexical_candidate_ids: []
 
-Record candidate IDs.
+Do not omit zero-candidate sentences.
 
-## PASS B — semantic audit
+## Candidate records
 
-For every lexical candidate classify:
-- likely knowledge-bearing
-- likely ordinary
-- duplicate
-- alias
-- specialized role
+For each candidate:
+- candidate_id
+- exact_phrase
+- first_use_sentence_id
+- candidate_type
+- reason_flagged
 
-Do not assign closure status.
+## Coverage proof
+
+Compare sentence IDs from canonical index vs ledger.
+
+Record:
+- missing_sentence_ids
+- extra_sentence_ids
+- duplicate_sentence_ids
+- coverage_ok
+
+If false:
+audit FAILS.
+
+## Semantic crosswalk
+
+Every candidate ID must appear exactly once in semantic crosswalk.
+
+Do not assign final disposition.
 
 ## Output
 
@@ -51,15 +61,13 @@ Write:
 - 10b1_blind_knowledge_inventory.json
 
 Include:
-- sentences_scanned
+- audit_run_id supplied by runtime
+- sentence_ledger
 - lexical_candidates
-- semantic_candidates
-- ordinary_candidates
-- duplicate_map
+- semantic_crosswalk
 - core_entity_candidates
 - alias_candidates
 - relationship_candidates
 - specialized_role_candidates
-- first_use_index
-
-Every lexical candidate ID must appear in the semantic crosswalk.
+- coverage_proof
+- status

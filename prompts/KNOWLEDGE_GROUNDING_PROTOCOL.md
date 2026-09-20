@@ -1,29 +1,12 @@
-# KNOWLEDGE GROUNDING PROTOCOL — v3.1
+# KNOWLEDGE GROUNDING PROTOCOL — v3.2
 
 ## Purpose
 
-This is the source of truth for what the audience knows at each point in narration.
+Manage what the audience knows at each point in narration without forcing glossary-style writing.
 
 Use together with:
 - prompts/FINAL_INTEGRITY_PROTOCOL.md
-
-A script cannot pass simply because tracked technical terms are eventually defined.
-
-The pipeline manages:
-- core subjects;
-- entities;
-- aliases;
-- components;
-- properties;
-- processes;
-- mechanisms;
-- concepts;
-- evidence types;
-- classifications;
-- institutions;
-- measurements;
-- semantic relationships;
-- first-use timing.
+- prompts/INTEGRITY_PROOF_PROTOCOL.md
 
 ## Knowledge node types
 
@@ -61,43 +44,9 @@ The pipeline manages:
 
 ## Core Subject Grounding
 
-For every CORE_ENTITY distinguish:
-- label_familiarity;
-- subject_understanding.
+Familiar label != subject understanding.
 
-A familiar topic name does not prove subject understanding.
-
-Minimum story-relevant grounding should answer:
-- what kind of thing is it?
-- which parts/properties matter?
-- which names refer to it?
-- which related labels are not exact aliases?
-
-The common topic label may appear in the title/hook before complete grounding.
-
-Before a specialized alias, component or mechanism relies on the subject, minimum grounding must already exist in the same sentence or earlier.
-
-## Alias Resolution
-
-Do not assume two labels are understood as the same/related entity.
-
-Retained labels require explicit relations such as:
-- ALIAS_OF
-- SHORT_FORM_OF
-- RELATED_TO
-- SUBTYPE_OF
-
-If an alias adds no later reasoning value, terminology pruning should remove it.
-
-## Minimum Grounding Requirement
-
-Teach only what later reasoning needs.
-
-Each required node records:
-- minimum_grounding
-- dependencies
-- relations
-- first_use_strategy
+Before specialized aliases/components/mechanisms rely on the subject, ground the minimum story-relevant mental model.
 
 ## Knowledge states
 
@@ -106,96 +55,62 @@ Each required node records:
 - UNRESOLVED
 - REMOVED
 
-### Strict baseline rule
+## Strict baseline provenance
 
-A node may be BASELINE_KNOWN only if:
-1. the phrase appears in audience_baseline.assumed_known; or
-2. it is explicitly mapped to a declared normal_language_primitive.
+BASELINE_KNOWN is valid only if:
+1. exact phrase is in audience_baseline.assumed_known; or
+2. phrase is explicitly mapped to a declared normal_language_primitive.
 
-Do not infer KNOWN from familiarity.
+Every BASELINE_KNOWN result must carry machine-auditable provenance fields required by INTEGRITY_PROOF_PROTOCOL.md.
 
-High label familiarity is not a knowledge state.
+No inferred known.
 
 ## No Unknowns in Explanations
 
-A node is not GROUNDED if its explanation depends on unresolved knowledge.
+A grounding explanation cannot depend on unresolved knowledge.
 
-For every explanation:
-1. extract dependencies;
-2. validate dependencies;
-3. ground, replace or remove them;
-4. recurse until all required dependencies terminate at BASELINE_KNOWN or earlier GROUNDED nodes.
+Recursively ground, replace or remove dependencies.
 
 ## Temporal Knowledge Closure
 
-Narration is linear.
-
 Eventually explained is not enough.
 
-Record:
-- first_use;
-- grounded_at.
+Every retained unfamiliar candidate must have a temporal proof using canonical sentence IDs.
 
-PASS requires:
-grounded_at <= first_use
+No prose-only "PASS" is accepted.
 
-or grounding occurs inside the same first-use sentence before the label is relied upon.
+## Blind discovery
 
-## Blind Discovery — two passes
+Discovery uses the canonical sentence index.
 
-Blind discovery must not read the prior graph.
+Every sentence ID must have a lexical-ledger row, including zero-candidate sentences.
 
-PASS A:
-sentence-by-sentence lexical knowledge sweep.
+Every candidate later receives exactly one disposition.
 
-PASS B:
-semantic knowledge audit.
+## Candidate conservation
 
-The lexical sweep must create candidate IDs so every candidate can later be reconciled.
+Final reconciliation must satisfy:
 
-Do not silently drop:
-- common words in specialized roles;
-- abstract process labels;
-- scientific labels;
-- acronyms;
-- classifications;
-- evidence methods;
-- mechanisms.
+DISCOVERED
+=
+BASELINE_KNOWN
++ GROUNDED
++ REPLACED
++ REMOVED
++ UNRESOLVED
 
-## No Silent Ignore
+No missing or duplicated candidate IDs.
 
-Every lexical candidate must receive one final disposition:
-- BASELINE_KNOWN
-- GROUNDED
-- REPLACED
-- REMOVED
-- UNRESOLVED
+## Terminology principle
 
-PASS requires:
-silently_ignored_candidates = 0
+Do not explain what the story can avoid naming.
 
-## Independent Reconciliation
-
-Closure reconciles:
-- lexical sweep;
-- semantic blind inventory;
-- Audience Knowledge Graph;
-- actual current script.
-
-Check:
-- core subject;
-- aliases;
-- relations;
-- dependencies;
-- contextual role;
-- temporal first use;
-- confusable labels;
-- graph omissions;
-- discovery coverage.
+Prefer:
+REMOVE → REPLACE → REORDER → MINIMAL GROUNDING.
 
 ## Knowledge Delta
 
-After every rewrite compare input/output for:
+After each rewrite compare:
 - new_entities
 - new_aliases
 - new_components
@@ -204,32 +119,15 @@ After every rewrite compare input/output for:
 - new_relations
 - new_dependencies
 
-Every new item must be:
-- GROUND
-- REPLACE
-- REMOVE
-- ROUTE_TO_STAGE_06
+New unfamiliar knowledge must be resolved before downstream PASS.
 
-## Context Scope
+## Final knowledge proof
 
-Knowledge nodes may include:
-- definition_scope
-- safe_definition
-- unsafe_definition
+Knowledge PASS requires:
+- all normal knowledge counters = 0
+- sentence coverage proof valid
+- candidate conservation proof valid
+- temporal proof valid
+- baseline provenance valid
 
-Do not turn research-specific categories into universal definitions.
-
-## Final Knowledge Counts
-
-Knowledge closure requires:
-- core_entities_ungrounded = 0
-- unmapped_aliases = 0
-- missing_discovered_nodes = 0
-- unresolved_concepts = 0
-- unresolved_dependencies = 0
-- unresolved_relations = 0
-- temporal_first_use_failures = 0
-- confusable_pairs_unresolved = 0
-- silently_ignored_candidates = 0
-
-Final completion additionally requires every gate in FINAL_INTEGRITY_PROTOCOL.md.
+Final project completion additionally follows FINAL_INTEGRITY_PROTOCOL.md and INTEGRITY_PROOF_PROTOCOL.md.

@@ -1,95 +1,76 @@
-# 05B — TWO-PASS BLIND KNOWLEDGE DISCOVERY
+# 05B — BLIND KNOWLEDGE DISCOVERY WITH COVERAGE PROOF
 
-## Independence requirement
+## Independence
 
-MUST NOT read:
+Must not read:
 - 03_core_subject.json
 - 03_knowledge_graph.json
-- any earlier knowledge closure/delta artifact
+- prior closure/delta artifacts
 
-Allowed inputs:
+Allowed:
 - 00_project_brief.yaml
 - 05_script_draft.md
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- 05_draft_sentence_index.json
+- shared protocols
 
-Purpose: independent discovery, not graph confirmation.
+## PASS A — Lexical sentence ledger
 
-## PASS A — Lexical Knowledge Sweep
+For EVERY sentence_id in 05_draft_sentence_index.json create exactly one ledger row.
 
-Read EVERY sentence in order.
-
-Assign sentence IDs:
-S001, S002, S003...
-
-Create a lexical candidate for any phrase that may be:
-- scientific/technical;
-- acronym;
-- abstract process;
-- classification;
-- evidence method;
-- measurement concept;
-- historical/institutional term;
-- common word in a specialized role;
-- causal mechanism;
-- nontrivial alias;
-- relation the viewer may need.
-
-For every lexical candidate record:
-- candidate_id
+Row:
 - sentence_id
+- lexical_candidate_ids: []
+
+A zero-candidate row is required when no candidate exists.
+
+Candidate triggers include:
+- scientific/technical label
+- acronym
+- abstract process
+- classification
+- evidence method
+- measurement
+- historical/institutional label
+- ordinary word in specialized role
+- mechanism
+- alias
+- relationship the audience may need
+
+Candidate record:
+- candidate_id
+- first_use_sentence_id
 - exact_phrase
-- first_use_quote
 - candidate_type
 - reason_flagged
 
-Do not skip a phrase because it sounds familiar.
+## Coverage proof
 
-Write:
-- 05_lexical_knowledge_sweep.json
+Record:
+- index_sentence_ids
+- ledger_sentence_ids
+- missing_sentence_ids
+- extra_sentence_ids
+- duplicate_sentence_ids
+- coverage_ok
 
-Include:
-- sentences_scanned
-- candidates
+If coverage_ok != true:
+FAIL immediately.
 
-## PASS B — Semantic Knowledge Audit
+## PASS B — Semantic audit
 
-Using only:
-- project brief;
-- draft;
-- lexical sweep;
-- shared protocols
-
-For EVERY lexical candidate classify:
+Every candidate ID must be crosswalked as one of:
 - likely_knowledge_bearing
 - likely_ordinary_vocabulary
 - duplicate_of_candidate
 - alias_candidate
 - specialized_role_candidate
 
-Do not assign final BASELINE_KNOWN/GROUNDED status here.
+Do not assign final closure disposition here.
 
-Extract relationships and core-entity candidates.
+## Outputs
 
 Write:
+- 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
 
-Required:
-- lexical_candidate_ids
-- semantic_candidates
-- ordinary_vocabulary_candidates
-- duplicate_candidate_map
-- core_entity_candidates
-- alias_candidates
-- relationship_candidates
-- specialized_role_candidates
-- first_use_index
-
-## Coverage invariant
-
-Every lexical candidate ID must appear somewhere in PASS B output.
-
-If not:
-- discovery stage FAILS.
-
-Do not silently ignore a lexical candidate.
+Do not claim discovery PASS without the sentence-ID coverage proof.

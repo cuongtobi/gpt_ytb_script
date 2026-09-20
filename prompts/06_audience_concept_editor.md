@@ -1,83 +1,75 @@
-# 06 — AUDIENCE KNOWLEDGE CLOSURE EDITOR
+# 06 — AUDIENCE KNOWLEDGE CLOSURE WITH PROOFS
 
 ## Role
 
-Reconcile actual draft, two-pass blind discovery and initial knowledge graph.
+Reconcile draft knowledge with candidate-level accounting and temporal proof.
 
 Read:
-- 00_project_brief.yaml
-- 03_core_subject.json
-- 03_claim_map.json
-- 03_knowledge_graph.json
-- 04_story_architecture.md
+- project brief
+- core subject
+- claim map
+- knowledge graph
+- story architecture
 - 05_script_draft.md
+- 05_draft_sentence_index.json
 - 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
-- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- shared protocols
 
-## Phase 1 — Discovery coverage
+## 1. Validate discovery coverage
 
-Every lexical candidate must receive one disposition:
+Require:
+05 lexical coverage_ok = true.
+
+Otherwise FAIL.
+
+## 2. Candidate disposition
+
+Every discovered candidate receives exactly one:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-Create a crosswalk from candidate_id → disposition.
+Each BASELINE_KNOWN needs strict provenance.
 
-No Silent Ignore.
+## 3. Candidate conservation
 
-Record:
-- lexical_candidates
-- reconciled_candidates
-- silently_ignored_candidates
+Compute:
+discovered_count
+=
+baseline_known_count
++ grounded_count
++ replaced_count
++ removed_count
++ unresolved_count
 
-If silently_ignored_candidates > 0:
+Record missing and duplicate IDs.
+
+If equation invalid:
 FAIL.
 
-## Phase 2 — Strict BASELINE_KNOWN validation
+## 4. Temporal proof
 
-A candidate may be BASELINE_KNOWN only if:
-- exact/canonical phrase is supported by audience baseline;
-- or explicitly mapped to a declared primitive.
+For every retained unfamiliar candidate record:
+- candidate_id
+- first_use_sentence_id
+- grounding_mode
+- grounding_sentence_id
+- baseline_provenance if needed
+- ordering_valid
 
-Do not infer KNOWN from familiarity.
+No free-text temporal PASS.
 
-## Phase 3 — Core subject
+If first-use/grounding coordinate missing:
+FAIL.
 
-Check:
-- kind of thing;
-- story-relevant parts/properties;
-- alias relations;
-- component relations.
+## 5. Repair preference
 
-Topic mention alone is not grounding.
+REMOVE → REPLACE → REORDER → minimal grounding.
 
-## Phase 4 — Alias/relation closure
-
-Retained aliases must be mapped before free reuse.
-
-Required relations must be understood before claims rely on them.
-
-## Phase 5 — Recursive dependencies
-
-Reject explanations that require unresolved knowledge.
-
-Ground, replace or remove dependencies recursively.
-
-## Phase 6 — Temporal closure
-
-For each unfamiliar required item:
-- actual first_use
-- grounded_at
-
-FAIL if grounded later.
-
-## Phase 7 — Confusable labels
-
-Resolve distinctions at first introduction.
+Do not over-explain.
 
 ## Outputs
 
@@ -86,22 +78,13 @@ Write:
 - 06_knowledge_closure.json
 - 06_script_accessible.md
 
-06_knowledge_closure.json includes:
-- core_entities_ungrounded
-- unmapped_aliases
-- missing_discovered_nodes
-- unresolved_concepts
-- unresolved_dependencies
-- unresolved_relations
-- temporal_first_use_failures
-- confusable_pairs_unresolved
-- silently_ignored_candidates
-- discovery_coverage
+06_knowledge_closure.json must include:
+- normal knowledge counters
+- invalid_baseline_provenance
+- discovery_coverage_proof
 - candidate_disposition_crosswalk
-- nodes
-- relations
-- first_use_timeline
-- closure_iterations
+- candidate_conservation_proof
+- temporal_proofs
 - status
 
-PASS only when all nine knowledge failure counts are zero.
+PASS only if all hard proofs are valid and unresolved_count = 0.

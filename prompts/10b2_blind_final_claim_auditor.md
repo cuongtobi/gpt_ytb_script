@@ -1,59 +1,43 @@
-# 10B2 — BLIND FINAL CLAIM/CERTAINTY AUDITOR
+# 10B2 — ISOLATED BLIND FINAL CLAIM/CERTAINTY AUDITOR
 
-## Independence
+## Execution requirement
 
-MUST NOT read:
-- 03_claim_map.json
-- 02 sources/research
-- 09_fact_check.md
-- 09_claim_strength_audit.json
-- any prior factual audit
+Must run in a fresh execution context distinct from 10B1 and 10B3.
 
 Allowed:
 - 00_project_brief.yaml
 - 10_final_candidate.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- FINAL_INTEGRITY_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
-## Role
+Forbidden:
+- Claim Map
+- research notes/sources
+- stage 09 audits
+- 10B1/10B3 outputs
 
-Extract factual commitments from final narration before seeing the Claim Map.
+## Extract
 
-For every claim record:
+For every factual commitment:
 - claim_candidate_id
-- exact_quote_or_paraphrase
+- exact quote/paraphrase
 - section
-- claim_type
-- date/time wording
-- quantity wording
+- claim type
+- date/quantity
 - causal strength
 - certainty markers
 - superlatives
 - geographic scope
 - population scope
 - vague temporal language
-- source-needed: yes/no
 
-Specifically flag candidate wording such as:
-- chắc chắn
-- rõ ràng
-- đầu tiên
-- sớm nhất
-- duy nhất
-- luôn
-- tất cả
-- từ rất lâu
-- từ xa xưa
-
-Do not decide whether claims are supported yet.
+Do not decide support yet.
 
 ## Output
 
 Write:
 - 10b2_blind_claim_inventory.json
 
-Include:
-- claim_candidates
-- certainty_candidates
-- temporal_generalization_candidates
-- scope_candidates
-- first_occurrence_index
+Include audit_run_id supplied by runtime.
+
+Do not self-create or guess execution identity.

@@ -1,57 +1,42 @@
-# 10B3 — BLIND FINAL NATURALNESS/REDUNDANCY AUDITOR
+# 10B3 — ISOLATED BLIND FINAL NATURALNESS/REDUNDANCY AUDITOR
 
-## Independence
+## Execution requirement
 
-MUST NOT read:
-- 07 retention report/reveal audit
-- 08 anti-AI/naturalness report
-- 06 terminology prune
-- previous naturalness judgments
+Must run in a fresh execution context distinct from 10B1 and 10B2.
 
 Allowed:
 - 00_project_brief.yaml
 - 10_final_candidate.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- FINAL_INTEGRITY_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
-## Role
+Forbidden:
+- retention report
+- reveal audit
+- anti-AI/naturalness report
+- terminology prune
+- 10B1/10B2 outputs
 
-Read the final candidate as a listener, not an editor who already knows the pipeline.
+## Audit
 
 Find:
 - translationese
 - academic compression
-- noun stacking
-- unnecessary aliases/labels
-- duplicate reveals
-- repeated sentence openings
-- fragment-pattern repetition
+- unnecessary labels
+- duplicate explanations/reveals
+- repeated openings/fragments
 - parallelism overload
 - rhetorical-question overload
-- repeated contrast templates
 - awkward terminology
-- high audio density
+- audio-density problems
 - unclear pronouns
-
-For duplicate reveal candidates record:
-- normalized meaning
-- evidence
-- occurrences
-- likely story function
-
-For rhythm candidates record:
-- pattern
-- occurrences in block
-- severity
+- surface errors
 
 ## Output
 
 Write:
 - 10b3_blind_naturalness_audit.json
 
-Include:
-- translationese_candidates
-- unnecessary_label_candidates
-- duplicate_reveal_candidates
-- repeated_rhetorical_pattern_candidates
-- audio_density_candidates
-- alias_overload_candidates
+Include audit_run_id supplied by runtime.
+
+Do not self-create or guess execution identity.
