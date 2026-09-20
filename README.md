@@ -1,230 +1,136 @@
 # GPT YouTube Visual-Storytelling Script Pipeline
 
-Pipeline viết YouTube documentary script có visual storytelling mạnh trên ChatGPT Web + GitHub.
+Pipeline viết YouTube documentary script trên ChatGPT Web + GitHub, tập trung vào:
+- research chắc;
+- visual storytelling ngay trong narration;
+- dễ hiểu với khán giả phổ thông;
+- retention;
+- ngôn ngữ tự nhiên;
+- fact-check;
+- knowledge grounding theo đúng thứ tự người xem nghe.
 
-Mục tiêu: tạo narration mà người nghe có thể tự hình dung cảnh, hành động, vật thể, biến đổi và tương phản ngay từ lời kể. Pipeline không tự tạo storyboard, shot list, image prompt hay timeline dựng.
-
-## Nguyên tắc
-
-1. Story before prose.
-2. Understanding before terminology.
-3. Concrete before abstract.
-4. Evidence before drama.
-5. Visual storytelling được thiết kế từ Story Architect.
-6. Concept system là dynamic graph, không phải glossary tĩnh.
-7. Final script chỉ PASS khi Concept Closure đạt UNRESOLVED = 0.
-
-## Pipeline
+## Pipeline v3
 
 USER INPUT
 → 00 ORCHESTRATOR
 → 01 ANGLE ENGINE
 → 02 DEEP RESEARCH
-→ 03 CLAIM MAP + INITIAL CONCEPT GRAPH
-→ 04 STORY ARCHITECT
-→ 05 VISUAL NARRATIVE WRITER + CONCEPT DELTA
-→ 06 AUDIENCE + RECURSIVE CONCEPT CLOSURE
-→ 07 RETENTION EDITOR + CONCEPT DELTA
-→ 08 ANTI-AI EDITOR + CONCEPT DELTA
-→ 09 FACT CHECKER + CONCEPT DELTA
-→ 10 FINAL STORY EDITOR + FINAL CONCEPT CLOSURE
+→ 03A CORE SUBJECT GROUNDING
+→ 03B CLAIM MAP + AUDIENCE KNOWLEDGE GRAPH
+→ 04 STORY + KNOWLEDGE ARCHITECT
+→ 05 VISUAL NARRATIVE WRITER
+→ 05B BLIND KNOWLEDGE DISCOVERY
+→ 06 AUDIENCE KNOWLEDGE CLOSURE
+→ 07 RETENTION + KNOWLEDGE DELTA
+→ 08 ANTI-AI + KNOWLEDGE DELTA
+→ 09 FACT CHECK + KNOWLEDGE DELTA
+→ 10A FINAL STORY EDITOR
+→ 10B BLIND FINAL KNOWLEDGE AUDIT
+→ 10C FINAL TEMPORAL KNOWLEDGE CLOSURE
 → FINAL SCRIPT
 
-## Điểm mới: Dynamic Concept Graph
+## V3 giải quyết vấn đề gì?
 
-Phiên bản cũ chỉ tạo Concept Map trước khi Writer viết. Điều đó có thể bỏ sót khái niệm được sinh ra trong quá trình giải thích hoặc rewrite.
+Pipeline cũ có thể giải thích thuật ngữ nhưng vẫn bỏ sót:
+- chủ đề trung tâm chưa được giải thích;
+- tên khoa học/alias chưa map;
+- component như THC xuất hiện trước khi biết nó là gì;
+- definition sinh dependency mới;
+- concept được giải thích quá muộn;
+- final script có jargon mà graph cũ không phát hiện.
 
-Ví dụ lỗi:
+V3 chuyển từ Concept Graph sang Audience Knowledge Graph.
 
-Lactase là enzyme phân giải lactose.
+Nó quản lý:
+- CORE_ENTITY
+- ENTITY
+- ALIAS
+- COMPONENT
+- PROPERTY
+- PROCESS
+- MECHANISM
+- CONCEPT
+- EVIDENCE_TYPE
+- CLASSIFICATION
+- RELATIONSHIPS
 
-Nếu người nghe chưa biết lactose là gì, lactase chưa thực sự được giải thích.
+## Core Subject Grounding
 
-Hoặc:
+Biết tên chủ đề không có nghĩa là hiểu chủ đề.
 
-Một số cục giàu calcium vẫn nằm trong bê tông.
+Ví dụ với "cần sa", pipeline phải xác định tối thiểu:
+- đây là loại thứ gì;
+- bộ phận/tính chất nào quan trọng với câu chuyện;
+- Cannabis / Cannabis sativa liên hệ với "cần sa" thế nào;
+- marijuana có phải alias chính xác hay chỉ là label liên quan;
+- THC nằm ở đâu trong mental model.
 
-Nếu calcium chỉ xuất hiện sau khi Concept Map đã được tạo, một audit dựa trên danh sách cũ có thể không nhìn thấy nó.
+## Alias Resolution
 
-Phiên bản hiện tại sửa gốc vấn đề này bằng 3 lớp.
+Không tự coi các tên khác nhau là đồng nghĩa.
 
-### 1. Initial Concept Dependency Graph
+Các relation có thể gồm:
+- ALIAS_OF
+- SHORT_FORM_OF
+- RELATED_TO
+- SUBTYPE_OF
 
-03_concept_graph.json lưu:
-- concept
-- label familiarity
-- role familiarity
-- dependency
-- necessity
-- status
-- confusable concepts
+Label chỉ được dùng tự do sau khi relation được grounding.
 
-Một concept chỉ được coi là EXPLAINED khi mọi dependency cần để hiểu nó đã KNOWN hoặc EXPLAINED.
+## Strict KNOWN rule
 
-### 2. Concept Delta sau mọi rewrite
+Một concept không được tự động đánh KNOWN chỉ vì nghe quen.
 
-Các stage 05, 07, 08 và 09 so sánh concept trước/sau rewrite.
+BASELINE_KNOWN chỉ hợp lệ nếu:
+- nằm trong audience baseline; hoặc
+- là normal-language primitive theo baseline.
 
-Concept mới phải được:
-- EXPLAIN
-- REPLACE
-- REMOVE
-- hoặc route về stage 06
+Scientific name, acronym, biochemical term và specialist term không được auto-known.
 
-Không có thuật ngữ mới nào được phép trở nên “vô hình” chỉ vì nó xuất hiện sau stage 03.
+## Temporal Knowledge Closure
 
-### 3. Final Concept Closure
+Một concept phải được grounding trước hoặc ngay lúc first use.
 
-Stage 10 scan lại chính final candidate từ đầu.
+Sai:
+genome xuất hiện ở hook → 3 phút sau mới định nghĩa.
 
-Nó không tin PASS của stage 06.
+Đúng:
+toàn bộ thông tin di truyền của cây — tức genome → sau đó dùng genome.
 
-Pipeline chỉ hoàn thành khi:
-- unresolved = 0
-- unresolved_dependencies = 0
-- confusable_pairs_unresolved = 0
+## Blind Knowledge Discovery
 
-## No Unknowns in Definitions
+Đây là lớp chống false PASS.
 
-Rule cứng:
+05B và 10B chỉ đọc:
+- audience profile;
+- current script;
+- shared protocol.
 
-Một khái niệm KHÔNG được coi là đã giải thích nếu phần giải thích của nó cần một khái niệm khác chưa được hiểu.
+Chúng KHÔNG đọc Knowledge Graph trước.
 
-Ví dụ tốt hơn:
+Sau đó stage closure mới reconcile blind inventory với graph.
 
-Lactose là loại đường tự nhiên có trong sữa. Ruột non tạo lactase, một chất giúp cơ thể xử lý loại đường này.
+Nhờ vậy nếu final script có:
+- enzyme;
+- áp lực chọn lọc;
+- silica;
+- marijuana;
 
-Thứ tự:
-sữa + đường → lactose → lactase
+mà graph cũ quên, blind auditor vẫn phải phát hiện.
 
-Nếu video thực sự cần khái niệm “enzyme”, pipeline sẽ giới thiệu và resolve nó riêng. Nếu không cần, không bắt khán giả học thêm một label.
+## Final Knowledge Gate
 
-## Contextual Familiarity
+Pipeline chỉ PASS khi tất cả bằng 0:
+- core_entities_ungrounded
+- unmapped_aliases
+- missing_discovered_nodes
+- unresolved_concepts
+- unresolved_dependencies
+- unresolved_relations
+- temporal_first_use_failures
+- confusable_pairs_unresolved
 
-Pipeline phân biệt:
-- người xem có quen với từ này không
-- người xem có hiểu vai trò của nó trong cơ chế hiện tại không
-
-Ví dụ canxi có thể quen trong dinh dưỡng, nhưng vai trò của calcium trong quá trình hòa tan và tái kết tinh trong khe bê tông có thể vẫn là khái niệm mới.
-
-## Necessity Test
-
-Khi gặp khái niệm mới, pipeline hỏi:
-
-Người xem có cần biết technical label này để hiểu phần sau không?
-
-Nếu có:
-- EXPLAIN
-
-Nếu ý cần nhưng tên không cần:
-- REPLACE bằng plain language
-
-Nếu cả chi tiết lẫn tên không cần:
-- REMOVE
-
-Mục tiêu không phải giải thích mọi từ. Mục tiêu là không để concept quan trọng bị treo.
-
-## Confusable Concepts
-
-Nếu hai khái niệm dễ nhầm, pipeline bắt buộc phân biệt vai trò.
-
-Ví dụ:
-- lactose = loại đường trong sữa
-- lactase = enzyme giúp phân giải lactose
-
-Field confusable_with tạo nghĩa vụ biên tập, không chỉ là metadata.
-
-## Các stage chính
-
-### 00 — Orchestrator
-
-Chuẩn hóa brief, tạo project, điều phối stage, route ngược khi QC fail.
-
-### 01 — Angle Engine
-
-Chọn central question, contradiction, transformation và payoff.
-
-### 02 — Deep Research
-
-Thu thập:
-- facts
-- sources
-- visual facts
-- human actions
-- transformations
-- uncertainty
-- disputed claims
-
-Không viết narration.
-
-### 03 — Claim Map + Initial Concept Graph
-
-Claim Map kiểm soát factual certainty.
-
-Concept Graph tạo dependency model ban đầu.
-
-### 04 — Story Architect
-
-Biến research thành narrative beats.
-
-Nếu concept A phụ thuộc B, B phải được hiểu trước hoặc A phải được rewrite.
-
-### 05 — Visual Narrative Writer
-
-Viết narration có khả năng hình dung.
-
-Sau khi viết phải scan actual draft và tạo 05_concept_delta.json.
-
-### 06 — Audience + Concept Closure Editor
-
-Đây là closure gate chính.
-
-Stage này scan script từ đầu, không chỉ check concept đã track.
-
-Nó recursively resolve dependencies cho đến khi:
-- unresolved = 0
-- unresolved_dependencies = 0
-- confusable_pairs_unresolved = 0
-
-Output:
-- 06_audience_report.md
-- 06_concept_closure.json
-- 06_script_accessible.md
-
-### 07 — Retention Editor
-
-Sửa retention nhưng không được sinh jargon mới mà không track.
-
-Output thêm:
-- 07_concept_delta.json
-
-### 08 — Anti-AI Editor
-
-Làm narration tự nhiên theo ngôn ngữ đầu ra.
-
-Không được biến plain language thành technical language vô tình.
-
-Output thêm:
-- 08_concept_delta.json
-
-### 09 — Fact Checker
-
-Fact-check toàn factual substance.
-
-Nếu correction sinh concept mới:
-- ghi 09_concept_delta.json
-- final closure phải xử lý
-
-### 10 — Final Story Editor
-
-QC toàn bài và scan concept từ chính final candidate.
-
-Output:
-- 10_final_story_report.md
-- 10_concept_closure.json
-- 10_final_script.md
-
-## Cấu trúc project
+## Artifact chính
 
 projects/<project_slug>/
 
@@ -232,32 +138,36 @@ projects/<project_slug>/
 - 01_angle.md
 - 02_research_notes.md
 - 02_sources.json
+- 03_core_subject.json
 - 03_claim_map.json
-- 03_concept_graph.json
+- 03_knowledge_graph.json
 - 04_story_architecture.md
 - 05_script_draft.md
-- 05_concept_delta.json
+- 05_blind_knowledge_inventory.json
 - 06_audience_report.md
-- 06_concept_closure.json
+- 06_knowledge_closure.json
 - 06_script_accessible.md
 - 07_retention_report.md
-- 07_concept_delta.json
+- 07_knowledge_delta.json
 - 07_script_retention_edit.md
 - 08_anti_ai_report.md
-- 08_concept_delta.json
+- 08_knowledge_delta.json
 - 08_script_natural.md
 - 09_fact_check.md
-- 09_concept_delta.json
+- 09_knowledge_delta.json
 - 09_script_fact_checked.md
+- 10_story_report_draft.md
+- 10_final_candidate.md
+- 10b_blind_knowledge_inventory.json
 - 10_final_story_report.md
-- 10_concept_closure.json
+- 10_knowledge_closure.json
 - 10_final_script.md
 
 ## Cách sử dụng trên ChatGPT Web
 
-### Prompt mẫu — copy toàn bộ block bên dưới
+### Prompt mẫu — copy toàn bộ block
 
-```text
+~~~text
 @GitHub làm việc với repo cuongtobi/gpt_ytb_script
 @Tìm kiếm trên mạng
 
@@ -272,7 +182,7 @@ hook_mode: contradiction
 Đọc AGENTS.md và prompts/00_orchestrator.md.
 Chạy toàn bộ pipeline.
 Tạo một project mới trong projects/ và lưu mọi artifact vào đó.
-```
+~~~
 
 ## Input
 
@@ -289,64 +199,17 @@ Tùy chọn:
 - technical_level: accessible
 - tone: conversational_documentary
 
-## Angle mode
-
-auto:
-Pipeline tự chọn angle và chạy end-to-end.
-
-user_selected:
-Angle Engine tạo candidates rồi dừng để người dùng chọn.
-
-## Chạy lại một stage
-
-Ví dụ:
-
-Đọc projects/<project_slug>/.
-Chạy lại 07_retention_editor.
-Sau đó chạy Concept Delta và các stage phụ thuộc.
-Nếu delta sinh UNRESOLVED concept, route lại qua stage 06 trước khi tiếp tục.
-
 ## Output dùng để sản xuất
 
 projects/<project_slug>/10_final_script.md
 
-Đây là narration script.
-
-Không chứa:
-- storyboard
-- shot list
-- image prompt
-- camera instruction
-- B-roll instruction
-- visual timeline
-
-## Quality gates
-
-Pipeline chỉ hoàn thành khi:
-- factual claims quan trọng có nguồn
-- stage 09 fact check PASS
-- final concept closure PASS
-- unresolved concepts = 0
-- unresolved dependencies = 0
-- unresolved confusable pairs = 0
-- central question được payoff
-- không scope drift nghiêm trọng
-- anti-AI/natural-language pass
-- final duration hợp lý
-- Visual Storytelling Score >= 8.0/10
+Không chứa storyboard, shot list, image prompt, B-roll direction, camera direction hoặc visual timeline.
 
 ## Shared protocol
 
-Chi tiết thuật toán concept closure nằm tại:
+Source of truth cho knowledge grounding:
 
-prompts/CONCEPT_CLOSURE_PROTOCOL.md
+prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
 
-Đây là source of truth chung cho các stage xử lý concept.
-
-## Triết lý
-
-Research tốt nhưng thiếu Story Architect dễ trở thành Wikipedia đọc thành tiếng.
-
-Story hay nhưng glossary tĩnh vẫn có thể làm khán giả rơi khỏi câu chuyện khi explanation sinh ra explanation mới.
-
-Pipeline hiện dùng dynamic discovery + dependency graph + recursive closure để đảm bảo khán giả không cần biết một concept trước khi script thực sự dạy họ đủ để hiểu nó.
+Legacy:
+prompts/CONCEPT_CLOSURE_PROTOCOL.md chỉ dành cho project v2 cũ.

@@ -1,150 +1,95 @@
-# 06 — AUDIENCE & CONCEPT CLOSURE EDITOR
+# 06 — AUDIENCE KNOWLEDGE CLOSURE EDITOR
 
 ## Role
 
-Edit the current draft for a general audience listening once in real time and force recursive concept closure.
-
-Your key question is not:
-Were tracked terms explained?
-
-It is:
-Does the current script contain ANY meaningful concept or contextual role that the target audience must understand but does not?
-
-Read and obey:
-- prompts/CONCEPT_CLOSURE_PROTOCOL.md
-
-This stage is the primary concept-closure gate.
-
-## Inputs
+Reconcile the actual draft with the initial graph and independent blind inventory.
 
 Read:
 - 00_project_brief.yaml
+- 03_core_subject.json
 - 03_claim_map.json
-- 03_concept_graph.json
+- 03_knowledge_graph.json
 - 04_story_architecture.md
 - 05_script_draft.md
-- 05_concept_delta.json
+- 05_blind_knowledge_inventory.json
+- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
 
-# Phase 1 — Full Script Concept Discovery
+## Phase 1 — Missing-node reconciliation
 
-Scan 05_script_draft.md from scratch.
+Every candidate from blind inventory must be:
+- mapped to an existing graph node;
+- added as a new node;
+- or explicitly classified as ordinary vocabulary that requires no knowledge node.
 
-Do NOT limit discovery to tracked concepts.
+Do not silently ignore blind-discovered candidates.
 
-Extract concepts that are:
-- unfamiliar
-- technical
-- abstract
-- used in a specialized contextual role
-- likely to be confused with another concept
-- required to understand a causal mechanism
+Record missing_discovered_nodes.
 
-Merge these with the Initial Concept Graph.
-
-# Phase 2 — Recursive Dependency Resolution
-
-For every concept in the actual script:
-
-1. classify state: KNOWN | EXPLAINED | UNRESOLVED | REMOVED
-2. locate first use
-3. if explained, extract the concepts required to understand that explanation
-4. resolve every dependency recursively
-5. apply the necessity test:
-   - EXPLAIN
-   - REPLACE
-   - REMOVE
-6. repeat the scan until no new unresolved dependency appears
-
-Hard rule:
-No Unknowns in Definitions.
-
-A parent concept cannot be EXPLAINED while any required dependency remains UNRESOLVED.
-
-# Phase 3 — Confusable-pair audit
-
-Use both:
-- confusable_with metadata
-- pairs discovered in the actual script
-
-If both concepts appear and could be confused:
-- explicitly distinguish their roles at first introduction
-- do not rely on spelling differences alone
-
-# Phase 4 — Contextual familiarity audit
-
-Ask not only:
-Does the audience know this word?
-
-Also ask:
-Does the audience understand the role this concept plays in THIS explanation?
-
-If label familiarity is high but role familiarity is low:
-- explain the role
-- replace with concrete wording
-- or remove
-
-# Phase 5 — Weighted concept-load audit
-
-Review approximate 30 to 60 second listening blocks.
-
-Use the shared weighted heuristic:
-- simple new concept: +1
-- technical or abstract: +2
-- confusable: +1
-- dependency depth greater than 1: +1
-- specialized role: +1
-
-Use judgment, not a mechanical score target.
-
-Reduce load by:
-- sequencing dependencies earlier
-- replacing labels with plain language
-- removing unnecessary names
-- splitting mechanisms across story beats
-
-# Phase 6 — Listening test
+## Phase 2 — Core Subject Grounding
 
 Check:
-- sentences too dense for audio
-- acronym or name stacks
-- nested definitions
-- definitions that require another definition
-- unclear antecedents
-- abstract nouns replacing actions
+- what kind of thing the core subject is;
+- story-relevant parts/properties;
+- alias relationships;
+- required component relationships.
 
-Preserve visual storytelling while simplifying.
+The topic label itself does not count as grounding.
 
-## Closure requirement
+## Phase 3 — Alias and relation closure
 
-Stage 06 may only PASS when the revised script reaches a fixed point:
+For every retained alias:
+- verify relationship is clear before free reuse.
 
-- unresolved = 0
-- unresolved_dependencies = 0
-- confusable_pairs_unresolved = 0
+For every required relation:
+- verify the viewer can understand it at the first claim that relies on it.
 
-If a technical label is unnecessary, REMOVE or REPLACE it rather than teaching it.
+## Phase 4 — Recursive dependency closure
+
+For each node:
+- validate dependencies;
+- reject self-declared BASELINE_KNOWN nodes not supported by audience baseline;
+- replace/remove unnecessary jargon;
+- recurse until all required dependencies terminate at baseline-known or earlier-grounded nodes.
+
+## Phase 5 — Temporal closure
+
+For each unfamiliar required node:
+- identify actual first use;
+- identify grounding position.
+
+FAIL if grounding happens after first use.
+
+Repair by:
+- moving grounding earlier;
+- grounding inline;
+- replacing the label;
+- removing it.
+
+## Phase 6 — Confusable labels
+
+Resolve all required distinctions at first introduction.
 
 ## Outputs
 
 Write:
 - 06_audience_report.md
-- 06_concept_closure.json
+- 06_knowledge_closure.json
 - 06_script_accessible.md
 
-06_concept_closure.json is the resolved graph snapshot for downstream editors. It must include:
-- concepts_detected
-- known
-- explained
-- removed
-- unresolved
-- concepts: every current concept node with state, first_use, label_familiarity, role_familiarity, definition, dependencies, necessity and confusable_with
-- dependency_edges
+06_knowledge_closure.json must include:
+- core_entities_ungrounded
+- unmapped_aliases
+- missing_discovered_nodes
+- unresolved_concepts
 - unresolved_dependencies
+- unresolved_relations
+- temporal_first_use_failures
 - confusable_pairs_unresolved
-- new_concepts_discovered_after_stage_03
+- nodes
+- relations
+- first_use_timeline
+- blind_inventory_reconciliation
 - closure_iterations
 - status
 
-The revised script must be complete, not a diff.
-
-Do not add production directions.
+PASS only if all eight failure counts are zero.

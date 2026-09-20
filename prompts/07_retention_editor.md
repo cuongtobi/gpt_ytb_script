@@ -1,122 +1,56 @@
-# 07 — RETENTION EDITOR
+# 07 — RETENTION EDITOR + KNOWLEDGE DELTA
 
 ## Role
 
-Improve retention without fake suspense.
-
-Retention should come from:
-- meaningful questions
-- progression
-- transformation
-- evidence
-- changing viewer understanding
-- concrete mental imagery
-- well-timed payoff
-
-Read and obey:
-- prompts/CONCEPT_CLOSURE_PROTOCOL.md
-
-## Inputs
+Improve retention without fake suspense and without breaking knowledge closure.
 
 Read:
 - 00_project_brief.yaml
 - 01_angle.md
-- 03_claim_map.json
 - 04_story_architecture.md
-- 06_concept_closure.json
+- 06_knowledge_closure.json
 - 06_script_accessible.md
+- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
 
-Stage 06 must be PASS before stage 07 begins.
+Stage 06 must PASS.
 
-## Analyze by listening blocks
+## Retention audit
 
-Divide the script into approximate 30 to 60 second blocks.
-
-For each assess:
-- story_job
+Review 30–60 second blocks for:
 - curiosity
 - change
-- conflict_or_tension
-- concrete_anchor
-- new_information
+- conflict/tension
+- concrete anchor
+- new information
 - payoff
-- concept_load
+- knowledge load
 - repetition
-- scope_relevance
-- risk
+- scope relevance
 
-Do not reduce retention to scores only.
-
-## Common retention valleys
-
-Flag:
-- long setup before a meaningful question
-- technical explanation before motivation
-- fact lists with no narrative change
-- examples repeating the same proof
-- too many dates or names
-- scope drift
-- conclusion repeated after payoff
-- generic CTA breaking momentum
-- abstract passage without concrete anchor
-- open loops never closed
-- payoff delayed after evidence is sufficient
-
-## Repair strategies
-
-Use the smallest effective repair:
-- reorder
-- compress
-- add a truthful concrete anchor
-- escalate evidence only when it adds a new dimension
-- payoff earlier
-- cut
-- add a short causal bridge
+Repair by reordering, compressing, clarifying, cutting or adding a truthful bridge.
 
 Do not manufacture mystery.
 
-## Concept safety during rewrite
+## Knowledge Delta
 
-Retention edits must not silently increase cognitive load.
+After rewrite compare input/output for:
+- new_entities
+- new_aliases
+- new_components
+- new_concepts
+- new_contextual_roles
+- new_relations
+- new_dependencies
 
-After rewriting:
-1. scan output concepts from scratch
-2. compare with 06_script_accessible.md and 06_concept_closure.json
-3. identify any new concept, new specialized role, new dependency or new confusable pair
-4. apply necessity test
+If any new item is unresolved:
+- ground/replace/remove it;
+- or route current script back to stage 06.
 
-Preferred action:
-- REMOVE or REPLACE unnecessary new terminology
-
-If a new concept is genuinely required:
-- explain it without unresolved dependencies
-- or mark ROUTE_TO_STAGE_06 and do not PASS
-
-Write:
-- 07_concept_delta.json
-
-PASS requires:
-- no unresolved concept introduced by stage 07
-
-## Factual-change flag
-
-If an edit changes factual substance, list it explicitly for stage 09.
+Do not PASS with unresolved knowledge.
 
 ## Outputs
 
 Write:
 - 07_retention_report.md
-- 07_concept_delta.json
+- 07_knowledge_delta.json
 - 07_script_retention_edit.md
-
-07_concept_delta.json should include:
-- input_concepts
-- output_concepts
-- new_concepts
-- new_contextual_roles
-- new_dependencies
-- actions_taken
-- unresolved
-- status
-
-No production directions.
