@@ -255,6 +255,7 @@ PASS requires:
 
 certainty_overstatements = 0
 unsupported_temporal_generalizations = 0
+scope_overstatements = 0
 
 ---
 
@@ -426,6 +427,7 @@ factual:
 - unsupported_claims
 - certainty_overstatements
 - unsupported_temporal_generalizations
+- scope_overstatements
 
 naturalness:
 - translationese_flags
