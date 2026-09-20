@@ -172,3 +172,9 @@ proof:
 - project_status.
 
 PASS_VERIFIED only when every hard gate passes and isolation is VERIFIED.
+
+## Post-integrity TTS export
+
+After 10D completes, Stage 11 may derive `final.txt` from the exact released `10_final_script.md`.
+This is a presentation-only publication transform and does not change content-integrity status.
+If Stage 11 would require paraphrasing, translation, factual correction, or claim-strength changes, do not perform them there; return upstream, update the final script, and rerun the integrity cycle.
