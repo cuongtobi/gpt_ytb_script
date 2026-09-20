@@ -37,6 +37,7 @@ Read:
 → 10C Final Reconciliation
 → Artifact Manifest
 → 10D Full Integrity Proof Verifier
+→ 11 TTS Export
 → FINAL
 
 ## Creative vs integrity lanes
@@ -135,6 +136,10 @@ segmenter_version: 3.3.0
 artifact_manifest.json
 10d_proof_verification.json
 
+Post-10D publication artifacts:
+final.txt
+11_tts_export.json
+
 ## Completion
 
 PASS_VERIFIED requires:
@@ -156,3 +161,10 @@ If content passes but isolation cannot be verified:
 project_status = CONTENT_PASS_ISOLATION_NOT_VERIFIED
 
 Do not call that PASS_VERIFIED.
+
+## Stage 11 publication rule
+
+After 10D returns content PASS, run `prompts/11_tts_export.md` / `tools/export_tts_text.py`.
+
+`final.txt` is the direct TTS deliverable for vi/en/de/fr/es/ko/ja.
+It is derived from `10_final_script.md` and must never become a new factual source of truth.
