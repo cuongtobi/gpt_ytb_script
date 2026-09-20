@@ -85,7 +85,7 @@ Nói cách khác, sông không cần phải có vị mặn như biển để v�
 
 Mỗi lít nước sông có thể chứa ít hơn rất nhiều so với nước biển, nhưng sông chảy liên tục, từ rất nhiều vùng đất, qua thời gian cực dài.
 
-Cơ quan Khí quyển và Đại dương Quốc gia Hoa Kỳ (NOAA) ước tính các con sông trên toàn thế giới mang hàng tỷ tấn muối hòa tan ra biển mỗi năm.
+Một cơ quan khoa học của Hoa Kỳ ước tính các con sông trên toàn thế giới mang hàng tỷ tấn muối hòa tan ra biển mỗi năm.
 
 Đại dương giống như một bể chứa khổng lồ nhận vật chất từ đất liền trong thời gian rất dài.
 

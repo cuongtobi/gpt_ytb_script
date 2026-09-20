@@ -121,7 +121,7 @@
       },
       "lexical_candidate_ids": [
         "F001",
-        "F007"
+        "F006"
       ]
     },
     {
@@ -699,7 +699,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -979,8 +979,8 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F006",
-        "F007"
+        "F005",
+        "F006"
       ]
     },
     {
@@ -1070,7 +1070,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -1385,9 +1385,7 @@
       "sentence_id": "S0046",
       "forward_review": {
         "technical_scientific": [],
-        "acronyms_symbols": [
-          "NOAA"
-        ],
+        "acronyms_symbols": [],
         "abstract_processes": [
           "hòa tan"
         ],
@@ -1401,9 +1399,7 @@
       },
       "reverse_review": {
         "technical_scientific": [],
-        "acronyms_symbols": [
-          "NOAA"
-        ],
+        "acronyms_symbols": [],
         "abstract_processes": [
           "hòa tan"
         ],
@@ -1416,8 +1412,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F002",
-        "F005"
+        "F002"
       ]
     },
     {
@@ -1479,7 +1474,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -1549,7 +1544,7 @@
       "lexical_candidate_ids": [
         "F002",
         "F004",
-        "F007"
+        "F006"
       ]
     },
     {
@@ -1762,7 +1757,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F006"
+        "F005"
       ]
     },
     {
@@ -1800,8 +1795,8 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F006",
-        "F007"
+        "F005",
+        "F006"
       ]
     },
     {
@@ -1910,7 +1905,7 @@
       "lexical_candidate_ids": [
         "F002",
         "F004",
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2028,7 +2023,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2205,7 +2200,7 @@
       },
       "lexical_candidate_ids": [
         "F002",
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2306,7 +2301,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2452,7 +2447,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2592,7 +2587,7 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": [
-        "F007"
+        "F006"
       ]
     },
     {
@@ -2725,15 +2720,6 @@
     },
     {
       "candidate_id": "F005",
-      "exact_phrase": "NOAA",
-      "first_use_sentence_id": "S0046",
-      "candidate_type": "INSTITUTION",
-      "reason_flagged": "knowledge-bearing phrase",
-      "discovered_by": "both",
-      "category": "acronyms_symbols"
-    },
-    {
-      "candidate_id": "F006",
       "exact_phrase": "độ mặn",
       "first_use_sentence_id": "S0032",
       "candidate_type": "MEASUREMENT",
@@ -2742,7 +2728,7 @@
       "category": "measurements_quantities"
     },
     {
-      "candidate_id": "F007",
+      "candidate_id": "F006",
       "exact_phrase": "bốc hơi",
       "first_use_sentence_id": "S0004",
       "candidate_type": "PROCESS",
@@ -2775,18 +2761,12 @@
     {
       "candidate_id": "F006",
       "classification": "likely_knowledge_bearing"
-    },
-    {
-      "candidate_id": "F007",
-      "classification": "likely_knowledge_bearing"
     }
   ],
   "core_entity_candidates": [],
   "alias_candidates": [],
   "relationship_candidates": [],
-  "specialized_role_candidates": [
-    "F004"
-  ],
+  "specialized_role_candidates": [],
   "coverage_proof": {
     "missing_sentence_ids": [],
     "extra_sentence_ids": [],

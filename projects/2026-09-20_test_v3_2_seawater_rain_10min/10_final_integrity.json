@@ -49,8 +49,7 @@
       "F003",
       "F004",
       "F005",
-      "F006",
-      "F007"
+      "F006"
     ],
     "dispositions": {
       "F001": {
@@ -66,9 +65,6 @@
         "status": "GROUNDED"
       },
       "F005": {
-        "status": "GROUNDED"
-      },
-      "F006": {
         "status": "BASELINE_KNOWN",
         "baseline_provenance": {
           "baseline_source_type": "assumed_known",
@@ -76,7 +72,7 @@
           "canonical_mapping_if_any": null
         }
       },
-      "F007": {
+      "F006": {
         "status": "BASELINE_KNOWN",
         "baseline_provenance": {
           "baseline_source_type": "assumed_known",
@@ -120,13 +116,6 @@
     },
     {
       "candidate_id": "F005",
-      "first_use_sentence_id": "S0046",
-      "grounding_mode": "INLINE",
-      "grounding_sentence_id": "S0046",
-      "ordering_valid": true
-    },
-    {
-      "candidate_id": "F006",
       "first_use_sentence_id": "S0032",
       "grounding_mode": "BASELINE",
       "baseline_provenance": {
@@ -137,7 +126,7 @@
       "ordering_valid": true
     },
     {
-      "candidate_id": "F007",
+      "candidate_id": "F006",
       "first_use_sentence_id": "S0004",
       "grounding_mode": "BASELINE",
       "baseline_provenance": {
