@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Past, Present, and Future of Maize Improvement",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7747985/"
+    },
+    {
+      "id": "S2",
+      "title": "Genetic, evolutionary and plant breeding insights from the domestication of maize",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4373674/"
+    },
+    {
+      "id": "S3",
+      "title": "Archaeological evidence of teosinte domestication from Guilá Naquitz, Oaxaca",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC29389/"
+    },
+    {
+      "id": "S4",
+      "title": "Archaeological Central American maize genomes suggest ancient gene flow from South America",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33318213/"
+    }
+  ]
+}
