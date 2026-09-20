@@ -60,7 +60,33 @@ artifact_manifest.json records pipeline/schema versions, project inputs/outputs 
 → 10C reconciliation
 → artifact manifest
 → 10D deterministic full-integrity verification
+→ 11 deterministic TTS export
 → final
+
+
+## TTS-ready final export
+
+After 10D passes content integrity:
+
+~~~bash
+python tools/export_tts_text.py <project>
+python tools/validate_tts_export.py <project>
+~~~
+
+This creates:
+- \`final.txt\` — plain UTF-8 narration ready to paste into a TTS engine;
+- \`11_tts_export.json\` — hashes, locale profile, transformations and validation metadata.
+
+Supported profiles:
+- Vietnamese (vi)
+- English (en)
+- German (de)
+- French (fr)
+- Spanish (es)
+- Korean (ko)
+- Japanese (ja)
+
+Stage 11 removes non-spoken Markdown/metadata and expands only safe written units such as percentages and Celsius/Fahrenheit. It does not rewrite factual prose or invent phonetic spellings.
 
 ## Final statuses
 
