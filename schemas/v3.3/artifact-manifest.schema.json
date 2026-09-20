@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"artifact-manifest.schema.json",
+  "type":"object",
+  "required":["pipeline_version","artifact_schema_version","segmenter_version","inputs","outputs","hashes"],
+  "properties":{
+    "pipeline_version":{"const":"3.3"},
+    "artifact_schema_version":{"const":"3.3.0"},
+    "segmenter_version":{"const":"3.3.0"},
+    "inputs":{"type":"object"},
+    "outputs":{"type":"object"},
+    "hashes":{
+      "type":"object",
+      "minProperties":1,
+      "additionalProperties":{"type":"string","pattern":"^[0-9a-f]{64}$"}
+    }
+  }
+}
