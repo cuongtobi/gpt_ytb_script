@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "label": "dòng điện",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "mức điện",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "nối với đất",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "điện thế",
+      "state": "REMOVED"
+    },
+    {
+      "label": "điện trở",
+      "state": "REMOVED"
+    },
+    {
+      "label": "sụt áp",
+      "state": "REMOVED"
+    }
+  ],
+  "status": "PASS"
+}

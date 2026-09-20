@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "S1",
+      "title": "OSHA Electrical Hazards",
+      "url": "https://www.osha.gov/etools/poultry-processing/plant-wide-hazards/electrical-hazards",
+      "used_for": [
+        "body part of circuit"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "DOE Avian Protection / transmission-line electrocution material",
+      "url": "https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1644-FEA-2009.pdf",
+      "used_for": [
+        "bird bridges conductors or ground"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Why don't birds get electrocuted while perching on power lines?",
+      "url": "https://www.sciencefocus.com/science/why-dont-birds-get-electrocuted-while-perching-on-power-lines",
+      "used_for": [
+        "potential difference explanation"
+      ]
+    }
+  ]
+}

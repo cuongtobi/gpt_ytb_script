@@ -1,0 +1,9 @@
+{
+  "claims": [
+    "shock requires current path through body",
+    "single wire gives tiny body difference",
+    "bridging conductors/ground can electrocute",
+    "spacing explains lower electrocution risk on some transmission lines"
+  ],
+  "status": "PASS_AFTER_RECONCILIATION"
+}

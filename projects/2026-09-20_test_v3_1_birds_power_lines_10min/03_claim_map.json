@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "safe": "Electric shock requires current through the body as part of a circuit.",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "id": "C2",
+      "safe": "Bird on one conductor usually has only a small difference between feet.",
+      "sources": [
+        "S3"
+      ]
+    },
+    {
+      "id": "C3",
+      "safe": "Bird can be electrocuted if it bridges energized parts or energized-to-grounded hardware.",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "id": "C4",
+      "safe": "Some high-voltage transmission configurations electrocute fewer birds because of wider spacing, not because high voltage is safe.",
+      "sources": [
+        "S2"
+      ]
+    }
+  ]
+}

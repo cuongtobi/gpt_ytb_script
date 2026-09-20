@@ -1,0 +1,12 @@
+{
+  "core_entities_ungrounded": 0,
+  "unmapped_aliases": 0,
+  "missing_discovered_nodes": 0,
+  "unresolved_concepts": 0,
+  "unresolved_dependencies": 0,
+  "unresolved_relations": 0,
+  "temporal_first_use_failures": 0,
+  "confusable_pairs_unresolved": 0,
+  "silently_ignored_candidates": 0,
+  "status": "PASS"
+}

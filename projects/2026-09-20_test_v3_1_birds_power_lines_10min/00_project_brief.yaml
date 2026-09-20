@@ -1,0 +1,16 @@
+project:
+  topic: "Vì sao chim đậu trên dây điện mà không bị giật?"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 10
+  target_word_range: "1400-1600"
+  audience: "general"
+  technical_level: "accessible"
+pipeline:
+  version: "3.1"
+  status: "complete"
+test_focus:
+  - specialized common words
+  - causal mechanism grounding
+  - misconception correction
+  - electrical safety claim strength

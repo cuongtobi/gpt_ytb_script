@@ -1,0 +1,19 @@
+{
+  "core_entities": [
+    {
+      "audience_name": "chim đậu dây điện",
+      "minimum_grounding": [
+        "bird is not immune to electricity",
+        "single-wire contact usually does not create a large difference across the body"
+      ]
+    }
+  ],
+  "entity_label_policy": {
+    "primary_spoken_label": "mức điện",
+    "removed_aliases": [
+      "điện thế",
+      "sụt áp"
+    ]
+  },
+  "status": "PASS"
+}
