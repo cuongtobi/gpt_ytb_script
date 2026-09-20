@@ -1,0 +1,31 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"knowledge-inventory.schema.json",
+  "type":"object",
+  "required":["content_address","sentence_ledger","lexical_candidates","coverage_proof","status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "sentence_ledger":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["sentence_id","forward_review","reverse_review","lexical_candidate_ids"],
+        "properties":{
+          "sentence_id":{"type":"string","pattern":"^S[0-9]{4,}$"},
+          "forward_review":{"type":"object"},
+          "reverse_review":{"type":"object"},
+          "lexical_candidate_ids":{"type":"array","items":{"type":"string"}}
+        }
+      }
+    },
+    "lexical_candidates":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["candidate_id","exact_phrase","first_use_sentence_id","candidate_type","discovered_by"]
+      }
+    },
+    "coverage_proof":{"type":"object"},
+    "status":{"type":"string"}
+  }
+}
