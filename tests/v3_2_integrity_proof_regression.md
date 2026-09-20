@@ -1,86 +1,55 @@
 # v3.2 Integrity Proof Regression
 
-Use the three v3.1 10-minute fixtures as acceptance tests.
+Use the three v3.1 10-minute fixtures.
 
-## Fixture A — Birds / power lines
+## A — Birds / power lines
 
-v3.1 failure:
-- final lexical audit missed "điện áp", "đường dây truyền tải", "đường phân phối".
+Prior misses:
+- điện áp
+- đường dây truyền tải
+- đường phân phối
 
-v3.2 acceptance:
-- every canonical sentence has a ledger row;
-- those phrases are either candidates or explicitly ordinary with candidate-level accounting;
-- no missing sentence IDs;
-- conservation equation valid.
+v3.2:
+- every sentence has forward + reverse category matrices;
+- candidate union is reconciled;
+- no missing sentence row;
+- 10D validates matrix shape and candidate accounting.
 
-## Fixture B — Maize domestication
+## B — Maize
 
-v3.1 failure:
-- "dữ liệu di truyền" first used before grounding;
-- "quần thể" omitted from final audit.
+Prior failures:
+- dữ liệu di truyền used before grounding
+- quần thể omitted
 
-v3.2 acceptance:
-- temporal proof shows first_use_sentence_id and grounding coordinate;
-- if grounding is later, FAIL until repaired;
-- "quần thể" cannot disappear without disposition.
+v3.2:
+- 10D recomputes exact first occurrence of each candidate phrase;
+- declared first-use ID must equal actual first occurrence;
+- temporal ordering then uses actual first occurrence.
 
-## Fixture C — Seawater / rain
+## C — Seawater / rain
 
-v3.1 failure:
-- "phong hóa" and "khí quyển" were discovered but disappeared in 10C accounting.
+Prior reconciliation loss:
+- phong hóa
+- khí quyển
 
-v3.2 acceptance:
-- both candidates appear in candidate conservation;
-- BASELINE_KNOWN requires exact provenance;
-- otherwise GROUNDED/REPLACED/REMOVED/UNRESOLVED;
-- equation must balance.
+v3.2:
+- 10D takes candidate IDs directly from 10B1;
+- disposition IDs must match exactly;
+- BASELINE_KNOWN requires exact provenance.
 
-## Isolation test
+## Isolation
 
-If all 10B audits are run in the same conversation/context:
-
-Expected:
+Same-context audits:
 isolation_status = ISOLATION_NOT_VERIFIED
 
-Even if content passes:
+Even when all content proofs pass:
 project_status = CONTENT_PASS_ISOLATION_NOT_VERIFIED
 
-PASS_VERIFIED is forbidden.
+PASS_VERIFIED requires runtime-attested distinct fresh executions.
 
-## Conservation invariant
+## Writer quality
 
-For N discovered candidate IDs:
+Detection is not definition.
 
-N
-=
-BASELINE_KNOWN
-+ GROUNDED
-+ REPLACED
-+ REMOVED
-+ UNRESOLVED
-
-No missing IDs.
-No duplicate dispositions.
-
-## Temporal invariant
-
-For every retained unfamiliar candidate:
-
-PRIOR:
-grounding_sentence < first_use_sentence
-
-INLINE:
-grounding_sentence == first_use_sentence
-
-BASELINE:
-strict provenance required
-
-REPLACED/REMOVED:
-label absent from final text.
-
-## Writer-quality invariant
-
-Do not add definitions merely to satisfy the audit.
-
-Repairs should prefer:
+Prefer:
 REMOVE → REPLACE → REORDER → minimal grounding.

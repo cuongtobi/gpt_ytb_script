@@ -2,10 +2,7 @@
 
 ## Independence
 
-Must not read:
-- 03_core_subject.json
-- 03_knowledge_graph.json
-- prior closure/delta artifacts
+Must not read graph/closure/delta artifacts.
 
 Allowed:
 - 00_project_brief.yaml
@@ -13,64 +10,71 @@ Allowed:
 - 05_draft_sentence_index.json
 - shared protocols
 
-## PASS A — Lexical sentence ledger
+## PASS A1 — Forward lexical review
 
-For EVERY sentence_id in 05_draft_sentence_index.json create exactly one ledger row.
+Process canonical sentence IDs from first to last.
 
-Row:
-- sentence_id
-- lexical_candidate_ids: []
+For EVERY sentence create a review with all category keys:
+- technical_scientific
+- acronyms_symbols
+- abstract_processes
+- classifications
+- evidence_methods
+- measurements_quantities
+- historical_institutional
+- specialized_common_words
+- aliases_relations
+- mechanisms
 
-A zero-candidate row is required when no candidate exists.
+List phrases considered under each category.
 
-Candidate triggers include:
-- scientific/technical label
-- acronym
-- abstract process
-- classification
-- evidence method
-- measurement
-- historical/institutional label
-- ordinary word in specialized role
-- mechanism
-- alias
-- relationship the audience may need
+## PASS A2 — Reverse lexical review
+
+Process the same sentence IDs from last to first.
+
+Do not merely copy A1.
+Look specifically for phrases A1 may have normalized away or treated as ordinary.
+
+Use the same complete category matrix.
+
+## Candidate union
+
+For each sentence:
+lexical_candidate_ids = union(A1 candidates, A2 candidates)
 
 Candidate record:
 - candidate_id
-- first_use_sentence_id
 - exact_phrase
+- first_use_sentence_id
 - candidate_type
 - reason_flagged
+- discovered_by: forward | reverse | both
 
 ## Coverage proof
 
-Record:
-- index_sentence_ids
-- ledger_sentence_ids
-- missing_sentence_ids
-- extra_sentence_ids
-- duplicate_sentence_ids
-- coverage_ok
+There must be exactly one final ledger row for every canonical sentence ID.
 
-If coverage_ok != true:
-FAIL immediately.
+Each row contains:
+- sentence_id
+- forward_review
+- reverse_review
+- lexical_candidate_ids
 
-## PASS B — Semantic audit
+Missing sentence or missing category key = FAIL.
 
-Every candidate ID must be crosswalked as one of:
+## PASS B — Semantic crosswalk
+
+Every candidate ID must appear exactly once in semantic crosswalk:
 - likely_knowledge_bearing
 - likely_ordinary_vocabulary
 - duplicate_of_candidate
 - alias_candidate
 - specialized_role_candidate
 
-Do not assign final closure disposition here.
+Do not assign final disposition here.
 
 ## Outputs
 
 Write:
 - 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
-
-Do not claim discovery PASS without the sentence-ID coverage proof.

@@ -14,46 +14,65 @@ Allowed:
 Forbidden:
 - graph
 - closure
-- prune
+- terminology prune
 - knowledge deltas
-- previous knowledge inventories
+- prior knowledge inventories
 - 10B2/10B3 outputs
 
-## Sentence ledger
+## PASS A1 — Forward review
 
-For every sentence_id in 10_final_sentence_index.json create one row:
-- sentence_id
-- lexical_candidate_ids: []
+Read canonical sentences S0001 → last.
 
-Do not omit zero-candidate sentences.
+For every sentence fill ALL category arrays:
+- technical_scientific
+- acronyms_symbols
+- abstract_processes
+- classifications
+- evidence_methods
+- measurements_quantities
+- historical_institutional
+- specialized_common_words
+- aliases_relations
+- mechanisms
 
-## Candidate records
+## PASS A2 — Reverse review
 
-For each candidate:
+Read last sentence → S0001.
+
+Independently look for phrases the forward pass may have missed.
+
+Fill the same category matrix for every sentence.
+
+## Candidate union
+
+Create candidate IDs from the union of both passes.
+
+Candidate record:
 - candidate_id
 - exact_phrase
 - first_use_sentence_id
 - candidate_type
 - reason_flagged
+- discovered_by
 
-## Coverage proof
+The exact_phrase must be text that actually occurs in the final candidate.
 
-Compare sentence IDs from canonical index vs ledger.
+## Sentence ledger
 
-Record:
-- missing_sentence_ids
-- extra_sentence_ids
-- duplicate_sentence_ids
-- coverage_ok
+Exactly one row per canonical sentence:
+- sentence_id
+- forward_review
+- reverse_review
+- lexical_candidate_ids
 
-If false:
-audit FAILS.
+Zero candidates is allowed.
+Missing category key is not.
 
 ## Semantic crosswalk
 
-Every candidate ID must appear exactly once in semantic crosswalk.
+Every candidate ID appears exactly once.
 
-Do not assign final disposition.
+Do not assign final closure status.
 
 ## Output
 

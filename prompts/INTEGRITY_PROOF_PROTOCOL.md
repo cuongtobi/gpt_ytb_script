@@ -7,82 +7,78 @@ v3.2 separates creative freedom from audit proof.
 Writers are NOT required to explain every detected term.
 Auditors ARE required to prove coverage, accounting, ordering and isolation.
 
-If a proof is missing, fail closed.
+If proof is missing, fail closed.
 
-## A. Canonical narration sentence index
+## A. Canonical sentence index
 
-Build the index from the exact script text before lexical audit.
+Build from exact script text.
 
-### Canonical segmentation algorithm
+Canonical segmentation:
+1. ignore Markdown headings and blank lines;
+2. process each remaining line left-to-right;
+3. terminal . ? ! … ends a unit;
+4. a period between two digits does not split;
+5. closing quotes/brackets remain attached;
+6. a non-empty line fragment without terminal punctuation is still a unit;
+7. trim only leading/trailing whitespace;
+8. assign S0001, S0002... in source order.
 
-1. Ignore Markdown heading lines beginning with `#`.
-2. Ignore blank lines.
-3. Process each remaining line from left to right.
-4. A narration unit ends at `. ? ! …` when that mark is sentence-final.
-5. A period between two digits is NOT a boundary, e.g. `12.000`.
-6. Closing quotes/brackets immediately after terminal punctuation stay in the same unit.
-7. If a non-empty line ends without terminal punctuation, the remaining text is still one narration unit.
-8. Preserve exact unit text after trimming only leading/trailing whitespace.
-9. Assign S0001, S0002, S0003... in source order.
-
-Index fields:
-- source_file
-- units[{sentence_id, section_heading, exact_text}]
-- source_sentence_count
-- indexed_sentence_count
-- duplicate_sentence_ids
-- missing_sentence_ids
-- reconstruction_ok
-
-The deterministic verifier MUST recompute units from the source script and compare exact unit text and order.
+10D recomputes this index directly from the final script and exact-matches text/order.
 
 ## B. Exhaustive lexical coverage
 
-For EVERY canonical sentence ID, lexical discovery writes exactly one ledger row:
+Every canonical sentence ID must have one ledger row.
 
-- sentence_id
-- lexical_candidate_ids: []
+A zero-candidate sentence still has a row.
 
-Zero candidates is valid.
-A missing sentence row is not.
+To reduce selective within-sentence misses, each row must contain TWO reviews:
 
-PASS requires exact sentence-ID sequence equality between canonical index and lexical ledger.
+- forward_review
+- reverse_review
+
+Each review must include this category matrix:
+- technical_scientific
+- acronyms_symbols
+- abstract_processes
+- classifications
+- evidence_methods
+- measurements_quantities
+- historical_institutional
+- specialized_common_words
+- aliases_relations
+- mechanisms
+
+Each category value is an array of phrases considered in that sentence.
+Empty arrays are allowed, missing category keys are not.
+
+The sentence's lexical_candidate_ids are the UNION of candidates proposed by forward and reverse review.
+
+10D can verify sentence coverage and matrix completeness.
+Semantic exhaustiveness can never be mathematically guaranteed by an LLM, so v3.2 reduces false negatives through mandatory two-direction review and isolated final auditing rather than pretending perfect semantic recall.
 
 ## C. Candidate conservation
 
-Every lexical candidate gets exactly one final disposition:
-
+Every 10B1 lexical candidate gets exactly one final disposition:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-Required equation:
+10D takes discovered candidate IDs directly from 10B1.
 
-discovered_count
-=
-baseline_known_count
-+ grounded_count
-+ replaced_count
-+ removed_count
-+ unresolved_count
-
-The discovered candidate IDs used by the verifier come directly from 10B1, not from 10C self-report.
-
-PASS requires:
-- discovered IDs == disposition IDs
-- no duplicate disposition IDs
-- unresolved_count = 0
+Required:
+discovered IDs == disposition IDs
+and unresolved_count = 0.
 
 ## D. Strict BASELINE_KNOWN provenance
 
-Every BASELINE_KNOWN disposition must contain:
+Every BASELINE_KNOWN disposition requires:
 - baseline_source_type: assumed_known | normal_language_primitive
 - baseline_source_id_or_exact_entry
 - canonical_mapping_if_any
 
-Missing provenance = invalid disposition.
+No free-text-only justification.
 
 ## E. Temporal first-use proof
 
@@ -93,19 +89,19 @@ For every retained unfamiliar candidate:
 - grounding_sentence_id where relevant
 - baseline_provenance where relevant
 
+10D independently finds the earliest canonical sentence containing the candidate's exact_phrase and requires it to equal first_use_sentence_id.
+
 PRIOR:
-grounding sentence number < first-use sentence number
+grounding_sentence < actual_first_use_sentence
 
 INLINE:
-grounding sentence number == first-use sentence number
+grounding_sentence == actual_first_use_sentence
 
 BASELINE:
 strict provenance required
 
 REPLACED/REMOVED:
-original unfamiliar phrase must not remain in final script.
-
-Missing coordinates/provenance = FAIL.
+original exact phrase must not remain in final script.
 
 ## F. Minimal intervention
 
@@ -118,51 +114,19 @@ Repair preference:
 4. minimal inline grounding
 5. larger rewrite only if necessary
 
-Do not turn narration into a glossary.
-
 ## G. Blind execution isolation
-
-Prompt-level blindness is not verified isolation.
 
 10B1, 10B2 and 10B3 must run in distinct fresh execution contexts for PASS_VERIFIED.
 
 The runtime, not the auditor, writes 10b_isolation_manifest.json.
 
-Manifest top-level:
-- manifest_origin: runtime
-- attestation_source
-- isolation_status
-
-For each audit:
-- audit_id
-- execution_id
-- context_mode: fresh
-- allowed_input_files
-- observed_input_files
-- forbidden_input_files
-- forbidden_input_accessed: false
-- runtime_attested: true
-
-PASS_VERIFIED requires:
-- manifest_origin = runtime
-- attestation_source present
-- three distinct execution IDs
-- all fresh
-- all runtime_attested
-- observed inputs are a subset of allowed inputs
-- no observed input intersects forbidden inputs
-- forbidden_input_accessed = false
-
-If the environment cannot genuinely attest these facts:
+If isolation cannot genuinely be attested:
 isolation_status = ISOLATION_NOT_VERIFIED
 
-Do not invent attestation.
+Same-context sequential audits may be advisory only.
 
 ## H. Final statuses
 
-Allowed:
 - PASS_VERIFIED
 - CONTENT_PASS_ISOLATION_NOT_VERIFIED
 - FAIL
-
-PASS_VERIFIED requires deterministic proof verifier PASS plus VERIFIED isolation.
