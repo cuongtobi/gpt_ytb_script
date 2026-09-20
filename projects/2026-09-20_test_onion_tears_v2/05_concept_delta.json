@@ -1,0 +1,27 @@
+{
+  "input_graph_concepts": [
+    "chất dễ bay hơi",
+    "lachrymatory-factor synthase"
+  ],
+  "concepts_detected_in_draft": [
+    "tế bào",
+    "protein",
+    "chất gây kích thích",
+    "dây thần kinh cảm giác"
+  ],
+  "new_concepts": [
+    {
+      "name": "dây thần kinh cảm giác",
+      "action": "REPLACE_NOW",
+      "replacement": "các dây thần kinh cảm giác ở mắt nhận ra sự kích thích",
+      "status": "EXPLAINED_BY_FUNCTION"
+    }
+  ],
+  "new_dependencies": [],
+  "confusable_pairs_created": [],
+  "actions_taken": [
+    "Removed biochemical labels",
+    "Explained unfamiliar role by function"
+  ],
+  "unresolved_for_stage_06": []
+}
