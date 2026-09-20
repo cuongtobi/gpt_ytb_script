@@ -1,215 +1,180 @@
-# 03 — CLAIM MAP + CONCEPT MAP
+# 03 — CLAIM MAP + INITIAL CONCEPT GRAPH
 
 ## Role
 
 Convert research into two control layers before script writing:
 
-1. **Claim Map** — what the script may safely assert.
-2. **Concept Map** — what the audience must understand and how to introduce it.
+1. Claim Map — what the script may safely assert.
+2. Initial Concept Dependency Graph — what the audience may need to understand before and during narration.
 
-You are not writing the documentary prose.
+The Concept Graph is initial, not final. Downstream stages must discover concepts newly created by actual prose.
 
----
+Read and obey:
+- prompts/CONCEPT_CLOSURE_PROTOCOL.md
+
+You are not writing documentary prose.
 
 # Part A — Claim Map
 
 ## Inputs
 
 Read:
-- `00_project_brief.yaml`;
-- `01_angle.md`;
-- `02_research_notes.md`;
-- `02_sources.json`.
-
----
+- 00_project_brief.yaml
+- 01_angle.md
+- 02_research_notes.md
+- 02_sources.json
 
 ## Claim record
 
 Each important factual claim should include:
+- claim_id
+- claim
+- category
+- importance: core | supporting | optional
+- confidence: high | medium | low
+- support_type: direct | inference | contested
+- source_ids
+- safe_wording
+- unsafe_wording
+- caveats
+- visual_potential
+- story_function
 
-```yaml
-claim_id:
-claim:
-category:
-importance: core|supporting|optional
-confidence: high|medium|low
-support_type: direct|inference|contested
-source_ids: []
-safe_wording:
-unsafe_wording:
-caveats:
-visual_potential: very_high|high|medium|low
-story_function:
-```
+Safe wording must preserve source certainty and precision.
 
-### Safe wording
+Flag unsupported:
+- probabilities
+- percentages
+- exact dates derived from ranges
+- causal wording from correlational evidence
+- first / only / all claims without strong support
+- global generalizations from limited samples
 
-Safe wording must match source certainty.
+Write:
+- 03_claim_map.json
 
-Examples:
-
-Source says:
-> evidence suggests...
-
-Allowed:
-> evidence suggests...
-
-Not allowed:
-> scientists proved...
-
-Source gives a range:
-> approximately 9,000–12,000 years...
-
-Do not silently convert to:
-> exactly 12,000 years.
-
----
-
-## Unsupported specificity
-
-Flag:
-- unsupported percentages;
-- unsupported probabilities;
-- exact dates derived from broad ranges;
-- causal wording from correlational evidence;
-- “first ever” / “only” / “all” claims without strong support;
-- global generalizations from limited samples.
-
----
-
-## Claim output
-
-Write `03_claim_map.json`.
-
----
-
-# Part B — Concept Map
+# Part B — Initial Concept Dependency Graph
 
 ## Goal
 
-A general-audience viewer should never need to know a term before the narration teaches the idea behind that term.
+Build the first model of concepts likely to be needed by the selected story.
 
-If the viewer can understand the story without the technical term, do not force them to learn it.
+This is not a glossary. It is a dependency graph.
 
----
+The actual script may later introduce new concepts; those must be discovered by delta and closure scans.
 
-## Concept discovery
+## Audience baseline
 
-Extract concepts that may be unfamiliar, abstract or cognitively expensive.
+Create a small audience baseline appropriate to:
+- requested language
+- audience
+- technical level
+- topic context
+
+Do not create a huge list of common words.
+
+Use the baseline only to stop recursive explanation at reasonable common-language primitives.
+
+## Discover likely concepts
+
+Extract concepts that may be:
+- unfamiliar
+- abstract
+- technical
+- cognitively expensive
+- familiar as a label but unfamiliar in the role used here
 
 Examples:
-- domain-specific terminology;
-- acronyms;
-- scientific mechanisms;
-- historical institutions;
-- technical processes;
-- specialist classifications;
-- unfamiliar measurement concepts.
-
-Do not treat every proper noun as a “concept”.
-
----
+- scientific mechanisms
+- specialist terms
+- acronyms
+- historical institutions
+- legal or economic processes
+- unfamiliar causal roles
 
 ## Concept record
 
-For each relevant concept:
+Each concept should include:
+- concept_id
+- name
+- aliases
+- status: KNOWN | EXPLAINED | UNRESOLVED | REMOVED
+- label_familiarity: high | medium | low | very_low
+- role_familiarity: high | medium | low | very_low
+- importance: core | supporting | optional
+- technical_term_required: true | false
+- necessity: required | replaceable | removable
+- definition.text
+- definition.dependencies
+- first_use_strategy
+- best_explanation_type
+- mental_model
+- confusable_with
+- explicit_contrast_required
+- reuse_policy
+- avoid_explanation
 
-```yaml
-concept_id:
-name:
-audience_familiarity: high|medium|low|very_low
-importance: core|supporting|optional
-technical_term_required: true|false
-plain_language_meaning:
-first_use_strategy:
-best_explanation_type:
-mental_model:
-reuse_policy:
-confusable_with:
-avoid_explanation:
-```
+Each dependency should include:
+- name
+- relationship
+- status
 
-Allowed `best_explanation_type` values:
+Allowed explanation types:
+- direct_definition
+- analogy
+- human_action
+- contrast
+- mechanism
+- example
 
-```text
-direct_definition
-analogy
-human_action
-contrast
-mechanism
-example
-```
+## Dependency rules
 
----
+For every proposed explanation:
+1. extract concepts required to understand it
+2. add them as dependencies
+3. classify contextual familiarity
+4. recursively resolve until dependencies reach KNOWN or EXPLAINED concepts
 
-## Concept Introduction Protocol
+Hard rule:
+No Unknowns in Definitions.
 
-Use this decision order:
+If a dependency is not necessary to the story, prefer rewriting the parent explanation rather than expanding a chain of jargon.
 
-```text
-Does the viewer need the technical label?
-   ↓ no
-Use plain language only.
+## Confusable-pair rules
 
-   ↓ yes
+If confusable_with is not empty and both concepts are likely to appear:
+- require an explicit first-use distinction
+- sequence the simpler or base concept first
 
-Does the viewer already have a usable mental model?
-   ↓ no
-Teach via action / analogy / contrast / mechanism.
+## Necessity rules
 
-   ↓
+For every technical label decide:
+- EXPLAIN because later reasoning needs it
+- REPLACE with plain language
+- REMOVE
 
-State the plain-language idea.
+A concept can be important while its technical label is unnecessary.
 
-   ↓
+## Concept-load planning
 
-Introduce the technical label.
+Estimate high-load clusters using the weighted heuristic from the shared protocol.
 
-   ↓
+Do not merely count terms.
 
-Later uses may use the label alone,
-unless a long gap requires a micro-reminder.
-```
+## Output
 
----
+Write:
+- 03_concept_graph.json
 
-## Action-before-label preference
+Top-level fields should include:
+- audience_baseline
+- concepts
+- dependency_edges
+- high_load_clusters
+- concepts_intentionally_removed
+- confusable_pairs
+- initial_closure_status
 
-For processes, prefer action before terminology.
+The graph may contain UNRESOLVED concepts before narration is written, but they must have a clear planned resolution.
 
-Instead of:
-
-> Artificial selection changed the population.
-
-Prefer the underlying idea:
-
-> People repeatedly kept seeds from individuals with the traits they wanted.
-
-Only then, if useful:
-
-> That process is artificial selection.
-
----
-
-## Concept load planning
-
-Estimate where concept clusters are likely to occur.
-
-Flag any planned segment that would require the audience to hold too many unfamiliar concepts at once.
-
-Default heuristic:
-- roughly 1–2 important new concepts per minute;
-- not a hard limit;
-- exceeding it requires justification or simplification.
-
----
-
-## Concept output
-
-Write `03_concept_map.json`.
-
-Include:
-- all tracked concepts;
-- likely high-load clusters;
-- concepts intentionally removed from narration;
-- concepts that must be explained before first label use.
+Do not output 03_concept_map.json for new projects. 03_concept_graph.json is the source of truth.
