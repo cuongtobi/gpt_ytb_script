@@ -3,15 +3,15 @@
     "core_entities_ungrounded": 0,
     "unmapped_aliases": 0,
     "missing_discovered_nodes": 0,
-    "unresolved_concepts": 0,
+    "unresolved_concepts": 1,
     "unresolved_dependencies": 0,
     "unresolved_relations": 0,
-    "temporal_first_use_failures": 0,
+    "temporal_first_use_failures": 1,
     "confusable_pairs_unresolved": 0,
-    "silently_ignored_candidates": 0
+    "silently_ignored_candidates": 3
   },
   "terminology": {
-    "unnecessary_labels": 0,
+    "unnecessary_labels": 1,
     "alias_overload": 0
   },
   "narrative": {
@@ -29,6 +29,10 @@
     "repeated_rhetorical_patterns": 0,
     "unresolved_audio_density_flags": 0
   },
-  "final_word_count": 1472,
-  "status": "PASS"
+  "status": "FAIL",
+  "failure_notes": [
+    "điện áp appears without grounding",
+    "đường dây truyền tải and đường phân phối were not extracted by final blind audit",
+    "final auditor's lexical coverage claim was incomplete"
+  ]
 }
