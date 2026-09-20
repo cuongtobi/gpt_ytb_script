@@ -1,0 +1,31 @@
+{
+  "audit_run_id": null,
+  "findings": {
+    "translationese": [],
+    "academic_compression": [],
+    "unnecessary_labels": [],
+    "duplicate_explanations_or_reveals": [],
+    "repeated_openings_or_fragments": [],
+    "parallelism_overload": [],
+    "rhetorical_question_overload": [],
+    "awkward_terminology": [],
+    "audio_density_problems": [],
+    "unclear_pronouns": [],
+    "surface_errors": []
+  },
+  "counts": {
+    "translationese": 0,
+    "academic_compression": 0,
+    "unnecessary_labels": 0,
+    "duplicate_explanations_or_reveals": 0,
+    "repeated_openings_or_fragments": 0,
+    "parallelism_overload": 0,
+    "rhetorical_question_overload": 0,
+    "awkward_terminology": 0,
+    "audio_density_problems": 0,
+    "unclear_pronouns": 0,
+    "surface_errors": 0
+  },
+  "status": "PASS",
+  "isolation_note": "Advisory same-context audit; runtime isolation is not attested."
+}

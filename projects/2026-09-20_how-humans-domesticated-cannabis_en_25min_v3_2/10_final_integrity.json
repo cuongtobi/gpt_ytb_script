@@ -1,0 +1,325 @@
+{
+  "knowledge": {
+    "core_entities_ungrounded": 0,
+    "unmapped_aliases": 0,
+    "missing_discovered_nodes": 0,
+    "unresolved_concepts": 0,
+    "unresolved_dependencies": 0,
+    "unresolved_relations": 0,
+    "temporal_first_use_failures": 0,
+    "confusable_pairs_unresolved": 0,
+    "silently_ignored_candidates": 0,
+    "invalid_baseline_provenance": 0
+  },
+  "terminology": {
+    "unnecessary_labels": 0,
+    "alias_overload": 0
+  },
+  "narrative": {
+    "redundant_reveals": 0,
+    "high_load_listening_blocks": 0
+  },
+  "factual": {
+    "unsupported_claims": 0,
+    "certainty_overstatements": 0,
+    "unsupported_temporal_generalizations": 0,
+    "scope_overstatements": 0
+  },
+  "naturalness": {
+    "translationese_flags": 0,
+    "repeated_rhetorical_patterns": 0,
+    "unresolved_audio_density_flags": 0
+  },
+  "proof": {
+    "sentence_coverage_failures": 0,
+    "candidate_conservation_failures": 0,
+    "temporal_proof_failures": 0,
+    "isolation_failures": 1
+  },
+  "sentence_coverage_proof": {
+    "missing_sentence_ids": [],
+    "extra_sentence_ids": [],
+    "duplicate_sentence_ids": [],
+    "coverage_ok": true
+  },
+  "candidate_conservation_proof": {
+    "discovered_candidate_ids": [
+      "F001",
+      "F002",
+      "F003",
+      "F004",
+      "F005",
+      "F006",
+      "F007",
+      "F008",
+      "F009",
+      "F010",
+      "F011",
+      "F012",
+      "F013",
+      "F014",
+      "F015",
+      "F016"
+    ],
+    "dispositions": {
+      "F001": {
+        "status": "GROUNDED",
+        "exact_phrase": "psychoactive",
+        "grounding_sentence_id": "S0001"
+      },
+      "F002": {
+        "status": "BASELINE_KNOWN",
+        "exact_phrase": "populations",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "populations",
+          "canonical_mapping_if_any": null
+        }
+      },
+      "F003": {
+        "status": "GROUNDED",
+        "exact_phrase": "domestication",
+        "grounding_sentence_id": "S0013"
+      },
+      "F004": {
+        "status": "GROUNDED",
+        "exact_phrase": "Cannabis sativa",
+        "grounding_sentence_id": "S0033"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "DNA",
+        "grounding_sentence_id": "S0036"
+      },
+      "F006": {
+        "status": "GROUNDED",
+        "exact_phrase": "genome",
+        "grounding_sentence_id": "S0037"
+      },
+      "F007": {
+        "status": "GROUNDED",
+        "exact_phrase": "genetic",
+        "grounding_sentence_id": "S0036"
+      },
+      "F008": {
+        "status": "GROUNDED",
+        "exact_phrase": "confidence range",
+        "grounding_sentence_id": "S0044"
+      },
+      "F009": {
+        "status": "GROUNDED",
+        "exact_phrase": "selection",
+        "grounding_sentence_id": "S0013"
+      },
+      "F010": {
+        "status": "GROUNDED",
+        "exact_phrase": "Archaeology",
+        "grounding_sentence_id": "S0061"
+      },
+      "F011": {
+        "status": "BASELINE_KNOWN",
+        "exact_phrase": "cultivation",
+        "baseline_provenance": {
+          "baseline_source_type": "assumed_known",
+          "baseline_source_id_or_exact_entry": "cultivation",
+          "canonical_mapping_if_any": null
+        }
+      },
+      "F012": {
+        "status": "GROUNDED",
+        "exact_phrase": "phytoliths",
+        "grounding_sentence_id": "S0085"
+      },
+      "F013": {
+        "status": "GROUNDED",
+        "exact_phrase": "cannabinoids",
+        "grounding_sentence_id": "S0143"
+      },
+      "F014": {
+        "status": "GROUNDED",
+        "exact_phrase": "THC",
+        "grounding_sentence_id": "S0144"
+      },
+      "F015": {
+        "status": "GROUNDED",
+        "exact_phrase": "CBD",
+        "grounding_sentence_id": "S0145"
+      },
+      "F016": {
+        "status": "GROUNDED",
+        "exact_phrase": "CBN",
+        "grounding_sentence_id": "S0201"
+      }
+    },
+    "discovered_count": 16,
+    "baseline_known_count": 2,
+    "grounded_count": 14,
+    "replaced_count": 0,
+    "removed_count": 0,
+    "unresolved_count": 0,
+    "equation_valid": true,
+    "missing_candidate_ids": [],
+    "duplicate_disposition_ids": []
+  },
+  "temporal_proofs": [
+    {
+      "candidate_id": "F001",
+      "first_use_sentence_id": "S0001",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0001",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F002",
+      "first_use_sentence_id": "S0008",
+      "grounding_mode": "BASELINE",
+      "grounding_sentence_id": null,
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "populations",
+        "canonical_mapping_if_any": null
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F003",
+      "first_use_sentence_id": "S0013",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0013",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F004",
+      "first_use_sentence_id": "S0033",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0033",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0036",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0036",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F006",
+      "first_use_sentence_id": "S0037",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0037",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F007",
+      "first_use_sentence_id": "S0038",
+      "grounding_mode": "PRIOR",
+      "grounding_sentence_id": "S0036",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F008",
+      "first_use_sentence_id": "S0044",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0044",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F009",
+      "first_use_sentence_id": "S0050",
+      "grounding_mode": "PRIOR",
+      "grounding_sentence_id": "S0013",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F010",
+      "first_use_sentence_id": "S0061",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0061",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F011",
+      "first_use_sentence_id": "S0076",
+      "grounding_mode": "BASELINE",
+      "grounding_sentence_id": null,
+      "baseline_provenance": {
+        "baseline_source_type": "assumed_known",
+        "baseline_source_id_or_exact_entry": "cultivation",
+        "canonical_mapping_if_any": null
+      },
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F012",
+      "first_use_sentence_id": "S0085",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0085",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F013",
+      "first_use_sentence_id": "S0143",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0143",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F014",
+      "first_use_sentence_id": "S0144",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0144",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F015",
+      "first_use_sentence_id": "S0145",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0145",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F016",
+      "first_use_sentence_id": "S0201",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0201",
+      "ordering_valid": true
+    }
+  ],
+  "temporal_proof_summary": {
+    "proof_count": 16,
+    "ordering_failures": 0,
+    "status": "PASS"
+  },
+  "baseline_provenance_summary": {
+    "assumed_known": [
+      {
+        "candidate_id": "F002",
+        "exact_entry": "populations"
+      },
+      {
+        "candidate_id": "F011",
+        "exact_entry": "cultivation"
+      }
+    ],
+    "normal_language_primitive": []
+  },
+  "isolation_status": "ISOLATION_NOT_VERIFIED",
+  "content_integrity_status": "PASS",
+  "proof_verifier_status": "PASS",
+  "project_status": "CONTENT_PASS_ISOLATION_NOT_VERIFIED",
+  "proof_verifier_run": {
+    "verifier_mode": "equivalent_deterministic_python",
+    "recomputed_sentence_count": 274,
+    "discovered_candidate_count": 16,
+    "disposition_counts": {
+      "BASELINE_KNOWN": 2,
+      "GROUNDED": 14,
+      "REPLACED": 0,
+      "REMOVED": 0,
+      "UNRESOLVED": 0
+    },
+    "errors": [],
+    "isolation_verified": false,
+    "result": "PASS"
+  }
+}

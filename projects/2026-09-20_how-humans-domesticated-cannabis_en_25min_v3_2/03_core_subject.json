@@ -1,0 +1,62 @@
+{
+  "core_entities": [
+    {
+      "canonical_name": "Cannabis sativa",
+      "audience_name": "cannabis",
+      "entity_type": "plant species",
+      "label_familiarity": "high for cannabis; low for scientific name",
+      "minimum_grounding": "A multipurpose plant whose seed, stem/fiber, flowers/resin and inherited traits can be selected for different human uses.",
+      "aliases": [
+        "cannabis",
+        "Cannabis sativa"
+      ],
+      "related_but_not_equivalent_labels": [
+        "hemp",
+        "drug-type cannabis",
+        "marijuana"
+      ],
+      "relevant_parts_or_components": [
+        "seed",
+        "stem",
+        "fiber",
+        "flower",
+        "resin"
+      ],
+      "story_relevant_properties": [
+        "trait variation",
+        "branching",
+        "flowering",
+        "seed production",
+        "chemical production"
+      ]
+    }
+  ],
+  "alias_map": {
+    "Cannabis sativa": "cannabis"
+  },
+  "entity_label_policy": {
+    "primary_spoken_label": "cannabis",
+    "scientific_alias_policy": "Introduce Cannabis sativa once, map it immediately, then return to cannabis.",
+    "allowed_reuse_aliases": [
+      "cannabis"
+    ],
+    "discouraged_reuse_aliases": [
+      "Cannabis sativa",
+      "hemp",
+      "marijuana"
+    ]
+  },
+  "minimum_grounding_requirements": [
+    "domestication mechanism",
+    "DNA before genetic inference",
+    "phytoliths on first use",
+    "cannabinoids/THC/CBD/CBN on first use"
+  ],
+  "labels_recommended_for_removal": [
+    "chemotype",
+    "landrace",
+    "cannabinoid synthase",
+    "basal cannabis"
+  ],
+  "status": "PASS"
+}

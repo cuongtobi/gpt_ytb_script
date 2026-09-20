@@ -1,0 +1,217 @@
+{
+  "lexical_candidates": [
+    {
+      "candidate_id": "D001",
+      "exact_phrase": "psychoactive",
+      "first_use_sentence_id": "S0001",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "mind-altering use/effects",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D002",
+      "exact_phrase": "populations",
+      "first_use_sentence_id": "S0008",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "population-level biological grouping",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D003",
+      "exact_phrase": "domestication",
+      "first_use_sentence_id": "S0013",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "human-directed inherited change across generations",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D004",
+      "exact_phrase": "Cannabis sativa",
+      "first_use_sentence_id": "S0033",
+      "candidate_type": "ALIAS",
+      "reason_flagged": "scientific species label",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D005",
+      "exact_phrase": "DNA",
+      "first_use_sentence_id": "S0036",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "inherited molecular information",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D006",
+      "exact_phrase": "genome",
+      "first_use_sentence_id": "S0037",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "full DNA collection",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D007",
+      "exact_phrase": "genetic",
+      "first_use_sentence_id": "S0038",
+      "candidate_type": "PROPERTY",
+      "reason_flagged": "inheritance-related scientific role",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D008",
+      "exact_phrase": "confidence range",
+      "first_use_sentence_id": "S0044",
+      "candidate_type": "MEASUREMENT",
+      "reason_flagged": "uncertainty interval in model estimate",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D009",
+      "exact_phrase": "selection",
+      "first_use_sentence_id": "S0050",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "differential human retention of traits",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D010",
+      "exact_phrase": "Archaeology",
+      "first_use_sentence_id": "S0061",
+      "candidate_type": "EVIDENCE_TYPE",
+      "reason_flagged": "material study of past people",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D011",
+      "exact_phrase": "cultivation",
+      "first_use_sentence_id": "S0076",
+      "candidate_type": "PROCESS",
+      "reason_flagged": "deliberate growing of plants",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D012",
+      "exact_phrase": "phytoliths",
+      "first_use_sentence_id": "S0085",
+      "candidate_type": "EVIDENCE_TYPE",
+      "reason_flagged": "microscopic mineral plant remains",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D013",
+      "exact_phrase": "cannabinoids",
+      "first_use_sentence_id": "S0143",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "family of cannabis-produced chemicals",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D014",
+      "exact_phrase": "THC",
+      "first_use_sentence_id": "S0144",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "intoxicating cannabinoid",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D015",
+      "exact_phrase": "CBD",
+      "first_use_sentence_id": "S0145",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "major non-intoxicating cannabinoid",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "D016",
+      "exact_phrase": "CBN",
+      "first_use_sentence_id": "S0201",
+      "candidate_type": "CONCEPT",
+      "reason_flagged": "THC-related degradation product",
+      "discovered_by": "both"
+    }
+  ],
+  "semantic_crosswalk": [
+    {
+      "candidate_id": "D001",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D002",
+      "classification": "likely_ordinary_vocabulary",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D003",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D004",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D005",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D006",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D007",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D008",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D009",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D010",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D011",
+      "classification": "likely_ordinary_vocabulary",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D012",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D013",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D014",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D015",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    },
+    {
+      "candidate_id": "D016",
+      "classification": "likely_knowledge_bearing",
+      "notes": "Passed to stage 06 for final disposition."
+    }
+  ],
+  "candidate_count": 16,
+  "coverage_ok": true,
+  "status": "PASS"
+}

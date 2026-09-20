@@ -1,0 +1,99 @@
+{
+  "claims_checked": [
+    {
+      "claim_id": "C001",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C002",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C003",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C004",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C005",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C006",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C007",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C008",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C009",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C010",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C011",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C012",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C013",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C014",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C015",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C016",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C017",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    },
+    {
+      "claim_id": "C018",
+      "status": "SUPPORTED",
+      "safe_wording_confirmed": true
+    }
+  ],
+  "unsupported_claims": 0,
+  "certainty_overstatements": 0,
+  "unsupported_temporal_generalizations": 0,
+  "scope_overstatements": 0,
+  "status": "PASS"
+}

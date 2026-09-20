@@ -1,0 +1,251 @@
+{
+  "audience_baseline": {
+    "language": "English",
+    "audience": "general",
+    "technical_level": "accessible",
+    "assumed_known": [
+      "populations",
+      "cultivation"
+    ],
+    "normal_language_primitives": [
+      "plant",
+      "seed",
+      "food",
+      "oil",
+      "stem",
+      "flower",
+      "farm",
+      "farmer",
+      "heat",
+      "smoke",
+      "burial",
+      "trade",
+      "climate",
+      "generation",
+      "chemical",
+      "species",
+      "fiber",
+      "resin"
+    ],
+    "never_auto_known_categories": [
+      "scientific species names",
+      "acronyms",
+      "biochemical terms",
+      "specialist archaeological methods",
+      "specialist genetics/evolution terms",
+      "legal/technical labels",
+      "specialized uses of ordinary words"
+    ]
+  },
+  "entity_label_policy": {
+    "primary_spoken_label": "cannabis",
+    "scientific_alias_policy": "Introduce once, then use cannabis."
+  },
+  "nodes": [
+    {
+      "knowledge_id": "K001",
+      "label": "cannabis",
+      "type": "CORE_ENTITY",
+      "state": "GROUNDED",
+      "minimum_grounding": "multipurpose plant",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K002",
+      "label": "psychoactive",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "mind-altering",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K003",
+      "label": "domestication",
+      "type": "PROCESS",
+      "state": "GROUNDED",
+      "minimum_grounding": "repeated human choices changing inherited traits over generations",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K004",
+      "label": "Cannabis sativa",
+      "type": "ALIAS",
+      "state": "GROUNDED",
+      "minimum_grounding": "scientific name for cannabis",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K005",
+      "label": "DNA",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "inherited molecular instructions",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K006",
+      "label": "genome",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "full collection of DNA",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K007",
+      "label": "confidence range",
+      "type": "MEASUREMENT",
+      "state": "GROUNDED",
+      "minimum_grounding": "span of dates the model considers plausible",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K008",
+      "label": "Archaeology",
+      "type": "EVIDENCE_TYPE",
+      "state": "GROUNDED",
+      "minimum_grounding": "study of material traces left by past people",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K009",
+      "label": "phytoliths",
+      "type": "EVIDENCE_TYPE",
+      "state": "GROUNDED",
+      "minimum_grounding": "microscopic mineral bodies formed in plant tissues",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K010",
+      "label": "selection",
+      "type": "PROCESS",
+      "state": "GROUNDED",
+      "minimum_grounding": "human preference changes which plants reproduce",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K011",
+      "label": "cannabinoids",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "family of chemicals made by cannabis",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K012",
+      "label": "THC",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "best-known intoxicating cannabinoid",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K013",
+      "label": "CBD",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "major cannabinoid without the same intoxicating effect as THC",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K014",
+      "label": "CBN",
+      "type": "CONCEPT",
+      "state": "GROUNDED",
+      "minimum_grounding": "compound that can form as THC changes",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K015",
+      "label": "populations",
+      "type": "CONCEPT",
+      "state": "BASELINE_KNOWN",
+      "minimum_grounding": "general-audience grouping",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K016",
+      "label": "cultivation",
+      "type": "PROCESS",
+      "state": "BASELINE_KNOWN",
+      "minimum_grounding": "deliberately growing plants",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    }
+  ],
+  "relations": [
+    {
+      "from": "selection",
+      "relation": "PART_OF",
+      "to": "domestication"
+    },
+    {
+      "from": "genome",
+      "relation": "CONTAINS",
+      "to": "DNA"
+    },
+    {
+      "from": "THC",
+      "relation": "SUBTYPE_OF",
+      "to": "cannabinoids"
+    },
+    {
+      "from": "CBD",
+      "relation": "SUBTYPE_OF",
+      "to": "cannabinoids"
+    },
+    {
+      "from": "CBN",
+      "relation": "RELATED_TO",
+      "to": "THC"
+    }
+  ],
+  "initial_unresolved": [],
+  "status": "PASS"
+}
