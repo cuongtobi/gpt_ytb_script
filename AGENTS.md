@@ -31,6 +31,7 @@ v3.3 extends v3.2 proof-carrying integrity with:
 8. locale-aware sentence segmentation
 9. adversarial/mutation regression tests
 10. artifact manifest and stale-audit detection
+11. deterministic post-10D TTS export for vi/en/de/fr/es/ko/ja
 
 ## Core design
 
@@ -61,6 +62,14 @@ Every audit artifact must record SHA-256 for every input it actually used.
 Final B1/B2/B3 audit script hashes must equal the released 10_final_script.md hash.
 Any final-text change invalidates the final sentence index and all three final blind audits.
 
+## TTS publication output
+
+After 10D content proof passes, run Stage 11 to create:
+- `final.txt` — plain UTF-8 narration ready for TTS;
+- `11_tts_export.json` — content-addressed export report.
+
+Stage 11 is presentation-only. It must not translate, paraphrase, add facts, change claim strength, or invent pronunciations.
+
 ## Non-goals
 
 No storyboard, shot list, image prompts, B-roll, camera directions or visual timeline unless explicitly requested.
@@ -73,3 +82,5 @@ For v3.3:
 - 10d_proof_verification.json
 
 PASS_VERIFIED requires all content, provenance, schema, hash, conservation, temporal and isolation gates to pass.
+
+`final.txt` is a downstream publication artifact, not an integrity source of truth.
