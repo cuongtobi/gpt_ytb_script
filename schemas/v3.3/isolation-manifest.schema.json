@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"isolation-manifest.schema.json",
+  "type":"object",
+  "required":["manifest_origin","isolation_status","audits"],
+  "properties":{
+    "manifest_origin":{"type":"string"},
+    "attestation_source":{"type":["string","null"]},
+    "isolation_status":{"enum":["VERIFIED","ISOLATION_NOT_VERIFIED"]},
+    "audits":{
+      "type":"object",
+      "required":["10B1","10B2","10B3"],
+      "additionalProperties":{
+        "type":"object",
+        "required":["audit_id","context_mode","allowed_input_files","observed_input_files","observed_input_hashes","forbidden_input_files","runtime_attested"]
+      }
+    }
+  }
+}
