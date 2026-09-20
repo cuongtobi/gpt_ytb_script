@@ -1,0 +1,79 @@
+name: Materialize dog v3.3 project
+
+on:
+  push:
+    paths:
+      - ".github/workflows/_tmp_materialize_dog_v33.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reconstruct and extract audited bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          project="projects/2026-09-20_cach-con-nguoi-thuan-hoa-cho_vi_25min"
+          test ! -e "$project"
+          cat projects/.tmp_dog_v33_payload/chunk_00 \
+              projects/.tmp_dog_v33_payload/chunk_01 \
+              projects/.tmp_dog_v33_payload/chunk_02 \
+              projects/.tmp_dog_v33_payload/chunk_03 > /tmp/dog_project.tar.xz
+          echo "c1ca96bd878a16f7d256521d55dc5e452b0659ce3a5db987433972a7871fe4bf  /tmp/dog_project.tar.xz" | sha256sum -c -
+          mkdir -p "$project"
+          tar -xJf /tmp/dog_project.tar.xz -C "$project"
+          test -f "$project/10_final_script.md"
+          test -f "$project/10d_proof_verification.json"
+          test -f "$project/final.txt"
+
+      - name: Run repository v3.3 integrity verifier
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check jsonschema PyYAML
+          p="projects/2026-09-20_cach-con-nguoi-thuan-hoa-cho_vi_25min"
+          python tools/verify_integrity_proof.py \
+            --script "$p/10_final_script.md" \
+            --index "$p/10_final_sentence_index.json" \
+            --blind "$p/10b1_blind_knowledge_inventory.json" \
+            --claims "$p/10b2_blind_claim_inventory.json" \
+            --naturalness "$p/10b3_blind_naturalness_audit.json" \
+            --integrity "$p/10_final_integrity.json" \
+            --isolation "$p/10b_isolation_manifest.json" \
+            --manifest "$p/artifact_manifest.json" \
+            --evidence "$p/02_evidence_ledger.json" \
+            --sources "$p/02_sources.json" > /tmp/recomputed_10d.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path("/tmp/recomputed_10d.json").read_text())
+          assert x["proof_verifier_status"]=="PASS", x
+          assert x["project_status"]=="CONTENT_PASS_ISOLATION_NOT_VERIFIED", x
+          assert x["isolation_verified"] is False, x
+          print(json.dumps({
+              "proof_verifier_status": x["proof_verifier_status"],
+              "project_status": x["project_status"],
+              "isolation_verified": x["isolation_verified"],
+              "sentence_count": x["recomputed_sentence_count"],
+              "errors": x["errors"]
+          }, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit project and remove transfer chunks
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf projects/.tmp_dog_v33_payload
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add v3.3 dog domestication documentary project"
+          git push
