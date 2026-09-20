@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "label": "phân tử nước",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "muối hòa tan",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "bốc hơi",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "hơi nước",
+      "state": "GROUNDED"
+    },
+    {
+      "label": "ion",
+      "state": "REMOVED"
+    },
+    {
+      "label": "natri/chloride",
+      "state": "REMOVED"
+    },
+    {
+      "label": "ngưng tụ",
+      "state": "REMOVED"
+    },
+    {
+      "label": "kết tủa",
+      "state": "REMOVED"
+    }
+  ],
+  "status": "PASS"
+}

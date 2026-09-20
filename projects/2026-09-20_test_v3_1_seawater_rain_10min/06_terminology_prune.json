@@ -1,0 +1,17 @@
+{
+  "removed": [
+    "ion",
+    "natri",
+    "chloride",
+    "ngưng tụ",
+    "kết tủa"
+  ],
+  "kept_and_grounded": [
+    "phân tử nước",
+    "bốc hơi",
+    "hơi nước"
+  ],
+  "unnecessary_labels": 0,
+  "alias_overload": 0,
+  "status": "PASS"
+}

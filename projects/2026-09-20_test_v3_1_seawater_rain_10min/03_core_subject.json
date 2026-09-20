@@ -1,0 +1,28 @@
+{
+  "core_entities": [
+    {
+      "audience_name": "nước biển",
+      "minimum_grounding": [
+        "water with dissolved salts"
+      ]
+    },
+    {
+      "audience_name": "mưa",
+      "minimum_grounding": [
+        "water returned from atmosphere, not simply whole seawater lifted intact"
+      ]
+    }
+  ],
+  "entity_label_policy": {
+    "primary_spoken_labels": [
+      "nước biển",
+      "mưa"
+    ],
+    "removed_labels": [
+      "ion",
+      "ngưng tụ",
+      "kết tủa"
+    ]
+  },
+  "status": "PASS"
+}

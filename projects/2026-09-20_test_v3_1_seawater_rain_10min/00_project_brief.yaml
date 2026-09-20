@@ -1,0 +1,16 @@
+project:
+  topic: "Vì sao nước biển mặn nhưng mưa lại không mặn?"
+  language: "tiếng Việt"
+  locale: "vi-VN"
+  duration_minutes: 10
+  target_word_range: "1400-1600"
+  audience: "general"
+pipeline:
+  version: "3.1"
+  status: "complete"
+test_focus:
+  - causal-chain completeness
+  - chemistry terminology pruning
+  - claim strength
+  - absolute-vs-relative wording
+  - repeated AI rhythm
