@@ -1,0 +1,55 @@
+{
+  "concepts": [
+    {
+      "concept_id": "K001",
+      "name": "enzyme",
+      "audience_familiarity": "medium",
+      "importance": "core",
+      "technical_term_required": true,
+      "plain_language_meaning": "protein giúp một phản ứng hóa học xảy ra nhanh hơn",
+      "first_use_strategy": "plain definition in apposition",
+      "best_explanation_type": "direct_definition",
+      "mental_model": "chất xúc tác sinh học",
+      "reuse_policy": "use enzyme afterward",
+      "confusable_with": "hormone",
+      "avoid_explanation": "biochemistry lecture"
+    },
+    {
+      "concept_id": "K002",
+      "name": "lachrymatory-factor synthase",
+      "audience_familiarity": "very_low",
+      "importance": "optional",
+      "technical_term_required": false,
+      "plain_language_meaning": "enzyme chuyên giúp tạo tác nhân gây cay mắt",
+      "first_use_strategy": "omit technical name in final unless source context needs it",
+      "best_explanation_type": "mechanism",
+      "mental_model": "một bước chuyên biệt trong dây chuyền",
+      "reuse_policy": "plain language only",
+      "confusable_with": "alliinase",
+      "avoid_explanation": "acronym LFS"
+    },
+    {
+      "concept_id": "K003",
+      "name": "propanethial S-oxide",
+      "audience_familiarity": "very_low",
+      "importance": "supporting",
+      "technical_term_required": true,
+      "plain_language_meaning": "phân tử nhỏ dễ bay hơi gây kích thích mắt",
+      "first_use_strategy": "effect first, name once",
+      "best_explanation_type": "mechanism",
+      "mental_model": "phân tử bay từ mặt cắt tới mắt",
+      "reuse_policy": "refer to it as chất dễ bay hơi",
+      "confusable_with": "acid",
+      "avoid_explanation": "full reaction pathway"
+    }
+  ],
+  "high_load_clusters": [
+    "Draft chemistry paragraph initially contains enzyme names + molecule name; simplify at stage 06."
+  ],
+  "concepts_intentionally_removed": [
+    "alliinase as a name in final narration"
+  ],
+  "must_explain_before_first_label": [
+    "enzyme"
+  ]
+}
