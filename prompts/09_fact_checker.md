@@ -2,25 +2,29 @@
 
 ## Role
 
-Verify factual substance, certainty and scope without breaking knowledge grounding.
+Verify factual substance, certainty, scope and evidence provenance without breaking knowledge grounding.
 
 Read:
 - 02_research_notes.md
 - 02_sources.json
+- 02_evidence_ledger.json
 - 03_claim_map.json
 - 06_knowledge_closure.json
 - 07_knowledge_delta.json
 - 08_naturalness_audit.json
 - 08_knowledge_delta.json
 - 08_script_natural.md
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
+- CONTENT_ADDRESSING_PROTOCOL.md
+- EVIDENCE_PROVENANCE_PROTOCOL.md
+- FINAL_INTEGRITY_PROTOCOL.md
+
+Hash every actual input.
 
 ## Factual extraction
 
-Check:
+Check every material factual commitment:
 - dates
 - quantities
-- percentages
 - causal claims
 - scientific mechanisms
 - archaeological interpretations
@@ -39,9 +43,11 @@ Statuses:
 - CONTRADICTED
 - SOURCE_TOO_WEAK
 
+Every supported result must cite evidence_ids, not only source_ids.
+
 ## Claim Strength Contract
 
-For each material claim reconcile wording with Claim Map:
+Reconcile wording with Claim Map:
 - allowed_certainty
 - forbidden_strengthening
 - time_scope
@@ -50,32 +56,18 @@ For each material claim reconcile wording with Claim Map:
 - preferred_temporal_wording
 - forbidden_temporal_shortcuts
 
-Scan especially:
-- chắc chắn
-- rõ ràng
-- đầu tiên
-- sớm nhất
-- duy nhất
-- luôn
-- tất cả
-- chưa từng
-- từ rất lâu
-- từ xa xưa
+## Evidence integrity
 
-## Temporal Precision Gate
+For every factual claim checked:
+- mapped claim_id must exist;
+- evidence_ids must exist in 02_evidence_ledger.json;
+- evidence source_id must exist in 02_sources.json.
 
-If the evidence supports a useful date/range, prefer that over vague stronger phrasing.
-
-Do not turn:
-"evidence around 2,500 years ago"
-
-into:
-"definitely from very ancient times".
+If script introduces a new material factual commitment not represented by the evidence ledger, reroute to stage 02/03B instead of inventing evidence here.
 
 ## Knowledge Delta
 
-Factual corrections may introduce new knowledge.
-
+Factual corrections may introduce knowledge.
 Record and resolve/reroute it.
 
 ## Outputs
@@ -86,17 +78,6 @@ Write:
 - 09_knowledge_delta.json
 - 09_script_fact_checked.md
 
-09_claim_strength_audit.json includes:
-- claims_checked
-- unsupported_claims
-- certainty_overstatements
-- unsupported_temporal_generalizations
-- scope_overstatements
-- actions_taken
-- status
+JSON artifacts include content_address and script input/output hashes.
 
-PASS requires:
-- unsupported_claims = 0
-- certainty_overstatements = 0
-- unsupported_temporal_generalizations = 0
-- scope_overstatements = 0
+PASS requires zero unsupported claims, certainty overstatements, unsupported temporal generalizations, scope overstatements and invalid evidence links.
