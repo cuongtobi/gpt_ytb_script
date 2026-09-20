@@ -1,0 +1,44 @@
+name: v3.2 proof regression
+
+on:
+  push:
+    paths:
+      - "tools/verify_integrity_proof.py"
+      - "projects/2026-09-20_test_v3_2_*/**"
+      - ".github/workflows/v3-2-proof-regression.yml"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - projects/2026-09-20_test_v3_2_birds_power_lines_10min
+          - projects/2026-09-20_test_v3_2_maize_domestication_10min
+          - projects/2026-09-20_test_v3_2_seawater_rain_10min
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run deterministic v3.2 verifier
+        id: verify
+        shell: bash
+        run: |
+          set -euo pipefail
+          p="${{ matrix.project }}"
+          python tools/verify_integrity_proof.py \
+            --script "$p/10_final_script.md" \
+            --index "$p/10_final_sentence_index.json" \
+            --blind "$p/10b1_blind_knowledge_inventory.json" \
+            --integrity "$p/10_final_integrity.json" \
+            --isolation "$p/10b_isolation_manifest.json" \
+            | tee proof-result.json
+      - name: Assert fail-closed isolation status
+        shell: python
+        run: |
+          import json
+          r=json.load(open("proof-result.json",encoding="utf-8"))
+          assert r["proof_verifier_status"]=="PASS", r
+          assert r["project_status"]=="CONTENT_PASS_ISOLATION_NOT_VERIFIED", r
+          assert r["isolation_verified"] is False, r
+          print(json.dumps(r,ensure_ascii=False,indent=2))
