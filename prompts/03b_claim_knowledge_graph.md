@@ -13,9 +13,9 @@ Read:
 - 02_sources.json
 - 02_evidence_ledger.json
 - 03_core_subject.json
-- KNOWLEDGE_GROUNDING_PROTOCOL.md
-- EVIDENCE_PROVENANCE_PROTOCOL.md
-- FINAL_INTEGRITY_PROTOCOL.md
+- prompts/KNOWLEDGE_GROUNDING_PROTOCOL.md
+- prompts/EVIDENCE_PROVENANCE_PROTOCOL.md
+- prompts/FINAL_INTEGRITY_PROTOCOL.md
 
 Do not write narration.
 
@@ -41,11 +41,11 @@ For each material claim record:
 - preferred_temporal_wording
 - forbidden_temporal_shortcuts
 
-Every evidence_id must exist in 02_evidence_ledger.json.
-Every source_id must exist in 02_sources.json.
-Each evidence record must support the claim_id it is attached to.
+Every evidence_id must exist in `02_evidence_ledger.json`, and every linked evidence record must point to a source in `02_sources.json` and include this claim_id.
 
 Claim strength is a contract for stages 05, 09 and 10C.
+
+Do not allow later prose to become more certain, broader or more temporally vague than the evidence.
 
 ## Part B — Audience baseline
 
@@ -57,7 +57,14 @@ Record:
 - normal_language_primitives
 - never_auto_known_categories
 
-Never-auto-known normally includes scientific names, acronyms, biochemical terms, specialist archaeological/genetics terms, legal/technical labels and specialized uses of ordinary words.
+Never-auto-known normally includes:
+- scientific species names
+- acronyms
+- biochemical terms
+- specialist archaeological methods
+- specialist genetics/evolution terms
+- legal/technical labels
+- specialized uses of ordinary words
 
 BASELINE_KNOWN requires exact baseline support or explicit canonical mapping to a primitive.
 
@@ -84,14 +91,27 @@ Node fields:
 - safe_definition
 - unsafe_definition
 
+Necessity should include when relevant:
+- needed_for_later_reasoning
+- expected_reuse
+- precision_gain
+- story_value
+- replacement_available
+
 ## Alias Budget
 
 Import entity_label_policy from 03_core_subject.json.
-Prefer one primary spoken label.
+
+Graph aliases must respect:
+- primary spoken label
+- scientific alias policy
+- reuse policy
+- labels recommended for removal
 
 ## Dependency validation
 
 A dependency may be BASELINE_KNOWN only if supported by audience baseline.
+
 Otherwise create/ground/replace/remove it.
 
 ## Outputs
@@ -99,3 +119,14 @@ Otherwise create/ground/replace/remove it.
 Write:
 - 03_claim_map.json
 - 03_knowledge_graph.json
+
+03_knowledge_graph.json includes:
+- audience_baseline
+- entity_label_policy
+- nodes
+- relations
+- dependency_edges
+- alias_map
+- confusable_pairs
+- initial_unresolved
+- status
