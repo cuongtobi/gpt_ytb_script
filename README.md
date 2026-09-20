@@ -92,10 +92,12 @@ Một khái niệm KHÔNG được coi là đã giải thích nếu phần giả
 
 Ví dụ tốt hơn:
 
-Lactose là loại đường tự nhiên có trong sữa. Ruột non dùng một enzyme gọi là lactase để phân giải loại đường này.
+Lactose là loại đường tự nhiên có trong sữa. Ruột non tạo lactase, một chất giúp cơ thể xử lý loại đường này.
 
 Thứ tự:
 sữa + đường → lactose → lactase
+
+Nếu video thực sự cần khái niệm “enzyme”, pipeline sẽ giới thiệu và resolve nó riêng. Nếu không cần, không bắt khán giả học thêm một label.
 
 ## Contextual Familiarity
 
