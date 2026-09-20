@@ -10,11 +10,13 @@ Allowed:
 - 05_draft_sentence_index.json
 - shared protocols
 
+Hash every actual input using CONTENT_ADDRESSING_PROTOCOL.md.
+
 ## PASS A1 — Forward lexical review
 
-Process canonical sentence IDs from first to last.
+Process every canonical sentence from first to last.
 
-For EVERY sentence create a review with all category keys:
+For EVERY sentence fill all category arrays:
 - technical_scientific
 - acronyms_symbols
 - abstract_processes
@@ -26,20 +28,13 @@ For EVERY sentence create a review with all category keys:
 - aliases_relations
 - mechanisms
 
-List phrases considered under each category.
-
 ## PASS A2 — Reverse lexical review
 
-Process the same sentence IDs from last to first.
-
-Do not merely copy A1.
-Look specifically for phrases A1 may have normalized away or treated as ordinary.
-
-Use the same complete category matrix.
+Process the same sentences last to first.
+Do not copy A1.
 
 ## Candidate union
 
-For each sentence:
 lexical_candidate_ids = union(A1 candidates, A2 candidates)
 
 Candidate record:
@@ -48,29 +43,17 @@ Candidate record:
 - first_use_sentence_id
 - candidate_type
 - reason_flagged
-- discovered_by: forward | reverse | both
+- discovered_by
 
 ## Coverage proof
 
-There must be exactly one final ledger row for every canonical sentence ID.
+Exactly one ledger row per canonical sentence.
+Zero candidates is valid.
+Missing row/category key is FAIL.
 
-Each row contains:
-- sentence_id
-- forward_review
-- reverse_review
-- lexical_candidate_ids
+## Semantic crosswalk
 
-Missing sentence or missing category key = FAIL.
-
-## PASS B — Semantic crosswalk
-
-Every candidate ID must appear exactly once in semantic crosswalk:
-- likely_knowledge_bearing
-- likely_ordinary_vocabulary
-- duplicate_of_candidate
-- alias_candidate
-- specialized_role_candidate
-
+Every candidate ID appears exactly once in semantic crosswalk.
 Do not assign final disposition here.
 
 ## Outputs
@@ -78,3 +61,5 @@ Do not assign final disposition here.
 Write:
 - 05_lexical_knowledge_sweep.json
 - 05_blind_knowledge_inventory.json
+
+Both include content_address with hashes of every actual input.
