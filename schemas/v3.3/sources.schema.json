@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sources.schema.json",
+  "type": "object",
+  "required": ["sources"],
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "source_type", "url_or_locator"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^S[0-9]+$"},
+          "title": {"type": "string", "minLength": 1},
+          "source_type": {"type": "string", "minLength": 1},
+          "url_or_locator": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
