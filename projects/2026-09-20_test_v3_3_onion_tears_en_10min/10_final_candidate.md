@@ -93,7 +93,7 @@ Breeding and biotechnology can therefore change how strongly an onion activates 
 Once you understand the mechanism, many kitchen tricks become easier to judge.
 The tear factor has to be produced in damaged tissue and then reach your eyes through the air.
 So the most direct strategy is to reduce your exposure to the airborne irritant.
-Moving air away from your face with good ventilation can help carry the volatile compound elsewhere.
+Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere.
 Anything that places your eyes farther from the rising vapor can reduce exposure simply by changing where the air goes.
 The important point is that no trick needs to "neutralize emotion" or pull toxins out of the onion.
 This is ordinary plant chemistry meeting ordinary eye protection.
