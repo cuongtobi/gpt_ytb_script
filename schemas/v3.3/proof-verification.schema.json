@@ -2,11 +2,15 @@
   "$schema":"https://json-schema.org/draft/2020-12/schema",
   "$id":"proof-verification.schema.json",
   "type":"object",
-  "required":["proof_verifier_status","isolation_verified","project_status","errors"],
+  "required":["content_address","pipeline_version","proof_verifier_status","isolation_verified","project_status","recomputed_hard_counters","recomputed_proof_counters","errors"],
   "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "pipeline_version":{"type":"string"},
     "proof_verifier_status":{"enum":["PASS","FAIL"]},
     "isolation_verified":{"type":"boolean"},
     "project_status":{"enum":["PASS_VERIFIED","CONTENT_PASS_ISOLATION_NOT_VERIFIED","FAIL"]},
+    "recomputed_hard_counters":{"type":"object"},
+    "recomputed_proof_counters":{"type":"object"},
     "errors":{"type":"array","items":{"type":"string"}}
   }
 }
