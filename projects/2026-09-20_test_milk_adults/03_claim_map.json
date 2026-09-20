@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "claim_id": "C001",
+      "claim": "Lactase activity commonly declines after weaning in most mammals and many humans.",
+      "category": "physiology",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S003"
+      ],
+      "safe_wording": "Sau cai sữa, ở phần lớn động vật có vú và nhiều người, hoạt động lactase giảm.",
+      "unsafe_wording": "Mọi người lớn đều mất lactase trừ người châu Âu.",
+      "caveats": "Population variation is substantial.",
+      "visual_potential": "high",
+      "story_function": "hook"
+    },
+    {
+      "claim_id": "C002",
+      "claim": "Milk exploitation was widespread in prehistoric Europe for roughly the last 9,000 years.",
+      "category": "archaeology",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Dấu vết trong gốm cho thấy việc khai thác sữa đã phổ biến ở châu Âu từ thời Neolithic.",
+      "unsafe_wording": "Mọi người châu Âu đã uống sữa tươi từ 9,000 năm trước.",
+      "caveats": "Residues indicate dairy exploitation, not necessarily fresh-milk drinking by every individual.",
+      "visual_potential": "very_high",
+      "story_function": "evidence"
+    },
+    {
+      "claim_id": "C003",
+      "claim": "The major rise of a European lactase-persistence allele occurred after dairying was already established.",
+      "category": "genetics",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "safe_wording": "Dairying có trước sự tăng mạnh của biến thể lactase persistence trong dữ liệu châu Âu.",
+      "unsafe_wording": "Gene xuất hiện chỉ sau khi con người phát minh sữa.",
+      "caveats": "Alleles can exist at low frequency before selection; wording must be about frequency increase.",
+      "visual_potential": "high",
+      "story_function": "contradiction"
+    },
+    {
+      "claim_id": "C004",
+      "claim": "Famine and pathogen exposure are proposed as factors that may have intensified selection for lactase persistence in prehistoric Europe.",
+      "category": "evolution",
+      "importance": "supporting",
+      "confidence": "medium",
+      "support_type": "inference",
+      "source_ids": [
+        "S001"
+      ],
+      "safe_wording": "Nghiên cứu 2022 đề xuất đói kém và bệnh tật có thể làm lợi thế của lactase persistence lớn hơn.",
+      "unsafe_wording": "Đói kém và dịch bệnh là nguyên nhân đã được chứng minh.",
+      "caveats": "Model-based proposal, not sole established cause.",
+      "visual_potential": "high",
+      "story_function": "complication"
+    },
+    {
+      "claim_id": "C005",
+      "claim": "Lactase persistence is continued lactase activity in adulthood.",
+      "category": "concept",
+      "importance": "core",
+      "confidence": "high",
+      "support_type": "direct",
+      "source_ids": [
+        "S003"
+      ],
+      "safe_wording": "Lactase persistence là việc tiếp tục tạo/duy trì lactase khi trưởng thành.",
+      "unsafe_wording": "Lactase persistence là miễn nhiễm với mọi vấn đề từ sữa.",
+      "caveats": "Do not equate phenotype with all dairy tolerance.",
+      "visual_potential": "medium",
+      "story_function": "mechanism"
+    }
+  ]
+}
