@@ -2,23 +2,28 @@
 
 ## Purpose
 
-Create blind-audit input packets without pretending same-context execution is isolated.
+Create truly isolated final audits where runtime capabilities allow it.
 
 ## Required isolated runs
 
 Run separately:
-- 10B1 knowledge audit
-- 10B2 claim audit
-- 10B3 naturalness audit
+- 10B1 knowledge
+- 10B2 claims
+- 10B3 naturalness
 
-Each must start from a fresh model/agent/chat context.
+Each must start from a fresh execution context.
 
 ## Runtime manifest
 
-The orchestration runtime, not the auditor, writes:
+Only the orchestration runtime may write:
 - 10b_isolation_manifest.json
 
-For each audit:
+Top-level:
+- manifest_origin: runtime
+- attestation_source
+- isolation_status
+
+Per audit:
 - audit_id
 - execution_id
 - context_mode
@@ -28,13 +33,27 @@ For each audit:
 - forbidden_input_accessed
 - runtime_attested
 
+## Valid verified isolation
+
+For PASS_VERIFIED:
+- manifest_origin must be `runtime`;
+- attestation_source must identify the runtime/agent mechanism;
+- execution IDs must be non-empty and distinct;
+- context_mode = fresh;
+- runtime_attested = true;
+- observed inputs must be a subset of allowed inputs;
+- observed inputs must not intersect forbidden inputs;
+- forbidden_input_accessed = false.
+
 ## Fail closed
 
 If the current environment cannot create or attest fresh contexts:
 
 isolation_status = ISOLATION_NOT_VERIFIED
 
-Do not invent execution IDs.
-Do not self-attest from the auditor prompt.
+Do not invent:
+- execution IDs
+- runtime attestation
+- a fresh-context claim
 
-The project may continue for advisory audit, but cannot become PASS_VERIFIED.
+Advisory audits may still run, but project_status cannot be PASS_VERIFIED.

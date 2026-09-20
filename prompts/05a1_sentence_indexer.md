@@ -2,7 +2,7 @@
 
 ## Role
 
-Create a mechanical sentence index for 05_script_draft.md before blind lexical discovery.
+Create a mechanical sentence index for the exact 05_script_draft.md.
 
 Read only:
 - 05_script_draft.md
@@ -10,14 +10,15 @@ Read only:
 
 Do not evaluate meaning.
 
-## Rules
+## Canonical segmentation
 
-- Exclude Markdown headings from narration sentence count.
-- Preserve exact narration sentence text.
-- Assign S0001, S0002, S0003...
-- Do not skip short fragments if they are narration.
-- Do not merge separate sentences because they express one idea.
-- Record section heading separately.
+Use the exact algorithm in INTEGRITY_PROOF_PROTOCOL.md:
+- ignore Markdown headings and blank lines;
+- sentence-final punctuation ends a unit;
+- periods between digits do not split;
+- closing quotes/brackets remain attached;
+- a non-empty line fragment without terminal punctuation is still a unit;
+- preserve exact text except leading/trailing whitespace.
 
 ## Output
 
@@ -26,10 +27,7 @@ Write:
 
 Fields:
 - source_file
-- units:
-  - sentence_id
-  - section_heading
-  - exact_text
+- units[{sentence_id, section_heading, exact_text}]
 - source_sentence_count
 - indexed_sentence_count
 - duplicate_sentence_ids
@@ -37,4 +35,4 @@ Fields:
 - reconstruction_ok
 - status
 
-FAIL if the index cannot reconstruct the narration sequence.
+Do not claim PASS if exact reconstruction is uncertain.

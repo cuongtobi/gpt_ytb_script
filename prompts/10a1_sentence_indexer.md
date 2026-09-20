@@ -8,19 +8,18 @@ Read only:
 - 10_final_candidate.md
 - prompts/INTEGRITY_PROOF_PROTOCOL.md
 
-Do not audit knowledge, facts or naturalness.
+Do not audit meaning.
+
+Use the exact canonical segmentation algorithm from INTEGRITY_PROOF_PROTOCOL.md.
 
 ## Output
 
 Write:
 - 10_final_sentence_index.json
 
-Required:
+Fields:
 - source_file
-- units:
-  - sentence_id
-  - section_heading
-  - exact_text
+- units[{sentence_id, section_heading, exact_text}]
 - source_sentence_count
 - indexed_sentence_count
 - duplicate_sentence_ids
@@ -28,4 +27,4 @@ Required:
 - reconstruction_ok
 - status
 
-This artifact is the coordinate system for 10B1 and 10C.
+This index is only provisional until 10D recomputes the segmentation directly from the script and verifies exact equality.
