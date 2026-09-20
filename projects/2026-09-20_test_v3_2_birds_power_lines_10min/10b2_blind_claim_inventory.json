@@ -1,6 +1,0 @@
-{
-  "audit_run_id": null,
-  "isolation_status": "ISOLATION_NOT_VERIFIED",
-  "claim_candidates": [],
-  "note": "Advisory same-context rerun only; factual backbone reused from v3.1 fixture."
-}
