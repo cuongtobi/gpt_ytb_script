@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "tools/verify_integrity_proof.py"
+      - "tools/assert_v3_2_fixture_targets.py"
       - "projects/2026-09-20_test_v3_2_*/**"
       - ".github/workflows/v3-2-proof-regression.yml"
   workflow_dispatch:
@@ -20,8 +21,9 @@ jobs:
           - projects/2026-09-20_test_v3_2_seawater_rain_10min
     steps:
       - uses: actions/checkout@v4
+      - name: Assert fixture-specific regression targets
+        run: python tools/assert_v3_2_fixture_targets.py "${{ matrix.project }}"
       - name: Run deterministic v3.2 verifier
-        id: verify
         shell: bash
         run: |
           set -euo pipefail
