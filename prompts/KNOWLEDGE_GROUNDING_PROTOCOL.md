@@ -1,12 +1,13 @@
-# KNOWLEDGE GROUNDING PROTOCOL — v3.2
+# KNOWLEDGE GROUNDING PROTOCOL — v3.3
 
 ## Purpose
 
 Manage what the audience knows at each point in narration without forcing glossary-style writing.
 
 Use together with:
-- prompts/FINAL_INTEGRITY_PROTOCOL.md
-- prompts/INTEGRITY_PROOF_PROTOCOL.md
+- CONTENT_ADDRESSING_PROTOCOL.md
+- FINAL_INTEGRITY_PROTOCOL.md
+- INTEGRITY_PROOF_PROTOCOL.md
 
 ## Knowledge node types
 
@@ -61,7 +62,7 @@ BASELINE_KNOWN is valid only if:
 1. exact phrase is in audience_baseline.assumed_known; or
 2. phrase is explicitly mapped to a declared normal_language_primitive.
 
-Every BASELINE_KNOWN result must carry machine-auditable provenance fields required by INTEGRITY_PROOF_PROTOCOL.md.
+Every BASELINE_KNOWN result carries machine-auditable provenance.
 
 No inferred known.
 
@@ -75,13 +76,11 @@ Recursively ground, replace or remove dependencies.
 
 Eventually explained is not enough.
 
-Every retained unfamiliar candidate must have a temporal proof using canonical sentence IDs.
-
-No prose-only "PASS" is accepted.
+Every retained unfamiliar candidate must have temporal proof using canonical sentence IDs.
 
 ## Blind discovery
 
-Discovery uses the canonical sentence index.
+Discovery uses the content-addressed canonical sentence index.
 
 Every sentence ID must have a lexical-ledger row, including zero-candidate sentences.
 
@@ -119,15 +118,14 @@ After each rewrite compare:
 - new_relations
 - new_dependencies
 
-New unfamiliar knowledge must be resolved before downstream PASS.
+Each delta artifact must be content-addressed to the exact input and output script bytes.
 
 ## Final knowledge proof
 
 Knowledge PASS requires:
 - all normal knowledge counters = 0
-- sentence coverage proof valid
-- candidate conservation proof valid
+- sentence coverage valid
+- candidate conservation valid
 - temporal proof valid
 - baseline provenance valid
-
-Final project completion additionally follows FINAL_INTEGRITY_PROTOCOL.md and INTEGRITY_PROOF_PROTOCOL.md.
+- all audit hashes valid
