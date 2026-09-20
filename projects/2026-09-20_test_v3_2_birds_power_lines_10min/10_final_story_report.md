@@ -1,12 +1,36 @@
-# v3.2 Rerun — Pending 10D
+# v3.2 Fixture Rerun Result
 
-Content audit: PASS.
-Isolation: NOT VERIFIED in current chat runtime.
-Deterministic proof verifier: pending.
+## Status
 
-Repairs:
-- điện áp → removed/rephrased
-- đường dây truyền tải → removed
-- đường phân phối → removed
-- dòng điện grounded at first use
-- mức điện grounded at first use
+**CONTENT_PASS_ISOLATION_NOT_VERIFIED**
+
+- Content proof: PASS
+- Targeted regression assertions: PASS
+- Deterministic verifier: PASS
+- Blind isolation verified: NO
+
+## Execution evidence
+
+GitHub Actions run: 35516259457
+Head SHA: 0d56f108246c30c2d67997a152210318f0f520fa
+Workflow conclusion: success
+
+- recomputed_sentence_count: 72
+- discovered_candidate_count: 5
+- verifier errors: 0
+
+## Regression targets
+
+- điện áp
+- đường dây truyền tải
+- đường phân phối
+
+v3.1 lexical misses were detected in the draft sweep and removed/rephrased before final.
+
+## Isolation
+
+The current ChatGPT orchestration did not provide runtime-attested fresh model contexts for 10B1/10B2/10B3.
+
+Therefore v3.2 correctly refused `PASS_VERIFIED` and returned:
+
+`CONTENT_PASS_ISOLATION_NOT_VERIFIED`

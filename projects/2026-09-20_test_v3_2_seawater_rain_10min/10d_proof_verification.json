@@ -1,4 +1,18 @@
 {
-  "proof_verifier_status": "PENDING",
-  "project_status": "PENDING_10D"
+  "proof_verifier_status": "PASS",
+  "isolation_verified": false,
+  "project_status": "CONTENT_PASS_ISOLATION_NOT_VERIFIED",
+  "recomputed_sentence_count": 86,
+  "discovered_candidate_count": 6,
+  "disposition_counts": {
+    "GROUNDED": 4,
+    "BASELINE_KNOWN": 2,
+    "REPLACED": 0,
+    "REMOVED": 0,
+    "UNRESOLVED": 0
+  },
+  "errors": [],
+  "workflow_run_id": 35516259457,
+  "workflow_head_sha": "0d56f108246c30c2d67997a152210318f0f520fa",
+  "targeted_regression_status": "PASS"
 }
