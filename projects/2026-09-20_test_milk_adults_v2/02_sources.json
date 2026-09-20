@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "S001",
+      "title": "Dairying, diseases and the evolution of lactase persistence in Europe",
+      "authors_or_org": "Evershed et al.; Nature",
+      "year": "2022",
+      "url_or_locator": "https://www.nature.com/articles/s41586-022-05010-7",
+      "source_type": "primary"
+    },
+    {
+      "id": "S002",
+      "title": "The selection landscape and genetic legacy of ancient Eurasians",
+      "authors_or_org": "Nature",
+      "year": "2024",
+      "url_or_locator": "https://www.nature.com/articles/s41586-023-06705-1",
+      "source_type": "primary"
+    },
+    {
+      "id": "S003",
+      "title": "The evolutionary tale of lactase persistence in humans",
+      "authors_or_org": "Nature Reviews Genetics",
+      "year": "2024",
+      "url_or_locator": "https://www.nature.com/articles/s41576-023-00660-3",
+      "source_type": "academic_secondary"
+    }
+  ]
+}

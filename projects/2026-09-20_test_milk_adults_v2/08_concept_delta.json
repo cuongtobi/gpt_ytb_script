@@ -1,0 +1,22 @@
+{
+  "input_concepts": [
+    "lactose",
+    "lactase",
+    "DNA",
+    "đặc điểm di truyền",
+    "quần thể"
+  ],
+  "output_concepts": [
+    "lactose",
+    "lactase",
+    "DNA",
+    "đặc điểm di truyền",
+    "quần thể"
+  ],
+  "new_concepts": [],
+  "new_contextual_roles": [],
+  "new_dependencies": [],
+  "actions_taken": [],
+  "unresolved": 0,
+  "status": "PASS"
+}
