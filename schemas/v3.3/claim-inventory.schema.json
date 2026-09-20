@@ -1,0 +1,31 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"claim-inventory.schema.json",
+  "type":"object",
+  "required":["content_address","sentence_ledger","claim_candidates","coverage_proof","status"],
+  "properties":{
+    "content_address":{"$ref":"audit-envelope.schema.json#/$defs/content_address"},
+    "sentence_ledger":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["sentence_id","forward_claim_review","reverse_claim_review","claim_candidate_ids"],
+        "properties":{
+          "sentence_id":{"type":"string","pattern":"^S[0-9]{4,}$"},
+          "forward_claim_review":{"type":"object"},
+          "reverse_claim_review":{"type":"object"},
+          "claim_candidate_ids":{"type":"array","items":{"type":"string"}}
+        }
+      }
+    },
+    "claim_candidates":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["claim_candidate_id","sentence_id","exact_quote","normalized_claim","claim_type","discovered_by","risk_flags"]
+      }
+    },
+    "coverage_proof":{"type":"object"},
+    "status":{"type":"string"}
+  }
+}
