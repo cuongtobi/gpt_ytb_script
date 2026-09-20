@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "a758943a445fa01740de451e6a7dab55d63f5f9bb626f0bcda3df8b159298bac"
+        "sha256": "301a04a0a2df5b670ba9fb8990dfb36235d7c7e18f80f50d0db54121b4a1eded"
       }
     ]
   },
@@ -1669,48 +1669,12 @@
         "unclear_pronoun": [],
         "surface_error": []
       }
-    },
-    {
-      "sentence_id": "S0093",
-      "flags": {
-        "translationese": [],
-        "academic_compression": [],
-        "unnecessary_label": [],
-        "alias_overload": [],
-        "duplicate_explanation_or_reveal": [],
-        "repeated_opening_or_fragment": [],
-        "parallelism_overload": [],
-        "rhetorical_question_overload": [],
-        "awkward_terminology": [],
-        "audio_density": [],
-        "high_load_listening_block": [],
-        "unclear_pronoun": [],
-        "surface_error": []
-      }
-    },
-    {
-      "sentence_id": "S0094",
-      "flags": {
-        "translationese": [],
-        "academic_compression": [],
-        "unnecessary_label": [],
-        "alias_overload": [],
-        "duplicate_explanation_or_reveal": [],
-        "repeated_opening_or_fragment": [],
-        "parallelism_overload": [],
-        "rhetorical_question_overload": [],
-        "awkward_terminology": [],
-        "audio_density": [],
-        "high_load_listening_block": [],
-        "unclear_pronoun": [],
-        "surface_error": []
-      }
     }
   ],
   "findings": [],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 94
+    "sentence_count": 92
   },
   "status": "PASS"
 }

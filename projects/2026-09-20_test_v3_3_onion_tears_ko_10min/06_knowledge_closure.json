@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "05_blind_knowledge_inventory.json",
-        "sha256": "8ba533606e6a04e34119db7d7eb8ee3f649ceb2d2efe3370514070214c138400"
+        "sha256": "0dc9b5b9d2db3bdf7f2a103df095768a0243f618df1ea62deaf0efb555f8c470"
       }
     ]
   },
@@ -17,7 +17,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -39,11 +40,16 @@
         "status": "GROUNDED",
         "exact_phrase": "반사 눈물",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "설펜산",
+        "grounding_sentence_id": "S0019"
       }
     },
-    "discovered_count": 4,
+    "discovered_count": 5,
     "baseline_known_count": 0,
-    "grounded_count": 4,
+    "grounded_count": 5,
     "replaced_count": 0,
     "removed_count": 0,
     "unresolved_count": 0,
@@ -78,6 +84,13 @@
       "first_use_sentence_id": "S0012",
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0019",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0019",
       "ordering_valid": true
     }
   ],

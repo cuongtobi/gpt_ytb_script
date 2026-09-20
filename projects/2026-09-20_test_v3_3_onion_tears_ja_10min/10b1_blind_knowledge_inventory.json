@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675"
+        "sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "7eba6d9eb24184b23e5cf4dc1889114f19b091be66aff403c2d1045fd1ec67f5"
+        "sha256": "5761d432ddc503c8105c5785b5f2e59c21d785af94298673c81d6fa93308d094"
       }
     ]
   },
@@ -545,7 +545,9 @@
     {
       "sentence_id": "S0019",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "スルフェン酸"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -557,7 +559,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "スルフェン酸"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -568,7 +572,9 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F005"
+      ]
     },
     {
       "sentence_id": "S0020",
@@ -1157,34 +1163,6 @@
     {
       "sentence_id": "S0040",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0041",
-      "forward_review": {
         "technical_scientific": [
           "反射性の涙"
         ],
@@ -1215,6 +1193,34 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0041",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0042",
@@ -1919,34 +1925,6 @@
     {
       "sentence_id": "S0067",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0068",
-      "forward_review": {
         "technical_scientific": [
           "催涙因子合成酵素"
         ],
@@ -1977,6 +1955,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0068",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0069",
@@ -2009,34 +2015,6 @@
     {
       "sentence_id": "S0070",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0071",
-      "forward_review": {
         "technical_scientific": [
           "催涙因子合成酵素"
         ],
@@ -2067,6 +2045,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0071",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0072",
@@ -2379,7 +2385,9 @@
     {
       "sentence_id": "S0083",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "アリイナーゼ"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2391,7 +2399,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "アリイナーゼ"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2402,12 +2412,16 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0084",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "アリイナーゼ"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2419,7 +2433,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "アリイナーゼ"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2430,78 +2446,12 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0085",
-      "forward_review": {
-        "technical_scientific": [
-          "アリイナーゼ"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "アリイナーゼ"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0086",
-      "forward_review": {
-        "technical_scientific": [
-          "アリイナーゼ"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "アリイナーゼ"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0087",
       "forward_review": {
         "technical_scientific": [
           "催涙因子合成酵素",
@@ -2538,7 +2488,7 @@
       ]
     },
     {
-      "sentence_id": "S0088",
+      "sentence_id": "S0086",
       "forward_review": {
         "technical_scientific": [],
         "acronyms_symbols": [],
@@ -2566,7 +2516,7 @@
       "lexical_candidate_ids": []
     },
     {
-      "sentence_id": "S0089",
+      "sentence_id": "S0087",
       "forward_review": {
         "technical_scientific": [
           "反射性の涙"
@@ -2598,6 +2548,62 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0088",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0089",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0090",
@@ -2710,62 +2716,6 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0094",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0095",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
     }
   ],
   "lexical_candidates": [
@@ -2800,6 +2750,14 @@
       "candidate_type": "SPECIALIZED_COMMON_WORD",
       "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
       "discovered_by": "both"
+    },
+    {
+      "candidate_id": "F005",
+      "exact_phrase": "スルフェン酸",
+      "first_use_sentence_id": "S0019",
+      "candidate_type": "TECHNICAL_SCIENTIFIC",
+      "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
+      "discovered_by": "both"
     }
   ],
   "semantic_crosswalk": [
@@ -2818,6 +2776,10 @@
     {
       "candidate_id": "F004",
       "classification": "likely_knowledge_bearing"
+    },
+    {
+      "candidate_id": "F005",
+      "classification": "likely_knowledge_bearing"
     }
   ],
   "core_entity_candidates": [],
@@ -2826,7 +2788,7 @@
   "specialized_role_candidates": [],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 95
+    "sentence_count": 93
   },
   "status": "PASS"
 }

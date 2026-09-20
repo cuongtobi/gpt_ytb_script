@@ -4,19 +4,19 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675"
+        "sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "aec04c18751d035c797b2988f2fada7c47b8f22dcf4983dd238710464ce0279e"
+        "sha256": "d4fde2fcf005b90d3d7cb58aec94e6a1ab1a98c658f582c373af7594584924b0"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "9f34d8ed131fa85b2dcef5ebe1ae11c4f3031db61b82b2fd4dd60bc4d1968baa"
+        "sha256": "f03c60a3e1ffa3f3ad142d755c9677e0fa1fe389732650936c4cc170a409032e"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "88e3b800ba9ed4dd522b48104f49097d9f23ca702ec900dd64a564a65f5d3b2b"
+        "sha256": "5d6b8d835d11198ee559f411f7f20f37f28fe77ff970362227cdb2cbb1d115ab"
       }
     ]
   },
@@ -74,7 +74,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -96,17 +97,13 @@
         "status": "GROUNDED",
         "exact_phrase": "反射性の涙",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "スルフェン酸",
+        "grounding_sentence_id": "S0019"
       }
-    },
-    "discovered_count": 4,
-    "baseline_known_count": 0,
-    "grounded_count": 4,
-    "replaced_count": 0,
-    "removed_count": 0,
-    "unresolved_count": 0,
-    "equation_valid": true,
-    "missing_candidate_ids": [],
-    "duplicate_disposition_ids": []
+    }
   },
   "temporal_proofs": [
     {
@@ -136,6 +133,13 @@
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
       "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0019",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0019",
+      "ordering_valid": true
     }
   ],
   "claim_conservation_proof": {
@@ -147,7 +151,9 @@
       "BC005",
       "BC006",
       "BC007",
-      "BC008"
+      "BC008",
+      "BC009",
+      "BC010"
     ],
     "dispositions": {
       "BC001": {
@@ -230,6 +236,27 @@
         "evidence_ids": [
           "E001",
           "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC009": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C009"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC010": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E007"
         ],
         "remaining_issue_types": []
       }

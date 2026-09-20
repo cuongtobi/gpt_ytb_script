@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "07_script_retention_edit.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "08_script_natural.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       }
     ]
   },

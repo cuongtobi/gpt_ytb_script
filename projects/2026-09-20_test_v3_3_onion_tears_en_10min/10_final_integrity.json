@@ -4,19 +4,19 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687"
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "748c3e5e927db37bcddbd74265c66654af516e5f5ae5a09a85719c38370dbeea"
+        "sha256": "257c7dd4da49bebf988b8e19320008945470d98b8b496453dae8dc2700d1bbde"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "126d160866b8467f8b26455c6a683bb078360faeadb8dd25abcbc14262e8b24d"
+        "sha256": "ba5edfbfb87cd4c71e0a11d17cf3c35f187b7e7e075ac3d8897a683274a47b2e"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "a3e1952267c1757cd354e9a85a8f3c7a743cecc42bd07c400f3a208b17006414"
+        "sha256": "190c5756067f9de6141295b12346ef311447e8df4a4deff0c0d12f0425faa695"
       }
     ]
   },
@@ -74,7 +74,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -95,18 +96,14 @@
       "F004": {
         "status": "GROUNDED",
         "exact_phrase": "reflex tears",
-        "grounding_sentence_id": "S0039"
+        "grounding_sentence_id": "S0011"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "sulfenic acids",
+        "grounding_sentence_id": "S0018"
       }
-    },
-    "discovered_count": 4,
-    "baseline_known_count": 0,
-    "grounded_count": 4,
-    "replaced_count": 0,
-    "removed_count": 0,
-    "unresolved_count": 0,
-    "equation_valid": true,
-    "missing_candidate_ids": [],
-    "duplicate_disposition_ids": []
+    }
   },
   "temporal_proofs": [
     {
@@ -132,9 +129,16 @@
     },
     {
       "candidate_id": "F004",
-      "first_use_sentence_id": "S0039",
+      "first_use_sentence_id": "S0011",
       "grounding_mode": "INLINE",
-      "grounding_sentence_id": "S0039",
+      "grounding_sentence_id": "S0011",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0018",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0018",
       "ordering_valid": true
     }
   ],
@@ -147,7 +151,9 @@
       "BC005",
       "BC006",
       "BC007",
-      "BC008"
+      "BC008",
+      "BC009",
+      "BC010"
     ],
     "dispositions": {
       "BC001": {
@@ -230,6 +236,27 @@
         "evidence_ids": [
           "E001",
           "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC009": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C009"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC010": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E007"
         ],
         "remaining_issue_types": []
       }

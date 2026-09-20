@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687"
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "50dd6292ea197d95aece5451c941cdf1c50f9d56ed22e43ebd06ecd2c655b018"
+        "sha256": "ad31e48dd486380dcce57edd255cfc704215425902617487b178357c09422fb2"
       }
     ]
   },
@@ -297,7 +297,9 @@
     {
       "sentence_id": "S0011",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "reflex tears"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -309,7 +311,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "reflex tears"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -320,7 +324,9 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F004"
+      ]
     },
     {
       "sentence_id": "S0012",
@@ -511,7 +517,9 @@
     {
       "sentence_id": "S0018",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "sulfenic acids"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -523,7 +531,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "sulfenic acids"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -534,7 +544,9 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F005"
+      ]
     },
     {
       "sentence_id": "S0019",
@@ -1089,34 +1101,6 @@
     {
       "sentence_id": "S0038",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0039",
-      "forward_review": {
         "technical_scientific": [
           "reflex tears"
         ],
@@ -1147,6 +1131,34 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0039",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0040",
@@ -1739,34 +1751,6 @@
     {
       "sentence_id": "S0061",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0062",
-      "forward_review": {
         "technical_scientific": [
           "lachrymatory-factor synthase"
         ],
@@ -1797,6 +1781,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0062",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0063",
@@ -2193,7 +2205,9 @@
     {
       "sentence_id": "S0077",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "alliinase"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2205,7 +2219,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "alliinase"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2216,12 +2232,16 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0078",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "alliinase"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2233,7 +2253,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "alliinase"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2244,78 +2266,12 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0079",
-      "forward_review": {
-        "technical_scientific": [
-          "alliinase"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "alliinase"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0080",
-      "forward_review": {
-        "technical_scientific": [
-          "alliinase"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "alliinase"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0081",
       "forward_review": {
         "technical_scientific": [
           "lachrymatory-factor synthase",
@@ -2352,7 +2308,7 @@
       ]
     },
     {
-      "sentence_id": "S0082",
+      "sentence_id": "S0080",
       "forward_review": {
         "technical_scientific": [],
         "acronyms_symbols": [],
@@ -2380,7 +2336,7 @@
       "lexical_candidate_ids": []
     },
     {
-      "sentence_id": "S0083",
+      "sentence_id": "S0081",
       "forward_review": {
         "technical_scientific": [
           "reflex tears"
@@ -2412,6 +2368,62 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0082",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0083",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0084",
@@ -2524,62 +2536,6 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0088",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0089",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
     }
   ],
   "lexical_candidates": [
@@ -2610,8 +2566,16 @@
     {
       "candidate_id": "F004",
       "exact_phrase": "reflex tears",
-      "first_use_sentence_id": "S0039",
+      "first_use_sentence_id": "S0011",
       "candidate_type": "SPECIALIZED_COMMON_WORD",
+      "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
+      "discovered_by": "both"
+    },
+    {
+      "candidate_id": "F005",
+      "exact_phrase": "sulfenic acids",
+      "first_use_sentence_id": "S0018",
+      "candidate_type": "TECHNICAL_SCIENTIFIC",
       "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
       "discovered_by": "both"
     }
@@ -2632,6 +2596,10 @@
     {
       "candidate_id": "F004",
       "classification": "likely_knowledge_bearing"
+    },
+    {
+      "candidate_id": "F005",
+      "classification": "likely_knowledge_bearing"
     }
   ],
   "core_entity_candidates": [],
@@ -2640,7 +2608,7 @@
   "specialized_role_candidates": [],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 89
+    "sentence_count": 87
   },
   "status": "PASS"
 }

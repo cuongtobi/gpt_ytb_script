@@ -3,8 +3,8 @@ project:
   language: "Korean"
   locale: "ko"
   duration_minutes: 10
-  estimated_whitespace_tokens: 1009
-  estimated_characters: 4102
+  estimated_whitespace_tokens: 985
+  estimated_characters: 4007
   audience: "general"
   technical_level: "accessible"
   tone: "conversational_documentary"
@@ -15,7 +15,7 @@ research:
   depth: "focused"
   freshness_required: false
   research_date: "2026-09-20"
-  source_basis: "shared primary/official evidence set for controlled multilingual comparison"
+  source_basis: "shared evidence set for controlled multilingual comparison"
 pipeline:
   version: "3.3"
   artifact_schema_version: "3.3.0"

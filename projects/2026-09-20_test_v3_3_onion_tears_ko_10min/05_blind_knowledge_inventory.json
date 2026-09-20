@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "05_draft_sentence_index.json",
-        "sha256": "0208d98331b4bb92207e565dfb9a62098e3d247348a6b6c6ebe5731030e1a802"
+        "sha256": "5c95b703942f0e6564aa0b2a88e04e65773a01812775c55c3ecf44295efa6a1f"
       }
     ]
   },
@@ -545,7 +545,9 @@
     {
       "sentence_id": "S0019",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "설펜산"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -557,7 +559,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "설펜산"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -568,7 +572,9 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F005"
+      ]
     },
     {
       "sentence_id": "S0020",
@@ -1151,34 +1157,6 @@
     {
       "sentence_id": "S0040",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0041",
-      "forward_review": {
         "technical_scientific": [
           "반사 눈물"
         ],
@@ -1209,6 +1187,34 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0041",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0042",
@@ -1885,34 +1891,6 @@
     {
       "sentence_id": "S0066",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0067",
-      "forward_review": {
         "technical_scientific": [
           "눈물 유발 인자 합성효소"
         ],
@@ -1943,6 +1921,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0068",
@@ -1975,34 +1981,6 @@
     {
       "sentence_id": "S0069",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0070",
-      "forward_review": {
         "technical_scientific": [
           "눈물 유발 인자 합성효소"
         ],
@@ -2033,6 +2011,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0070",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0071",
@@ -2345,7 +2351,9 @@
     {
       "sentence_id": "S0082",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "알리이나아제"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2357,7 +2365,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "알리이나아제"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2368,12 +2378,16 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0083",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "알리이나아제"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2385,7 +2399,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "알리이나아제"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2396,78 +2412,12 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0084",
-      "forward_review": {
-        "technical_scientific": [
-          "알리이나아제"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "알리이나아제"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0085",
-      "forward_review": {
-        "technical_scientific": [
-          "알리이나아제"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "알리이나아제"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0086",
       "forward_review": {
         "technical_scientific": [
           "눈물 유발 인자 합성효소",
@@ -2504,7 +2454,7 @@
       ]
     },
     {
-      "sentence_id": "S0087",
+      "sentence_id": "S0085",
       "forward_review": {
         "technical_scientific": [],
         "acronyms_symbols": [],
@@ -2532,7 +2482,7 @@
       "lexical_candidate_ids": []
     },
     {
-      "sentence_id": "S0088",
+      "sentence_id": "S0086",
       "forward_review": {
         "technical_scientific": [
           "반사 눈물"
@@ -2564,6 +2514,62 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0087",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0088",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0089",
@@ -2676,62 +2682,6 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0093",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0094",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
     }
   ],
   "lexical_candidates": [
@@ -2766,6 +2716,14 @@
       "candidate_type": "SPECIALIZED_COMMON_WORD",
       "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
       "discovered_by": "both"
+    },
+    {
+      "candidate_id": "F005",
+      "exact_phrase": "설펜산",
+      "first_use_sentence_id": "S0019",
+      "candidate_type": "TECHNICAL_SCIENTIFIC",
+      "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
+      "discovered_by": "both"
     }
   ],
   "semantic_crosswalk": [
@@ -2784,6 +2742,10 @@
     {
       "candidate_id": "F004",
       "classification": "likely_knowledge_bearing"
+    },
+    {
+      "candidate_id": "F005",
+      "classification": "likely_knowledge_bearing"
     }
   ],
   "core_entity_candidates": [],
@@ -2792,7 +2754,7 @@
   "specialized_role_candidates": [],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 94
+    "sentence_count": 92
   },
   "status": "PASS"
 }

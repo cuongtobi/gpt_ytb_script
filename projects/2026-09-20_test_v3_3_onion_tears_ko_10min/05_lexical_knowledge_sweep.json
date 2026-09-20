@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "05_draft_sentence_index.json",
-        "sha256": "0208d98331b4bb92207e565dfb9a62098e3d247348a6b6c6ebe5731030e1a802"
+        "sha256": "5c95b703942f0e6564aa0b2a88e04e65773a01812775c55c3ecf44295efa6a1f"
       }
     ]
   },

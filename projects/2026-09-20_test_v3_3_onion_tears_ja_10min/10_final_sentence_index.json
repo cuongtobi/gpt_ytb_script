@@ -1,6 +1,6 @@
 {
   "source_file": "10_final_candidate.md",
-  "source_sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675",
+  "source_sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961",
   "locale": "ja",
   "segmenter_version": "3.3.0",
   "content_address": {
@@ -8,7 +8,7 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675"
+        "sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961"
       }
     ]
   },
@@ -186,311 +186,301 @@
     {
       "sentence_id": "S0035",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "主な催涙物質はsyn-プロパンチアール-S-オキシドという小さな揮発性の硫黄化合物で、タマネギの催涙因子とも呼ばれます。"
+      "exact_text": "主な催涙物質はsyn-プロパンチアール-S-オキシドという小さな硫黄化合物で、空気中へ移動しやすく、タマネギの催涙因子とも呼ばれます。"
     },
     {
       "sentence_id": "S0036",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "揮発性とは、空気中へ移動しやすいという意味です。"
+      "exact_text": "傷ついた組織で作られたあと、その一部はまな板の上から周囲の空気へ広がります。"
     },
     {
       "sentence_id": "S0037",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "傷ついた組織で作られたあと、その一部はまな板の上から周囲の空気へ広がります。"
+      "exact_text": "それが目の湿った表面に届くと、化学的な刺激物として働きます。"
     },
     {
       "sentence_id": "S0038",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "それが目の湿った表面に届くと、化学的な刺激物として働きます。"
+      "exact_text": "目は、その分子が野菜から来たのかどうかを知る必要はありません。"
     },
     {
       "sentence_id": "S0039",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "目は、その分子が野菜から来たのかどうかを知る必要はありません。"
+      "exact_text": "表面が刺激されていることだけを検知すれば十分です。"
     },
     {
       "sentence_id": "S0040",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "表面が刺激されていることだけを検知すれば十分です。"
+      "exact_text": "すると反射性の涙が出ます。"
     },
     {
       "sentence_id": "S0041",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "すると反射性の涙が出ます。"
+      "exact_text": "これは、ほこりや煙などの刺激物が目に入ったときにも出る保護用の涙です。"
     },
     {
       "sentence_id": "S0042",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "これは、ほこりや煙などの刺激物が目に入ったときにも出る保護用の涙です。"
+      "exact_text": "増えた涙は刺激物を薄め、目の表面から洗い流す助けになります。"
     },
     {
       "sentence_id": "S0043",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "増えた涙は刺激物を薄め、目の表面から洗い流す助けになります。"
+      "exact_text": "だから涙が頬を伝って流れます。"
     },
     {
       "sentence_id": "S0044",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "だから涙が頬を伝って流れます。"
+      "exact_text": "タマネギが悲しい感情を引き出しているわけではありません。"
     },
     {
       "sentence_id": "S0045",
       "section_heading": "目まで届く小さな分子",
-      "exact_text": "タマネギが悲しい感情を引き出しているわけではありません。"
-    },
-    {
-      "sentence_id": "S0046",
-      "section_heading": "目まで届く小さな分子",
       "exact_text": "目が自分を守るための洗浄反応を始めているのです。"
     },
     {
-      "sentence_id": "S0047",
+      "sentence_id": "S0046",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "この反応は、料理をする人ではなく植物の立場から考えると理解しやすくなります。"
     },
     {
-      "sentence_id": "S0048",
+      "sentence_id": "S0047",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "タマネギは動物や昆虫、微生物に組織を傷つけられても逃げることができません。"
     },
     {
-      "sentence_id": "S0049",
+      "sentence_id": "S0048",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "その場から動けない植物にとって、化学防御は重要な手段の一つです。"
     },
     {
-      "sentence_id": "S0050",
+      "sentence_id": "S0049",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
-      "exact_text": "タマネギの硫黄化学を研究する科学者たちは、この反応系を微生物や動物に対するより大きな防御システムの一部として説明しています。"
+      "exact_text": "タマネギの硫黄化合物の反応を研究する科学者たちは、この反応系を微生物や動物に対するより大きな防御システムの一部として説明しています。"
     },
     {
-      "sentence_id": "S0051",
+      "sentence_id": "S0050",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "組織が傷つくと、さまざまな反応性の硫黄化合物が素早く作られます。"
     },
     {
-      "sentence_id": "S0052",
+      "sentence_id": "S0051",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "その一部は、私たちがタマネギらしいと感じる強い香りや辛味にも関わります。"
     },
     {
-      "sentence_id": "S0053",
+      "sentence_id": "S0052",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "そして反応網の一つの枝が催涙因子につながります。"
     },
     {
-      "sentence_id": "S0054",
+      "sentence_id": "S0053",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
-      "exact_text": "植物にとっては、組織が攻撃された瞬間こそ防御化学を働かせる意味があるタイミングです。"
+      "exact_text": "植物にとっては、組織が攻撃された瞬間こそ化学的な防御反応を働かせる意味があるタイミングです。"
     },
     {
-      "sentence_id": "S0055",
+      "sentence_id": "S0054",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "人間にとっては、夕食の準備が急に面倒になる瞬間です。"
     },
     {
-      "sentence_id": "S0056",
+      "sentence_id": "S0055",
       "section_heading": "タマネギはなぜこんな仕組みを持つのか",
       "exact_text": "同じ化学反応が、植物には防御になり、包丁を持つ人には迷惑になるわけです。"
     },
     {
-      "sentence_id": "S0057",
+      "sentence_id": "S0056",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "目の刺激の強さは、いくつかの条件で変わります。"
     },
     {
-      "sentence_id": "S0058",
+      "sentence_id": "S0057",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "組織を強くつぶして広く傷つければ、それだけ多くの細胞内容物が混ざる可能性があります。"
     },
     {
-      "sentence_id": "S0059",
+      "sentence_id": "S0058",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "空気の流れも重要です。"
     },
     {
-      "sentence_id": "S0060",
+      "sentence_id": "S0059",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "催涙因子はタマネギから顔まで移動しなければ、実際に目を刺激できないからです。"
     },
     {
-      "sentence_id": "S0061",
+      "sentence_id": "S0060",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "タマネギ自体にも違いがあります。"
     },
     {
-      "sentence_id": "S0062",
+      "sentence_id": "S0061",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
-      "exact_text": "すべての品種や球根が同じ量の硫黄前駆物質を持っているわけではなく、刺激性の化学物質を作る強さも同じではありません。"
+      "exact_text": "すべての品種や球根が同じ量の硫黄前駆物質を持っているわけではなく、刺激性の硫黄化合物が生じる量も同じではありません。"
     },
     {
-      "sentence_id": "S0063",
+      "sentence_id": "S0062",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "さらに、人によって刺激物への感じ方も異なります。"
     },
     {
-      "sentence_id": "S0064",
+      "sentence_id": "S0063",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "そのため同じタマネギを二人で切っても、片方だけが強く涙を流すことがあります。"
     },
     {
-      "sentence_id": "S0065",
+      "sentence_id": "S0064",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "基本の反応経路が別物になっているわけではありません。"
     },
     {
-      "sentence_id": "S0066",
+      "sentence_id": "S0065",
       "section_heading": "なぜタマネギによって涙の出方が違うのか",
       "exact_text": "作られた量、目まで届いた量、そして人の感受性が違うのです。"
     },
     {
-      "sentence_id": "S0067",
+      "sentence_id": "S0066",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "少なくとも実験的な系統では可能です。"
     },
     {
-      "sentence_id": "S0068",
+      "sentence_id": "S0067",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "催涙因子合成酵素の働きを抑えた研究では、催涙因子の生成が大きく減ったタマネギが作られました。"
     },
     {
-      "sentence_id": "S0069",
+      "sentence_id": "S0068",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "この酵素の働きが弱くなると、硫黄の中間体は効率よく催涙因子へ変換される代わりに、別の反応へ流れやすくなります。"
     },
     {
-      "sentence_id": "S0070",
+      "sentence_id": "S0069",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "この結果には二つの意味があります。"
     },
     {
-      "sentence_id": "S0071",
+      "sentence_id": "S0070",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "第一に、催涙因子合成酵素が反応経路の重要な制御点であることを裏づけます。"
     },
     {
-      "sentence_id": "S0072",
+      "sentence_id": "S0071",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "第二に、涙を減らすためにタマネギの硫黄化学をすべて消す必要はないことを示します。"
     },
     {
-      "sentence_id": "S0073",
+      "sentence_id": "S0072",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "システム全体を止めるのではなく、化学反応の流れを別の方向へ変えられるのです。"
     },
     {
-      "sentence_id": "S0074",
+      "sentence_id": "S0073",
       "section_heading": "ほとんど涙が出ないタマネギは作れるのか",
       "exact_text": "育種やバイオテクノロジーによって、この防御経路の一部がどれほど強く働くかを変えることができます。"
     },
     {
-      "sentence_id": "S0075",
+      "sentence_id": "S0074",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "仕組みが分かると、タマネギを切るときのさまざまな裏技も整理しやすくなります。"
     },
     {
-      "sentence_id": "S0076",
+      "sentence_id": "S0075",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "催涙因子はまず傷ついた組織で作られ、そのあと空気を通って目まで届かなければなりません。"
     },
     {
-      "sentence_id": "S0077",
+      "sentence_id": "S0076",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "ですから最も直接的な対策は、空気中の刺激物に触れる量を減らすことです。"
     },
     {
+      "sentence_id": "S0077",
+      "section_heading": "台所では何が本当に役に立つのか",
+      "exact_text": "換気をよくしたり、顔とは反対方向へ空気を流したりすれば、空気中の刺激物の一部を別の方向へ運べます。"
+    },
+    {
       "sentence_id": "S0078",
-      "section_heading": "台所では何が本当に役に立つのか",
-      "exact_text": "換気をよくしたり、顔とは反対方向へ空気を流したりすれば、揮発した物質の一部を別の方向へ運べます。"
-    },
-    {
-      "sentence_id": "S0079",
-      "section_heading": "台所では何が本当に役に立つのか",
-      "exact_text": "よく切れる包丁は、ひどく鈍った包丁に比べて余計につぶす量を減らせますが、切る以上は細胞の損傷を完全にはなくせません。"
-    },
-    {
-      "sentence_id": "S0080",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "顔を刺激物が流れる場所から遠ざけることも、単純ですが理にかなっています。"
     },
     {
-      "sentence_id": "S0081",
+      "sentence_id": "S0079",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "感情を中和したり、タマネギから謎の毒を抜いたりする必要はありません。"
     },
     {
-      "sentence_id": "S0082",
+      "sentence_id": "S0080",
       "section_heading": "台所では何が本当に役に立つのか",
       "exact_text": "普通の植物化学と、普通の目の防御反射がぶつかっているだけです。"
     },
     {
-      "sentence_id": "S0083",
+      "sentence_id": "S0081",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "では、なぜタマネギを切ると涙が出るのでしょうか。"
     },
     {
-      "sentence_id": "S0084",
+      "sentence_id": "S0082",
       "section_heading": "一回の包丁の動きに詰まった物語",
-      "exact_text": "包丁が、細胞の中で分かれていた材料を高速の化学反応ラインへ変えてしまうからです。"
+      "exact_text": "包丁が、細胞の中で分かれていた材料を素早い化学反応の連鎖へ送り込むからです。"
     },
     {
-      "sentence_id": "S0085",
+      "sentence_id": "S0083",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "細胞の損傷によって硫黄前駆物質とアリイナーゼが出会います。"
     },
     {
-      "sentence_id": "S0086",
+      "sentence_id": "S0084",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "アリイナーゼは寿命の短い硫黄の中間体を作ります。"
     },
     {
-      "sentence_id": "S0087",
+      "sentence_id": "S0085",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "催涙因子合成酵素は、その一つをsyn-プロパンチアール-S-オキシドへ向かう反応に導きます。"
     },
     {
-      "sentence_id": "S0088",
+      "sentence_id": "S0086",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "揮発した分子が目の表面に届き、刺激を起こします。"
     },
     {
-      "sentence_id": "S0089",
+      "sentence_id": "S0087",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "目は反射性の涙を出し、刺激物を薄めて洗い流そうとします。"
     },
     {
-      "sentence_id": "S0090",
+      "sentence_id": "S0088",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "驚くべきなのは、この一連の生物学がわずか数秒で進むことです。"
     },
     {
-      "sentence_id": "S0091",
+      "sentence_id": "S0089",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "台所の小さな不快感の中には、植物の防御、酵素反応、空気中を移動する分子、そして人間の保護反射が順番に組み込まれています。"
     },
     {
-      "sentence_id": "S0092",
+      "sentence_id": "S0090",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "タマネギの中に完成済みの小さな催涙ガス缶が入っているわけではありません。"
     },
     {
-      "sentence_id": "S0093",
+      "sentence_id": "S0091",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "組織が傷ついたときに刺激物を作るための生化学的な仕組みが入っているのです。"
     },
     {
-      "sentence_id": "S0094",
+      "sentence_id": "S0092",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "包丁が化学反応を始めます。"
     },
     {
-      "sentence_id": "S0095",
+      "sentence_id": "S0093",
       "section_heading": "一回の包丁の動きに詰まった物語",
       "exact_text": "そして最後に、目がその物語を完成させます。"
     }
   ],
-  "source_sentence_count": 95,
-  "indexed_sentence_count": 95,
+  "source_sentence_count": 93,
+  "indexed_sentence_count": 93,
   "duplicate_sentence_ids": [],
   "missing_sentence_ids": [],
   "reconstruction_ok": true,

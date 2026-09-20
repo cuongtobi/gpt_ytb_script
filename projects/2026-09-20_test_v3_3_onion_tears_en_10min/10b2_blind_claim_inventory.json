@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687"
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "50dd6292ea197d95aece5451c941cdf1c50f9d56ed22e43ebd06ecd2c655b018"
+        "sha256": "ad31e48dd486380dcce57edd255cfc704215425902617487b178357c09422fb2"
       }
     ]
   },
@@ -1105,34 +1105,6 @@
     {
       "sentence_id": "S0039",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0040",
-      "forward_claim_review": {
         "empirical_fact": [
           "The extra fluid helps dilute and wash away the irritating material."
         ],
@@ -1163,6 +1135,34 @@
       "claim_candidate_ids": [
         "BC005"
       ]
+    },
+    {
+      "sentence_id": "S0040",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0041",
@@ -1279,34 +1279,6 @@
     {
       "sentence_id": "S0045",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0046",
-      "forward_claim_review": {
         "empirical_fact": [
           "part of a broader defense system against microbes and animals."
         ],
@@ -1339,7 +1311,7 @@
       ]
     },
     {
-      "sentence_id": "S0047",
+      "sentence_id": "S0046",
       "forward_claim_review": {
         "empirical_fact": [],
         "dates_quantities": [],
@@ -1367,7 +1339,7 @@
       "claim_candidate_ids": []
     },
     {
-      "sentence_id": "S0048",
+      "sentence_id": "S0047",
       "forward_claim_review": {
         "empirical_fact": [
           "contribute to the sharp smell and flavor we associate with onions."
@@ -1399,6 +1371,34 @@
       "claim_candidate_ids": [
         "BC008"
       ]
+    },
+    {
+      "sentence_id": "S0048",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0049",
@@ -1599,7 +1599,9 @@
     {
       "sentence_id": "S0056",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Different onions do not contain identical amounts of the precursor compounds"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1611,7 +1613,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Different onions do not contain identical amounts of the precursor compounds"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1622,7 +1626,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC010"
+      ]
     },
     {
       "sentence_id": "S0057",
@@ -1739,34 +1745,6 @@
     {
       "sentence_id": "S0061",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0062",
-      "forward_claim_review": {
         "empirical_fact": [
           "suppressed the activity of lachrymatory-factor synthase produced onions with dramatically reduced tear-factor formation."
         ],
@@ -1797,6 +1775,34 @@
       "claim_candidate_ids": [
         "BC006"
       ]
+    },
+    {
+      "sentence_id": "S0062",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0063",
@@ -2025,7 +2031,9 @@
     {
       "sentence_id": "S0071",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2037,7 +2045,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2048,7 +2058,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC009"
+      ]
     },
     {
       "sentence_id": "S0072",
@@ -2497,62 +2509,6 @@
         "historical_event": []
       },
       "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0088",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0089",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
     }
   ],
   "claim_candidates": [
@@ -2560,7 +2516,7 @@
       "claim_candidate_id": "BC001",
       "sentence_id": "S0012",
       "exact_quote": "sulfur-containing precursor compounds and an enzyme called alliinase",
-      "normalized_claim": "Intact onion tissue keeps sulfur precursors and alliinase sufficiently separated that tissue disruption is required for rapid mixing.",
+      "normalized_claim": "Intact onion tissue separates sulfur precursors and alliinase until tissue disruption enables rapid mixing.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2569,7 +2525,7 @@
       "claim_candidate_id": "BC002",
       "sentence_id": "S0018",
       "exact_quote": "That reaction produces unstable sulfur compounds called sulfenic acids.",
-      "normalized_claim": "Cutting onion tissue allows alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
+      "normalized_claim": "Cutting enables alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2578,7 +2534,7 @@
       "claim_candidate_id": "BC003",
       "sentence_id": "S0026",
       "exact_quote": "another enzyme, lachrymatory-factor synthase, to specifically make the tear-causing factor",
-      "normalized_claim": "A 2002 Nature study showed that lachrymatory-factor synthase specifically produces the onion tear factor rather than it being only a spontaneous by-product.",
+      "normalized_claim": "A 2002 Nature study showed LFS specifically produces the onion tear factor.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2587,43 +2543,61 @@
       "claim_candidate_id": "BC004",
       "sentence_id": "S0033",
       "exact_quote": "The main tear-causing compound is syn-propanethial S-oxide",
-      "normalized_claim": "The principal onion lachrymatory factor is volatile syn-propanethial S-oxide.",
+      "normalized_claim": "The principal onion lachrymatory factor is syn-propanethial S-oxide.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC005",
-      "sentence_id": "S0040",
+      "sentence_id": "S0039",
       "exact_quote": "The extra fluid helps dilute and wash away the irritating material.",
-      "normalized_claim": "Onion irritation triggers reflex tears that dilute and help wash irritants from the eye surface.",
+      "normalized_claim": "Onion irritation triggers reflex tears that help wash irritants from the eye surface.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC006",
-      "sentence_id": "S0062",
+      "sentence_id": "S0061",
       "exact_quote": "suppressed the activity of lachrymatory-factor synthase produced onions with dramatically reduced tear-factor formation.",
-      "normalized_claim": "Suppressing lachrymatory-factor synthase can greatly reduce tear-factor formation in experimental onion lines.",
+      "normalized_claim": "Suppressing LFS can greatly reduce tear-factor formation in experimental onion lines.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC007",
-      "sentence_id": "S0046",
+      "sentence_id": "S0045",
       "exact_quote": "part of a broader defense system against microbes and animals.",
-      "normalized_claim": "Onion sulfur chemistry functions within a broader chemical-defense system activated by tissue damage.",
+      "normalized_claim": "Onion sulfur chemistry forms part of a broader damage-triggered chemical-defense system.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC008",
-      "sentence_id": "S0048",
+      "sentence_id": "S0047",
       "exact_quote": "contribute to the sharp smell and flavor we associate with onions.",
-      "normalized_claim": "Products of onion sulfur chemistry contribute to characteristic pungent aroma and flavor.",
+      "normalized_claim": "Onion sulfur chemistry contributes to characteristic pungent aroma and flavor.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC009",
+      "sentence_id": "S0071",
+      "exact_quote": "Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere.",
+      "normalized_claim": "Moving air away from the face can reduce exposure to the airborne onion irritant.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC010",
+      "sentence_id": "S0056",
+      "exact_quote": "Different onions do not contain identical amounts of the precursor compounds",
+      "normalized_claim": "Tearing intensity can vary with onion material and individual chemosensory sensitivity.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2631,7 +2605,7 @@
   ],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 89
+    "sentence_count": 87
   },
   "status": "PASS"
 }

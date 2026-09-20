@@ -24,7 +24,7 @@ Le couteau change la situation en une fraction de seconde.
 Il rompt les parois et les membranes cellulaires.
 Des molécules jusque-là séparées se mélangent dans le tissu endommagé.
 L'alliinase peut alors agir sur les précurseurs soufrés.
-Cette première réaction produit notamment des acides sulféniques, des molécules très réactives et très brèves.
+Cette première réaction produit notamment des acides sulféniques, des molécules très réactives qui ne subsistent que brièvement.
 Elles ne restent pas longtemps sous cette forme.
 Ce sont des intermédiaires, c'est-à-dire des étapes temporaires sur le chemin vers d'autres composés.
 C'est une des raisons pour lesquelles l'odeur d'un oignon change presque immédiatement quand on le coupe.
@@ -46,8 +46,7 @@ On tranche, les cellules s'ouvrent et la chimie se met en marche.
 
 ## La petite molécule qui atteint les yeux
 
-Le principal composé lacrymogène est le syn-propanéthial-S-oxyde, une petite molécule soufrée volatile que l'on appelle aussi facteur lacrymogène de l'oignon.
-Volatile signifie qu'elle passe facilement dans l'air.
+Le principal composé lacrymogène est le syn-propanéthial-S-oxyde, une petite molécule soufrée qui passe facilement dans l'air et que l'on appelle aussi facteur lacrymogène de l'oignon.
 Après sa formation dans le tissu coupé, une partie quitte la surface de l'oignon et se disperse autour de la planche.
 Si elle atteint la surface humide de l'œil, elle agit comme un irritant chimique.
 L'œil n'a évidemment aucun moyen de savoir que cette molécule vient d'un légume.
@@ -63,7 +62,7 @@ Votre système de protection oculaire lance simplement un rinçage automatique.
 Pour comprendre le mécanisme, il faut oublier un instant la cuisine et regarder la situation du point de vue de la plante.
 Un oignon ne peut pas s'enfuir lorsqu'un animal, un insecte ou un microbe endommage ses tissus.
 Une défense chimique est donc utile à un organisme qui reste enraciné au même endroit.
-Les chercheurs décrivent la chimie soufrée des Allium comme une partie d'un système de défense plus large.
+Les chercheurs décrivent les réactions soufrées de l'oignon comme une partie d'un système de défense plus large.
 La blessure des cellules déclenche rapidement plusieurs réactions soufrées.
 Certains produits contribuent à l'odeur forte et au goût piquant que nous associons à l'oignon.
 Une branche de cette chimie mène au facteur lacrymogène.
@@ -98,9 +97,8 @@ La sélection végétale et la biotechnologie peuvent donc modifier l'intensité
 
 Une fois le mécanisme compris, les astuces de cuisine deviennent plus faciles à évaluer.
 Le facteur lacrymogène doit d'abord être produit dans le tissu abîmé, puis se déplacer dans l'air jusqu'aux yeux.
-La stratégie la plus directe consiste donc à réduire l'exposition au composé volatil.
+La stratégie la plus directe consiste donc à réduire l'exposition à l'irritant présent dans l'air.
 Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs.
-Un couteau bien aiguisé peut aussi limiter l'écrasement inutile par rapport à une lame très émoussée, même si toute coupe détruit forcément des cellules.
 S'éloigner de la zone où le composé se disperse réduit également l'exposition simplement en modifiant le trajet de l'air.
 Aucune de ces méthodes n'a besoin de « neutraliser » une émotion ni d'extraire une mystérieuse toxine de l'oignon.
 Il s'agit seulement de chimie végétale et d'une réaction normale de protection de l'œil.

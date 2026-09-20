@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
       },
       {
         "path": "05_blind_knowledge_inventory.json",
-        "sha256": "5478d41cb1056afade6becfb2df7479aa4bb7d08ff29875cc2d22e0fc445c304"
+        "sha256": "b1b858a65473c0894677528375131d2130574bb1534cf38ea012d1736ffff4e0"
       }
     ]
   },
@@ -17,7 +17,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -39,11 +40,16 @@
         "status": "GROUNDED",
         "exact_phrase": "Reflextränen",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "Sulfensäuren",
+        "grounding_sentence_id": "S0020"
       }
     },
-    "discovered_count": 4,
+    "discovered_count": 5,
     "baseline_known_count": 0,
-    "grounded_count": 4,
+    "grounded_count": 5,
     "replaced_count": 0,
     "removed_count": 0,
     "unresolved_count": 0,
@@ -78,6 +84,13 @@
       "first_use_sentence_id": "S0012",
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0020",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0020",
       "ordering_valid": true
     }
   ],

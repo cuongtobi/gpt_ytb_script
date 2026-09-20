@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520"
+        "sha256": "b107f65ca4e699d3cd73e44a77ed220e552226e4464f9083580a13ff8d05f9e8"
       },
       {
         "path": "05_draft_sentence_index.json",
-        "sha256": "19c53c3b4a1e28b5f13c89ef50e8593c33c8bb49cff63e5d9400f3b74a89c681"
+        "sha256": "cabd1eca98a3a000423ee4a0da4086c7dede0519452cbe2ecb148355dd81b726"
       }
     ]
   },
@@ -567,7 +567,9 @@
     {
       "sentence_id": "S0020",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "ácidos sulfénicos"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -579,7 +581,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "ácidos sulfénicos"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -590,7 +594,9 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F005"
+      ]
     },
     {
       "sentence_id": "S0021",
@@ -1173,34 +1179,6 @@
     {
       "sentence_id": "S0041",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0042",
-      "forward_review": {
         "technical_scientific": [
           "lágrimas reflejas"
         ],
@@ -1231,6 +1209,34 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0042",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0043",
@@ -1879,34 +1885,6 @@
     {
       "sentence_id": "S0066",
       "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0067",
-      "forward_review": {
         "technical_scientific": [
           "sintasa del factor lacrimógeno"
         ],
@@ -1937,6 +1915,34 @@
       "lexical_candidate_ids": [
         "F002"
       ]
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0068",
@@ -2333,7 +2339,9 @@
     {
       "sentence_id": "S0082",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "aliinasa"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2345,7 +2353,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "aliinasa"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2356,12 +2366,16 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0083",
       "forward_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "aliinasa"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2373,7 +2387,9 @@
         "mechanisms": []
       },
       "reverse_review": {
-        "technical_scientific": [],
+        "technical_scientific": [
+          "aliinasa"
+        ],
         "acronyms_symbols": [],
         "abstract_processes": [],
         "classifications": [],
@@ -2384,78 +2400,12 @@
         "aliases_relations": [],
         "mechanisms": []
       },
-      "lexical_candidate_ids": []
+      "lexical_candidate_ids": [
+        "F001"
+      ]
     },
     {
       "sentence_id": "S0084",
-      "forward_review": {
-        "technical_scientific": [
-          "aliinasa"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "aliinasa"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0085",
-      "forward_review": {
-        "technical_scientific": [
-          "aliinasa"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [
-          "aliinasa"
-        ],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": [
-        "F001"
-      ]
-    },
-    {
-      "sentence_id": "S0086",
       "forward_review": {
         "technical_scientific": [
           "sintasa del factor lacrimógeno",
@@ -2492,7 +2442,7 @@
       ]
     },
     {
-      "sentence_id": "S0087",
+      "sentence_id": "S0085",
       "forward_review": {
         "technical_scientific": [],
         "acronyms_symbols": [],
@@ -2520,7 +2470,7 @@
       "lexical_candidate_ids": []
     },
     {
-      "sentence_id": "S0088",
+      "sentence_id": "S0086",
       "forward_review": {
         "technical_scientific": [
           "lágrimas reflejas"
@@ -2552,6 +2502,62 @@
       "lexical_candidate_ids": [
         "F004"
       ]
+    },
+    {
+      "sentence_id": "S0087",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
+    },
+    {
+      "sentence_id": "S0088",
+      "forward_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "reverse_review": {
+        "technical_scientific": [],
+        "acronyms_symbols": [],
+        "abstract_processes": [],
+        "classifications": [],
+        "evidence_methods": [],
+        "measurements_quantities": [],
+        "historical_institutional": [],
+        "specialized_common_words": [],
+        "aliases_relations": [],
+        "mechanisms": []
+      },
+      "lexical_candidate_ids": []
     },
     {
       "sentence_id": "S0089",
@@ -2664,62 +2670,6 @@
         "mechanisms": []
       },
       "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0093",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0094",
-      "forward_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "reverse_review": {
-        "technical_scientific": [],
-        "acronyms_symbols": [],
-        "abstract_processes": [],
-        "classifications": [],
-        "evidence_methods": [],
-        "measurements_quantities": [],
-        "historical_institutional": [],
-        "specialized_common_words": [],
-        "aliases_relations": [],
-        "mechanisms": []
-      },
-      "lexical_candidate_ids": []
     }
   ],
   "lexical_candidates": [
@@ -2754,6 +2704,14 @@
       "candidate_type": "SPECIALIZED_COMMON_WORD",
       "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
       "discovered_by": "both"
+    },
+    {
+      "candidate_id": "F005",
+      "exact_phrase": "ácidos sulfénicos",
+      "first_use_sentence_id": "S0020",
+      "candidate_type": "TECHNICAL_SCIENTIFIC",
+      "reason_flagged": "Potentially unfamiliar knowledge-bearing term.",
+      "discovered_by": "both"
     }
   ],
   "semantic_crosswalk": [
@@ -2772,6 +2730,10 @@
     {
       "candidate_id": "F004",
       "classification": "likely_knowledge_bearing"
+    },
+    {
+      "candidate_id": "F005",
+      "classification": "likely_knowledge_bearing"
     }
   ],
   "core_entity_candidates": [],
@@ -2780,7 +2742,7 @@
   "specialized_role_candidates": [],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 94
+    "sentence_count": 92
   },
   "status": "PASS"
 }

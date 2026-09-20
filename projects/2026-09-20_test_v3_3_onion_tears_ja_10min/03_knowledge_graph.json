@@ -23,7 +23,7 @@
   },
   "entity_label_policy": {
     "primary_spoken_label": "localized onion term",
-    "scientific_alias_policy": "remove scientific species name unless needed"
+    "scientific_alias_policy": "remove"
   },
   "nodes": [
     {
@@ -64,6 +64,17 @@
       "label": "反射性の涙",
       "type": "CONCEPT",
       "canonical_entity": "反射性の涙",
+      "state": "GROUNDED",
+      "dependencies": [],
+      "relations": [],
+      "aliases": [],
+      "confusable_with": []
+    },
+    {
+      "knowledge_id": "K005",
+      "label": "スルフェン酸",
+      "type": "CONCEPT",
+      "canonical_entity": "スルフェン酸",
       "state": "GROUNDED",
       "dependencies": [],
       "relations": [],

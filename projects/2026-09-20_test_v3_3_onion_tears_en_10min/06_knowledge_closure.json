@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687"
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
       },
       {
         "path": "05_blind_knowledge_inventory.json",
-        "sha256": "1ebf205f279dbbae6bb1f90862b94096352210dd738b8d866070bd64ff41968c"
+        "sha256": "6522c2c0c6a447ab9c1f7b17cc9ecdad6ebb3c33c5d52f4ac7a9c9baba21e4ec"
       }
     ]
   },
@@ -17,7 +17,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -38,12 +39,17 @@
       "F004": {
         "status": "GROUNDED",
         "exact_phrase": "reflex tears",
-        "grounding_sentence_id": "S0039"
+        "grounding_sentence_id": "S0011"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "sulfenic acids",
+        "grounding_sentence_id": "S0018"
       }
     },
-    "discovered_count": 4,
+    "discovered_count": 5,
     "baseline_known_count": 0,
-    "grounded_count": 4,
+    "grounded_count": 5,
     "replaced_count": 0,
     "removed_count": 0,
     "unresolved_count": 0,
@@ -75,9 +81,16 @@
     },
     {
       "candidate_id": "F004",
-      "first_use_sentence_id": "S0039",
+      "first_use_sentence_id": "S0011",
       "grounding_mode": "INLINE",
-      "grounding_sentence_id": "S0039",
+      "grounding_sentence_id": "S0011",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0018",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0018",
       "ordering_valid": true
     }
   ],

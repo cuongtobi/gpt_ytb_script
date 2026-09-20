@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520"
+        "sha256": "b107f65ca4e699d3cd73e44a77ed220e552226e4464f9083580a13ff8d05f9e8"
       },
       {
         "path": "05_blind_knowledge_inventory.json",
-        "sha256": "eb12c00c6e7af6033fab0e53d9997c6bf518ee9b49e8fe597219bc698beec9d4"
+        "sha256": "67ca419918d10dd6ca846f33aee0159b725c0305e9ed20622687076c5901a63d"
       }
     ]
   },
@@ -17,7 +17,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -39,11 +40,16 @@
         "status": "GROUNDED",
         "exact_phrase": "lágrimas reflejas",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "ácidos sulfénicos",
+        "grounding_sentence_id": "S0020"
       }
     },
-    "discovered_count": 4,
+    "discovered_count": 5,
     "baseline_known_count": 0,
-    "grounded_count": 4,
+    "grounded_count": 5,
     "replaced_count": 0,
     "removed_count": 0,
     "unresolved_count": 0,
@@ -78,6 +84,13 @@
       "first_use_sentence_id": "S0012",
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0020",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0020",
       "ordering_valid": true
     }
   ],

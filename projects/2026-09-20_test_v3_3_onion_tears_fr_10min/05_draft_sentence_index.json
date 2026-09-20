@@ -1,6 +1,6 @@
 {
   "source_file": "05_script_draft.md",
-  "source_sha256": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80",
+  "source_sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a",
   "locale": "fr",
   "segmenter_version": "3.3.0",
   "content_address": {
@@ -8,7 +8,7 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80"
+        "sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a"
       }
     ]
   },
@@ -111,7 +111,7 @@
     {
       "sentence_id": "S0020",
       "section_heading": "Dans l'oignon intact, les ingrédients restent séparés",
-      "exact_text": "Cette première réaction produit notamment des acides sulféniques, des molécules très réactives et très brèves."
+      "exact_text": "Cette première réaction produit notamment des acides sulféniques, des molécules très réactives qui ne subsistent que brièvement."
     },
     {
       "sentence_id": "S0021",
@@ -191,301 +191,291 @@
     {
       "sentence_id": "S0036",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Le principal composé lacrymogène est le syn-propanéthial-S-oxyde, une petite molécule soufrée volatile que l'on appelle aussi facteur lacrymogène de l'oignon."
+      "exact_text": "Le principal composé lacrymogène est le syn-propanéthial-S-oxyde, une petite molécule soufrée qui passe facilement dans l'air et que l'on appelle aussi facteur lacrymogène de l'oignon."
     },
     {
       "sentence_id": "S0037",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Volatile signifie qu'elle passe facilement dans l'air."
+      "exact_text": "Après sa formation dans le tissu coupé, une partie quitte la surface de l'oignon et se disperse autour de la planche."
     },
     {
       "sentence_id": "S0038",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Après sa formation dans le tissu coupé, une partie quitte la surface de l'oignon et se disperse autour de la planche."
+      "exact_text": "Si elle atteint la surface humide de l'œil, elle agit comme un irritant chimique."
     },
     {
       "sentence_id": "S0039",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Si elle atteint la surface humide de l'œil, elle agit comme un irritant chimique."
+      "exact_text": "L'œil n'a évidemment aucun moyen de savoir que cette molécule vient d'un légume."
     },
     {
       "sentence_id": "S0040",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "L'œil n'a évidemment aucun moyen de savoir que cette molécule vient d'un légume."
+      "exact_text": "Il détecte simplement une irritation à sa surface."
     },
     {
       "sentence_id": "S0041",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Il détecte simplement une irritation à sa surface."
+      "exact_text": "Cette irritation déclenche des larmes réflexes, le même type de réponse protectrice que lorsque de la poussière ou de la fumée atteint l'œil."
     },
     {
       "sentence_id": "S0042",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Cette irritation déclenche des larmes réflexes, le même type de réponse protectrice que lorsque de la poussière ou de la fumée atteint l'œil."
+      "exact_text": "Le liquide supplémentaire aide à diluer et à éliminer la substance irritante."
     },
     {
       "sentence_id": "S0043",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Le liquide supplémentaire aide à diluer et à éliminer la substance irritante."
+      "exact_text": "Voilà pourquoi les larmes coulent."
     },
     {
       "sentence_id": "S0044",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "Voilà pourquoi les larmes coulent."
+      "exact_text": "L'oignon ne déclenche pas une émotion cachée."
     },
     {
       "sentence_id": "S0045",
       "section_heading": "La petite molécule qui atteint les yeux",
-      "exact_text": "L'oignon ne déclenche pas une émotion cachée."
-    },
-    {
-      "sentence_id": "S0046",
-      "section_heading": "La petite molécule qui atteint les yeux",
       "exact_text": "Votre système de protection oculaire lance simplement un rinçage automatique."
     },
     {
-      "sentence_id": "S0047",
+      "sentence_id": "S0046",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Pour comprendre le mécanisme, il faut oublier un instant la cuisine et regarder la situation du point de vue de la plante."
     },
     {
-      "sentence_id": "S0048",
+      "sentence_id": "S0047",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Un oignon ne peut pas s'enfuir lorsqu'un animal, un insecte ou un microbe endommage ses tissus."
     },
     {
-      "sentence_id": "S0049",
+      "sentence_id": "S0048",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Une défense chimique est donc utile à un organisme qui reste enraciné au même endroit."
     },
     {
-      "sentence_id": "S0050",
+      "sentence_id": "S0049",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
-      "exact_text": "Les chercheurs décrivent la chimie soufrée des Allium comme une partie d'un système de défense plus large."
+      "exact_text": "Les chercheurs décrivent les réactions soufrées de l'oignon comme une partie d'un système de défense plus large."
     },
     {
-      "sentence_id": "S0051",
+      "sentence_id": "S0050",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "La blessure des cellules déclenche rapidement plusieurs réactions soufrées."
     },
     {
-      "sentence_id": "S0052",
+      "sentence_id": "S0051",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Certains produits contribuent à l'odeur forte et au goût piquant que nous associons à l'oignon."
     },
     {
-      "sentence_id": "S0053",
+      "sentence_id": "S0052",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Une branche de cette chimie mène au facteur lacrymogène."
     },
     {
-      "sentence_id": "S0054",
+      "sentence_id": "S0053",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Pour la plante, le moment où le tissu est endommagé est précisément le moment où une défense devient intéressante."
     },
     {
-      "sentence_id": "S0055",
+      "sentence_id": "S0054",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "Pour nous, c'est le moment où la préparation du dîner devient moins agréable."
     },
     {
-      "sentence_id": "S0056",
+      "sentence_id": "S0055",
       "section_heading": "Pourquoi un oignon possède-t-il cette chimie ?",
       "exact_text": "La même réaction peut donc être utile à la plante et très agaçante pour la personne qui tient le couteau."
     },
     {
-      "sentence_id": "S0057",
+      "sentence_id": "S0056",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "L'intensité peut varier pour plusieurs raisons."
     },
     {
-      "sentence_id": "S0058",
+      "sentence_id": "S0057",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "D'abord, plus on détruit de tissu, plus on permet au contenu des cellules de se mélanger."
     },
     {
-      "sentence_id": "S0059",
+      "sentence_id": "S0058",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "Ensuite, l'air compte beaucoup puisque le composé lacrymogène doit voyager de l'oignon jusqu'au visage."
     },
     {
-      "sentence_id": "S0060",
+      "sentence_id": "S0059",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "L'oignon lui-même compte également."
     },
     {
-      "sentence_id": "S0061",
+      "sentence_id": "S0060",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "Toutes les variétés et tous les bulbes ne contiennent pas exactement les mêmes quantités de précurseurs soufrés et ne produisent pas la même quantité de composés piquants."
     },
     {
-      "sentence_id": "S0062",
+      "sentence_id": "S0061",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "Enfin, les personnes ne réagissent pas toutes de la même façon aux irritants."
     },
     {
-      "sentence_id": "S0063",
+      "sentence_id": "S0062",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "Deux personnes peuvent donc couper le même oignon et décrire des sensations assez différentes."
     },
     {
-      "sentence_id": "S0064",
+      "sentence_id": "S0063",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "La voie chimique de base reste pourtant la même."
     },
     {
-      "sentence_id": "S0065",
+      "sentence_id": "S0064",
       "section_heading": "Pourquoi certains oignons font-ils beaucoup plus pleurer ?",
       "exact_text": "Ce qui change, c'est la quantité de produit formé, la quantité qui atteint les yeux et la sensibilité de la personne exposée."
     },
     {
-      "sentence_id": "S0066",
+      "sentence_id": "S0065",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "Oui, au moins dans des lignées expérimentales, les chercheurs ont montré qu'il était possible de modifier cette voie chimique."
     },
     {
-      "sentence_id": "S0067",
+      "sentence_id": "S0066",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "Des études qui réduisent l'activité de la synthase du facteur lacrymogène obtiennent des oignons qui forment beaucoup moins de facteur lacrymogène."
     },
     {
-      "sentence_id": "S0068",
+      "sentence_id": "S0067",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "Lorsque cette enzyme fonctionne moins, l'intermédiaire soufré peut être dirigé vers d'autres réactions au lieu d'être converti efficacement en composé lacrymogène."
     },
     {
-      "sentence_id": "S0069",
+      "sentence_id": "S0068",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "Ce résultat est important pour deux raisons."
     },
     {
-      "sentence_id": "S0070",
+      "sentence_id": "S0069",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "D'abord, il confirme que cette enzyme constitue bien un point de contrôle majeur de la voie."
     },
     {
-      "sentence_id": "S0071",
+      "sentence_id": "S0070",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "Ensuite, il montre qu'il n'est pas nécessaire de supprimer toute la chimie soufrée de l'oignon pour réduire les larmes."
     },
     {
-      "sentence_id": "S0072",
+      "sentence_id": "S0071",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "On peut réorienter une partie de la chimie au lieu de tout éteindre."
     },
     {
-      "sentence_id": "S0073",
+      "sentence_id": "S0072",
       "section_heading": "Peut-on fabriquer un oignon qui ne fait presque pas pleurer ?",
       "exact_text": "La sélection végétale et la biotechnologie peuvent donc modifier l'intensité de cette branche particulière du système de défense."
     },
     {
-      "sentence_id": "S0074",
+      "sentence_id": "S0073",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "Une fois le mécanisme compris, les astuces de cuisine deviennent plus faciles à évaluer."
     },
     {
-      "sentence_id": "S0075",
+      "sentence_id": "S0074",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "Le facteur lacrymogène doit d'abord être produit dans le tissu abîmé, puis se déplacer dans l'air jusqu'aux yeux."
     },
     {
-      "sentence_id": "S0076",
+      "sentence_id": "S0075",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
-      "exact_text": "La stratégie la plus directe consiste donc à réduire l'exposition au composé volatil."
+      "exact_text": "La stratégie la plus directe consiste donc à réduire l'exposition à l'irritant présent dans l'air."
     },
     {
-      "sentence_id": "S0077",
+      "sentence_id": "S0076",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs."
     },
     {
-      "sentence_id": "S0078",
-      "section_heading": "Que peut-on réellement faire dans la cuisine ?",
-      "exact_text": "Un couteau bien aiguisé peut aussi limiter l'écrasement inutile par rapport à une lame très émoussée, même si toute coupe détruit forcément des cellules."
-    },
-    {
-      "sentence_id": "S0079",
+      "sentence_id": "S0077",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "S'éloigner de la zone où le composé se disperse réduit également l'exposition simplement en modifiant le trajet de l'air."
     },
     {
-      "sentence_id": "S0080",
+      "sentence_id": "S0078",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "Aucune de ces méthodes n'a besoin de « neutraliser » une émotion ni d'extraire une mystérieuse toxine de l'oignon."
     },
     {
-      "sentence_id": "S0081",
+      "sentence_id": "S0079",
       "section_heading": "Que peut-on réellement faire dans la cuisine ?",
       "exact_text": "Il s'agit seulement de chimie végétale et d'une réaction normale de protection de l'œil."
     },
     {
-      "sentence_id": "S0082",
+      "sentence_id": "S0080",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Alors, pourquoi les oignons nous font-ils pleurer ?"
     },
     {
-      "sentence_id": "S0083",
+      "sentence_id": "S0081",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Parce qu'un couteau transforme des ingrédients séparés dans la cellule en une petite chaîne de production chimique."
     },
     {
-      "sentence_id": "S0084",
+      "sentence_id": "S0082",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "La lésion met les précurseurs soufrés en contact avec l'alliinase."
     },
     {
-      "sentence_id": "S0085",
+      "sentence_id": "S0083",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "L'alliinase crée des intermédiaires soufrés très réactifs."
     },
     {
-      "sentence_id": "S0086",
+      "sentence_id": "S0084",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "La synthase du facteur lacrymogène dirige l'un de ces intermédiaires vers le syn-propanéthial-S-oxyde."
     },
     {
-      "sentence_id": "S0087",
+      "sentence_id": "S0085",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Cette molécule volatile atteint la surface de l'œil et l'irrite."
     },
     {
-      "sentence_id": "S0088",
+      "sentence_id": "S0086",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "L'œil répond en produisant des larmes réflexes qui diluent et éliminent l'irritant."
     },
     {
-      "sentence_id": "S0089",
+      "sentence_id": "S0087",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Le plus étonnant est la quantité de biologie qui se déroule pendant ces quelques secondes."
     },
     {
-      "sentence_id": "S0090",
+      "sentence_id": "S0088",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Ce qui ressemble à un petit désagrément de cuisine réunit en réalité une défense végétale, une voie enzymatique, une molécule qui voyage dans l'air et un réflexe humain de protection."
     },
     {
-      "sentence_id": "S0091",
+      "sentence_id": "S0089",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Un oignon ne contient donc pas une minuscule bombe lacrymogène prête à exploser."
     },
     {
-      "sentence_id": "S0092",
+      "sentence_id": "S0090",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Il contient la machinerie nécessaire pour fabriquer un irritant lorsque son tissu est endommagé."
     },
     {
-      "sentence_id": "S0093",
+      "sentence_id": "S0091",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Votre couteau lance la réaction."
     },
     {
-      "sentence_id": "S0094",
+      "sentence_id": "S0092",
       "section_heading": "Toute l'histoire tient dans un coup de couteau",
       "exact_text": "Vos yeux terminent l'histoire."
     }
   ],
-  "source_sentence_count": 94,
-  "indexed_sentence_count": 94,
+  "source_sentence_count": 92,
+  "indexed_sentence_count": 92,
   "duplicate_sentence_ids": [],
   "missing_sentence_ids": [],
   "reconstruction_ok": true,

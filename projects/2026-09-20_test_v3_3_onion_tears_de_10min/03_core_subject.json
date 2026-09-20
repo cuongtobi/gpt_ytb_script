@@ -5,7 +5,7 @@
       "audience_name": "onion",
       "entity_type": "plant",
       "label_familiarity": "high",
-      "minimum_grounding": "A bulb whose cells keep reactive sulfur chemistry separated until tissue damage.",
+      "minimum_grounding": "A bulb whose damage mixes previously separated sulfur chemistry.",
       "aliases": [
         "onion"
       ],
@@ -24,8 +24,8 @@
     "Allium cepa": "onion"
   },
   "entity_label_policy": {
-    "primary_spoken_label": "localized common word for onion",
-    "scientific_alias_policy": "Scientific name unnecessary in narration.",
+    "primary_spoken_label": "localized onion term",
+    "scientific_alias_policy": "remove scientific name",
     "allowed_reuse_aliases": [],
     "discouraged_reuse_aliases": [
       "Allium cepa"
@@ -35,14 +35,14 @@
     ]
   },
   "minimum_grounding_requirements": [
-    "enzyme as reaction-accelerating protein",
-    "volatile as able to enter air",
-    "reflex tears as protective response"
+    "enzyme role",
+    "airborne irritant",
+    "reflex tears"
   ],
   "first_specialized_use_dependencies": [],
   "labels_recommended_for_removal": [
-    "lachrymator",
-    "sulfine"
+    "volatile as an avoidable specialist label",
+    "Allium cepa"
   ],
   "status": "PASS"
 }

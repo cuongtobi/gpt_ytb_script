@@ -3,8 +3,8 @@ project:
   language: "Japanese"
   locale: "ja"
   duration_minutes: 10
-  estimated_whitespace_tokens: 115
-  estimated_characters: 3469
+  estimated_whitespace_tokens: 113
+  estimated_characters: 3400
   audience: "general"
   technical_level: "accessible"
   tone: "conversational_documentary"
@@ -15,7 +15,7 @@ research:
   depth: "focused"
   freshness_required: false
   research_date: "2026-09-20"
-  source_basis: "shared primary/official evidence set for controlled multilingual comparison"
+  source_basis: "shared evidence set for controlled multilingual comparison"
 pipeline:
   version: "3.3"
   artifact_schema_version: "3.3.0"

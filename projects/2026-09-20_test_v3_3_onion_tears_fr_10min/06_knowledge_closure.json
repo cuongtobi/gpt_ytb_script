@@ -4,11 +4,11 @@
     "inputs": [
       {
         "path": "05_script_draft.md",
-        "sha256": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80"
+        "sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a"
       },
       {
         "path": "05_blind_knowledge_inventory.json",
-        "sha256": "fecf8a94c8bb644321cd5a7807d2371ae1ec9ead21dc09bc5eb0f9024c1242c8"
+        "sha256": "7bf8251597153fa113d8848cbd278bad049a4613523bb798841326b8a8025ccc"
       }
     ]
   },
@@ -17,7 +17,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -39,11 +40,16 @@
         "status": "GROUNDED",
         "exact_phrase": "larmes réflexes",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "acides sulféniques",
+        "grounding_sentence_id": "S0020"
       }
     },
-    "discovered_count": 4,
+    "discovered_count": 5,
     "baseline_known_count": 0,
-    "grounded_count": 4,
+    "grounded_count": 5,
     "replaced_count": 0,
     "removed_count": 0,
     "unresolved_count": 0,
@@ -78,6 +84,13 @@
       "first_use_sentence_id": "S0012",
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
+      "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0020",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0020",
       "ordering_valid": true
     }
   ],

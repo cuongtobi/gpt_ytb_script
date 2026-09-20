@@ -4,19 +4,19 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "d00a957fca30a37626f5f34ec030863acd9df4336c9762a507f17bcb6449b520"
+        "sha256": "b107f65ca4e699d3cd73e44a77ed220e552226e4464f9083580a13ff8d05f9e8"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "f530a9bda07466bb2bb17e27a48965a54dbcf2b17fef3fa7b2231c8aef374900"
+        "sha256": "e8d49d1ddfdd52720c4731e71f3ad7592c9c604753a086a857b3b5daa32e7169"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "0b387ce152df51a78e8824ae031aaad33d7d00857c8eeba1f18039e9ee8ad1d0"
+        "sha256": "d822622eaacbf7ed11f8ab3102bf9697aaa1be937c42cb33a47cec85cbbfb278"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "a50ffb6876ae42644663b3dca9465e8699768245feb2861ccfda07348a0129dc"
+        "sha256": "f19f92163904239f85fd35913a983c6088f3549ddbab1d2e8842ea137c5ce105"
       }
     ]
   },
@@ -74,7 +74,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -96,17 +97,13 @@
         "status": "GROUNDED",
         "exact_phrase": "lágrimas reflejas",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "ácidos sulfénicos",
+        "grounding_sentence_id": "S0020"
       }
-    },
-    "discovered_count": 4,
-    "baseline_known_count": 0,
-    "grounded_count": 4,
-    "replaced_count": 0,
-    "removed_count": 0,
-    "unresolved_count": 0,
-    "equation_valid": true,
-    "missing_candidate_ids": [],
-    "duplicate_disposition_ids": []
+    }
   },
   "temporal_proofs": [
     {
@@ -136,6 +133,13 @@
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
       "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0020",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0020",
+      "ordering_valid": true
     }
   ],
   "claim_conservation_proof": {
@@ -147,7 +151,9 @@
       "BC005",
       "BC006",
       "BC007",
-      "BC008"
+      "BC008",
+      "BC009",
+      "BC010"
     ],
     "dispositions": {
       "BC001": {
@@ -230,6 +236,27 @@
         "evidence_ids": [
           "E001",
           "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC009": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C009"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC010": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E007"
         ],
         "remaining_issue_types": []
       }

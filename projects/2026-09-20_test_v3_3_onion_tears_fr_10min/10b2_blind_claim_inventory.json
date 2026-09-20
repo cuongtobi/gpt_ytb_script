@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "d263be51f9792ba9d419aab4c7a41dabcf61e99fd27484ce2dd6f4ce0eb08d80"
+        "sha256": "4f214e3345a6eb9285cada231018ed8fc6516097d4d9fd64505fb4d1ab072e6a"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "585a60ffcb5e0afef54ef60263e71c4dd82007229b486a1c6a758382fb490fd2"
+        "sha256": "f8082cb01eeb8087bd853b44af3cdde653415940b528d1ba237542f6de387842"
       }
     ]
   },
@@ -1189,34 +1189,6 @@
     {
       "sentence_id": "S0042",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0043",
-      "forward_claim_review": {
         "empirical_fact": [
           "Le liquide supplémentaire aide à diluer et à éliminer la substance irritante."
         ],
@@ -1247,6 +1219,34 @@
       "claim_candidate_ids": [
         "BC005"
       ]
+    },
+    {
+      "sentence_id": "S0043",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0044",
@@ -1391,34 +1391,6 @@
     {
       "sentence_id": "S0049",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0050",
-      "forward_claim_review": {
         "empirical_fact": [
           "une partie d'un système de défense plus large."
         ],
@@ -1451,7 +1423,7 @@
       ]
     },
     {
-      "sentence_id": "S0051",
+      "sentence_id": "S0050",
       "forward_claim_review": {
         "empirical_fact": [],
         "dates_quantities": [],
@@ -1479,7 +1451,7 @@
       "claim_candidate_ids": []
     },
     {
-      "sentence_id": "S0052",
+      "sentence_id": "S0051",
       "forward_claim_review": {
         "empirical_fact": [
           "contribuent à l'odeur forte et au goût piquant que nous associons à l'oignon."
@@ -1511,6 +1483,34 @@
       "claim_candidate_ids": [
         "BC008"
       ]
+    },
+    {
+      "sentence_id": "S0052",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0053",
@@ -1711,7 +1711,9 @@
     {
       "sentence_id": "S0060",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Toutes les variétés et tous les bulbes ne contiennent pas exactement les mêmes quantités de précurseurs soufrés"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1723,7 +1725,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Toutes les variétés et tous les bulbes ne contiennent pas exactement les mêmes quantités de précurseurs soufrés"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1734,7 +1738,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC010"
+      ]
     },
     {
       "sentence_id": "S0061",
@@ -1879,34 +1885,6 @@
     {
       "sentence_id": "S0066",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0067",
-      "forward_claim_review": {
         "empirical_fact": [
           "réduisent l'activité de la synthase du facteur lacrymogène obtiennent des oignons qui forment beaucoup moins de facteur lacrymogène."
         ],
@@ -1937,6 +1915,34 @@
       "claim_candidate_ids": [
         "BC006"
       ]
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0068",
@@ -2165,7 +2171,9 @@
     {
       "sentence_id": "S0076",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2177,7 +2185,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2188,7 +2198,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC009"
+      ]
     },
     {
       "sentence_id": "S0077",
@@ -2637,62 +2649,6 @@
         "historical_event": []
       },
       "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0093",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0094",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
     }
   ],
   "claim_candidates": [
@@ -2700,7 +2656,7 @@
       "claim_candidate_id": "BC001",
       "sentence_id": "S0013",
       "exact_quote": "des précurseurs contenant du soufre et une enzyme appelée alliinase",
-      "normalized_claim": "Intact onion tissue keeps sulfur precursors and alliinase sufficiently separated that tissue disruption is required for rapid mixing.",
+      "normalized_claim": "Intact onion tissue separates sulfur precursors and alliinase until tissue disruption enables rapid mixing.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2709,7 +2665,7 @@
       "claim_candidate_id": "BC002",
       "sentence_id": "S0020",
       "exact_quote": "Cette première réaction produit notamment des acides sulféniques",
-      "normalized_claim": "Cutting onion tissue allows alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
+      "normalized_claim": "Cutting enables alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2718,7 +2674,7 @@
       "claim_candidate_id": "BC003",
       "sentence_id": "S0028",
       "exact_quote": "une autre enzyme, la synthase du facteur lacrymogène, qui fabrique spécifiquement le composé responsable des larmes",
-      "normalized_claim": "A 2002 Nature study showed that lachrymatory-factor synthase specifically produces the onion tear factor rather than it being only a spontaneous by-product.",
+      "normalized_claim": "A 2002 Nature study showed LFS specifically produces the onion tear factor.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2727,43 +2683,61 @@
       "claim_candidate_id": "BC004",
       "sentence_id": "S0036",
       "exact_quote": "Le principal composé lacrymogène est le syn-propanéthial-S-oxyde",
-      "normalized_claim": "The principal onion lachrymatory factor is volatile syn-propanethial S-oxide.",
+      "normalized_claim": "The principal onion lachrymatory factor is syn-propanethial S-oxide.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC005",
-      "sentence_id": "S0043",
+      "sentence_id": "S0042",
       "exact_quote": "Le liquide supplémentaire aide à diluer et à éliminer la substance irritante.",
-      "normalized_claim": "Onion irritation triggers reflex tears that dilute and help wash irritants from the eye surface.",
+      "normalized_claim": "Onion irritation triggers reflex tears that help wash irritants from the eye surface.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC006",
-      "sentence_id": "S0067",
+      "sentence_id": "S0066",
       "exact_quote": "réduisent l'activité de la synthase du facteur lacrymogène obtiennent des oignons qui forment beaucoup moins de facteur lacrymogène.",
-      "normalized_claim": "Suppressing lachrymatory-factor synthase can greatly reduce tear-factor formation in experimental onion lines.",
+      "normalized_claim": "Suppressing LFS can greatly reduce tear-factor formation in experimental onion lines.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC007",
-      "sentence_id": "S0050",
+      "sentence_id": "S0049",
       "exact_quote": "une partie d'un système de défense plus large.",
-      "normalized_claim": "Onion sulfur chemistry functions within a broader chemical-defense system activated by tissue damage.",
+      "normalized_claim": "Onion sulfur chemistry forms part of a broader damage-triggered chemical-defense system.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC008",
-      "sentence_id": "S0052",
+      "sentence_id": "S0051",
       "exact_quote": "contribuent à l'odeur forte et au goût piquant que nous associons à l'oignon.",
-      "normalized_claim": "Products of onion sulfur chemistry contribute to characteristic pungent aroma and flavor.",
+      "normalized_claim": "Onion sulfur chemistry contributes to characteristic pungent aroma and flavor.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC009",
+      "sentence_id": "S0076",
+      "exact_quote": "Une bonne ventilation ou un courant d'air dirigé loin du visage peut emporter une partie du composé ailleurs.",
+      "normalized_claim": "Moving air away from the face can reduce exposure to the airborne onion irritant.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC010",
+      "sentence_id": "S0060",
+      "exact_quote": "Toutes les variétés et tous les bulbes ne contiennent pas exactement les mêmes quantités de précurseurs soufrés",
+      "normalized_claim": "Tearing intensity can vary with onion material and individual chemosensory sensitivity.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2771,7 +2745,7 @@
   ],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 94
+    "sentence_count": 92
   },
   "status": "PASS"
 }

@@ -4,12 +4,12 @@
     "inputs": [
       {
         "path": "07_script_retention_edit.md",
-        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
       }
     ]
   },
-  "input_script_sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2",
-  "output_script_sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2",
+  "input_script_sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+  "output_script_sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
   "translationese_flags": 0,
   "repeated_rhetorical_patterns": 0,
   "unresolved_audio_density_flags": 0,

@@ -5,11 +5,11 @@
     "inputs": [
       {
         "path": "10_final_candidate.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "d133686a770831edd3a3908f601ed90c640e8a551c9c44098199d997e2cd710d"
+        "sha256": "58b93097072a741fde04e5ce914e697149f838ae6e582d1834594a6a8a7b619d"
       }
     ]
   },
@@ -1161,34 +1161,6 @@
     {
       "sentence_id": "S0041",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0042",
-      "forward_claim_review": {
         "empirical_fact": [
           "추가로 나온 눈물은 자극 물질을 희석하고 씻어 내는 데 도움이 됩니다."
         ],
@@ -1219,6 +1191,34 @@
       "claim_candidate_ids": [
         "BC005"
       ]
+    },
+    {
+      "sentence_id": "S0042",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0043",
@@ -1363,34 +1363,6 @@
     {
       "sentence_id": "S0048",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0049",
-      "forward_claim_review": {
         "empirical_fact": [
           "미생물과 동물에 맞서는 더 큰 방어 시스템의 일부로 설명합니다."
         ],
@@ -1423,7 +1395,7 @@
       ]
     },
     {
-      "sentence_id": "S0050",
+      "sentence_id": "S0049",
       "forward_claim_review": {
         "empirical_fact": [],
         "dates_quantities": [],
@@ -1451,7 +1423,7 @@
       "claim_candidate_ids": []
     },
     {
-      "sentence_id": "S0051",
+      "sentence_id": "S0050",
       "forward_claim_review": {
         "empirical_fact": [
           "강한 냄새와 매운맛에도 기여합니다."
@@ -1483,6 +1455,34 @@
       "claim_candidate_ids": [
         "BC008"
       ]
+    },
+    {
+      "sentence_id": "S0051",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0052",
@@ -1711,7 +1711,9 @@
     {
       "sentence_id": "S0060",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "모든 품종과 모든 구근이 똑같은 양의 황 전구물질을 가진 것은 아니며"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1723,7 +1725,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "모든 품종과 모든 구근이 똑같은 양의 황 전구물질을 가진 것은 아니며"
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -1734,7 +1738,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC010"
+      ]
     },
     {
       "sentence_id": "S0061",
@@ -1879,34 +1885,6 @@
     {
       "sentence_id": "S0066",
       "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0067",
-      "forward_claim_review": {
         "empirical_fact": [
           "눈물 유발 인자 합성효소의 활성을 억제한 연구에서는 눈물 유발 물질의 생성이 크게 줄어든 양파가 만들어졌습니다."
         ],
@@ -1937,6 +1915,34 @@
       "claim_candidate_ids": [
         "BC006"
       ]
+    },
+    {
+      "sentence_id": "S0067",
+      "forward_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "reverse_claim_review": {
+        "empirical_fact": [],
+        "dates_quantities": [],
+        "causal_mechanism": [],
+        "scope_population_geography": [],
+        "comparison_superlative": [],
+        "attribution_source": [],
+        "uncertainty_model": [],
+        "negative_absence_claim": [],
+        "definition_classification": [],
+        "historical_event": []
+      },
+      "claim_candidate_ids": []
     },
     {
       "sentence_id": "S0068",
@@ -2165,7 +2171,9 @@
     {
       "sentence_id": "S0076",
       "forward_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "환기를 잘하거나 바람을 얼굴 반대 방향으로 흐르게 하면 공기 중 자극 물질의 일부가 다른 곳으로 이동합니다."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2177,7 +2185,9 @@
         "historical_event": []
       },
       "reverse_claim_review": {
-        "empirical_fact": [],
+        "empirical_fact": [
+          "환기를 잘하거나 바람을 얼굴 반대 방향으로 흐르게 하면 공기 중 자극 물질의 일부가 다른 곳으로 이동합니다."
+        ],
         "dates_quantities": [],
         "causal_mechanism": [],
         "scope_population_geography": [],
@@ -2188,7 +2198,9 @@
         "definition_classification": [],
         "historical_event": []
       },
-      "claim_candidate_ids": []
+      "claim_candidate_ids": [
+        "BC009"
+      ]
     },
     {
       "sentence_id": "S0077",
@@ -2637,62 +2649,6 @@
         "historical_event": []
       },
       "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0093",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
-    },
-    {
-      "sentence_id": "S0094",
-      "forward_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "reverse_claim_review": {
-        "empirical_fact": [],
-        "dates_quantities": [],
-        "causal_mechanism": [],
-        "scope_population_geography": [],
-        "comparison_superlative": [],
-        "attribution_source": [],
-        "uncertainty_model": [],
-        "negative_absence_claim": [],
-        "definition_classification": [],
-        "historical_event": []
-      },
-      "claim_candidate_ids": []
     }
   ],
   "claim_candidates": [
@@ -2700,7 +2656,7 @@
       "claim_candidate_id": "BC001",
       "sentence_id": "S0013",
       "exact_quote": "황을 포함한 전구물질과 알리이나아제라는 효소가 서로 다른 공간에 존재합니다.",
-      "normalized_claim": "Intact onion tissue keeps sulfur precursors and alliinase sufficiently separated that tissue disruption is required for rapid mixing.",
+      "normalized_claim": "Intact onion tissue separates sulfur precursors and alliinase until tissue disruption enables rapid mixing.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2709,7 +2665,7 @@
       "claim_candidate_id": "BC002",
       "sentence_id": "S0019",
       "exact_quote": "설펜산이라는 반응성이 강하고 수명이 짧은 황 화합물이 만들어집니다.",
-      "normalized_claim": "Cutting onion tissue allows alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
+      "normalized_claim": "Cutting enables alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2718,7 +2674,7 @@
       "claim_candidate_id": "BC003",
       "sentence_id": "S0027",
       "exact_quote": "눈물 유발 인자 합성효소라는 또 다른 효소를 이용해 눈물을 일으키는 물질을 특별히 만들어 낸다는 사실",
-      "normalized_claim": "A 2002 Nature study showed that lachrymatory-factor synthase specifically produces the onion tear factor rather than it being only a spontaneous by-product.",
+      "normalized_claim": "A 2002 Nature study showed LFS specifically produces the onion tear factor.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2727,43 +2683,61 @@
       "claim_candidate_id": "BC004",
       "sentence_id": "S0035",
       "exact_quote": "주된 눈물 유발 물질은 syn-propanethial S-oxide",
-      "normalized_claim": "The principal onion lachrymatory factor is volatile syn-propanethial S-oxide.",
+      "normalized_claim": "The principal onion lachrymatory factor is syn-propanethial S-oxide.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC005",
-      "sentence_id": "S0042",
+      "sentence_id": "S0041",
       "exact_quote": "추가로 나온 눈물은 자극 물질을 희석하고 씻어 내는 데 도움이 됩니다.",
-      "normalized_claim": "Onion irritation triggers reflex tears that dilute and help wash irritants from the eye surface.",
+      "normalized_claim": "Onion irritation triggers reflex tears that help wash irritants from the eye surface.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC006",
-      "sentence_id": "S0067",
+      "sentence_id": "S0066",
       "exact_quote": "눈물 유발 인자 합성효소의 활성을 억제한 연구에서는 눈물 유발 물질의 생성이 크게 줄어든 양파가 만들어졌습니다.",
-      "normalized_claim": "Suppressing lachrymatory-factor synthase can greatly reduce tear-factor formation in experimental onion lines.",
+      "normalized_claim": "Suppressing LFS can greatly reduce tear-factor formation in experimental onion lines.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC007",
-      "sentence_id": "S0049",
+      "sentence_id": "S0048",
       "exact_quote": "미생물과 동물에 맞서는 더 큰 방어 시스템의 일부로 설명합니다.",
-      "normalized_claim": "Onion sulfur chemistry functions within a broader chemical-defense system activated by tissue damage.",
+      "normalized_claim": "Onion sulfur chemistry forms part of a broader damage-triggered chemical-defense system.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
     },
     {
       "claim_candidate_id": "BC008",
-      "sentence_id": "S0051",
+      "sentence_id": "S0050",
       "exact_quote": "강한 냄새와 매운맛에도 기여합니다.",
-      "normalized_claim": "Products of onion sulfur chemistry contribute to characteristic pungent aroma and flavor.",
+      "normalized_claim": "Onion sulfur chemistry contributes to characteristic pungent aroma and flavor.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC009",
+      "sentence_id": "S0076",
+      "exact_quote": "환기를 잘하거나 바람을 얼굴 반대 방향으로 흐르게 하면 공기 중 자극 물질의 일부가 다른 곳으로 이동합니다.",
+      "normalized_claim": "Moving air away from the face can reduce exposure to the airborne onion irritant.",
+      "claim_type": "empirical_fact",
+      "discovered_by": "both",
+      "risk_flags": []
+    },
+    {
+      "claim_candidate_id": "BC010",
+      "sentence_id": "S0060",
+      "exact_quote": "모든 품종과 모든 구근이 똑같은 양의 황 전구물질을 가진 것은 아니며",
+      "normalized_claim": "Tearing intensity can vary with onion material and individual chemosensory sensitivity.",
       "claim_type": "empirical_fact",
       "discovered_by": "both",
       "risk_flags": []
@@ -2771,7 +2745,7 @@
   ],
   "coverage_proof": {
     "coverage_ok": true,
-    "sentence_count": 94
+    "sentence_count": 92
   },
   "status": "PASS"
 }

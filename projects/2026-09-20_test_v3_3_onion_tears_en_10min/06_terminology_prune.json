@@ -4,12 +4,12 @@
     "inputs": [
       {
         "path": "06_script_accessible.md",
-        "sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687"
+        "sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05"
       }
     ]
   },
-  "input_script_sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687",
-  "output_script_sha256": "1922126eac6f6904ff3382128cabfdd804b546b4a93e13718765a831b1ef1687",
+  "input_script_sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05",
+  "output_script_sha256": "ab26ec48c672551aca5e4925dcdea5d80c7ae2604918007b4243831e3b32af05",
   "unnecessary_labels": 0,
   "alias_overload": 0,
   "status": "PASS"

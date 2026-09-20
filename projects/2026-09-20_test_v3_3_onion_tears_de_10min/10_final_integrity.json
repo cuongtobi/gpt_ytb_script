@@ -4,19 +4,19 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "616e2e29f32f551ede6715ebac8e329c17221c58e02aa3de5b403a24be6a4cf3"
+        "sha256": "b0fc5a4f9d87aa5820089c52e0fad031b5e9ae4af2ea3fe31688740e5dec5b06"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "d32f627ca869f64c770ddbd7b4dfcc1207917983587f14c2baeb13a851a80c98"
+        "sha256": "4b0f73d3165e603f7eb24db2331977425c2c5483ba405791d48bcf3237ac2f91"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "c93eb86590f4eaf9d2d565a192c5ca87f8ec37acaa299e855b9adf4363fba9b4"
+        "sha256": "a8daa6b26c131e04cec3ec8af100b11aeff3e9d471bf82baacff18ff5b61fef6"
       }
     ]
   },
@@ -74,7 +74,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -96,17 +97,13 @@
         "status": "GROUNDED",
         "exact_phrase": "Reflextränen",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "Sulfensäuren",
+        "grounding_sentence_id": "S0020"
       }
-    },
-    "discovered_count": 4,
-    "baseline_known_count": 0,
-    "grounded_count": 4,
-    "replaced_count": 0,
-    "removed_count": 0,
-    "unresolved_count": 0,
-    "equation_valid": true,
-    "missing_candidate_ids": [],
-    "duplicate_disposition_ids": []
+    }
   },
   "temporal_proofs": [
     {
@@ -136,6 +133,13 @@
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
       "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0020",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0020",
+      "ordering_valid": true
     }
   ],
   "claim_conservation_proof": {
@@ -147,7 +151,9 @@
       "BC005",
       "BC006",
       "BC007",
-      "BC008"
+      "BC008",
+      "BC009",
+      "BC010"
     ],
     "dispositions": {
       "BC001": {
@@ -230,6 +236,27 @@
         "evidence_ids": [
           "E001",
           "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC009": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C009"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC010": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E007"
         ],
         "remaining_issue_types": []
       }

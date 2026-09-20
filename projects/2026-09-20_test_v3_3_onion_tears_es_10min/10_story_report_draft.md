@@ -1,6 +1,3 @@
 # 10A — Final Story Editor Draft Report
 
-Language: Spanish.
-Canonical sentence count: 94.
-The final candidate preserves a single causal spine and introduces technical terms with inline explanations.
-No production notes are present.
+Language: Spanish. Canonical sentences: 92. Repair pass removed avoidable jargon/translationese and one weakly evidenced kitchen claim.

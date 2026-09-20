@@ -4,16 +4,16 @@
     "inputs": [
       {
         "path": "08_script_natural.md",
-        "sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675"
+        "sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961"
       },
       {
         "path": "02_evidence_ledger.json",
-        "sha256": "d8055095d62e6106e3c6dc0a1457ecb68f26807741802d90249120da8505fa77"
+        "sha256": "d2aaecc327ae70becd3e2d8781f995f2a3efe3a01727ab34eaa145cf9a122a4e"
       }
     ]
   },
-  "input_script_sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675",
-  "output_script_sha256": "804dd2c85979a151bbdf9a1adba54e12f1009f36e9c2678f44faf1cada5fb675",
+  "input_script_sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961",
+  "output_script_sha256": "a10d854e00cd56e5a55c2809cf59f7eece5da95f5d1716c7c74f3a57e1a04961",
   "claims_checked": [
     {
       "claim_id": "C001",
@@ -72,6 +72,21 @@
       "evidence_ids": [
         "E001",
         "E006"
+      ]
+    },
+    {
+      "claim_id": "C009",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E004"
+      ]
+    },
+    {
+      "claim_id": "C010",
+      "status": "SUPPORTED",
+      "evidence_ids": [
+        "E005",
+        "E007"
       ]
     }
   ],

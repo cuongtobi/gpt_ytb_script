@@ -12,7 +12,7 @@ An onion does not store its irritating chemistry as one ready-made gas waiting t
 It stores separate ingredients inside living cells, and cutting lets those ingredients meet.
 What happens next is a tiny chemical chain reaction built into the plant.
 And the tears are not an emotional response at all.
-They are a protective reflex from your eyes.
+They are reflex tears, a protective response from the eyes.
 
 ## The onion keeps the ingredients apart
 
@@ -43,8 +43,7 @@ Slice, and the reaction begins.
 
 ## The molecule that reaches your eyes
 
-The main tear-causing compound is syn-propanethial S-oxide, a small volatile sulfur compound often called the onion lachrymatory factor.
-Volatile means it can readily enter the air.
+The main tear-causing compound is syn-propanethial S-oxide, a small sulfur compound that can readily enter the air and is often called the onion lachrymatory factor.
 Once it forms in the damaged onion, some of it moves away from the cutting board and reaches the moist surface of your eyes.
 There it acts as an irritant.
 Your eye does not need to know that the molecule came from a vegetable.
@@ -94,8 +93,7 @@ Breeding and biotechnology can therefore change how strongly an onion activates 
 Once you understand the mechanism, many kitchen tricks become easier to judge.
 The tear factor has to be produced in damaged tissue and then reach your eyes through the air.
 So the most direct strategy is to reduce your exposure to the airborne irritant.
-Moving air away from your face with good ventilation can help carry the volatile compound elsewhere.
-A very sharp knife can also reduce unnecessary crushing compared with a badly blunted blade, although cutting still damages cells and cannot stop the chemistry completely.
+Moving air away from your face with good ventilation can help carry the airborne irritant elsewhere.
 Anything that places your eyes farther from the rising vapor can reduce exposure simply by changing where the air goes.
 The important point is that no trick needs to "neutralize emotion" or pull toxins out of the onion.
 This is ordinary plant chemistry meeting ordinary eye protection.

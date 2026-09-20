@@ -4,47 +4,47 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2"
+        "sha256": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635"
       },
       {
         "path": "10_final_sentence_index.json",
-        "sha256": "a758943a445fa01740de451e6a7dab55d63f5f9bb626f0bcda3df8b159298bac"
+        "sha256": "301a04a0a2df5b670ba9fb8990dfb36235d7c7e18f80f50d0db54121b4a1eded"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "616e2e29f32f551ede6715ebac8e329c17221c58e02aa3de5b403a24be6a4cf3"
+        "sha256": "b0fc5a4f9d87aa5820089c52e0fad031b5e9ae4af2ea3fe31688740e5dec5b06"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "d32f627ca869f64c770ddbd7b4dfcc1207917983587f14c2baeb13a851a80c98"
+        "sha256": "4b0f73d3165e603f7eb24db2331977425c2c5483ba405791d48bcf3237ac2f91"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "c93eb86590f4eaf9d2d565a192c5ca87f8ec37acaa299e855b9adf4363fba9b4"
+        "sha256": "a8daa6b26c131e04cec3ec8af100b11aeff3e9d471bf82baacff18ff5b61fef6"
       },
       {
         "path": "10_final_integrity.json",
-        "sha256": "efc3c38ad8b9ea7b80d201e6b6ef321e0bab6b4c28bfe39dd085705ec2bfbfb9"
+        "sha256": "75868b51408d764c48adef9d8e5d93f497b9071a5dbfc20b262fee8672196a44"
       },
       {
         "path": "10b_isolation_manifest.json",
-        "sha256": "c095ee685b65d1da17f7a20b2dfbc5a659b7f92dfc3685b7855122cac20b82c8"
+        "sha256": "0621bf7de7d7091c8e90f72a6ca8464be13ae27933e6bb030258a785e7be6378"
       },
       {
         "path": "artifact_manifest.json",
-        "sha256": "b7282376ab25568a021b1cb9d4a1801bedfcc3ff79959377eda73dbb655dc55d"
+        "sha256": "e029662e71fa9d2b027912eafce92ebf873ec5f63f576896bae67ae224ac0185"
       },
       {
         "path": "02_evidence_ledger.json",
-        "sha256": "d8055095d62e6106e3c6dc0a1457ecb68f26807741802d90249120da8505fa77"
+        "sha256": "d2aaecc327ae70becd3e2d8781f995f2a3efe3a01727ab34eaa145cf9a122a4e"
       },
       {
         "path": "02_sources.json",
-        "sha256": "2814fd035f4c5dc04a26eaefa30f0755e699beb2f6655cc491895c4c01281f61"
+        "sha256": "cee6ef722028a1466acda437193621d45e9afb05235b320b5bdb9e215c614417"
       },
       {
         "path": "03_claim_map.json",
-        "sha256": "a184503a6ef56cf13f279566ccd782b94a50843ea80ed44a558f2d92b651439c"
+        "sha256": "b6df1d95f8b25606eb9343b9700e5ba9d89c6c6c2cfae8db9c985122cf396084"
       }
     ]
   },

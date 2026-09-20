@@ -46,8 +46,7 @@ Cortamos, las células se abren y la química comienza.
 
 ## La molécula que llega hasta nuestros ojos
 
-El principal compuesto que provoca el lagrimeo es el syn-propanetial-S-óxido, una pequeña molécula de azufre volátil conocida también como factor lacrimógeno de la cebolla.
-Volátil significa que puede pasar con facilidad al aire.
+El principal compuesto que provoca el lagrimeo es el syn-propanetial-S-óxido, una pequeña molécula de azufre que pasa con facilidad al aire y que también se conoce como factor lacrimógeno de la cebolla.
 Una vez formado en el tejido dañado, parte del compuesto se aleja de la tabla de cortar y se dispersa alrededor de nuestra cara.
 Si llega a la superficie húmeda del ojo, actúa como un irritante químico.
 El ojo no necesita saber que la molécula procede de una verdura.
@@ -77,7 +76,7 @@ La intensidad de la irritación puede variar por varias razones.
 Cuanto más tejido se daña, más contenido celular puede mezclarse y reaccionar.
 El movimiento del aire también importa, porque el factor lacrimógeno tiene que viajar desde la cebolla hasta los ojos.
 La propia cebolla es otra variable.
-Las distintas variedades y los distintos bulbos no contienen exactamente las mismas cantidades de precursores azufrados ni producen la misma intensidad de compuestos picantes.
+Las distintas variedades y los distintos bulbos no contienen exactamente las mismas cantidades de precursores azufrados ni producen la misma cantidad de compuestos azufrados irritantes.
 Además, las personas tampoco reaccionan de forma idéntica ante los irritantes.
 Dos personas pueden cortar la misma cebolla y describir experiencias bastante diferentes.
 La vía química básica, sin embargo, puede ser exactamente la misma.
@@ -98,9 +97,8 @@ La selección vegetal y la biotecnología pueden, por tanto, modificar la intens
 
 Cuando entendemos el mecanismo, resulta más fácil evaluar los trucos para cortar cebolla.
 El factor lacrimógeno tiene que formarse primero en el tejido dañado y después desplazarse por el aire hasta nuestros ojos.
-La estrategia más directa consiste en reducir la exposición al compuesto volátil.
+La estrategia más directa consiste en reducir la exposición al irritante que circula por el aire.
 Una buena ventilación o una corriente de aire que se aleje de la cara puede transportar parte del compuesto en otra dirección.
-Un cuchillo muy afilado también puede reducir el aplastamiento innecesario frente a una hoja muy roma, aunque cualquier corte sigue rompiendo células.
 Aumentar la distancia entre la cara y la zona por la que asciende el vapor también puede disminuir la exposición.
 Ninguno de estos métodos necesita neutralizar emociones ni extraer una misteriosa toxina de la cebolla.
 Es simplemente química vegetal encontrándose con un reflejo normal de protección ocular.

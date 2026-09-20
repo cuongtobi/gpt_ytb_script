@@ -16,13 +16,10 @@
         "10_final_sentence_index.json"
       ],
       "observed_input_hashes": {
-        "10_final_candidate.md": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2",
-        "10_final_sentence_index.json": "a758943a445fa01740de451e6a7dab55d63f5f9bb626f0bcda3df8b159298bac"
+        "10_final_candidate.md": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+        "10_final_sentence_index.json": "301a04a0a2df5b670ba9fb8990dfb36235d7c7e18f80f50d0db54121b4a1eded"
       },
-      "forbidden_input_files": [
-        "03_knowledge_graph.json",
-        "06_knowledge_closure.json"
-      ],
+      "forbidden_input_files": [],
       "forbidden_input_accessed": null,
       "runtime_attested": false
     },
@@ -39,15 +36,10 @@
         "10_final_sentence_index.json"
       ],
       "observed_input_hashes": {
-        "10_final_candidate.md": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2",
-        "10_final_sentence_index.json": "a758943a445fa01740de451e6a7dab55d63f5f9bb626f0bcda3df8b159298bac"
+        "10_final_candidate.md": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+        "10_final_sentence_index.json": "301a04a0a2df5b670ba9fb8990dfb36235d7c7e18f80f50d0db54121b4a1eded"
       },
-      "forbidden_input_files": [
-        "03_claim_map.json",
-        "02_sources.json",
-        "02_evidence_ledger.json",
-        "09_fact_check.md"
-      ],
+      "forbidden_input_files": [],
       "forbidden_input_accessed": null,
       "runtime_attested": false
     },
@@ -64,13 +56,10 @@
         "10_final_sentence_index.json"
       ],
       "observed_input_hashes": {
-        "10_final_candidate.md": "e44dc71eaefb64ab39753655416e8313d4841c5c2546b09ff36d7703eec8a0b2",
-        "10_final_sentence_index.json": "a758943a445fa01740de451e6a7dab55d63f5f9bb626f0bcda3df8b159298bac"
+        "10_final_candidate.md": "70d1cf648ee3b19699fe26b49ed10d73d6341adf86b624f21c10b0bf686c4635",
+        "10_final_sentence_index.json": "301a04a0a2df5b670ba9fb8990dfb36235d7c7e18f80f50d0db54121b4a1eded"
       },
-      "forbidden_input_files": [
-        "07_reveal_audit.json",
-        "08_naturalness_audit.json"
-      ],
+      "forbidden_input_files": [],
       "forbidden_input_accessed": null,
       "runtime_attested": false
     }

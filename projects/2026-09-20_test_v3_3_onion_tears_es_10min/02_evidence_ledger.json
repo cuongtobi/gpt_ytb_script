@@ -8,12 +8,12 @@
         "C008"
       ],
       "source_id": "S001",
-      "locator": "Introduction, onion tissue disruption and organosulfur pathway",
+      "locator": "Introduction: tissue disruption and organosulfur pathway",
       "support_mode": "DIRECT",
-      "evidence_summary": "Onion tissue disruption brings cysteine sulfoxides into contact with alliinase, producing sulfenic acids and downstream volatile sulfur chemistry.",
-      "limitations": "Analytical chemistry study; used here for pathway description.",
+      "evidence_summary": "Tissue disruption mixes cysteine sulfoxides with alliinase, producing sulfenic acids and downstream sulfur compounds.",
+      "limitations": "General pathway summary.",
       "temporal_scope": "mechanism",
-      "geographic_scope": "not applicable",
+      "geographic_scope": "n/a",
       "population_scope": "common onion"
     },
     {
@@ -25,10 +25,10 @@
       "source_id": "S002",
       "locator": "Abstract",
       "support_mode": "DIRECT",
-      "evidence_summary": "2002 Nature communication showed the lachrymatory factor is specifically synthesized by a previously undiscovered lachrymatory-factor synthase.",
+      "evidence_summary": "LFS specifically synthesizes the onion lachrymatory factor.",
       "limitations": "Brief communication.",
       "temporal_scope": "mechanism",
-      "geographic_scope": "not applicable",
+      "geographic_scope": "n/a",
       "population_scope": "onion"
     },
     {
@@ -40,39 +40,41 @@
       "source_id": "S003",
       "locator": "Abstract",
       "support_mode": "DIRECT",
-      "evidence_summary": "LFS catalyzes production of syn-propanethial S-oxide and later structural/biochemical work investigated its catalytic mechanism.",
-      "limitations": "Mechanistic details are simplified for a general audience.",
+      "evidence_summary": "LFS produces syn-propanethial S-oxide and its catalytic mechanism has been studied structurally.",
+      "limitations": "Mechanism simplified for general narration.",
       "temporal_scope": "mechanism",
-      "geographic_scope": "not applicable",
+      "geographic_scope": "n/a",
       "population_scope": "onion LFS"
     },
     {
       "evidence_id": "E004",
       "claim_ids": [
-        "C005"
+        "C005",
+        "C009"
       ],
       "source_id": "S004",
-      "locator": "Why do onions make you cry? / reflex tears",
+      "locator": "Reflex tears / onion section",
       "support_mode": "DIRECT",
-      "evidence_summary": "Eye irritation from onion exposure triggers reflex tears that help flush irritating material.",
-      "limitations": "Clinical educational reference rather than primary onion biochemistry.",
+      "evidence_summary": "Onion gas irritates the eye, reflex tears flush irritant, and moving air away can reduce exposure.",
+      "limitations": "Clinical educational reference.",
       "temporal_scope": "human reflex",
-      "geographic_scope": "not applicable",
-      "population_scope": "general human physiology"
+      "geographic_scope": "n/a",
+      "population_scope": "general"
     },
     {
       "evidence_id": "E005",
       "claim_ids": [
-        "C006"
+        "C006",
+        "C010"
       ],
       "source_id": "S005",
-      "locator": "Introduction and results on LFS-suppressed onion",
+      "locator": "Introduction/results",
       "support_mode": "DIRECT",
-      "evidence_summary": "Suppressing LFS activity produces tearless/non-pungent onion lines and redirects sulfur chemistry.",
-      "limitations": "Experimental lines are not representative of every commercial onion.",
+      "evidence_summary": "LFS suppression produces low-tear onions; onion pungency/tear-factor output varies across onion material.",
+      "limitations": "Experimental and cultivar context.",
       "temporal_scope": "experimental",
-      "geographic_scope": "not applicable",
-      "population_scope": "engineered onion lines"
+      "geographic_scope": "n/a",
+      "population_scope": "onion lines"
     },
     {
       "evidence_id": "E006",
@@ -83,11 +85,25 @@
       "source_id": "S006",
       "locator": "Abstract",
       "support_mode": "CONTEXT",
-      "evidence_summary": "Onion lachrymatory chemistry is discussed as part of sulfur-based chemical defense and pungency chemistry.",
-      "limitations": "Defense interpretation is broader than any single compound's ecological effect.",
+      "evidence_summary": "LFS and onion sulfur chemistry are discussed in the context of pungency and plant chemical defense.",
+      "limitations": "Broad defense framing.",
       "temporal_scope": "mechanism",
-      "geographic_scope": "not applicable",
+      "geographic_scope": "n/a",
       "population_scope": "Allium cepa"
+    },
+    {
+      "evidence_id": "E007",
+      "claim_ids": [
+        "C010"
+      ],
+      "source_id": "S007",
+      "locator": "Study focus/results",
+      "support_mode": "CONTEXT",
+      "evidence_summary": "Observed onion tearing severity varies with chemosensory sensitivity among people.",
+      "limitations": "Preliminary study.",
+      "temporal_scope": "current human response",
+      "geographic_scope": "study population",
+      "population_scope": "human participants"
     }
   ]
 }

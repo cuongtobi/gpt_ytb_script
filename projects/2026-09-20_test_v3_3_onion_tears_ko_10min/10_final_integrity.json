@@ -4,19 +4,19 @@
     "inputs": [
       {
         "path": "10_final_script.md",
-        "sha256": "df084a3922c7b22ab2013dedc884aad871494d04f2409753a1cc175cb506977e"
+        "sha256": "d8e524a3496a486d919ca96f5b550f4c8644520a54cfdc676362a7eaf6a00814"
       },
       {
         "path": "10b1_blind_knowledge_inventory.json",
-        "sha256": "315e0877082322918228bfa416c203b77338b3042a560d0a156f3bd1f8179e07"
+        "sha256": "938717a55c674c63383a9835c2ab6a4f1bdc7b11552a5a172bb8fb401bacf30b"
       },
       {
         "path": "10b2_blind_claim_inventory.json",
-        "sha256": "3c0d5476a008461a84e1170b1e7cedadf40ff94ef1bc442305da570acce41432"
+        "sha256": "47f74b42734baa7ba69bfb6ab33ba90ed47f7f5f203f0ecc89d2da2eeba8bb25"
       },
       {
         "path": "10b3_blind_naturalness_audit.json",
-        "sha256": "9c582ecdc29abab0bf16a1e31bf2e4d826f9b6badc245805aa98c6cae5324ae7"
+        "sha256": "e08cc93cdf1fc672760cc1d032405390cc0b991b470a7c9fc5db25a15637cf94"
       }
     ]
   },
@@ -74,7 +74,8 @@
       "F001",
       "F002",
       "F003",
-      "F004"
+      "F004",
+      "F005"
     ],
     "dispositions": {
       "F001": {
@@ -96,17 +97,13 @@
         "status": "GROUNDED",
         "exact_phrase": "반사 눈물",
         "grounding_sentence_id": "S0012"
+      },
+      "F005": {
+        "status": "GROUNDED",
+        "exact_phrase": "설펜산",
+        "grounding_sentence_id": "S0019"
       }
-    },
-    "discovered_count": 4,
-    "baseline_known_count": 0,
-    "grounded_count": 4,
-    "replaced_count": 0,
-    "removed_count": 0,
-    "unresolved_count": 0,
-    "equation_valid": true,
-    "missing_candidate_ids": [],
-    "duplicate_disposition_ids": []
+    }
   },
   "temporal_proofs": [
     {
@@ -136,6 +133,13 @@
       "grounding_mode": "INLINE",
       "grounding_sentence_id": "S0012",
       "ordering_valid": true
+    },
+    {
+      "candidate_id": "F005",
+      "first_use_sentence_id": "S0019",
+      "grounding_mode": "INLINE",
+      "grounding_sentence_id": "S0019",
+      "ordering_valid": true
     }
   ],
   "claim_conservation_proof": {
@@ -147,7 +151,9 @@
       "BC005",
       "BC006",
       "BC007",
-      "BC008"
+      "BC008",
+      "BC009",
+      "BC010"
     ],
     "dispositions": {
       "BC001": {
@@ -230,6 +236,27 @@
         "evidence_ids": [
           "E001",
           "E006"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC009": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C009"
+        ],
+        "evidence_ids": [
+          "E004"
+        ],
+        "remaining_issue_types": []
+      },
+      "BC010": {
+        "status": "SUPPORTED",
+        "mapped_claim_ids": [
+          "C010"
+        ],
+        "evidence_ids": [
+          "E005",
+          "E007"
         ],
         "remaining_issue_types": []
       }

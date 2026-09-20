@@ -2,7 +2,7 @@
   "claims": [
     {
       "claim_id": "C001",
-      "claim": "Intact onion tissue keeps sulfur precursors and alliinase sufficiently separated that tissue disruption is required for rapid mixing.",
+      "claim": "Intact onion tissue separates sulfur precursors and alliinase until tissue disruption enables rapid mixing.",
       "source_ids": [
         "S001"
       ],
@@ -11,14 +11,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C002",
-      "claim": "Cutting onion tissue allows alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
+      "claim": "Cutting enables alliinase to act on sulfur precursors and generate short-lived sulfenic acids.",
       "source_ids": [
         "S001"
       ],
@@ -27,14 +27,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C003",
-      "claim": "A 2002 Nature study showed that lachrymatory-factor synthase specifically produces the onion tear factor rather than it being only a spontaneous by-product.",
+      "claim": "A 2002 Nature study showed LFS specifically produces the onion tear factor.",
       "source_ids": [
         "S002",
         "S003"
@@ -45,14 +45,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C004",
-      "claim": "The principal onion lachrymatory factor is volatile syn-propanethial S-oxide.",
+      "claim": "The principal onion lachrymatory factor is syn-propanethial S-oxide.",
       "source_ids": [
         "S002",
         "S003"
@@ -63,14 +63,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C005",
-      "claim": "Onion irritation triggers reflex tears that dilute and help wash irritants from the eye surface.",
+      "claim": "Onion irritation triggers reflex tears that help wash irritants from the eye surface.",
       "source_ids": [
         "S004"
       ],
@@ -79,14 +79,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C006",
-      "claim": "Suppressing lachrymatory-factor synthase can greatly reduce tear-factor formation in experimental onion lines.",
+      "claim": "Suppressing LFS can greatly reduce tear-factor formation in experimental onion lines.",
       "source_ids": [
         "S005"
       ],
@@ -95,14 +95,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C007",
-      "claim": "Onion sulfur chemistry functions within a broader chemical-defense system activated by tissue damage.",
+      "claim": "Onion sulfur chemistry forms part of a broader damage-triggered chemical-defense system.",
       "source_ids": [
         "S006"
       ],
@@ -111,14 +111,14 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     },
     {
       "claim_id": "C008",
-      "claim": "Products of onion sulfur chemistry contribute to characteristic pungent aroma and flavor.",
+      "claim": "Onion sulfur chemistry contributes to characteristic pungent aroma and flavor.",
       "source_ids": [
         "S001",
         "S006"
@@ -129,9 +129,43 @@
       ],
       "confidence": "high",
       "allowed_certainty": "supported factual wording",
-      "time_scope": "mechanistic/current biological process",
-      "geographic_scope": "not geography-dependent",
-      "population_scope": "common onion / general physiology",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "C009",
+      "claim": "Moving air away from the face can reduce exposure to the airborne onion irritant.",
+      "source_ids": [
+        "S004"
+      ],
+      "evidence_ids": [
+        "E004"
+      ],
+      "confidence": "high",
+      "allowed_certainty": "supported factual wording",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "C010",
+      "claim": "Tearing intensity can vary with onion material and individual chemosensory sensitivity.",
+      "source_ids": [
+        "S005",
+        "S007"
+      ],
+      "evidence_ids": [
+        "E005",
+        "E007"
+      ],
+      "confidence": "high",
+      "allowed_certainty": "supported factual wording",
+      "time_scope": "mechanistic/current",
+      "geographic_scope": "scoped to evidence",
+      "population_scope": "common onion / study population as applicable",
       "status": "SUPPORTED"
     }
   ],
