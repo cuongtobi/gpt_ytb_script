@@ -1,131 +1,245 @@
-# INTEGRITY PROOF PROTOCOL — v3.2
+# INTEGRITY PROOF PROTOCOL — v3.3
 
 ## Purpose
 
-v3.2 separates creative freedom from audit proof.
+v3.3 separates creative freedom from audit proof and binds every proof to exact artifact bytes.
 
 Writers are NOT required to explain every detected term.
-Auditors ARE required to prove coverage, accounting, ordering and isolation.
+Auditors ARE required to prove coverage, accounting, ordering, provenance, input identity and isolation.
 
-If proof is missing, fail closed.
+If proof is missing, stale, malformed or contradictory, fail closed.
 
-## A. Canonical sentence index
+## A. Content identity
+
+SHA-256 is computed over exact UTF-8 file bytes.
+
+Every audit artifact must contain:
+
+{
+  "content_address": {
+    "inputs": [
+      {"path": "...", "sha256": "<64 lowercase hex>"}
+    ]
+  }
+}
+
+Rules:
+1. include every file actually read by that audit;
+2. do not include files the audit was forbidden to read;
+3. the hash must match the current file bytes;
+4. final B1/B2/B3 must each include 10_final_candidate.md or 10_final_script.md and bind to the exact bytes eventually released;
+5. if 10C changes final text, all final index/audits are stale and must be regenerated.
+
+10D compares the released script hash with each final audit script hash.
+Mismatch = FAIL_STALE_AUDIT.
+
+## B. Canonical sentence index
 
 Build from exact script text.
 
-Canonical segmentation:
+Canonical segmentation v3.3:
 1. ignore Markdown headings and blank lines;
 2. process each remaining line left-to-right;
-3. terminal . ? ! … ends a unit;
-4. a period between two digits does not split;
-5. closing quotes/brackets remain attached;
-6. a non-empty line fragment without terminal punctuation is still a unit;
-7. trim only leading/trailing whitespace;
-8. assign S0001, S0002... in source order.
+3. use locale-aware terminal punctuation;
+4. default terminals: . ? ! …
+5. ja/zh/ko additionally support 。！？｡
+6. a period between two digits does not split;
+7. closing quotes/brackets remain attached;
+8. a non-empty line fragment without terminal punctuation is still a unit;
+9. trim only leading/trailing whitespace;
+10. assign S0001, S0002... in source order.
 
-10D recomputes this index directly from the final script and exact-matches text/order.
+Index records:
+- source_file
+- source_sha256
+- locale
+- segmenter_version
+- units
+- source_sentence_count
+- indexed_sentence_count
 
-## B. Exhaustive lexical coverage
+10D recomputes units directly from the released script.
 
-Every canonical sentence ID must have one ledger row.
+## C. Exhaustive lexical coverage — B1
 
-A zero-candidate sentence still has a row.
+Every canonical sentence ID has exactly one knowledge ledger row.
+Each row contains forward_review and reverse_review using the complete category matrix defined by 05B/10B1.
 
-To reduce selective within-sentence misses, each row must contain TWO reviews:
+Zero-candidate sentences still receive a row.
 
-- forward_review
-- reverse_review
+Candidate IDs are the union of both passes.
 
-Each review must include this category matrix:
-- technical_scientific
-- acronyms_symbols
-- abstract_processes
-- classifications
-- evidence_methods
-- measurements_quantities
-- historical_institutional
-- specialized_common_words
-- aliases_relations
-- mechanisms
+## D. Knowledge candidate conservation
 
-Each category value is an array of phrases considered in that sentence.
-Empty arrays are allowed, missing category keys are not.
-
-The sentence's lexical_candidate_ids are the UNION of candidates proposed by forward and reverse review.
-
-10D can verify sentence coverage and matrix completeness.
-Semantic exhaustiveness can never be mathematically guaranteed by an LLM, so v3.2 reduces false negatives through mandatory two-direction review and isolated final auditing rather than pretending perfect semantic recall.
-
-## C. Candidate conservation
-
-Every 10B1 lexical candidate gets exactly one final disposition:
+Every B1 lexical candidate receives exactly one disposition:
 - BASELINE_KNOWN
 - GROUNDED
 - REPLACED
 - REMOVED
 - UNRESOLVED
 
-10D takes discovered candidate IDs directly from 10B1.
-
 Required:
 discovered IDs == disposition IDs
 and unresolved_count = 0.
 
-## D. Strict BASELINE_KNOWN provenance
-
-Every BASELINE_KNOWN disposition requires:
-- baseline_source_type: assumed_known | normal_language_primitive
-- baseline_source_id_or_exact_entry
-- canonical_mapping_if_any
-
-No free-text-only justification.
+BASELINE_KNOWN requires strict machine-readable provenance.
 
 ## E. Temporal first-use proof
 
-For every retained unfamiliar candidate:
+For each retained unfamiliar knowledge candidate:
 - candidate_id
 - first_use_sentence_id
-- grounding_mode: PRIOR | INLINE | BASELINE | REPLACED | REMOVED
+- grounding_mode: PRIOR | INLINE | BASELINE
 - grounding_sentence_id where relevant
 - baseline_provenance where relevant
 
-10D independently finds the earliest canonical sentence containing the candidate's exact_phrase and requires it to equal first_use_sentence_id.
+10D independently finds the earliest sentence containing exact_phrase.
 
 PRIOR:
-grounding_sentence < actual_first_use_sentence
+grounding_sentence < first_use_sentence
 
 INLINE:
-grounding_sentence == actual_first_use_sentence
+grounding_sentence == first_use_sentence
 
 BASELINE:
-strict provenance required
+strict provenance required.
 
-REPLACED/REMOVED:
-original exact phrase must not remain in final script.
+## F. Sentence-complete claim discovery — B2
 
-## F. Minimal intervention
+B2 uses the canonical final sentence index and creates exactly one row per sentence.
 
-Detection does NOT imply explanation.
+Each row contains two independent reviews:
+- forward_claim_review
+- reverse_claim_review
 
-Repair preference:
-1. REMOVE
-2. REPLACE
-3. REORDER
-4. minimal inline grounding
-5. larger rewrite only if necessary
+Each review contains arrays for:
+- empirical_fact
+- dates_quantities
+- causal_mechanism
+- scope_population_geography
+- comparison_superlative
+- attribution_source
+- uncertainty_model
+- negative_absence_claim
+- definition_classification
+- historical_event
 
-## G. Blind execution isolation
+claim_candidate_ids is the union of both passes.
+
+Each claim candidate includes:
+- claim_candidate_id
+- sentence_id
+- exact_quote
+- normalized_claim
+- claim_type
+- discovered_by
+- risk_flags
+
+The exact_quote must occur in that canonical sentence.
+
+## G. Claim conservation
+
+Every B2 claim candidate receives exactly one final disposition:
+- SUPPORTED
+- QUALIFIED
+- NON_FACTUAL
+- UNRESOLVED
+
+Repairs happen before the final proof cycle. If wording is rewritten or removed, regenerate the index and rerun B1/B2/B3; do not carry stale pre-repair claim IDs into final proof.
+
+For SUPPORTED or QUALIFIED:
+- mapped_claim_ids must be non-empty;
+- evidence_ids must be non-empty;
+- evidence IDs must exist in 02_evidence_ledger.json;
+- evidence entries must point to source IDs that exist in 02_sources.json;
+- mapped claim IDs must exist in 03_claim_map.json;
+- evidence entries must support at least one mapped claim ID.
+
+Required:
+blind claim IDs == disposition IDs
+and UNRESOLVED = 0.
+
+## H. Naturalness/redundancy coverage — B3
+
+B3 must cover every canonical sentence exactly once in sentence_ledger.
+
+Each sentence row records flags from:
+- translationese
+- academic_compression
+- unnecessary_label
+- duplicate_explanation_or_reveal
+- repeated_opening_or_fragment
+- parallelism_overload
+- rhetorical_question_overload
+- awkward_terminology
+- audio_density
+- unclear_pronoun
+- surface_error
+
+Cross-sentence/block findings receive unique finding_ids.
+
+Every finding receives exactly one disposition:
+- RESOLVED
+- KEEP_WITH_REASON
+- UNRESOLVED
+
+Hard final proof requires UNRESOLVED = 0.
+KEEP_WITH_REASON is allowed only for soft/editorial findings and must contain a non-empty reason.
+
+## I. Hard-counter recomputation
+
+10D does not trust summary zeros.
+
+It recomputes hard counters from:
+- B1 candidate/disposition/temporal proof records;
+- B2 claim ledger, claim dispositions and evidence links;
+- B3 sentence ledger and finding dispositions;
+- isolation manifest;
+- content-address hashes;
+- schema validation.
+
+10_final_integrity.json summary counts must equal recomputed counts.
+Mismatch = FAIL.
+
+## J. Evidence provenance
+
+02_evidence_ledger.json is the bridge:
+claim → evidence → source.
+
+Each evidence record includes:
+- evidence_id
+- claim_ids
+- source_id
+- locator
+- support_mode: DIRECT | INFERENCE | CONTEXT
+- evidence_summary
+- limitations
+
+No factual SUPPORTED/QUALIFIED blind claim may terminate at a bare source ID without an evidence record.
+
+## K. Artifact manifest
+
+artifact_manifest.json contains:
+- pipeline_version
+- artifact_schema_version
+- segmenter_version
+- inputs
+- outputs
+- hashes
+
+All listed hashes must match current project files.
+10D verifies the manifest before semantic proof checks.
+
+## L. Blind execution isolation
 
 10B1, 10B2 and 10B3 must run in distinct fresh execution contexts for PASS_VERIFIED.
 
-The runtime, not the auditor, writes 10b_isolation_manifest.json.
+Runtime, not auditor, writes the isolation manifest.
 
 If isolation cannot genuinely be attested:
-isolation_status = ISOLATION_NOT_VERIFIED
+isolation_status = ISOLATION_NOT_VERIFIED.
 
-Same-context sequential audits may be advisory only.
-
-## H. Final statuses
+## M. Final statuses
 
 - PASS_VERIFIED
 - CONTENT_PASS_ISOLATION_NOT_VERIFIED
